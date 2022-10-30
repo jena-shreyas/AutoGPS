@@ -1,0 +1,9 @@
+{
+    "0": {
+    "annot_id": "Shibiao_2020-03-21_16_14_38",
+    "text_logic_forms": [
+      "Congruent(Triangle(R,S,T),Triangle(X,Y,Z))",
+      "Find(y)"
+    ]
+  }
+}
