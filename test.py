@@ -24,8 +24,8 @@ def getParameters():
 
     # experiment label and strategy
     parser.add_argument("--label", type=str, required=True, help="the label of current experiment")
-    # parser.add_argument("--strategy", type=str, choices = ['random', 'low-first', 'predict', 'final'],
-    #                     help="different search strategies")
+    parser.add_argument("--strategy", type=str, choices = ['random', 'low-first', 'predict', 'final'],
+                        help="different search strategies")
 
     # input data
 
