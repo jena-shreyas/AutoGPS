@@ -1,0 +1,51 @@
+{
+  "text_logic_form": [
+    "Rectangle(A,B,C,D)",
+    "IsDiagonalOf(Line(A,C),Rectangle(A,B,C,D))",
+    "IsDiagonalOf(Line(B,D),Rectangle(A,B,C,D))",
+    "Equals(LengthOf(Line(A,C)),56)",
+    "Equals(LengthOf(Line(B,D)),56)",
+    "Equals(MeasureOf(Angle(B,A,C)),42)",
+    "Find(LengthOf(Line(A,B)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(A,B,C,D)",
+    "IsDiagonalOf(Line(A,C),Rectangle(A,B,C,D))",
+    "IsDiagonalOf(Line(B,D),Rectangle(A,B,C,D))",
+    "Equals(LengthOf(Line(A,C)),56)",
+    "Equals(LengthOf(Line(B,D)),56)",
+    "Equals(MeasureOf(Angle(B,A,C)),42)",
+    "Find(LengthOf(Line(A,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, D)), 56)"
+  ],
+  "line_instances": [
+    "AB",
+    "BC",
+    "CD",
+    "AD",
+    "BD"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      0.0
+    ],
+    "B": [
+      300.0,
+      1.0
+    ],
+    "C": [
+      301.0,
+      108.0
+    ],
+    "D": [
+      1.0,
+      108.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

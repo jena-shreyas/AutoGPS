@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find V S.",
+  "choices": [
+    "5",
+    "12",
+    "15",
+    "20"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 1108,
+  "annot_id": "Shibiao_2020-03-22_10_01_16",
+  "is_standard": false,
+  "compact_choices": [
+    "5",
+    "12",
+    "15",
+    "20"
+  ],
+  "precise_value": [
+    5.0,
+    12.0,
+    15.0,
+    20.0
+  ],
+  "rough_value": [
+    5,
+    12,
+    15,
+    20
+  ],
+  "compact_text": "Find VS.",
+  "annotat_text": "Find $VS$.",
+  "unit": "",
+  "img_width": 631,
+  "img_height": 422,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

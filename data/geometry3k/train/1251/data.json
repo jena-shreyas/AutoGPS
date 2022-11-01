@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\angle C.",
+  "choices": [
+    "80",
+    "100",
+    "112",
+    "122"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1251,
+  "annot_id": "Shibiao_2020-03-28_09_23_38",
+  "is_standard": false,
+  "compact_choices": [
+    "80",
+    "100",
+    "112",
+    "122"
+  ],
+  "precise_value": [
+    80.0,
+    100.0,
+    112.0,
+    122.0
+  ],
+  "rough_value": [
+    80,
+    100,
+    112,
+    122
+  ],
+  "compact_text": "Find m \\angle C.",
+  "annotat_text": "Find $m \\angle C$.",
+  "unit": "",
+  "img_width": 676,
+  "img_height": 479,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

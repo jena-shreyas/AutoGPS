@@ -1,0 +1,69 @@
+{
+  "text_logic_form": [
+    "Equals(RadiusOf(Circle(A)),Mul(RadiusOf(Circle(B)),2))",
+    "Equals(RadiusOf(Circle(A)),Mul(RadiusOf(Circle(C)),4))",
+    "Equals(SumOf(CircumferenceOf(Circle($1)),CircumferenceOf(Circle($2)),CircumferenceOf(Circle($3))),42\\pi)",
+    "Find(LengthOf(Line(A,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(RadiusOf(Circle(A)),Mul(RadiusOf(Circle(B)),2))",
+    "Equals(RadiusOf(Circle(A)),Mul(RadiusOf(Circle(C)),4))",
+    "Equals(SumOf(CircumferenceOf(Circle(A)),CircumferenceOf(Circle(B)),CircumferenceOf(Circle(C))),42\\pi)",
+    "Find(LengthOf(Line(A,C)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(E, Line(D, A))",
+    "PointLiesOnLine(B, Line(D, A))",
+    "PointLiesOnLine(B, Line(D, E))",
+    "PointLiesOnLine(E, Line(A, B))",
+    "PointLiesOnLine(D, Line(A, C))",
+    "PointLiesOnLine(E, Line(A, C))",
+    "PointLiesOnLine(B, Line(A, C))",
+    "PointLiesOnLine(D, Line(E, C))",
+    "PointLiesOnLine(B, Line(E, C))",
+    "PointLiesOnLine(D, Line(B, C))",
+    "PointLiesOnCircle(E, Circle(A, radius_1_0))",
+    "PointLiesOnCircle(D, Circle(B, radius_3_0))",
+    "PointLiesOnCircle(E, Circle(B, radius_3_0))",
+    "PointLiesOnCircle(D, Circle(C, radius_4_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AE",
+    "BC",
+    "DA",
+    "DB",
+    "DC",
+    "DE",
+    "EB",
+    "EC"
+  ],
+  "point_positions": {
+    "A": [
+      268.0,
+      104.0
+    ],
+    "B": [
+      109.0,
+      105.0
+    ],
+    "C": [
+      27.0,
+      103.0
+    ],
+    "D": [
+      57.0,
+      102.0
+    ],
+    "E": [
+      161.0,
+      103.0
+    ]
+  },
+  "circle_instances": [
+    "A",
+    "B",
+    "C"
+  ]
+}

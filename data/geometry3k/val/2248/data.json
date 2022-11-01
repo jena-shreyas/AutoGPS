@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\widehat J M.",
+  "choices": [
+    "111",
+    "133",
+    "147",
+    "155"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 2248,
+  "annot_id": "Shibiao_2020-03-28_12_26_27",
+  "is_standard": false,
+  "compact_choices": [
+    "111",
+    "133",
+    "147",
+    "155"
+  ],
+  "precise_value": [
+    111.0,
+    133.0,
+    147.0,
+    155.0
+  ],
+  "rough_value": [
+    111,
+    133,
+    147,
+    155
+  ],
+  "compact_text": "Find m \\widehat JM.",
+  "annotat_text": "Find $m \\widehat {JM}$.",
+  "unit": "",
+  "img_width": 647,
+  "img_height": 502,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

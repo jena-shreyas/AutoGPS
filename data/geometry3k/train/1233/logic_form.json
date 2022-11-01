@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Trapezoid(N,O,P,Q)),250)",
+    "Find(HeightOf(Quadrilateral(N,O,P,Q)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Trapezoid(N,O,P,Q)),250)",
+    "Find(HeightOf(Quadrilateral(N,O,P,Q)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(A, Line(A,H))",
+    "PointLiesOnLine(H, Line(P,Q))",
+    "Equals(LengthOf(Line(N,O)), 20)",
+    "Equals(LengthOf(Line(P,Q)), 30)",
+    "Perpendicular(Line(A,H), Line(P,Q))",
+    ""
+  ],
+  "line_instances": [
+    "AH",
+    "ON",
+    "PO",
+    "PQ",
+    "QN"
+  ],
+  "point_positions": {
+    "N": [
+      36.0,
+      1.0
+    ],
+    "O": [
+      209.0,
+      1.0
+    ],
+    "P": [
+      245.0,
+      95.0
+    ],
+    "Q": [
+      0.0,
+      94.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

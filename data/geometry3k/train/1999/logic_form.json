@@ -1,0 +1,59 @@
+{
+  "text_logic_form": [
+    "Isosceles(Trapezoid(A,B,C,D))",
+    "IsMidpointOf(Point(X),LegOf(Isosceles(Trapezoid(A,B,C,D))))",
+    "IsMidpointOf(Point(Y),LegOf(Isosceles(Trapezoid(A,B,C,D))))",
+    "Equals(MeasureOf(Angle(A,D,Y)),78)",
+    "Find(MeasureOf(Angle(X,B,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Trapezoid(A,B,C,D))",
+    "IsMidpointOf(Point(X),LegOf(Isosceles(Trapezoid(A,B,C,D))))",
+    "IsMidpointOf(Point(Y),LegOf(Isosceles(Trapezoid(A,B,C,D))))",
+    "Equals(MeasureOf(Angle(A,D,Y)),78)",
+    "Find(MeasureOf(Angle(X,B,C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(A, D, C)), 78)",
+    "PointLiesOnLine(X, Line(B, A))",
+    "PointLiesOnLine(Y, Line(C, D))"
+  ],
+  "line_instances": [
+    "XY",
+    "XB",
+    "XA",
+    "YC",
+    "YD",
+    "BC",
+    "BA",
+    "AD",
+    "CD"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "X": [
+      13.300303336703735,
+      71.9984833164813
+    ],
+    "Y": [
+      210.361428416994,
+      71.00322510900509
+    ],
+    "C": [
+      195.21837431982115,
+      1.9862066056439005
+    ],
+    "B": [
+      27.665494333724112,
+      0.005861664712782044
+    ],
+    "D": [
+      225.2595238095238,
+      139.33333333333331
+    ],
+    "A": [
+      0.06666666666664867,
+      139.33333333333331
+    ]
+  }
+}

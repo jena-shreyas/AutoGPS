@@ -1,0 +1,48 @@
+{
+  "problem_text": "Use rhombus A B C D with m \\angle 1 = 2 x + 20, m \\angle 2 = 5 x - 4, A C = 15, and m \\angle 3 = y^ { 2 } + 26. Find A F.",
+  "choices": [
+    "2.5",
+    "5",
+    "7.5",
+    "10"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter8.pdf page 56",
+  "comment": "",
+  "id": 832,
+  "annot_id": "Ran_2020-03-27_07_59_35",
+  "is_standard": false,
+  "compact_choices": [
+    "2.5",
+    "5",
+    "7.5",
+    "10"
+  ],
+  "precise_value": [
+    2.5,
+    5.0,
+    7.5,
+    10.0
+  ],
+  "rough_value": [
+    2.5,
+    5,
+    7.5,
+    10
+  ],
+  "compact_text": "Use rhombus ABCD with m \\angle 1 = 2x+20, m \\angle 2 = 5x-4, AC = 15, and m \\angle 3 = y^{2}+26. Find AF.",
+  "annotat_text": "Use rhombus $A B C D$ with $m \\angle 1=2 x+20, m \\angle 2=5 x-4$, $A C=15,$ and $m \\angle 3=y^{2}+26 .$ \r\nFind AF",
+  "unit": "",
+  "img_width": 176,
+  "img_height": 205,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

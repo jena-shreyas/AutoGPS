@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, C)), y)",
+    "Equals(LengthOf(Line(B, C)), z)",
+    "Equals(LengthOf(Line(C, D)), x)",
+    "Equals(LengthOf(Line(A, D)), 9)",
+    "Equals(LengthOf(Line(D, B)), 16)",
+    "PointLiesOnLine(D, Line(A, B))",
+    "Perpendicular(Line(B, C), Line(C, A))",
+    "Perpendicular(Line(C, D), Line(A, D))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "BC",
+    "BD",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      142.0
+    ],
+    "B": [
+      408.0,
+      223.0
+    ],
+    "C": [
+      100.0,
+      1.0
+    ],
+    "D": [
+      71.0,
+      157.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

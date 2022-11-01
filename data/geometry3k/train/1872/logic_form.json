@@ -1,0 +1,69 @@
+{
+  "text_logic_form": [
+    "Tangent(Line($),Circle($))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Tangent(Line(L, E),Circle(M))",
+    "Tangent(Line(L, K),Circle(M))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(L, M, E)), 66)",
+    "Equals(LengthOf(Line(L, E)), x)",
+    "Equals(LengthOf(Line(M, K)), 15)",
+    "Equals(LengthOf(Line(L, K)), 36)",
+    "PointLiesOnLine(P, Line(M, L))",
+    "PointLiesOnLine(A, Line(M, L))",
+    "PointLiesOnLine(A, Line(M, P))",
+    "PointLiesOnLine(P, Line(L, A))",
+    "PointLiesOnLine(A, Line(K, E))",
+    "PointLiesOnCircle(K, Circle(M, radius_0_0))",
+    "PointLiesOnCircle(E, Circle(M, radius_0_0))",
+    "PointLiesOnCircle(P, Circle(M, radius_0_0))"
+  ],
+  "line_instances": [
+    "EA",
+    "KA",
+    "KE",
+    "LA",
+    "LE",
+    "LK",
+    "LP",
+    "MA",
+    "ME",
+    "MK",
+    "ML",
+    "MP",
+    "PA"
+  ],
+  "point_positions": {
+    "A": [
+      121.0,
+      90.0
+    ],
+    "E": [
+      125.0,
+      9.0
+    ],
+    "K": [
+      123.0,
+      169.0
+    ],
+    "L": [
+      333.0,
+      90.0
+    ],
+    "M": [
+      90.0,
+      89.0
+    ],
+    "P": [
+      177.0,
+      91.0
+    ]
+  },
+  "circle_instances": [
+    "M"
+  ]
+}

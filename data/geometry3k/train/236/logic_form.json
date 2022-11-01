@@ -1,0 +1,45 @@
+{
+  "text_logic_form": [
+    "Find(z)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(z)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(X, W)), 4)",
+    "Equals(MeasureOf(Angle(X, Y, W)), 23)",
+    "Equals(LengthOf(Line(W, Z)), 4)",
+    "Perpendicular(Line(Y, X), Line(X, W))",
+    "Perpendicular(Line(W, Z), Line(Y, Z))"
+  ],
+  "line_instances": [
+    "WZ",
+    "XW",
+    "YE",
+    "YF",
+    "YG",
+    "YW",
+    "YX"
+  ],
+  "point_positions": {
+    "Z": [
+      86.0,
+      230.0
+    ],
+    "W": [
+      47.0,
+      132.0
+    ],
+    "X": [
+      86.0,
+      30.0
+    ],
+    "Y": [
+      343.0,
+      133.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

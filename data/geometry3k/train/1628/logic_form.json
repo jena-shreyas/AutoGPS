@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Rhombus(A,B,C,D)",
+    "Equals(MeasureOf(Angle(B,C,D)),120)",
+    "Find(MeasureOf(Angle(D,A,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rhombus(A,B,C,D)",
+    "Equals(MeasureOf(Angle(B,C,D)),120)",
+    "Find(MeasureOf(Angle(D,A,C)))"
+  ],
+  "diagram_logic_form": [
+    ""
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "CB",
+    "DA",
+    "DC"
+  ],
+  "point_positions": {
+    "A": [
+      104.0,
+      238.0
+    ],
+    "B": [
+      2.0,
+      2.0
+    ],
+    "C": [
+      306.0,
+      1.0
+    ],
+    "D": [
+      409.0,
+      239.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

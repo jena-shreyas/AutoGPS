@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "IsMedianOf(Line(P,S),Triangle(P,Q,R))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "IsMedianOf(Line(P,S),Triangle(P,Q,R))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(P, S, R)), 15x+42)",
+    "Equals(LengthOf(Line(Q, R)), 5)",
+    "Equals(LengthOf(Angle(S, Q)), 10x-7)",
+    "Equals(LengthOf(Line(R, S)), 5x+3)",
+    "PointLiesOnLine(A, Line(Q, R))",
+    "Equals(LengthOf(Line(Q, S)), LengthOf(Line(R, S)))"
+  ],
+  "line_instances": [
+    "PS",
+    "PQ",
+    "PR",
+    "QS",
+    "QR",
+    "RS"
+  ],
+  "point_positions": {
+    "S": [
+      185.0,
+      168.0
+    ],
+    "P": [
+      242.0,
+      0.0
+    ],
+    "Q": [
+      0.0,
+      168.0
+    ],
+    "R": [
+      372.0,
+      168.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "text_logic_form": [
+    "Kite(A,B,C,D)",
+    "Find(MeasureOf(Angle(C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Kite(A,B,C,D)",
+    "Find(MeasureOf(Angle(C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(B, A, D)), 74)",
+    "Equals(MeasureOf(Angle(D, C, B)), x)",
+    "Equals(MeasureOf(Angle(A, D, C)), 105)",
+    "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, D)))",
+    "Equals(LengthOf(Line(B, C)), LengthOf(Line(D, C)))"
+  ],
+  "line_instances": [
+    "BA",
+    "CB",
+    "CD",
+    "DA"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      109.0
+    ],
+    "B": [
+      187.0,
+      1.0
+    ],
+    "C": [
+      343.0,
+      112.0
+    ],
+    "D": [
+      189.0,
+      216.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

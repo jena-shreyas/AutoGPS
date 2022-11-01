@@ -1,0 +1,37 @@
+{
+  "text_logic_form": [
+    "Find(RadiusOf(Circle(K)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(RadiusOf(Circle(K)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(L, K, J)), 340)",
+    "Equals(LengthOf(Major(Arc(L, J))), 56.37)",
+    "",
+    "PointLiesOnCircle(J, Circle(K, radius_4_0))",
+    "PointLiesOnCircle(L, Circle(K, radius_4_0))"
+  ],
+  "line_instances": [
+    "JK",
+    "JL",
+    "LK"
+  ],
+  "point_positions": {
+    "J": [
+      116.0,
+      2.0
+    ],
+    "K": [
+      143.0,
+      142.0
+    ],
+    "L": [
+      163.0,
+      2.0
+    ]
+  },
+  "circle_instances": [
+    "K"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "The orthocenter of \\triangle A B C is located 6.4 units from point D. Find B C.",
+  "choices": [
+    "4.33",
+    "6.40",
+    "10.03",
+    "20.25"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "",
+  "id": 678,
+  "annot_id": "pan_2020-03-23_21_55_02",
+  "is_standard": false,
+  "compact_choices": [
+    "4.33",
+    "6.40",
+    "10.03",
+    "20.25"
+  ],
+  "precise_value": [
+    4.33,
+    6.4,
+    10.03,
+    20.25
+  ],
+  "rough_value": [
+    4.33,
+    6.4,
+    10.03,
+    20.25
+  ],
+  "compact_text": "The orthocenter of \\triangle ABC is located 6.4 units from point D. Find BC.",
+  "annotat_text": "Refer to the figure at the right. The orthocenter of $\\triangle A B C$ is located 6.4 units from point $D$. Find $B C$.",
+  "unit": "",
+  "img_width": 334,
+  "img_height": 311,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

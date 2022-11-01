@@ -1,0 +1,48 @@
+{
+  "problem_text": "A C D F \\sim V W Y Z. Find x.",
+  "choices": [
+    "9",
+    "10",
+    "12",
+    "15"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Trapezoid"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "! two subgraph",
+  "id": 580,
+  "annot_id": "Shibiao_2020-03-22_09_21_05",
+  "is_standard": false,
+  "compact_choices": [
+    "9",
+    "10",
+    "12",
+    "15"
+  ],
+  "precise_value": [
+    9.0,
+    10.0,
+    12.0,
+    15.0
+  ],
+  "rough_value": [
+    9,
+    10,
+    12,
+    15
+  ],
+  "compact_text": "ACDF \\sim VWYZ. Find x.",
+  "annotat_text": "$ACDF \\sim VWYZ$. Find $x$.",
+  "unit": "",
+  "img_width": 554,
+  "img_height": 680,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

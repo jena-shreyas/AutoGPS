@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Q, U, v)), 26)",
+    "Equals(MeasureOf(Angle(Q, V, A)), 167)",
+    "Equals(MeasureOf(Angle(T, V, U)), x)",
+    "Equals(MeasureOf(Angle(S, V, T)), 77)",
+    "Equals(MeasureOf(Angle(A, V, C)), x)",
+    "PointLiesOnCircle(U, Circle(V, radius_0_0))",
+    "PointLiesOnCircle(S, Circle(V, radius_0_0))",
+    "PointLiesOnCircle(A, Circle(V, radius_0_0))",
+    "PointLiesOnCircle(T, Circle(V, radius_0_0))",
+    "PointLiesOnCircle(Q, Circle(V, radius_0_0))"
+  ],
+  "line_instances": [
+    "UQ",
+    "VA",
+    "VQ",
+    "VS",
+    "VT",
+    "VU"
+  ],
+  "point_positions": {
+    "A": [
+      270.0,
+      273.0
+    ],
+    "Q": [
+      77.0,
+      25.0
+    ],
+    "S": [
+      156.0,
+      318.0
+    ],
+    "T": [
+      4.0,
+      192.0
+    ],
+    "U": [
+      26.0,
+      74.0
+    ],
+    "V": [
+      160.0,
+      159.0
+    ]
+  },
+  "circle_instances": [
+    "V"
+  ]
+}

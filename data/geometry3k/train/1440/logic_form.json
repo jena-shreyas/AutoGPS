@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(E, D, B)), 6x)",
+    "Equals(MeasureOf(Angle(Y, D, E)), 3x)",
+    "PointLiesOnLine(D, Line(B, Y))",
+    "Perpendicular(Line(D, A), Line(D, Y))"
+  ],
+  "line_instances": [
+    "BD",
+    "BY",
+    "DA",
+    "DE",
+    "DY"
+  ],
+  "point_positions": {
+    "A": [
+      288.0,
+      156.0
+    ],
+    "B": [
+      157.0,
+      8.0
+    ],
+    "D": [
+      155.0,
+      158.0
+    ],
+    "E": [
+      4.0,
+      250.0
+    ],
+    "Y": [
+      155.0,
+      289.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(G,H)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(G,H)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(H, F)), 17)",
+    "Equals(LengthOf(Line(F, G)), 9x-6)",
+    "Equals(LengthOf(Line(H, G)), 7x+4)",
+    "Equals(LengthOf(Line(F, G)), LengthOf(Line(H, G)))"
+  ],
+  "line_instances": [
+    "FG",
+    "HF",
+    "HG"
+  ],
+  "point_positions": {
+    "F": [
+      2.0,
+      2.0
+    ],
+    "G": [
+      106.0,
+      158.0
+    ],
+    "H": [
+      281.0,
+      158.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "text_logic_form": [
+    ""
+  ],
+  "dissolved_text_logic_form": [
+    ""
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(B, A, C)), 80)",
+    "Equals(MeasureOf(Angle(A, B, D)), 140)",
+    "Equals(MeasureOf(Angle(A, C, D)), x)",
+    "PointLiesOnLine(B, Line(C, D))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC",
+    "BD",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      79.0,
+      1.0
+    ],
+    "B": [
+      232.0,
+      130.0
+    ],
+    "C": [
+      1.0,
+      129.0
+    ],
+    "D": [
+      319.0,
+      130.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

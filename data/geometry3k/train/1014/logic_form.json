@@ -1,0 +1,34 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(J, H, K)), 45)",
+    "Equals(LengthOf(Line(J, H)), 10)",
+    "Equals(MeasureOf(Angle(K, J, H)), 73)",
+    "Equals(LengthOf(Line(J, K)), x)"
+  ],
+  "line_instances": [
+    "JH",
+    "JK",
+    "HK"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "J": [
+      201.0,
+      240.0
+    ],
+    "H": [
+      128.71306826042445,
+      2.5817769292493153
+    ],
+    "K": [
+      0.6975711857502063,
+      238.6669757118575
+    ]
+  }
+}

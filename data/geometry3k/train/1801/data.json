@@ -1,0 +1,48 @@
+{
+  "problem_text": "W X Y Z is a parallelogram. Find m \\angle X W Z.",
+  "choices": [
+    "33",
+    "65",
+    "82",
+    "115"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter8.pdf page 54",
+  "comment": "",
+  "id": 1801,
+  "annot_id": "Ran_2020-03-27_05_40_45",
+  "is_standard": false,
+  "compact_choices": [
+    "33",
+    "65",
+    "82",
+    "115"
+  ],
+  "precise_value": [
+    33.0,
+    65.0,
+    82.0,
+    115.0
+  ],
+  "rough_value": [
+    33,
+    65,
+    82,
+    115
+  ],
+  "compact_text": "WXYZ is a parallelogram. Find m \\angle XWZ.",
+  "annotat_text": "WXYZ is a parallelogram. Find $m \\angle X W Z$ ",
+  "unit": "",
+  "img_width": 294,
+  "img_height": 158,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

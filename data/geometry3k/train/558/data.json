@@ -1,0 +1,48 @@
+{
+  "problem_text": "For the pair of similar figures, use the given areas to find x.",
+  "choices": [
+    "2.6",
+    "6.0",
+    "32.7",
+    "76.2"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Trapezoid"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 558,
+  "annot_id": "pan_2020-03-23_07_33_14",
+  "is_standard": false,
+  "compact_choices": [
+    "2.6",
+    "6.0",
+    "32.7",
+    "76.2"
+  ],
+  "precise_value": [
+    2.6,
+    6.0,
+    32.7,
+    76.2
+  ],
+  "rough_value": [
+    2.6,
+    6,
+    32.7,
+    76.2
+  ],
+  "compact_text": "For the pair of similar figures, use the given areas to find x.",
+  "annotat_text": "For the pair of similar figures, use the given areas to find $x$.",
+  "unit": "",
+  "img_width": 371,
+  "img_height": 234,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

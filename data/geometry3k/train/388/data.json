@@ -1,0 +1,49 @@
+{
+  "problem_text": "In \\triangle P Q R, S T \\parallel R Q. If P T = 7.5, T Q = 3, and S R = 2.5, find P S.",
+  "choices": [
+    "2.5",
+    "6",
+    "6.25",
+    "7.5"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 388,
+  "annot_id": "Shibiao_2020-03-22_11_23_00",
+  "is_standard": false,
+  "compact_choices": [
+    "2.5",
+    "6",
+    "6.25",
+    "7.5"
+  ],
+  "precise_value": [
+    2.5,
+    6.0,
+    6.25,
+    7.5
+  ],
+  "rough_value": [
+    2.5,
+    6,
+    6.25,
+    7.5
+  ],
+  "compact_text": "In \\triangle PQR, ST \\parallel RQ. If PT = 7.5, TQ = 3, and SR = 2.5, find PS.",
+  "annotat_text": "In $\\triangle PQR$, $\\overline{ST} \\| \\overline{R Q}$ . If  $PT=7.5$, $TQ=3$, and $SR=2.5$, find $PS$.",
+  "unit": "",
+  "img_width": 654,
+  "img_height": 577,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

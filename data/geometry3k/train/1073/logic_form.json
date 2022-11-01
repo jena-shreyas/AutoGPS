@@ -1,0 +1,71 @@
+{
+  "text_logic_form": [
+    "Equals(Triangle($),Triangle($1,$2,$3))",
+    "Equals(MeasureOf(Angle($1)),45)",
+    "Equals(MeasureOf(Angle($2)),45)",
+    "Equals(MeasureOf(Angle($3)),90)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(Triangle($),Triangle($1,$2,$3))",
+    "Equals(MeasureOf(Angle($1)),45)",
+    "Equals(MeasureOf(Angle($2)),45)",
+    "Equals(MeasureOf(Angle($3)),90)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(E, A, D)), 45)",
+    "Equals(MeasureOf(Angle(B, E, D)), 45)",
+    "Equals(MeasureOf(Angle(D, B, F)), 45)",
+    "Equals(MeasureOf(Angle(A, C, D)), 45)",
+    "Equals(LengthOf(Line(D, F)), x)",
+    "Equals(LengthOf(Line(C, D)), 6)",
+    "PointLiesOnLine(D, Line(C, F))",
+    "Perpendicular(Line(A, E), Line(D, E))",
+    "Perpendicular(Line(A, D), Line(A, C))",
+    "Perpendicular(Line(E, B), Line(D, B))",
+    "Perpendicular(Line(D, E), Line(C, D))",
+    "Perpendicular(Line(B, F), Line(D, F))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AE",
+    "BF",
+    "CD",
+    "CF",
+    "DB",
+    "DE",
+    "DF",
+    "EB"
+  ],
+  "point_positions": {
+    "A": [
+      163.0,
+      2.0
+    ],
+    "B": [
+      414.0,
+      85.0
+    ],
+    "C": [
+      1.0,
+      170.0
+    ],
+    "D": [
+      333.0,
+      170.0
+    ],
+    "E": [
+      330.0,
+      2.0
+    ],
+    "F": [
+      416.0,
+      170.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

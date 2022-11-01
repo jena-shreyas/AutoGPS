@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x.",
+  "choices": [
+    "9",
+    "6 \\sqrt { 6 }",
+    "18",
+    "18 \\sqrt { 2 }"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "",
+  "id": 908,
+  "annot_id": "pan_2020-03-25_19_08_41",
+  "is_standard": false,
+  "compact_choices": [
+    "9",
+    "6\\sqrt{6}",
+    "18",
+    "18\\sqrt{2}"
+  ],
+  "precise_value": [
+    9.0,
+    14.696938456699067,
+    18.0,
+    25.455844122715714
+  ],
+  "rough_value": [
+    9,
+    14.7,
+    18,
+    25.46
+  ],
+  "compact_text": "Find x.",
+  "annotat_text": "Find x.",
+  "unit": "",
+  "img_width": 182,
+  "img_height": 246,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

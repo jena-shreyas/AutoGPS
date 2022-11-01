@@ -1,0 +1,44 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Regular(Polygon($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Regular(Quadrilateral(A,E,D,F))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, E)), 7)"
+  ],
+  "line_instances": [
+    "AE",
+    "AF",
+    "EB",
+    "ED",
+    "EF",
+    "FD"
+  ],
+  "point_positions": {
+    "A": [
+      215.0,
+      2.0
+    ],
+    "B": [
+      105.0,
+      104.0
+    ],
+    "D": [
+      0.0,
+      216.0
+    ],
+    "E": [
+      214.0,
+      213.0
+    ],
+    "F": [
+      1.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

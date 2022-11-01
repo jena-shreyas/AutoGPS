@@ -1,0 +1,45 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Triangle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Triangle(O,A,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 5)",
+    "Equals(LengthOf(Line(O, B)), 21.5)",
+    "Equals(LengthOf(Line(O, C)), 8)",
+    "Equals(LengthOf(Line(A, C)), 15)",
+    "PointLiesOnLine(A, Line(C, B))",
+    "Perpendicular(Line(O, C), Line(C, A))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AO",
+    "BC",
+    "OB",
+    "OC"
+  ],
+  "point_positions": {
+    "A": [
+      227.0,
+      121.0
+    ],
+    "B": [
+      300.0,
+      121.0
+    ],
+    "C": [
+      2.0,
+      120.0
+    ],
+    "O": [
+      2.0,
+      2.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

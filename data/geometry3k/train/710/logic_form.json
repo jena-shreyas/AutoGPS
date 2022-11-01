@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Regular(Polygon($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Regular(Octagon(A,D,G,B,H,E,C,F))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, H)), 11)"
+  ],
+  "line_instances": [
+    "AD",
+    "AF",
+    "BG",
+    "BH",
+    "CE",
+    "DG",
+    "FC",
+    "HE"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      134.0
+    ],
+    "B": [
+      189.0,
+      135.0
+    ],
+    "C": [
+      56.0,
+      1.0
+    ],
+    "D": [
+      57.0,
+      191.0
+    ],
+    "E": [
+      135.0,
+      2.0
+    ],
+    "F": [
+      2.0,
+      56.0
+    ],
+    "G": [
+      134.0,
+      191.0
+    ],
+    "H": [
+      191.0,
+      59.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

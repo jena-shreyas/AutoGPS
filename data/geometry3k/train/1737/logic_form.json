@@ -1,0 +1,52 @@
+{
+  "text_logic_form": [
+    "Equals(MeasureOf(Arc(N,R)),62)",
+    "Equals(MeasureOf(Arc(N,P)),108)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(MeasureOf(Arc(N,R)),62)",
+    "Equals(MeasureOf(Arc(N,P)),108)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(N, C, P)), 108)",
+    "Equals(MeasureOf(Angle(N, C, R)), 62)",
+    "Equals(MeasureOf(Angle(N, M, R)), x)",
+    "PointLiesOnLine(N, Line(P, M))",
+    "PointLiesOnCircle(N, Circle(C, radius_6_0))",
+    "PointLiesOnCircle(P, Circle(C, radius_6_0))",
+    "PointLiesOnCircle(R, Circle(C, radius_6_0))"
+  ],
+  "line_instances": [
+    "MR",
+    "NM",
+    "NP",
+    "PM"
+  ],
+  "point_positions": {
+    "C": [
+      287.0,
+      134.0
+    ],
+    "M": [
+      2.0,
+      184.0
+    ],
+    "N": [
+      155.0,
+      144.0
+    ],
+    "P": [
+      410.0,
+      79.0
+    ],
+    "R": [
+      247.0,
+      260.0
+    ]
+  },
+  "circle_instances": [
+    "C"
+  ]
+}

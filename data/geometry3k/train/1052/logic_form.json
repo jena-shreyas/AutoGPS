@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Kite(Q,R,S,T)",
+    "Find(MeasureOf(Angle(R,S,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Kite(Q,R,S,T)",
+    "Find(MeasureOf(Angle(R,S,T)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(S, R, Q)), 136)",
+    "Equals(MeasureOf(Angle(Q, T, S)), 68)",
+    "Equals(LengthOf(Line(Q, R)), LengthOf(Line(R, S)))",
+    "Equals(LengthOf(Line(Q, T)), LengthOf(Line(T, S)))"
+  ],
+  "line_instances": [
+    "QR",
+    "QT",
+    "RS",
+    "TS"
+  ],
+  "point_positions": {
+    "Q": [
+      1.0,
+      91.0
+    ],
+    "R": [
+      134.0,
+      2.0
+    ],
+    "S": [
+      264.0,
+      89.0
+    ],
+    "T": [
+      135.0,
+      298.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

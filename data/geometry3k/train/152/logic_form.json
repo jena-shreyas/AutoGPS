@@ -1,0 +1,51 @@
+{
+  "text_logic_form": [
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, G)), 20-3x)",
+    "Equals(LengthOf(Line(A, F)), \\frac{1}{2}y+20)",
+    "Equals(LengthOf(Line(C, F)), 3y)",
+    "Equals(LengthOf(Line(H, G)), 2x-5)",
+    "Equals(LengthOf(Line(F, C)), LengthOf(Line(A, F)))",
+    "Parallel(Line(F, G), Line(A, H))"
+  ],
+  "line_instances": [
+    "AC",
+    "AF",
+    "AH",
+    "CG",
+    "CH",
+    "FC",
+    "FG",
+    "GH"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      212.0
+    ],
+    "C": [
+      258.0,
+      1.0
+    ],
+    "F": [
+      115.0,
+      117.0
+    ],
+    "G": [
+      304.0,
+      185.0
+    ],
+    "H": [
+      339.0,
+      328.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "IntersectAt(Parallelogram(A,B,C,D),Line(B,D),Line(A,C),Point(E))",
+    "Equals(LengthOf(Line(A,E)),9)",
+    "Equals(LengthOf(Line(B,E)),3x-7)",
+    "Equals(LengthOf(Line(D,E)),x+5)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "IntersectAt(Parallelogram(A,B,C,D),Line(B,D),Line(A,C),Point(E))",
+    "Equals(LengthOf(Line(A,E)),9)",
+    "Equals(LengthOf(Line(B,E)),3x-7)",
+    "Equals(LengthOf(Line(D,E)),x+5)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(E, Line(D, B))",
+    "PointLiesOnLine(E, Line(C, A))"
+  ],
+  "line_instances": [
+    "DB",
+    "DC",
+    "DA",
+    "DE",
+    "BC",
+    "BA",
+    "BE",
+    "CA",
+    "CE",
+    "AE"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "D": [
+      0.49741570010442615,
+      154.4984647663577
+    ],
+    "B": [
+      390.16201596541384,
+      0.0031198526269520244
+    ],
+    "C": [
+      321.83454574564985,
+      153.84513462844345
+    ],
+    "A": [
+      68.15788930829166,
+      2.1481457160496973
+    ],
+    "E": [
+      194.49949869661117,
+      77.69891718468017
+    ]
+  }
+}

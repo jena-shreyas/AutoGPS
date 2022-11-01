@@ -1,0 +1,34 @@
+{
+  "text_logic_form": [
+    "Find(RatioOf(TanOf(Angle(Q))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(RatioOf(TanOf(Angle(Q))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Q, R)), 15)",
+    "Equals(LengthOf(Line(P, Q)), 17)",
+    "Equals(LengthOf(Line(P, R)), 8)",
+    "Perpendicular(Line(Q, R), Line(P, R))"
+  ],
+  "line_instances": [
+    "PQ",
+    "PR",
+    "QR"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "P": [
+      133.0,
+      318.0
+    ],
+    "Q": [
+      133.0,
+      0.3333333333333428
+    ],
+    "R": [
+      0.825264447428566,
+      244.09011237543288
+    ]
+  }
+}

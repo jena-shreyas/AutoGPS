@@ -1,0 +1,48 @@
+{
+  "problem_text": "If x = 7 \\sqrt { 3 }, find y.",
+  "choices": [
+    "7",
+    "7 \\sqrt { 3 }",
+    "21 \\sqrt { 3 }",
+    "63"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter7.pdf page 21",
+  "comment": "",
+  "id": 386,
+  "annot_id": "Ran_2020-03-22_04_38_41",
+  "is_standard": false,
+  "compact_choices": [
+    "7",
+    "7\\sqrt{3}",
+    "21\\sqrt{3}",
+    "63"
+  ],
+  "precise_value": [
+    7.0,
+    12.12435565298214,
+    36.373066958946424,
+    63.0
+  ],
+  "rough_value": [
+    7,
+    12.12,
+    36.37,
+    63
+  ],
+  "compact_text": "If x = 7\\sqrt{3}, find y.",
+  "annotat_text": "If $x=7 \\sqrt{3},$ find $y$",
+  "unit": "",
+  "img_width": 378,
+  "img_height": 250,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

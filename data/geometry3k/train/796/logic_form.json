@@ -1,0 +1,34 @@
+{
+  "text_logic_form": [
+    "Find(RatioOf(TanOf(Angle(V))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(RatioOf(TanOf(Angle(V))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(V, X)), 75)",
+    "Equals(LengthOf(Line(W, V)), 72)",
+    "Equals(LengthOf(Line(W, X)), 21)",
+    "Perpendicular(Line(W, V), Line(W, X))"
+  ],
+  "line_instances": [
+    "WV",
+    "WX",
+    "VX"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "W": [
+      1.9868040282440091,
+      222.01909943280472
+    ],
+    "V": [
+      0.013714082165755315,
+      3.019413440987904
+    ],
+    "X": [
+      154.8061889902384,
+      223.33603376540248
+    ]
+  }
+}

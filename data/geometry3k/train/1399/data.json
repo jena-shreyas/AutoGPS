@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x. Round to the nearest degree.",
+  "choices": [
+    "102",
+    "112",
+    "122",
+    "132"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "",
+  "id": 1399,
+  "annot_id": "pan_2020-03-25_19_43_06",
+  "is_standard": false,
+  "compact_choices": [
+    "102",
+    "112",
+    "122",
+    "132"
+  ],
+  "precise_value": [
+    102.0,
+    112.0,
+    122.0,
+    132.0
+  ],
+  "rough_value": [
+    102,
+    112,
+    122,
+    132
+  ],
+  "compact_text": "Find x. Round to the nearest degree.",
+  "annotat_text": "Find x. Round to the nearest degree.",
+  "unit": "",
+  "img_width": 292,
+  "img_height": 388,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

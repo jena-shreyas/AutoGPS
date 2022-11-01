@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Triangle(A,B,C)",
+    "BisectsAngle(Line(A,D),Triangle(A,B,C))",
+    "BisectsAngle(Line(D,C),Triangle(A,B,C))",
+    "Equals(MeasureOf(Angle(B)),76)",
+    "Find(MeasureOf(Angle(A,D,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(A,B,C)",
+    "BisectsAngle(Line(A,D),Triangle(A,B,C))",
+    "BisectsAngle(Line(D,C),Triangle(A,B,C))",
+    "Equals(MeasureOf(Angle(B)),76)",
+    "Find(MeasureOf(Angle(A,D,C)))"
+  ],
+  "diagram_logic_form": [
+    ""
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "BA",
+    "BC",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      198.0
+    ],
+    "B": [
+      235.0,
+      0.0
+    ],
+    "C": [
+      303.0,
+      197.0
+    ],
+    "D": [
+      204.0,
+      127.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

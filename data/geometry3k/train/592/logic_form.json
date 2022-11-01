@@ -1,0 +1,54 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shape(B,D,C,A)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, E)), 20)",
+    "Equals(LengthOf(Line(D, E)), 30)",
+    "Equals(LengthOf(Line(C, E)), 20)",
+    "Equals(LengthOf(Line(A, E)), 30)",
+    "PointLiesOnLine(E, Line(A, D))",
+    "PointLiesOnLine(E, Line(B, C))",
+    "Perpendicular(Line(B, E), Line(A, E))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "BC",
+    "BD",
+    "BE",
+    "CD",
+    "CE",
+    "DE"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      200.0
+    ],
+    "B": [
+      78.0,
+      2.0
+    ],
+    "C": [
+      213.0,
+      200.0
+    ],
+    "D": [
+      291.0,
+      1.0
+    ],
+    "E": [
+      147.0,
+      101.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

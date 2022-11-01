@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 16)",
+    "Equals(LengthOf(Line(A, D)), 8)",
+    "Equals(MeasureOf(Angle(A, B, D)), y)",
+    "Equals(LengthOf(Line(B, D)), x)",
+    "Perpendicular(Line(A, D), Line(B, D))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "BC",
+    "BD"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      180.3636484252907,
+      2.974985424859071
+    ],
+    "B": [
+      1.9747926606719943,
+      90.35133195612872
+    ],
+    "C": [
+      0.0,
+      0.0
+    ],
+    "D": [
+      181.3296296296296,
+      91.32962962962964
+    ]
+  }
+}

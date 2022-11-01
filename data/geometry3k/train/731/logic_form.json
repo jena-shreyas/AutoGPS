@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(2)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(2)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, C, F)), 53)",
+    "Equals(MeasureOf(Angle(E, C, B)), MeasureOf(Angle(2)))",
+    "PointLiesOnLine(C, Line(B, F))",
+    "PointLiesOnLine(C, Line(D, E))"
+  ],
+  "line_instances": [
+    "BC",
+    "BF",
+    "CD",
+    "CE",
+    "CF",
+    "DE"
+  ],
+  "point_positions": {
+    "B": [
+      284.0,
+      89.0
+    ],
+    "C": [
+      140.0,
+      55.0
+    ],
+    "D": [
+      62.0,
+      120.0
+    ],
+    "E": [
+      204.0,
+      1.0
+    ],
+    "F": [
+      1.0,
+      23.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

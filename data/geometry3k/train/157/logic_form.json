@@ -1,0 +1,62 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Quadrilateral(A,B,C,D)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Quadrilateral(A,B,C,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, D)), 27)",
+    "Equals(LengthOf(Line(C, H)), 7)",
+    "Equals(MeasureOf(Angle(A, B, C)), 135)",
+    "PointLiesOnLine(I, Line(A, D))",
+    "PointLiesOnLine(I, Line(A, H))",
+    "PointLiesOnLine(H, Line(I, D))",
+    "PointLiesOnLine(H, Line(A, D))",
+    "Perpendicular(Line(I, F), Line(B, I))",
+    "Perpendicular(Line(H, J), Line(C, H))",
+    "Equals(LengthOf(Line(B, A)), LengthOf(Line(C, D)))"
+  ],
+  "line_instances": [
+    "AB",
+    "BC",
+    "CD",
+    "AD",
+    "AI",
+    "IH",
+    "HD",
+    "AH",
+    "ID",
+    "BI",
+    "CH"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      8.0
+    ],
+    "B": [
+      135.0,
+      139.0
+    ],
+    "C": [
+      386.0,
+      140.0
+    ],
+    "D": [
+      513.0,
+      8.0
+    ],
+    "H": [
+      384.0,
+      8.0
+    ],
+    "I": [
+      132.0,
+      8.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

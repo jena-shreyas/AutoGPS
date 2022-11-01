@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x.",
+  "choices": [
+    "\\frac { 4 } { 3 }",
+    "\\frac { 13 } { 3 }",
+    "6",
+    "\\frac { 26 } { 3 }"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 1081,
+  "annot_id": "Shibiao_2020-03-22_12_21_27",
+  "is_standard": false,
+  "compact_choices": [
+    "\\frac{4}{3}",
+    "\\frac{13}{3}",
+    "6",
+    "\\frac{26}{3}"
+  ],
+  "precise_value": [
+    1.3333333333333333,
+    4.333333333333333,
+    6.0,
+    8.666666666666666
+  ],
+  "rough_value": [
+    1.33,
+    4.33,
+    6,
+    8.67
+  ],
+  "compact_text": "Find x.",
+  "annotat_text": "Find $x$.",
+  "unit": "",
+  "img_width": 515,
+  "img_height": 339,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

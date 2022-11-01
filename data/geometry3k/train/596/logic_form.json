@@ -1,0 +1,62 @@
+{
+  "text_logic_form": [
+    "Trapezoid(Q,R,S,T)",
+    "IsMidpointOf(Point(A),LegOf(Trapezoid(Q,R,S,T)))",
+    "IsMidpointOf(Point(B),LegOf(Trapezoid(Q,R,S,T)))",
+    "Find(MeasureOf(Angle(Q)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Trapezoid(Q,R,S,T)",
+    "IsMidpointOf(Point(A),LegOf(Trapezoid(Q,R,S,T)))",
+    "IsMidpointOf(Point(B),LegOf(Trapezoid(Q,R,S,T)))",
+    "Find(MeasureOf(Angle(Q)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, C)), 5)",
+    "Equals(LengthOf(Line(T, C)), 12)",
+    "Equals(MeasureOf(Angle(C, T, Q)), 120)",
+    "Equals(MeasureOf(Angle(R, B, A)), 45)",
+    "PointLiesOnLine(A, Line(T, Q))",
+    "PointLiesOnLine(B, Line(C, R))"
+  ],
+  "line_instances": [
+    "AB",
+    "AQ",
+    "AT",
+    "BC",
+    "BR",
+    "CR",
+    "QR",
+    "TC",
+    "TQ"
+  ],
+  "point_positions": {
+    "A": [
+      19.0,
+      38.0
+    ],
+    "B": [
+      243.0,
+      39.0
+    ],
+    "C": [
+      206.0,
+      2.0
+    ],
+    "Q": [
+      0.0,
+      71.0
+    ],
+    "R": [
+      275.0,
+      72.0
+    ],
+    "T": [
+      40.0,
+      2.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot P, P S = 4, find the length of \\widehat Q R. Round to the nearest hundredth.",
+  "choices": [
+    "1.75",
+    "2.37",
+    "3.49",
+    "4.75"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1680,
+  "annot_id": "Shibiao_2020-03-27_12_16_36",
+  "is_standard": false,
+  "compact_choices": [
+    "1.75",
+    "2.37",
+    "3.49",
+    "4.75"
+  ],
+  "precise_value": [
+    1.75,
+    2.37,
+    3.49,
+    4.75
+  ],
+  "rough_value": [
+    1.75,
+    2.37,
+    3.49,
+    4.75
+  ],
+  "compact_text": "In \\odot P, PS = 4, find the length of \\widehat QR. Round to the nearest hundredth.",
+  "annotat_text": "In $\\odot P$, $PS=4$, find the length of $\\widehat {QR}$. Round to the nearest hundredth.",
+  "unit": "",
+  "img_width": 504,
+  "img_height": 494,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

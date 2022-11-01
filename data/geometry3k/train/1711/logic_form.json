@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Kite($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Kite(A,B,C,M)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, M)), 8)",
+    "Equals(LengthOf(Line(A, C)), 15)"
+  ],
+  "line_instances": [
+    "AB",
+    "AM",
+    "BC",
+    "MC"
+  ],
+  "point_positions": {
+    "A": [
+      70.0,
+      230.0
+    ],
+    "B": [
+      1.0,
+      147.0
+    ],
+    "C": [
+      71.0,
+      1.0
+    ],
+    "M": [
+      137.0,
+      148.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

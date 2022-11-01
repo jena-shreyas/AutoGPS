@@ -1,0 +1,48 @@
+{
+  "problem_text": "A B C D is a trapezoid. If A C = 3 x - 7 and B D = 2 x + 8, find the value of x so that A B C D is isosceles.",
+  "choices": [
+    "15",
+    "20",
+    "28",
+    "38"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Trapezoid"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter6.pdf page 57",
+  "comment": "",
+  "id": 1643,
+  "annot_id": "Ran_2020-03-19_05_50_17",
+  "is_standard": false,
+  "compact_choices": [
+    "15",
+    "20",
+    "28",
+    "38"
+  ],
+  "precise_value": [
+    15.0,
+    20.0,
+    28.0,
+    38.0
+  ],
+  "rough_value": [
+    15,
+    20,
+    28,
+    38
+  ],
+  "compact_text": "ABCD is a trapezoid. If AC = 3x-7 and BD = 2x+8, find the value of x so that ABCD is isosceles.",
+  "annotat_text": "ABCD is a trapezoid.\r\nIf $AC = 3x \u2013 7$ and $BD = 2x + 8$, find the value of $x$ so that ABCD is isosceles.",
+  "unit": "",
+  "img_width": 348,
+  "img_height": 239,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

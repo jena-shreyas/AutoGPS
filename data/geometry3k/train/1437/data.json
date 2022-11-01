@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the area of a regular pentagon with a perimeter of 40 centimeters.",
+  "choices": [
+    "88",
+    "110",
+    "132",
+    "160"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle",
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "",
+  "id": 1437,
+  "annot_id": "pan_2020-03-22_05_50_28",
+  "is_standard": false,
+  "compact_choices": [
+    "88",
+    "110",
+    "132",
+    "160"
+  ],
+  "precise_value": [
+    88.0,
+    110.0,
+    132.0,
+    160.0
+  ],
+  "rough_value": [
+    88,
+    110,
+    132,
+    160
+  ],
+  "compact_text": "Find the area of a regular pentagon with a perimeter of 40 centimeters.",
+  "annotat_text": "Find the area of a regular pentagon with a perimeter of 40 centimeters.",
+  "unit": "",
+  "img_width": 344,
+  "img_height": 341,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

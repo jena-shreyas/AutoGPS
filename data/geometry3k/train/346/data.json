@@ -1,0 +1,48 @@
+{
+  "problem_text": "In the figure, C P is an altitude, C Q is the angle bisector of \\angle A C B, and R is the midpoint of A B. Find x if m \\angle A P C = 72 + x.",
+  "choices": [
+    "12",
+    "15",
+    "16",
+    "18"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 5 - Relationships in Triangles.pdf",
+  "comment": "",
+  "id": 346,
+  "annot_id": "pan_2020-03-19_05_20_46",
+  "is_standard": false,
+  "compact_choices": [
+    "12",
+    "15",
+    "16",
+    "18"
+  ],
+  "precise_value": [
+    12.0,
+    15.0,
+    16.0,
+    18.0
+  ],
+  "rough_value": [
+    12,
+    15,
+    16,
+    18
+  ],
+  "compact_text": "In the figure, CP is an altitude, CQ is the angle bisector of \\angle ACB, and R is the midpoint of AB. Find x if m \\angle APC = 72+x.",
+  "annotat_text": "In the figure, $\\overline{CP}$ is an altitude, $\\overline{CQ}$ is the angle bisector of $\u2220ACB$, and $R$ is the midpoint of $\\overline{AB}$. Find  $x$ if $m\u2220APC=72+x$.",
+  "unit": "",
+  "img_width": 363,
+  "img_height": 267,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

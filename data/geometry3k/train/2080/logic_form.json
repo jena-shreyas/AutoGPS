@@ -1,0 +1,50 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, C)), 3x+2)",
+    "Equals(LengthOf(Line(A, F)), 4x-6)",
+    "Equals(LengthOf(Line(E, C)), LengthOf(Line(E, D)))",
+    "PointLiesOnLine(E, Line(C, D))",
+    "PointLiesOnLine(A, Line(C, F))"
+  ],
+  "line_instances": [
+    "AC",
+    "AE",
+    "AF",
+    "CD",
+    "CE",
+    "CF",
+    "ED",
+    "FD"
+  ],
+  "point_positions": {
+    "A": [
+      265.0,
+      269.0
+    ],
+    "C": [
+      1.0,
+      267.0
+    ],
+    "D": [
+      495.0,
+      1.0
+    ],
+    "E": [
+      265.0,
+      125.0
+    ],
+    "F": [
+      493.0,
+      270.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

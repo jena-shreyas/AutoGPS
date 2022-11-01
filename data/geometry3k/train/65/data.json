@@ -1,0 +1,48 @@
+{
+  "problem_text": "A D and C G are diameters of \\odot B. Find m \\widehat C G D.",
+  "choices": [
+    "55",
+    "275",
+    "295",
+    "305"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 65,
+  "annot_id": "Shibiao_2020-03-27_12_11_25",
+  "is_standard": false,
+  "compact_choices": [
+    "55",
+    "275",
+    "295",
+    "305"
+  ],
+  "precise_value": [
+    55.0,
+    275.0,
+    295.0,
+    305.0
+  ],
+  "rough_value": [
+    55,
+    275,
+    295,
+    305
+  ],
+  "compact_text": "AD and CG are diameters of \\odot B. Find m \\widehat CGD.",
+  "annotat_text": "$\\overline{AD}$ and $\\overline{CG}$ are diameters of $\\odot B$. Find $m \\widehat {CGD}$.",
+  "unit": "",
+  "img_width": 507,
+  "img_height": 503,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

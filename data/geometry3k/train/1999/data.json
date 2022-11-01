@@ -1,0 +1,48 @@
+{
+  "problem_text": "For isosceles trapezoid A B C D, X and Y are midpoints of the legs. Find m \\angle X B C if m \\angle A D Y = 78.",
+  "choices": [
+    "39",
+    "51",
+    "78",
+    "102"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Trapezoid"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter8.pdf page 57",
+  "comment": "",
+  "id": 1999,
+  "annot_id": "Ran_2020-03-27_08_02_56",
+  "is_standard": false,
+  "compact_choices": [
+    "39",
+    "51",
+    "78",
+    "102"
+  ],
+  "precise_value": [
+    39.0,
+    51.0,
+    78.0,
+    102.0
+  ],
+  "rough_value": [
+    39,
+    51,
+    78,
+    102
+  ],
+  "compact_text": "For isosceles trapezoid ABCD, X and Y are midpoints of the legs. Find m \\angle XBC if m \\angle ADY = 78.",
+  "annotat_text": "For isosceles trapezoid $A B C D$, $X$ and $Y$ are midpoints of the legs. Find $m \\angle X B C$ if $m \\angle A D Y=78$",
+  "unit": "",
+  "img_width": 293,
+  "img_height": 223,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

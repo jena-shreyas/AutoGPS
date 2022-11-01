@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Congruent(Circle(C),Circle(D))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Congruent(Circle(C),Circle(D))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(K, L)), 0)",
+    "Equals(LengthOf(Line(K, L)), 0)",
+    "PointLiesOnCircle(K, Circle(A, radius_2_0))",
+    "PointLiesOnCircle(L, Circle(A, radius_2_0))"
+  ],
+  "line_instances": [
+    "KL"
+  ],
+  "point_positions": {
+    "A": [
+      148.0,
+      148.0
+    ],
+    "K": [
+      37.0,
+      52.0
+    ],
+    "L": [
+      158.0,
+      291.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

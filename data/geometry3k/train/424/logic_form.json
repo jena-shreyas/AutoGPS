@@ -1,0 +1,63 @@
+{
+  "text_logic_form": [
+    "Rectangle(L,M,N,P)",
+    "Parallelogram(L,K,M,J)",
+    "Equals(LengthOf(Line(M,K)),6x)",
+    "Equals(LengthOf(Line(K,L)),3x+2y)",
+    "Equals(LengthOf(Line(J,N)),14-x)",
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(L,M,N,P)",
+    "Parallelogram(L,K,M,J)",
+    "Equals(LengthOf(Line(M,K)),6x)",
+    "Equals(LengthOf(Line(K,L)),3x+2y)",
+    "Equals(LengthOf(Line(J,N)),14-x)",
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(J, Line(L, N))",
+    "PointLiesOnLine(J, Line(M, P))"
+  ],
+  "line_instances": [
+    "LN",
+    "LM",
+    "LP",
+    "LK",
+    "LJ",
+    "NM",
+    "NP",
+    "NJ",
+    "MP",
+    "MK",
+    "MJ",
+    "PJ"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "L": [
+      121.52729015752848,
+      1.5402691564575832
+    ],
+    "N": [
+      0.0,
+      154.0
+    ],
+    "M": [
+      122.45922975297927,
+      152.2923667827388
+    ],
+    "P": [
+      1.4878615811037008,
+      0.6231055033433108
+    ],
+    "K": [
+      185.3587452848918,
+      76.69724042088545
+    ],
+    "J": [
+      61.5,
+      77.0
+    ]
+  }
+}

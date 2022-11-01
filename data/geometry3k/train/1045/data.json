@@ -1,0 +1,48 @@
+{
+  "problem_text": "In the figure, Q R \\parallel T S, Q T \\parallel R S, and m \\angle 1 = 131. Find the measure of \\angle 6.",
+  "choices": [
+    "101",
+    "111",
+    "121",
+    "131"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 3 - Parallel and Perpendicular Lines.pdf",
+  "comment": "",
+  "id": 1045,
+  "annot_id": "pan_2020-03-17_05_33_07",
+  "is_standard": false,
+  "compact_choices": [
+    "101",
+    "111",
+    "121",
+    "131"
+  ],
+  "precise_value": [
+    101.0,
+    111.0,
+    121.0,
+    131.0
+  ],
+  "rough_value": [
+    101,
+    111,
+    121,
+    131
+  ],
+  "compact_text": "In the figure, QR \\parallel TS, QT \\parallel RS, and m \\angle 1 = 131. Find the measure of \\angle 6.",
+  "annotat_text": "In the figure, $QR \\| TS$, $QT \\| RS$, and $m \\angle 1=131$. Find the measure of $\\angle 6$. ",
+  "unit": "",
+  "img_width": 239,
+  "img_height": 295,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

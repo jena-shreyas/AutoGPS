@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "BisectsAngle(Line(R,S),Angle(V,R,U))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "BisectsAngle(Line(R,S),Angle(V,R,U))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(U, R)), 16)",
+    "Equals(LengthOf(Line(V, R)), 11.2)",
+    "Equals(LengthOf(Line(V, S)), 7)",
+    "Equals(LengthOf(Line(U, S)), x)",
+    "PointLiesOnLine(S, Line(V, U))"
+  ],
+  "line_instances": [
+    "RS",
+    "UR",
+    "US",
+    "VR",
+    "VS",
+    "VU"
+  ],
+  "point_positions": {
+    "R": [
+      198.0,
+      1.0
+    ],
+    "S": [
+      263.0,
+      186.0
+    ],
+    "U": [
+      592.0,
+      186.0
+    ],
+    "V": [
+      0.0,
+      186.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

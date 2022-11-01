@@ -1,0 +1,48 @@
+{
+  "problem_text": "A B C D \\sim Q S R P. Find x.",
+  "choices": [
+    "34",
+    "63",
+    "82",
+    "83"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "! two subgraph",
+  "id": 2038,
+  "annot_id": "Shibiao_2020-03-22_09_44_07",
+  "is_standard": false,
+  "compact_choices": [
+    "34",
+    "63",
+    "82",
+    "83"
+  ],
+  "precise_value": [
+    34.0,
+    63.0,
+    82.0,
+    83.0
+  ],
+  "rough_value": [
+    34,
+    63,
+    82,
+    83
+  ],
+  "compact_text": "ABCD \\sim QSRP. Find x.",
+  "annotat_text": "$ABCD \\sim QSRP$. Find $x$.",
+  "unit": "",
+  "img_width": 921,
+  "img_height": 497,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find b.",
+  "choices": [
+    "15",
+    "18",
+    "24",
+    "27"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 1285,
+  "annot_id": "Shibiao_2020-03-22_12_27_06",
+  "is_standard": false,
+  "compact_choices": [
+    "15",
+    "18",
+    "24",
+    "27"
+  ],
+  "precise_value": [
+    15.0,
+    18.0,
+    24.0,
+    27.0
+  ],
+  "rough_value": [
+    15,
+    18,
+    24,
+    27
+  ],
+  "compact_text": "Find b.",
+  "annotat_text": "Find $b$.",
+  "unit": "",
+  "img_width": 752,
+  "img_height": 495,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

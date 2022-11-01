@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the area of the shaded region. Assume that all polygons that appear to be regular are regular. Round to the nearest tenth.",
+  "choices": [
+    "192.7",
+    "271.2",
+    "371.2",
+    "428.3"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Square"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "very hard",
+  "id": 1205,
+  "annot_id": "pan_2020-03-22_06_08_00",
+  "is_standard": false,
+  "compact_choices": [
+    "192.7",
+    "271.2",
+    "371.2",
+    "428.3"
+  ],
+  "precise_value": [
+    192.7,
+    271.2,
+    371.2,
+    428.3
+  ],
+  "rough_value": [
+    192.7,
+    271.2,
+    371.2,
+    428.3
+  ],
+  "compact_text": "Find the area of the shaded region. Assume that all polygons that appear to be regular are regular. Round to the nearest tenth.",
+  "annotat_text": "Find the area of the shaded region. Assume that all polygons that appear to be regular are regular. Round to the nearest tenth.",
+  "unit": "",
+  "img_width": 215,
+  "img_height": 187,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

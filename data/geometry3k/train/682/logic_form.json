@@ -1,0 +1,42 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Arc(V,X)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Arc(V,X)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(V, X, V)), 14)",
+    "PointLiesOnLine(F, Line(X, W))",
+    "PointLiesOnCircle(X, Circle(F, radius_8_0))",
+    "PointLiesOnCircle(V, Circle(F, radius_8_0))",
+    "PointLiesOnCircle(W, Circle(F, radius_8_0))"
+  ],
+  "line_instances": [
+    "FX",
+    "VX",
+    "WF",
+    "WX"
+  ],
+  "point_positions": {
+    "F": [
+      127.0,
+      127.0
+    ],
+    "V": [
+      112.0,
+      2.0
+    ],
+    "W": [
+      56.0,
+      24.0
+    ],
+    "X": [
+      203.0,
+      232.0
+    ]
+  },
+  "circle_instances": [
+    "F"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "\\triangle D F G and \\triangle F G H are isosceles, m \\angle F D H = 28 and D G \\cong F G \\cong F H. Find the measure of \\angle G F H.",
+  "choices": [
+    "62",
+    "64",
+    "66",
+    "68"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "",
+  "id": 1790,
+  "annot_id": "pan_2020-03-18_07_20_26",
+  "is_standard": false,
+  "compact_choices": [
+    "62",
+    "64",
+    "66",
+    "68"
+  ],
+  "precise_value": [
+    62.0,
+    64.0,
+    66.0,
+    68.0
+  ],
+  "rough_value": [
+    62,
+    64,
+    66,
+    68
+  ],
+  "compact_text": "\\triangle DFG and \\triangle FGH are isosceles, m \\angle FDH = 28 and DG \\cong FG \\cong FH. Find the measure of \\angle GFH.",
+  "annotat_text": "$\\Delta DFG$  and $\\Delta F G H$ are isosceles, $m \\angle FDH=28$ and$\\overline{DG} \\cong \\overline{FG} \\cong \\overline{FH}$. Find the measure of $\\angle GFH$. ",
+  "unit": "",
+  "img_width": 282,
+  "img_height": 204,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

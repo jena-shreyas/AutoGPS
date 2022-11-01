@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the area of the triangle. Round to the nearest hundredth.",
+  "choices": [
+    "11.70",
+    "23.39",
+    "28.52",
+    "46.79"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "",
+  "id": 1718,
+  "annot_id": "pan_2020-03-24_07_48_44",
+  "is_standard": false,
+  "unit": "cm^2",
+  "compact_choices": [
+    "11.70",
+    "23.39",
+    "28.52",
+    "46.79"
+  ],
+  "precise_value": [
+    11.7,
+    23.39,
+    28.52,
+    46.79
+  ],
+  "rough_value": [
+    11.7,
+    23.39,
+    28.52,
+    46.79
+  ],
+  "compact_text": "Find the area of the triangle. Round to the nearest hundredth.",
+  "annotat_text": "Find the area of the triangle. Round to the nearest hundredth.",
+  "img_width": 297,
+  "img_height": 156,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

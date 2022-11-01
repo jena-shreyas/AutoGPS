@@ -1,0 +1,38 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shape(B,C,D,H)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, H)), 12)",
+    "Equals(LengthOf(Line(B, C)), 8)"
+  ],
+  "line_instances": [
+    "CD",
+    "BC",
+    "BH"
+  ],
+  "point_positions": {
+    "B": [
+      108.0,
+      161.0
+    ],
+    "C": [
+      3.0,
+      160.0
+    ],
+    "D": [
+      1.0,
+      0.0
+    ],
+    "H": [
+      109.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

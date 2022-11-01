@@ -1,0 +1,48 @@
+{
+  "problem_text": "The diagonals of rectangle A B C D the have a length of 56 feet. If m \\angle B A C = 42, what is the length of A B to the nearest tenth of a foot?",
+  "choices": [
+    "41.6",
+    "50.4",
+    "56.3",
+    "75.4"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Rectangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "Standardized Test Practice, SAT/ACT",
+  "id": 1672,
+  "annot_id": "pan_2020-03-23_03_14_53",
+  "is_standard": true,
+  "compact_choices": [
+    "41.6",
+    "50.4",
+    "56.3",
+    "75.4"
+  ],
+  "precise_value": [
+    41.6,
+    50.4,
+    56.3,
+    75.4
+  ],
+  "rough_value": [
+    41.6,
+    50.4,
+    56.3,
+    75.4
+  ],
+  "compact_text": "The diagonals of rectangle ABCD the have a length of 56 feet. If m \\angle BAC = 42, what is the length of AB to the nearest tenth of a foot?",
+  "annotat_text": " The diagonals of rectangle $A B C D$ each have a length of 56 feet. If $m \\angle B A C=42^{\\circ}$, what is the length of $\\overline{A B}$ to the nearest tenth of a foot?",
+  "unit": "",
+  "img_width": 358,
+  "img_height": 193,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

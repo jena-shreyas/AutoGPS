@@ -1,0 +1,48 @@
+{
+  "problem_text": "The area of a circle is 20 \\pi square centimeters. What is its circumference?",
+  "choices": [
+    "\\sqrt 5 \\pi",
+    "2 \\sqrt 5 \\pi",
+    "4 \\sqrt 5 \\pi",
+    "20 \\pi"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_3.pdf",
+  "comment": "SAT/ACT",
+  "id": 1959,
+  "annot_id": "pan_2020-03-15_03_00_58",
+  "is_standard": true,
+  "unit": "cm",
+  "compact_choices": [
+    "\\sqrt5\\pi",
+    "2\\sqrt5\\pi",
+    "4\\sqrt5\\pi",
+    "20\\pi"
+  ],
+  "precise_value": [
+    7.024814731040727,
+    14.049629462081453,
+    28.099258924162907,
+    62.83185307179586
+  ],
+  "rough_value": [
+    7.02,
+    14.05,
+    28.1,
+    62.83
+  ],
+  "compact_text": "The area of a circle is 20\\pi square centimeters. What is its circumference?",
+  "annotat_text": "The area of a circle is 20 $\\pi$ square centimeters. What is its circumference?",
+  "img_width": 321,
+  "img_height": 334,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

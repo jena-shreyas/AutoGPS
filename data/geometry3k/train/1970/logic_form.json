@@ -1,0 +1,79 @@
+{
+  "text_logic_form": [
+    "IsAltitudeOf(Line(A,B),Shape($))",
+    "IsAltitudeOf(Line(J,K),Shape($))",
+    "Similar(Triangle(D,A,C),Triangle(M,J,L))",
+    "Equals(LengthOf(Line(A,B)),9)",
+    "Equals(LengthOf(Line(A,D)),4x-8)",
+    "Equals(LengthOf(Line(J,K)),21)",
+    "Equals(LengthOf(Line(J,M)),5x+3)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "IsAltitudeOf(Line(A,B),Shape(A,C,D))",
+    "IsAltitudeOf(Line(J,K),Shape(J,L,M))",
+    "Similar(Triangle(D,A,C),Triangle(M,J,L))",
+    "Equals(LengthOf(Line(A,B)),9)",
+    "Equals(LengthOf(Line(A,D)),4x-8)",
+    "Equals(LengthOf(Line(J,K)),21)",
+    "Equals(LengthOf(Line(J,M)),5x+3)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(C, Line(B, D))",
+    "PointLiesOnLine(L, Line(K, M))",
+    "Perpendicular(Line(A, B), Line(B, C))",
+    "Perpendicular(Line(J, K), Line(K, L))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "BC",
+    "BD",
+    "CD",
+    "JK",
+    "JL",
+    "JM",
+    "KL",
+    "KM",
+    "LM"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      1.0
+    ],
+    "B": [
+      0.0,
+      215.0
+    ],
+    "C": [
+      123.0,
+      217.0
+    ],
+    "D": [
+      315.0,
+      215.0
+    ],
+    "J": [
+      415.0,
+      1.0
+    ],
+    "K": [
+      415.0,
+      215.0
+    ],
+    "L": [
+      510.0,
+      215.0
+    ],
+    "M": [
+      670.0,
+      215.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

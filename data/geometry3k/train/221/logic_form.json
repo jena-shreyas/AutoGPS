@@ -1,0 +1,83 @@
+{
+  "text_logic_form": [
+    "Equals(PerimeterOf(Triangle(B,P,A)),12)",
+    "Equals(LengthOf(Line(B,M)),\\sqrt{13})",
+    "Equals(LengthOf(Line(C,N)),3\\sqrt{13})",
+    "Find(PerimeterOf(Triangle(C,P,D)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(PerimeterOf(Triangle(B,P,A)),12)",
+    "Equals(LengthOf(Line(B,M)),\\sqrt{13})",
+    "Equals(LengthOf(Line(C,N)),3\\sqrt{13})",
+    "Find(PerimeterOf(Triangle(C,P,D)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(P, Line(B, C))",
+    "PointLiesOnLine(N, Line(A, D))",
+    "PointLiesOnLine(M, Line(A, D))",
+    "PointLiesOnLine(P, Line(A, D))",
+    "PointLiesOnLine(M, Line(A, N))",
+    "PointLiesOnLine(P, Line(A, N))",
+    "PointLiesOnLine(M, Line(A, P))",
+    "PointLiesOnLine(N, Line(M, D))",
+    "PointLiesOnLine(P, Line(M, D))",
+    "PointLiesOnLine(P, Line(M, N))",
+    "PointLiesOnLine(N, Line(P, D))",
+    "Perpendicular(Line(C, P), Line(P, N))",
+    "Equals(LengthOf(Line(C, D)), LengthOf(Line(A, M)))",
+    "Equals(LengthOf(Line(A, M)), LengthOf(Line(M, P)))",
+    "Equals(MeasureOf(Angle(P, A, B)), MeasureOf(Angle(C, D, P)))"
+  ],
+  "line_instances": [
+    "AD",
+    "AM",
+    "AN",
+    "AP",
+    "BA",
+    "BC",
+    "BM",
+    "BP",
+    "CD",
+    "CN",
+    "CP",
+    "DN",
+    "MD",
+    "MN",
+    "MP",
+    "PD",
+    "PN"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      110.0
+    ],
+    "B": [
+      121.0,
+      166.0
+    ],
+    "C": [
+      122.0,
+      2.0
+    ],
+    "D": [
+      342.0,
+      109.0
+    ],
+    "M": [
+      60.0,
+      110.0
+    ],
+    "N": [
+      230.0,
+      110.0
+    ],
+    "P": [
+      121.0,
+      110.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(V, W)), 3x-6)",
+    "Equals(LengthOf(Line(Y, W)), 5)",
+    "Equals(LengthOf(Line(Z, W)), 6)",
+    "Equals(LengthOf(Line(W, X)), x+4)",
+    "PointLiesOnLine(W, Line(Z, Y))",
+    "PointLiesOnLine(W, Line(V, X))"
+  ],
+  "line_instances": [
+    "VW",
+    "VX",
+    "WX",
+    "YW",
+    "YX",
+    "ZV",
+    "ZW",
+    "ZY"
+  ],
+  "point_positions": {
+    "V": [
+      0.0,
+      0.0
+    ],
+    "W": [
+      149.0,
+      95.0
+    ],
+    "X": [
+      271.0,
+      173.0
+    ],
+    "Y": [
+      228.0,
+      28.0
+    ],
+    "Z": [
+      54.0,
+      179.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

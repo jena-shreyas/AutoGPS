@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Equilateral(Triangle(E,F,G))",
+    "BisectsAngle(Line(E,H),Angle(E))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equilateral(Triangle(E,F,G))",
+    "BisectsAngle(Line(E,H),Angle(E))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(H, E, F)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(G, E, H)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(F, H, E)), 15x)",
+    "PointLiesOnLine(H, Line(F, G))"
+  ],
+  "line_instances": [
+    "EF",
+    "EG",
+    "EH",
+    "FG",
+    "HF",
+    "HG"
+  ],
+  "point_positions": {
+    "E": [
+      123.0,
+      2.0
+    ],
+    "F": [
+      1.0,
+      213.0
+    ],
+    "G": [
+      247.0,
+      213.0
+    ],
+    "H": [
+      126.0,
+      213.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

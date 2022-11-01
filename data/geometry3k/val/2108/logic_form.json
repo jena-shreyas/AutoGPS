@@ -1,0 +1,157 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(X, F)), 20-5x)",
+    "Equals(LengthOf(Line(X, J)), 2x+6)",
+    "Equals(LengthOf(Line(C, Y)), y)",
+    "Equals(LengthOf(Line(D, Y)), \\frac{3}{5}y+2)",
+    "Equals(LengthOf(Line(Y, C)), LengthOf(Line(Y, D)))",
+    "Equals(LengthOf(Line(X, F)), LengthOf(Line(X, J)))",
+    "PointLiesOnLine(Y, Line(X, A))",
+    "PointLiesOnLine(J, Line(X, B))",
+    "PointLiesOnLine(F, Line(X, I))",
+    "PointLiesOnLine(X, Line(A, E))",
+    "PointLiesOnLine(Y, Line(A, E))",
+    "PointLiesOnLine(X, Line(B, F))",
+    "PointLiesOnLine(J, Line(B, F))",
+    "PointLiesOnLine(X, Line(B, I))",
+    "PointLiesOnLine(F, Line(B, I))",
+    "PointLiesOnLine(J, Line(B, I))",
+    "PointLiesOnLine(X, Line(E, Y))",
+    "PointLiesOnLine(X, Line(F, J))",
+    "PointLiesOnLine(C, Line(F, K))",
+    "PointLiesOnLine(X, Line(I, J))",
+    "PointLiesOnLine(F, Line(I, J))",
+    "PointLiesOnLine(D, Line(J, L))",
+    "PointLiesOnLine(C, Line(Y, G))",
+    "PointLiesOnLine(D, Line(Y, M))",
+    "PointLiesOnLine(Y, Line(C, D))",
+    "PointLiesOnLine(F, Line(C, H))",
+    "PointLiesOnLine(D, Line(C, M))",
+    "PointLiesOnLine(Y, Line(C, M))",
+    "PointLiesOnLine(C, Line(D, G))",
+    "PointLiesOnLine(Y, Line(D, G))",
+    "PointLiesOnLine(J, Line(D, N))",
+    "PointLiesOnLine(C, Line(G, M))",
+    "PointLiesOnLine(D, Line(G, M))",
+    "PointLiesOnLine(Y, Line(G, M))",
+    "PointLiesOnLine(C, Line(H, K))",
+    "PointLiesOnLine(F, Line(H, K))",
+    "PointLiesOnLine(D, Line(L, N))",
+    "PointLiesOnLine(J, Line(L, N))"
+  ],
+  "line_instances": [
+    "AE",
+    "AY",
+    "BF",
+    "BI",
+    "BJ",
+    "CD",
+    "CG",
+    "CH",
+    "CK",
+    "CM",
+    "DG",
+    "DL",
+    "DM",
+    "DN",
+    "EY",
+    "FC",
+    "FH",
+    "FI",
+    "FJ",
+    "FK",
+    "GM",
+    "HK",
+    "IJ",
+    "JD",
+    "JL",
+    "JN",
+    "LN",
+    "XA",
+    "XB",
+    "XE",
+    "XF",
+    "XI",
+    "XJ",
+    "XY",
+    "YC",
+    "YD",
+    "YG",
+    "YM"
+  ],
+  "point_positions": {
+    "A": [
+      305.0,
+      112.0
+    ],
+    "B": [
+      4.0,
+      212.0
+    ],
+    "C": [
+      233.0,
+      58.0
+    ],
+    "D": [
+      233.0,
+      166.0
+    ],
+    "E": [
+      0.0,
+      112.0
+    ],
+    "F": [
+      124.0,
+      58.0
+    ],
+    "G": [
+      233.0,
+      2.0
+    ],
+    "H": [
+      0.0,
+      58.0
+    ],
+    "I": [
+      168.0,
+      1.0
+    ],
+    "J": [
+      40.0,
+      166.0
+    ],
+    "K": [
+      305.0,
+      58.0
+    ],
+    "L": [
+      305.0,
+      166.0
+    ],
+    "M": [
+      233.0,
+      215.0
+    ],
+    "N": [
+      0.0,
+      166.0
+    ],
+    "X": [
+      82.0,
+      112.0
+    ],
+    "Y": [
+      233.0,
+      112.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

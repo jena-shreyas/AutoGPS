@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(D,B)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(D,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, A)), 15)",
+    "Equals(MeasureOf(Angle(B, D, E)), 82)",
+    "Equals(LengthOf(Line(E, F)), 9.2)",
+    "PointLiesOnLine(F, Line(C, A))",
+    "PointLiesOnLine(E, Line(C, B))",
+    "PointLiesOnLine(D, Line(B, A))"
+  ],
+  "line_instances": [
+    "BA",
+    "BD",
+    "CA",
+    "CB",
+    "CF",
+    "DA",
+    "EB",
+    "EC",
+    "ED",
+    "EF",
+    "FA"
+  ],
+  "point_positions": {
+    "A": [
+      226.0,
+      48.0
+    ],
+    "B": [
+      564.0,
+      320.0
+    ],
+    "C": [
+      75.0,
+      319.0
+    ],
+    "D": [
+      395.0,
+      183.0
+    ],
+    "E": [
+      313.0,
+      319.0
+    ],
+    "F": [
+      152.0,
+      182.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

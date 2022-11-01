@@ -1,0 +1,45 @@
+{
+  "text_logic_form": [
+    "Regular(Pentagon($))",
+    "Find(MeasureOf(Angle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Regular(Pentagon(A,E,B,C,D))",
+    "Find(MeasureOf(Angle(D,A,E)))"
+  ],
+  "diagram_logic_form": [
+    ""
+  ],
+  "line_instances": [
+    "AD",
+    "AE",
+    "BC",
+    "DC",
+    "EB"
+  ],
+  "point_positions": {
+    "A": [
+      54.0,
+      267.0
+    ],
+    "B": [
+      280.0,
+      107.0
+    ],
+    "C": [
+      140.0,
+      2.0
+    ],
+    "D": [
+      2.0,
+      103.0
+    ],
+    "E": [
+      228.0,
+      269.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

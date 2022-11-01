@@ -1,0 +1,96 @@
+{
+  "text_logic_form": [
+    "Parallel(Line(m),Line(n))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallel(Line(A,D),Line(V,C))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(F, E, U)), 8x+4)",
+    "Equals(MeasureOf(Angle(F, T, V)), 9x-11)",
+    "Equals(LengthOf(Line(A, D)), 5)",
+    "PointLiesOnLine(T, Line(R, B))",
+    "PointLiesOnLine(E, Line(R, B))",
+    "PointLiesOnLine(E, Line(R, T))",
+    "PointLiesOnLine(T, Line(B, E))",
+    "PointLiesOnLine(R, Line(B, F))",
+    "PointLiesOnLine(T, Line(B, F))",
+    "PointLiesOnLine(E, Line(B, F))",
+    "PointLiesOnLine(R, Line(T, F))",
+    "PointLiesOnLine(E, Line(T, F))",
+    "PointLiesOnLine(U, Line(E, A))",
+    "PointLiesOnLine(R, Line(E, F))",
+    "PointLiesOnLine(E, Line(A, D))",
+    "PointLiesOnLine(U, Line(A, D))",
+    "PointLiesOnLine(E, Line(D, U))",
+    "PointLiesOnLine(T, Line(C, V))"
+  ],
+  "line_instances": [
+    "AD",
+    "AU",
+    "BE",
+    "BF",
+    "BT",
+    "CV",
+    "DU",
+    "EA",
+    "ED",
+    "EF",
+    "EU",
+    "RB",
+    "RE",
+    "RF",
+    "RT",
+    "TC",
+    "TE",
+    "TF",
+    "TV"
+  ],
+  "point_positions": {
+    "A": [
+      301.0,
+      1.0
+    ],
+    "B": [
+      443.0,
+      196.0
+    ],
+    "C": [
+      154.0,
+      201.0
+    ],
+    "D": [
+      0.0,
+      151.0
+    ],
+    "E": [
+      155.0,
+      74.0
+    ],
+    "F": [
+      1.0,
+      6.0
+    ],
+    "R": [
+      44.0,
+      27.0
+    ],
+    "T": [
+      292.0,
+      132.0
+    ],
+    "U": [
+      253.0,
+      22.0
+    ],
+    "V": [
+      444.0,
+      57.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

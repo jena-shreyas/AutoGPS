@@ -1,0 +1,48 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(W, R, T)), 4x)",
+    "Equals(MeasureOf(Angle(R, W, Z)), 45)",
+    "Equals(MeasureOf(Angle(W, Z, T)), 2x+30)",
+    "PointLiesOnCircle(R, Circle(O, radius_4_0))",
+    "PointLiesOnCircle(T, Circle(O, radius_4_0))",
+    "PointLiesOnCircle(W, Circle(O, radius_4_0))",
+    "PointLiesOnCircle(Z, Circle(O, radius_4_0))"
+  ],
+  "line_instances": [
+    "RT",
+    "TZ",
+    "WR",
+    "WZ"
+  ],
+  "point_positions": {
+    "O": [
+      157.0,
+      159.0
+    ],
+    "R": [
+      197.0,
+      6.0
+    ],
+    "T": [
+      302.0,
+      96.0
+    ],
+    "W": [
+      1.0,
+      168.0
+    ],
+    "Z": [
+      309.0,
+      197.0
+    ]
+  },
+  "circle_instances": [
+    "O"
+  ]
+}

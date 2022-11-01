@@ -1,0 +1,44 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Triangle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Triangle(A,B,C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, C)), 17)",
+    "Equals(LengthOf(Line(D, C)), 15)",
+    "Equals(MeasureOf(Angle(A, B, C)), 48)",
+    "PointLiesOnLine(D, Line(A, B))",
+    "Perpendicular(Line(C, D), Line(D, B))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "BC",
+    "BD",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      217.0
+    ],
+    "B": [
+      335.0,
+      218.0
+    ],
+    "C": [
+      140.0,
+      1.0
+    ],
+    "D": [
+      140.0,
+      271.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

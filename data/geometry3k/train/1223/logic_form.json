@@ -1,0 +1,108 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(I, C)), 19)",
+    "Equals(LengthOf(Line(D, C)), 8)",
+    "Equals(LengthOf(Line(D, C)), 6)",
+    "Equals(LengthOf(Line(N, D)), 6)",
+    "Equals(LengthOf(Line(N, H)), 6)",
+    "Equals(LengthOf(Line(N, G)), 22)",
+    "Equals(MeasureOf(Angle(H, N, D)), t)",
+    "Equals(LengthOf(Line(N, B)), 6)",
+    "Equals(MeasureOf(Angle(E, F, J)), 3x-60)",
+    "Equals(LengthOf(Line(N, H)), 3)",
+    "Equals(LengthOf(Line(N, B)), 6)",
+    "PointLiesOnLine(H, Line(N, B))",
+    "PointLiesOnLine(R, Line(N, B))",
+    "PointLiesOnLine(H, Line(N, R))",
+    "PointLiesOnLine(B, Line(N, G))",
+    "PointLiesOnLine(R, Line(N, G))",
+    "PointLiesOnLine(J, Line(B, I))",
+    "PointLiesOnLine(R, Line(B, H))",
+    "PointLiesOnLine(B, Line(H, G))",
+    "PointLiesOnLine(R, Line(H, G))",
+    "PointLiesOnLine(B, Line(R, G))",
+    "PointLiesOnLine(J, Line(I, E))",
+    "PointLiesOnLine(I, Line(C, F))"
+  ],
+  "line_instances": [
+    "NB",
+    "ND",
+    "NH",
+    "NR",
+    "NG",
+    "BI",
+    "BH",
+    "BR",
+    "BE",
+    "BF",
+    "BG",
+    "BJ",
+    "DC",
+    "HR",
+    "HG",
+    "RG",
+    "GI",
+    "GJ",
+    "IC",
+    "IE",
+    "IF",
+    "IJ",
+    "CF",
+    "EF",
+    "EJ",
+    "FJ"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "N": [
+      2.1020188425302706,
+      80.66253925527143
+    ],
+    "I": [
+      252.8004627231502,
+      2.3054672649194288
+    ],
+    "B": [
+      254.95330759124363,
+      79.15176306586245
+    ],
+    "C": [
+      0.0,
+      1.0
+    ],
+    "D": [
+      69.44184434044028,
+      41.00641358987693
+    ],
+    "H": [
+      175.0,
+      82.0
+    ],
+    "R": [
+      215.02261164499717,
+      79.1984171848502
+    ],
+    "E": [
+      258.0,
+      46.0
+    ],
+    "F": [
+      271.0,
+      4.5
+    ],
+    "G": [
+      271.5,
+      77.0
+    ],
+    "J": [
+      254.0,
+      21.0
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(K)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(K)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(J, A , L)), 92)",
+    "PointLiesOnCircle(K, Circle(A, radius_1_0))",
+    "PointLiesOnCircle(J, Circle(A, radius_1_0))",
+    "PointLiesOnCircle(L, Circle(A, radius_1_0))"
+  ],
+  "line_instances": [
+    "KJ",
+    "KL"
+  ],
+  "point_positions": {
+    "A": [
+      160.0,
+      160.0
+    ],
+    "J": [
+      51.0,
+      274.0
+    ],
+    "K": [
+      76.0,
+      26.0
+    ],
+    "L": [
+      300.0,
+      229.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

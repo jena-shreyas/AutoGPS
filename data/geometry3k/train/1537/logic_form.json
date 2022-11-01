@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(E,F)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(E,F)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(F, D, E)), 42)",
+    "Equals(MeasureOf(Angle(D, F, E)), 4x+11)",
+    "Equals(LengthOf(Line(F, E)), 2x-3)",
+    "Equals(LengthOf(Line(D, E)), LengthOf(Line(D, F)))"
+  ],
+  "line_instances": [
+    "DE",
+    "EF",
+    "DF"
+  ],
+  "point_positions": {
+    "D": [
+      65.0,
+      1.0
+    ],
+    "E": [
+      0.0,
+      167.0
+    ],
+    "F": [
+      130.0,
+      166.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

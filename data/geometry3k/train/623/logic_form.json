@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Isosceles(Triangle(A,B,C))",
+    "Equals(Line(B,C),BaseOf(Isosceles(Triangle(A,B,C))))",
+    "Find(PerimeterOf(Triangle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Triangle(A,B,C))",
+    "Equals(Line(B,C),BaseOf(Isosceles(Triangle(A,B,C))))",
+    "Find(PerimeterOf(Triangle(A, B, C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, A)), 2x+4)",
+    "Equals(LengthOf(Line(C, A)), 3x-1)",
+    "Equals(LengthOf(Line(B, C)), 4x-8)"
+  ],
+  "line_instances": [
+    "BA",
+    "BC",
+    "CA"
+  ],
+  "point_positions": {
+    "A": [
+      199.0,
+      0.0
+    ],
+    "B": [
+      0.0,
+      280.0
+    ],
+    "C": [
+      398.0,
+      280.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

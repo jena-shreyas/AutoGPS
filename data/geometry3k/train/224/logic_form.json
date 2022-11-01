@@ -1,0 +1,35 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shaded(Sector($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shaded(Sector(K,J,L))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(L, K, J)), 85)",
+    "Equals(LengthOf(Line(K, L)), 9.3)",
+    "PointLiesOnCircle(J, Circle(K, radius_1_0))",
+    "PointLiesOnCircle(L, Circle(K, radius_1_0))"
+  ],
+  "line_instances": [
+    "JK",
+    "KL"
+  ],
+  "point_positions": {
+    "J": [
+      11.0,
+      76.0
+    ],
+    "K": [
+      97.0,
+      94.0
+    ],
+    "L": [
+      69.0,
+      183.0
+    ]
+  },
+  "circle_instances": [
+    "K"
+  ]
+}

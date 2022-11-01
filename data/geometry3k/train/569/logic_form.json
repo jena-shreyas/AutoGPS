@@ -1,0 +1,63 @@
+{
+  "text_logic_form": [
+    "Tangent(Line($),Circle($))",
+    "Find(PerimeterOf(Triangle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Tangent(Line(B,C),Circle(H))",
+    "Tangent(Line(E,F),Circle(H))",
+    "Tangent(Line(B,A),Circle(H))",
+    "Find(PerimeterOf(Triangle(B,E,M)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, C)), 14)",
+    "Equals(LengthOf(Line(A, M)), 9)",
+    "Equals(LengthOf(Line(M, E)), 15)",
+    "PointLiesOnLine(A, Line(B, M))",
+    "PointLiesOnLine(G, Line(B, C))",
+    "PointLiesOnLine(F, Line(D, M))",
+    "PointLiesOnCircle(A, Circle(H, radius_7_0))",
+    "PointLiesOnCircle(F, Circle(H, radius_7_0))",
+    "PointLiesOnCircle(L, Circle(H, radius_7_0))"
+  ],
+  "line_instances": [
+    "BA",
+    "AM",
+    "BM",
+    "BC",
+    "CE",
+    "BE",
+    "EF",
+    "FM",
+    "EM"
+  ],
+  "point_positions": {
+    "A": [
+      137.0,
+      78.0
+    ],
+    "B": [
+      17.0,
+      1.0
+    ],
+    "C": [
+      60.0,
+      136.0
+    ],
+    "E": [
+      91.0,
+      184.0
+    ],
+    "F": [
+      136.0,
+      155.0
+    ],
+    "M": [
+      192.0,
+      119.0
+    ]
+  },
+  "circle_instances": [
+    "H"
+  ]
+}

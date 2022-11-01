@@ -1,0 +1,71 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(E, G, H)), MeasureOf(angle 6))",
+    "Equals(LengthOf(Line(H, G)), 1)",
+    "Equals(LengthOf(Line(E, G)), 2)",
+    "Equals(LengthOf(Line(B, E)), 2)",
+    "Equals(MeasureOf(Angle(E, B, F)), MeasureOf(angle 3))",
+    "Equals(MeasureOf(Angle(G, H, C)), MeasureOf(angle 8))",
+    "Equals(MeasureOf(Angle(H, C, A)), MeasureOf(angle 5))",
+    "Equals(LengthOf(Line(A, D)), 11)",
+    "Perpendicular(Line(C, H), Line(A, C))",
+    "Perpendicular(Line(C, H), Line(H, G))",
+    "Perpendicular(Line(E, G), Line(B, E))",
+    "Perpendicular(Line(B, F), Line(D, F))",
+    "Perpendicular(Line(A, C), Line(A, D))",
+    "Perpendicular(Line(D, F), Line(A, D))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "BE",
+    "BF",
+    "CH",
+    "DF",
+    "EG",
+    "HG"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      264.0
+    ],
+    "B": [
+      266.0,
+      97.0
+    ],
+    "C": [
+      1.0,
+      0.0
+    ],
+    "D": [
+      360.0,
+      265.0
+    ],
+    "E": [
+      265.0,
+      32.0
+    ],
+    "F": [
+      362.0,
+      99.0
+    ],
+    "G": [
+      192.0,
+      29.0
+    ],
+    "H": [
+      194.0,
+      4.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

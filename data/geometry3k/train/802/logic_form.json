@@ -1,0 +1,67 @@
+{
+  "text_logic_form": [
+    "Rectangle(J,K,L,M)",
+    "Rhombus(M,L,P,R)",
+    "Equals(Angle(J,M,K),Angle(R,M,P))",
+    "Equals(MeasureOf(Angle(J,M,K)),55)",
+    "Equals(MeasureOf(Angle(M,R,P)),70)",
+    "Find(MeasureOf(Angle(M,P,R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(J,K,L,M)",
+    "Rhombus(M,L,P,R)",
+    "Equals(Angle(J,M,K),Angle(R,M,P))",
+    "Equals(MeasureOf(Angle(J,M,K)),55)",
+    "Equals(MeasureOf(Angle(M,R,P)),70)",
+    "Find(MeasureOf(Angle(M,P,R)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(L, Line(P, A))",
+    "PointLiesOnLine(A, Line(K, L))"
+  ],
+  "line_instances": [
+    "RM",
+    "RP",
+    "MP",
+    "MK",
+    "MJ",
+    "ML",
+    "PA",
+    "PL",
+    "KA",
+    "KJ",
+    "KL",
+    "LA"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "R": [
+      0.3052818607656178,
+      160.00565336779195
+    ],
+    "M": [
+      34.4653189821044,
+      53.87709476353466
+    ],
+    "A": [
+      143.0,
+      43.0
+    ],
+    "P": [
+      108.08941457576714,
+      160.38176148950615
+    ],
+    "K": [
+      141.36565076467002,
+      1.9792852161124301
+    ],
+    "J": [
+      35.9981984686984,
+      0.02747335234950299
+    ],
+    "L": [
+      140.266492106559,
+      56.63715209327392
+    ]
+  }
+}

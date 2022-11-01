@@ -1,0 +1,42 @@
+{
+  "text_logic_form": [
+    "Parallelogram(W,X,Y,Z)",
+    "Find(LengthOf(Line(W,Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallelogram(W,X,Y,Z)",
+    "Find(LengthOf(Line(W,Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(X, W, Z)), 105)",
+    "Equals(LengthOf(Line(Y, X)), 24)",
+    "Equals(LengthOf(Line(Z, Y)), 28)"
+  ],
+  "line_instances": [
+    "ZW",
+    "ZY",
+    "WX",
+    "YX"
+  ],
+  "point_positions": {
+    "Z": [
+      1.0,
+      177.0
+    ],
+    "W": [
+      84.0,
+      3.0
+    ],
+    "X": [
+      334.0,
+      1.0
+    ],
+    "Y": [
+      251.0,
+      175.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

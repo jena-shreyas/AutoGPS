@@ -1,0 +1,52 @@
+{
+  "text_logic_form": [
+    "Triangle(A,B,C)",
+    "Equals(Line(C,D),AltitudeOf(Triangle(A,B,C)))",
+    "Equals(MeasureOf(Angle(A,C,B)),90)",
+    "Equals(LengthOf(Line(A,D)),12)",
+    "Equals(LengthOf(Line(B,D)),3)",
+    "Find(LengthOf(Line(A,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(A,B,C)",
+    "Equals(Line(C,D),AltitudeOf(Triangle(A,B,C)))",
+    "Equals(MeasureOf(Angle(A,C,B)),90)",
+    "Equals(LengthOf(Line(A,D)),12)",
+    "Equals(LengthOf(Line(B,D)),3)",
+    "Find(LengthOf(Line(A,C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, D)), 12)",
+    "Equals(LengthOf(Line(D, B)), 3)",
+    "PointLiesOnLine(D, Line(A, B))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "CB",
+    "DA",
+    "DB",
+    "DC"
+  ],
+  "point_positions": {
+    "A": [
+      2.0,
+      130.0
+    ],
+    "B": [
+      326.0,
+      131.0
+    ],
+    "C": [
+      261.0,
+      1.0
+    ],
+    "D": [
+      258.0,
+      131.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

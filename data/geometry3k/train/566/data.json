@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find y if m \\angle 5 = 68 and m \\angle 3 = 3 y - 2.",
+  "choices": [
+    "22",
+    "23.3",
+    "38",
+    "82"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_3.pdf",
+  "comment": "",
+  "id": 566,
+  "annot_id": "pan_2020-03-13_23_44_13",
+  "is_standard": false,
+  "compact_choices": [
+    "22",
+    "23.3",
+    "38",
+    "82"
+  ],
+  "precise_value": [
+    22.0,
+    23.3,
+    38.0,
+    82.0
+  ],
+  "rough_value": [
+    22,
+    23.3,
+    38,
+    82
+  ],
+  "compact_text": "Find y if m \\angle 5 = 68 and m \\angle 3 = 3y-2.",
+  "annotat_text": "Find $y$ if $m\u22205 = 68$ and $m\u22203 = 3y - 2$.",
+  "unit": "",
+  "img_width": 436,
+  "img_height": 368,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

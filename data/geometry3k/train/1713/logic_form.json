@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Find(RatioOf(SinOf(Angle(A))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(RatioOf(SinOf(Angle(A))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, C)), 25)",
+    "Equals(LengthOf(Line(A, B)), 15)",
+    "Equals(LengthOf(Line(C, B)), 20)",
+    "Perpendicular(Line(A, B), Line(C, B))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "CB"
+  ],
+  "point_positions": {
+    "A": [
+      238.0,
+      1.0
+    ],
+    "B": [
+      236.0,
+      131.0
+    ],
+    "C": [
+      3.0,
+      132.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "text_logic_form": [
+    "Equals(MeasureOf(Angle(B)),76)",
+    "Equals(MeasureOf(Angle(A)),HalfOf(MeasureOf(Angle(B))))",
+    "Find(MeasureOf(Angle(C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(MeasureOf(Angle(B)),76)",
+    "Equals(MeasureOf(Angle(A)),HalfOf(MeasureOf(Angle(B))))",
+    "Find(MeasureOf(Angle(C)))"
+  ],
+  "diagram_logic_form": [],
+  "line_instances": [
+    "CA",
+    "CB",
+    "AB"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "C": [
+      301.46662869078136,
+      0.8255008069875771
+    ],
+    "A": [
+      1.086471408647128,
+      239.33333333333331
+    ],
+    "B": [
+      366.24305555555554,
+      239.33333333333331
+    ]
+  }
+}

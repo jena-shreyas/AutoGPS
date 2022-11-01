@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Tangent(Line(J,H),Circle(G)) at J. Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Tangent(Line(J,H),Circle(G)) ",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(K, G)), x)",
+    "Equals(LengthOf(Line(J, G)), x)",
+    "Equals(LengthOf(Line(H, K)), 8)",
+    "Equals(LengthOf(Line(H, J)), 12)",
+    "PointLiesOnLine(K, Line(H, G))",
+    "PointLiesOnCircle(K, Circle(G, radius_2_0))",
+    "PointLiesOnCircle(J, Circle(G, radius_2_0))"
+  ],
+  "line_instances": [
+    "",
+    "HG",
+    "HJ",
+    "HK",
+    "JG",
+    "KG"
+  ],
+  "point_positions": {
+    "G": [
+      159.0,
+      160.0
+    ],
+    "H": [
+      485.0,
+      311.0
+    ],
+    "J": [
+      155.0,
+      311.0
+    ],
+    "K": [
+      298.0,
+      224.0
+    ]
+  },
+  "circle_instances": [
+    "G"
+  ]
+}

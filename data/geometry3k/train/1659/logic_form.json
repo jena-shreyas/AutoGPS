@@ -1,0 +1,37 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Shape(A)),94)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Sector(K, J, L)),94)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(L, K)), 14)",
+    "Equals(MeasureOf(Angle(K, J, L)), 85)",
+    "PointLiesOnCircle(L, Circle(K, radius_1_0))",
+    "PointLiesOnCircle(J, Circle(K, radius_1_0))"
+  ],
+  "line_instances": [
+    "KJ",
+    "LK"
+  ],
+  "point_positions": {
+    "J": [
+      41.0,
+      187.0
+    ],
+    "K": [
+      107.0,
+      104.0
+    ],
+    "L": [
+      107.0,
+      209.0
+    ]
+  },
+  "circle_instances": [
+    "K"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "text_logic_form": [
+    "Equals(PerimeterOf(Regular(Pentagon($))),40)",
+    "Find(AreaOf(Regular(Pentagon($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(PerimeterOf(Regular(Pentagon(K,L,M,Q,N,J))),40)",
+    "Find(AreaOf(Regular(Pentagon(K,L,M,Q,N,J))))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(Q, Line(M, N))",
+    "Perpendicular(Line(P,Q),  Line(N,M))",
+    ""
+  ],
+  "line_instances": [
+    "KJ",
+    "KQ",
+    "LK",
+    "LM",
+    "MN",
+    "MP",
+    "MQ",
+    "NJ",
+    "NP",
+    "QN",
+    "QP"
+  ],
+  "point_positions": {
+    "J": [
+      1.0,
+      87.0
+    ],
+    "K": [
+      119.0,
+      1.0
+    ],
+    "L": [
+      239.0,
+      88.0
+    ],
+    "M": [
+      192.0,
+      227.0
+    ],
+    "N": [
+      47.0,
+      227.0
+    ],
+    "P": [
+      120.0,
+      137.0
+    ],
+    "Q": [
+      122.0,
+      227.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

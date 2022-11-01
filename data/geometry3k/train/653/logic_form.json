@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Congruent(Triangle(A,B,C),Triangle(F,G,H))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Congruent(Triangle(A,B,C),Triangle(F,G,H))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(F, B)), 4x+1)",
+    "Equals(LengthOf(Line(F, H)), 11)",
+    "Equals(LengthOf(Line(H, G)), 3x-2)",
+    "Equals(LengthOf(Line(A, B)), 13)",
+    "Equals(LengthOf(Line(C, B)), 7)",
+    "Equals(LengthOf(Line(C, A)), 2x+5)"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC",
+    "FG",
+    "FH",
+    "GH"
+  ],
+  "point_positions": {
+    "C": [
+      -150.0,
+      210.0
+    ],
+    "B": [
+      -250.0,
+      20.0
+    ],
+    "A": [
+      -350.0,
+      210.0
+    ],
+    "F": [
+      1.0,
+      0.0
+    ],
+    "G": [
+      171.0,
+      2.0
+    ],
+    "H": [
+      87.0,
+      198.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

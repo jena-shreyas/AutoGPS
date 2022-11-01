@@ -1,0 +1,51 @@
+{
+  "text_logic_form": [
+    "Similar(Polygon($1),Polygon($2))",
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Quadrilateral(H,G,J,I),Quadrilateral(M,L,O,N))",
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(I, H, G)), 98)",
+    "Equals(MeasureOf(Angle(H, G, J)), 87)",
+    "Equals(MeasureOf(Angle(G, J, I)), y+30)",
+    "Equals(MeasureOf(Angle(L, O, N)), 60)",
+    "Equals(MeasureOf(Angle(M, L, O)), x-4)",
+    "Equals(MeasureOf(Angle(G, H, I)), MeasureOf(Angle(L, M, N)))",
+    "Equals(MeasureOf(Angle(H, I, J)), MeasureOf(Angle(M, N, O)))",
+    "Equals(MeasureOf(Angle(I, J, G)), MeasureOf(Angle(N, O, L)))"
+  ],
+  "line_instances": [
+    "GH",
+    "GJ",
+    "HI",
+    "JI",
+    "LO",
+    "ML",
+    "MN",
+    "ON"
+  ],
+  "point_positions": {
+    "G": [
+      2.0,
+      150.0
+    ],
+    "H": [
+      15.0,
+      7.0
+    ],
+    "I": [
+      222.0,
+      4.0
+    ],
+    "J": [
+      305.0,
+      162.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

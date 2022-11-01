@@ -1,0 +1,48 @@
+{
+  "problem_text": "What is E D?",
+  "choices": [
+    "15",
+    "25",
+    "88.5",
+    "not enough information"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1637,
+  "annot_id": "pan_2020-03-28_00_32_04",
+  "is_standard": true,
+  "compact_choices": [
+    "15",
+    "25",
+    "88.5",
+    "notenoughinformation"
+  ],
+  "precise_value": [
+    15.0,
+    25.0,
+    88.5,
+    "not enough information"
+  ],
+  "rough_value": [
+    15,
+    25,
+    88.5,
+    "not enough information"
+  ],
+  "compact_text": "What is ED?",
+  "annotat_text": "What is ED?",
+  "unit": "",
+  "img_width": 310,
+  "img_height": 273,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

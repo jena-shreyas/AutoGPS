@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Trapezoid(C,D,F,G)",
+    "IsMedianOf(Line(H,E),Trapezoid(C,D,F,G))",
+    "IsMedianOf(Line(W,X),Quadrilateral(C,D,E,H))",
+    "Find(LengthOf(Line(W,X)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Trapezoid(C,D,F,G)",
+    "IsMedianOf(Line(H,E),Trapezoid(C,D,F,G))",
+    "IsMedianOf(Line(W,X),Quadrilateral(C,D,E,H))",
+    "Find(LengthOf(Line(W,X)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, C)), 46)",
+    "Equals(LengthOf(Line(E, H)), 38)",
+    "PointLiesOnLine(E, Line(F, D))",
+    "PointLiesOnLine(H, Line(G, C))"
+  ],
+  "line_instances": [
+    "FD",
+    "FG",
+    "FE",
+    "DC",
+    "DE",
+    "GC",
+    "GH",
+    "EH",
+    "CH"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "F": [
+      249.49376114081997,
+      149.66042780748663
+    ],
+    "C": [
+      0.2904965594197506,
+      1.3312875829148823
+    ],
+    "D": [
+      284.0,
+      0.0
+    ],
+    "G": [
+      64.89678224230869,
+      149.0012240190194
+    ],
+    "E": [
+      266.82356894813483,
+      76.99003024532317
+    ],
+    "H": [
+      32.39218116268589,
+      75.00332356917531
+    ]
+  }
+}

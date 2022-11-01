@@ -1,0 +1,52 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Kite($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Kite(F,B,O,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(O, E)), 9)",
+    "Equals(LengthOf(Line(F, E)), 6)",
+    "Equals(LengthOf(Line(B, D)), 7)",
+    "PointLiesOnLine(E, Line(B, D))",
+    "PointLiesOnLine(E, Line(O, F))"
+  ],
+  "line_instances": [
+    "BD",
+    "BE",
+    "BF",
+    "DF",
+    "ED",
+    "FE",
+    "FO",
+    "FO",
+    "OB",
+    "OD"
+  ],
+  "point_positions": {
+    "B": [
+      1.0,
+      70.0
+    ],
+    "D": [
+      132.0,
+      70.0
+    ],
+    "F": [
+      67.0,
+      1.0
+    ],
+    "O": [
+      68.0,
+      174.0
+    ],
+    "E": [
+      66.0,
+      70.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

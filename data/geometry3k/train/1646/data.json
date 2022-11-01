@@ -1,0 +1,48 @@
+{
+  "problem_text": "\\triangle K L N and \\triangle L M N are isosceles and m \\angle J K N = 130. Find the measure of \\angle L K N.",
+  "choices": [
+    "75",
+    "78",
+    "79",
+    "81"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "",
+  "id": 1646,
+  "annot_id": "pan_2020-03-18_07_14_42",
+  "is_standard": false,
+  "compact_choices": [
+    "75",
+    "78",
+    "79",
+    "81"
+  ],
+  "precise_value": [
+    75.0,
+    78.0,
+    79.0,
+    81.0
+  ],
+  "rough_value": [
+    75,
+    78,
+    79,
+    81
+  ],
+  "compact_text": "\\triangle KLN and \\triangle LMN are isosceles and m \\angle JKN = 130. Find the measure of \\angle LKN.",
+  "annotat_text": "$\\triangle K L N$ and $\\triangle L M N$ are isosceles and $m \\angle J K N=130$. Find the measure of $\\angle LKN$.",
+  "unit": "",
+  "img_width": 223,
+  "img_height": 323,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

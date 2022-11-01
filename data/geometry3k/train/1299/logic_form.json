@@ -1,0 +1,71 @@
+{
+  "text_logic_form": [
+    "IsCentroidOf(Point(P),Triangle(Q,U,S))",
+    "Equals(LengthOf(Line(Q,P)),14)",
+    "Find(LengthOf(Line(Q,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsCentroidOf(Point(P),Triangle(Q,U,S))",
+    "Equals(LengthOf(Line(Q,P)),14)",
+    "Find(LengthOf(Line(Q,T)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(R, Line(Q, S))",
+    "PointLiesOnLine(V, Line(Q, U))",
+    "PointLiesOnLine(P, Line(Q, T))",
+    "PointLiesOnLine(T, Line(S, U))",
+    "PointLiesOnLine(P, Line(S, V))",
+    "PointLiesOnLine(P, Line(U, R))"
+  ],
+  "line_instances": [
+    "QS",
+    "QU",
+    "QT",
+    "QP",
+    "QV",
+    "QR",
+    "SU",
+    "ST",
+    "SP",
+    "SV",
+    "SR",
+    "UT",
+    "UP",
+    "UV",
+    "UR",
+    "TP",
+    "PV",
+    "PR"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "Q": [
+      270.5764427842353,
+      1.7280266275552947
+    ],
+    "S": [
+      0.931066720655906,
+      363.0021907452251
+    ],
+    "U": [
+      424.1920206807606,
+      364.02385349733333
+    ],
+    "T": [
+      217.18067638453903,
+      363.7557192385518
+    ],
+    "P": [
+      233.58059422149475,
+      250.26679204338976
+    ],
+    "V": [
+      352.4858074662267,
+      192.2505414045581
+    ],
+    "R": [
+      130.81349045103616,
+      188.48975445521563
+    ]
+  }
+}

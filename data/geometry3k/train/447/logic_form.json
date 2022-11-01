@@ -1,0 +1,82 @@
+{
+  "text_logic_form": [
+    "Equals(DiameterOf(Circle(A)),10)",
+    "Equals(DiameterOf(Circle(B)),20)",
+    "Equals(DiameterOf(Circle(C)),14)",
+    "Find(LengthOf(Line(B,Y)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(DiameterOf(Circle(A)),10)",
+    "Equals(DiameterOf(Circle(B)),20)",
+    "Equals(DiameterOf(Circle(C)),14)",
+    "Find(LengthOf(Line(B,Y)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(Y, Line(B, C))",
+    "PointLiesOnLine(X, Line(B, D))",
+    "PointLiesOnLine(X, Line(B, A))",
+    "PointLiesOnLine(Y, Line(C, D))",
+    "PointLiesOnLine(X, Line(C, D))",
+    "PointLiesOnLine(B, Line(C, A))",
+    "PointLiesOnLine(D, Line(C, A))",
+    "PointLiesOnLine(Y, Line(C, A))",
+    "PointLiesOnLine(X, Line(C, A))",
+    "PointLiesOnLine(Y, Line(C, X))",
+    "PointLiesOnLine(X, Line(D, Y))",
+    "PointLiesOnLine(D, Line(A, Y))",
+    "PointLiesOnLine(X, Line(A, Y))",
+    "PointLiesOnLine(D, Line(A, X))",
+    "PointLiesOnCircle(C, Circle(B, radius_0_0))",
+    "PointLiesOnCircle(A, Circle(B, radius_0_0))",
+    "PointLiesOnCircle(Y, Circle(C, radius_1_0))",
+    "PointLiesOnCircle(D, Circle(A, radius_3_0))"
+  ],
+  "line_instances": [
+    "BC",
+    "BD",
+    "BA",
+    "BY",
+    "BX",
+    "CD",
+    "CA",
+    "CY",
+    "CX",
+    "DA",
+    "DY",
+    "DX",
+    "AY",
+    "AX",
+    "YX"
+  ],
+  "circle_instances": [
+    "B",
+    "C",
+    "A"
+  ],
+  "point_positions": {
+    "B": [
+      166.75,
+      108.75
+    ],
+    "C": [
+      275.92384617503103,
+      111.5
+    ],
+    "D": [
+      107.65936561014578,
+      113.21028512727247
+    ],
+    "A": [
+      53.742820491635584,
+      111.16666666666667
+    ],
+    "Y": [
+      197.91468961846957,
+      112.0
+    ],
+    "X": [
+      126.33333333333333,
+      112.0
+    ]
+  }
+}

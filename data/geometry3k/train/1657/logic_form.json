@@ -1,0 +1,116 @@
+{
+  "text_logic_form": [
+    "Equals(MeasureOf(Angle(1)),53)",
+    "Find(MeasureOf(Angle(4)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(MeasureOf(Angle(1)),53)",
+    "Find(MeasureOf(Angle(4)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(L, W, N)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(G, X, E)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(I, Y, L)), MeasureOf(angle 7))",
+    "Equals(MeasureOf(Angle(L, Y, Z)), MeasureOf(angle 6))",
+    "Equals(MeasureOf(Angle(K, Y, M)), MeasureOf(angle 5))",
+    "Equals(MeasureOf(Angle(E, Z, K)), MeasureOf(angle 3))",
+    "Equals(MeasureOf(Angle(K, Z, H)), MeasureOf(angle 4))",
+    "PointLiesOnLine(X, Line(Z, E))",
+    "PointLiesOnLine(Y, Line(Z, I)) K))",
+    "PointLiesOnLine(Z, Line(I, K))",
+    "PointLiesOnLine(Y, Line(I, K))",
+    "PointLiesOnLine(Z, Line(K, Y))",
+    "PointLiesOnLine(W, Line(L, M))",
+    "PointLiesOnLine(Y, Line(L, M))",
+    "PointLiesOnLine(W, Line(L, Y))",
+    "PointLiesOnLine(Y, Line(M, W))",
+    "PointLiesOnLine(X, Line(G, N))",
+    "PointLiesOnLine(W, Line(G, N))",
+    "PointLiesOnLine(W, Line(G, X))",
+    "PointLiesOnLine(X, Line(N, W))",
+    "PointLiesOnLine(Z, Line(X, H))",
+    "PointLiesOnLine(Z, Line(E, H))",
+    "PointLiesOnLine(X, Line(E, H))",
+    "Parallel(Line(G,N), Line(I,K))",
+    "Parallel(Line(L,M), Line(E,H))"
+  ],
+  "line_instances": [
+    "GN",
+    "GW",
+    "GX",
+    "HE",
+    "HZ",
+    "HZ",
+    "IK",
+    "IY",
+    "IZ",
+    "ML",
+    "MW",
+    "MY",
+    "WL",
+    "WN",
+    "WX",
+    "XE",
+    "XN",
+    "YK",
+    "YL",
+    "YW",
+    "YZ",
+    "ZE",
+    "ZK",
+    "ZX"
+  ],
+  "point_positions": {
+    "E": [
+      331.0,
+      74.0
+    ],
+    "G": [
+      57.0,
+      80.0
+    ],
+    "H": [
+      165.0,
+      365.0
+    ],
+    "I": [
+      1.0,
+      198.0
+    ],
+    "K": [
+      295.0,
+      360.0
+    ],
+    "L": [
+      184.0,
+      6.0
+    ],
+    "M": [
+      23.0,
+      289.0
+    ],
+    "N": [
+      358.0,
+      248.0
+    ],
+    "W": [
+      122.0,
+      116.0
+    ],
+    "X": [
+      261.0,
+      194.0
+    ],
+    "Y": [
+      58.0,
+      228.0
+    ],
+    "Z": [
+      199.0,
+      305.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

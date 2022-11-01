@@ -1,0 +1,49 @@
+{
+  "text_logic_form": [
+    "Triangle(A,B,C)",
+    "IsOrthocenterOf(Point($1), Triangle(A,B,C))",
+    "Equals(LengthOf(Line($1, D)), 6.4)",
+    "Find(LengthOf(Line(B,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(A,B,C)",
+    "IsOrthocenterOf(Point(E), Triangle(A,B,C))",
+    "Equals(LengthOf(Line(E, D)), 6.4)",
+    "Find(LengthOf(Line(B,C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, D)), 5.3)",
+    "PointLiesOnLine(D, Line(C, A))",
+    "Perpendicular(Line(C, D), Line(B, D))",
+    "Perpendicular(Line(B, A), Line(B, C))"
+  ],
+  "line_instances": [
+    "AD",
+    "BA",
+    "BC",
+    "BD",
+    "CA",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      0.0
+    ],
+    "B": [
+      2.0,
+      207.0
+    ],
+    "C": [
+      254.0,
+      208.0
+    ],
+    "D": [
+      104.0,
+      84.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

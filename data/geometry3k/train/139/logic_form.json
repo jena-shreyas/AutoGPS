@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Sector($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Sector(B,A,C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(A, B, C)), 10)",
+    "Equals(LengthOf(Line(B, C)), 3)",
+    "PointLiesOnCircle(A, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(C, Circle(B, radius_1_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC"
+  ],
+  "point_positions": {
+    "A": [
+      2.0,
+      90.0
+    ],
+    "B": [
+      109.0,
+      109.0
+    ],
+    "C": [
+      8.0,
+      107.0
+    ]
+  },
+  "circle_instances": [
+    "B"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot F, G K = 14 and m \\widehat G H K = 142. Find m \\widehat G H.",
+  "choices": [
+    "38",
+    "71",
+    "76",
+    "142"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 757,
+  "annot_id": "Shibiao_2020-03-28_11_49_12",
+  "is_standard": false,
+  "compact_choices": [
+    "38",
+    "71",
+    "76",
+    "142"
+  ],
+  "precise_value": [
+    38.0,
+    71.0,
+    76.0,
+    142.0
+  ],
+  "rough_value": [
+    38,
+    71,
+    76,
+    142
+  ],
+  "compact_text": "In \\odot F, GK = 14 and m \\widehat GHK = 142. Find m \\widehat GH.",
+  "annotat_text": "In $\\odot F$, $GK=14$ and $m \\widehat{GHK}=142$. Find $m \\widehat {GH}$.",
+  "unit": "",
+  "img_width": 429,
+  "img_height": 426,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

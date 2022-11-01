@@ -1,0 +1,56 @@
+{
+  "text_logic_form": [
+    "Rhombus(W,X,Z,Y)",
+    "Equals(MeasureOf(Angle(X,Z,Y)),56)",
+    "Find(MeasureOf(Angle(Y,W,Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rhombus(W,X,Z,Y)",
+    "Equals(MeasureOf(Angle(X,Z,Y)),56)",
+    "Find(MeasureOf(Angle(Y,W,Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Y, X, W)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(Z, X, T)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(W, T, X)), MeasureOf(angle 3))",
+    "PointLiesOnLine(T, Line(Z, W))",
+    "PointLiesOnLine(T, Line(Y, X))"
+  ],
+  "line_instances": [
+    "WT",
+    "WX",
+    "XT",
+    "YT",
+    "YW",
+    "YX",
+    "ZT",
+    "ZW",
+    "ZX",
+    "ZY"
+  ],
+  "point_positions": {
+    "T": [
+      182.0,
+      103.0
+    ],
+    "W": [
+      2.0,
+      0.0
+    ],
+    "X": [
+      267.0,
+      2.0
+    ],
+    "Y": [
+      96.0,
+      204.0
+    ],
+    "Z": [
+      361.0,
+      204.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(A,B,D)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(A,B,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, G, B)), 154)",
+    "PointLiesOnCircle(B, Circle(G, radius_5_0))",
+    "PointLiesOnCircle(C, Circle(G, radius_5_0))",
+    "PointLiesOnCircle(D, Circle(G, radius_5_0))",
+    "Tangent(Line(A,B), Circle(G))"
+  ],
+  "line_instances": [
+    "AB",
+    "BD"
+  ],
+  "point_positions": {
+    "A": [
+      33.0,
+      280.0
+    ],
+    "B": [
+      224.0,
+      281.0
+    ],
+    "C": [
+      124.0,
+      55.0
+    ],
+    "D": [
+      319.0,
+      24.0
+    ],
+    "G": [
+      244.0,
+      145.0
+    ]
+  },
+  "circle_instances": [
+    "G"
+  ]
+}

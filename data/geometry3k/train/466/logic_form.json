@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Kite(A,B,C,D)",
+    "Find(LengthOf(Line(A,B)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Kite(A,B,C,D)",
+    "Find(LengthOf(Line(A,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, E)), 4)",
+    "Equals(LengthOf(Line(B, E)), 3)",
+    "PointLiesOnLine(E, Line(B, D))",
+    "PointLiesOnLine(E, Line(C, A))"
+  ],
+  "line_instances": [
+    "AE",
+    "BA",
+    "BC",
+    "BD",
+    "BE",
+    "CA",
+    "CE",
+    "DA",
+    "DC",
+    "DE"
+  ],
+  "point_positions": {
+    "A": [
+      145.0,
+      1.0
+    ],
+    "B": [
+      218.0,
+      85.0
+    ],
+    "C": [
+      144.0,
+      168.0
+    ],
+    "D": [
+      0.0,
+      84.0
+    ],
+    "E": [
+      144.0,
+      85.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

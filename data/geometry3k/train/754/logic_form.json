@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "IsHypotenuseOf(Line($1,$3), Triangle($1,$2,$3))",
+    "Find(LengthOf(AltitudeOf(Triangle($1,$2,$3))))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsHypotenuseOf(Line(E,H), Triangle(E,F,G))",
+    "Find(LengthOf(AltitudeOf(Triangle(E,F,G))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(F, H)), 12)",
+    "Equals(LengthOf(Line(G, H)), 12)",
+    "PointLiesOnLine(H, Line(F, G))",
+    "Perpendicular(Line(E, H), Line(G, H))",
+    "Perpendicular(Line(F, E), Line(E, G))"
+  ],
+  "line_instances": [
+    "EG",
+    "EH",
+    "FE",
+    "FG",
+    "FH",
+    "GH"
+  ],
+  "point_positions": {
+    "E": [
+      1.0,
+      142.0
+    ],
+    "F": [
+      1.0,
+      1.0
+    ],
+    "G": [
+      147.0,
+      143.0
+    ],
+    "H": [
+      74.0,
+      71.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

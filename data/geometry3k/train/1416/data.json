@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot Z, \\angle W Z X \\cong \\angle X Z Y, m \\angle V Z U = 4 x, m \\angle U Z Y = 2 x + 24, and V Y and W U are diameters. Find m \\widehat W X.",
+  "choices": [
+    "48",
+    "52",
+    "90",
+    "180"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter10.pdf page 14",
+  "comment": "",
+  "id": 1416,
+  "annot_id": "Ran_2020-03-28_02_30_56",
+  "is_standard": false,
+  "compact_choices": [
+    "48",
+    "52",
+    "90",
+    "180"
+  ],
+  "precise_value": [
+    48.0,
+    52.0,
+    90.0,
+    180.0
+  ],
+  "rough_value": [
+    48,
+    52,
+    90,
+    180
+  ],
+  "compact_text": "In \\odot Z, \\angle WZX \\cong \\angle XZY, m \\angle VZU = 4x, m \\angle UZY = 2x+24, and VY and WU are diameters. Find m \\widehat WX.",
+  "annotat_text": "In $\\odot Z, \\angle W Z X \\cong \\angle X Z Y, m \\angle V Z U=4 x$, $m \\angle U Z Y=2 x+24,$ and $\\overline{V Y}$ and $\\overline{W U}$ are diameters.\r\nFind $m\\widehat{W X}$",
+  "unit": "",
+  "img_width": 382,
+  "img_height": 275,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

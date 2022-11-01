@@ -1,0 +1,40 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Triangle(C,D,E)),336)",
+    "Find(LengthOf(Line(C,E)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Triangle(C,D,E)),336)",
+    "Find(LengthOf(Line(C,E)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, F)), 24)",
+    "PointLiesOnLine(F, Line(C, E))",
+    "Perpendicular(Line(D, F), Line(C, F))"
+  ],
+  "line_instances": [
+    "CD",
+    "CE",
+    "DE",
+    "CF",
+    "EF",
+    "DF"
+  ],
+  "point_positions": {
+    "C": [
+      1.0,
+      94.0
+    ],
+    "D": [
+      27.0,
+      1.0
+    ],
+    "E": [
+      206.0,
+      96.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

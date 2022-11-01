@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find A S.",
+  "choices": [
+    "7",
+    "7.8",
+    "8",
+    "9.2"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 23",
+  "comment": "",
+  "id": 439,
+  "annot_id": "Ran_2020-03-20_16_54_21",
+  "is_standard": false,
+  "compact_choices": [
+    "7",
+    "7.8",
+    "8",
+    "9.2"
+  ],
+  "precise_value": [
+    7.0,
+    7.8,
+    8.0,
+    9.2
+  ],
+  "rough_value": [
+    7,
+    7.8,
+    8,
+    9.2
+  ],
+  "compact_text": "Find AS.",
+  "annotat_text": "Find AS",
+  "unit": "",
+  "img_width": 521,
+  "img_height": 544,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

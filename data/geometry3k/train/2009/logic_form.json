@@ -1,0 +1,34 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(Y,Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(Y,Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Y, X)), 4)",
+    "Equals(LengthOf(Line(Z, X)), 4)",
+    "Equals(MeasureOf(Angle(X, Y, Z)), 60)",
+    "Equals(MeasureOf(Angle(Y, Z, X)), 60)"
+  ],
+  "line_instances": [
+    "YZ",
+    "YX",
+    "ZX"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "Y": [
+      -1.4210854715202004e-14,
+      214.0
+    ],
+    "Z": [
+      245.0935876310789,
+      212.00293566166027
+    ],
+    "X": [
+      123.59534148731076,
+      0.7891849183021975
+    ]
+  }
+}

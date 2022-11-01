@@ -1,0 +1,34 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(T, W)), x)",
+    "Equals(MeasureOf(Angle(S, W, T)), 63)",
+    "Equals(MeasureOf(Angle(T, S, W)), 31)",
+    "Equals(LengthOf(Line(S, W)), 14)"
+  ],
+  "line_instances": [
+    "TS",
+    "TW",
+    "SW"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "T": [
+      204.38469611196885,
+      2.0280830280830315
+    ],
+    "S": [
+      2.1341309629994214,
+      121.66716902982397
+    ],
+    "W": [
+      270.0,
+      122.0
+    ]
+  }
+}

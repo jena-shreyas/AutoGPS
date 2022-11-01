@@ -1,0 +1,45 @@
+{
+  "text_logic_form": [
+    "Find(CircumferenceOf(Circle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(CircumferenceOf(Circle(D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 30)",
+    "Equals(LengthOf(Line(C, A)), 16)",
+    "PointLiesOnLine(D, Line(B, C))",
+    "PointLiesOnCircle(A, Circle(D, radius_3_0))",
+    "PointLiesOnCircle(B, Circle(D, radius_3_0))",
+    "PointLiesOnCircle(C, Circle(D, radius_3_0))",
+    "Perpendicular(Line(A, B), Line(A, C))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC",
+    "BD",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      40.0,
+      149.0
+    ],
+    "B": [
+      41.0,
+      13.0
+    ],
+    "C": [
+      123.0,
+      152.0
+    ],
+    "D": [
+      84.0,
+      80.0
+    ]
+  },
+  "circle_instances": [
+    "D"
+  ]
+}

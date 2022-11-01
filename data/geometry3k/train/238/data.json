@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\angle P.",
+  "choices": [
+    "60",
+    "70",
+    "100",
+    "120"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 238,
+  "annot_id": "Shibiao_2020-03-28_09_27_24",
+  "is_standard": false,
+  "compact_choices": [
+    "60",
+    "70",
+    "100",
+    "120"
+  ],
+  "precise_value": [
+    60.0,
+    70.0,
+    100.0,
+    120.0
+  ],
+  "rough_value": [
+    60,
+    70,
+    100,
+    120
+  ],
+  "compact_text": "Find m \\angle P.",
+  "annotat_text": "Find $m \\angle P$.",
+  "unit": "",
+  "img_width": 529,
+  "img_height": 479,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

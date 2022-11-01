@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot F, find m \\widehat A E D.",
+  "choices": [
+    "63",
+    "93",
+    "123",
+    "153"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 294,
+  "annot_id": "Shibiao_2020-03-27_11_51_06",
+  "is_standard": false,
+  "compact_choices": [
+    "63",
+    "93",
+    "123",
+    "153"
+  ],
+  "precise_value": [
+    63.0,
+    93.0,
+    123.0,
+    153.0
+  ],
+  "rough_value": [
+    63,
+    93,
+    123,
+    153
+  ],
+  "compact_text": "In \\odot F, find m \\widehat AED.",
+  "annotat_text": "In $\\odot F$, find $m \\widehat {AED}$.",
+  "unit": "",
+  "img_width": 479,
+  "img_height": 466,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

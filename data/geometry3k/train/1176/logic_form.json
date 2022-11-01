@@ -1,0 +1,50 @@
+{
+  "text_logic_form": [
+    "Equals(MeasureOf(Angle(11)),4x)",
+    "Equals(MeasureOf(Angle(12)),2x-6)",
+    "Find(MeasureOf(Angle(12)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(MeasureOf(Angle(11)),4x)",
+    "Equals(MeasureOf(Angle(12)),2x-6)",
+    "Find(MeasureOf(Angle(12)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, F, H)), MeasureOf(Angle(11)))",
+    "Equals(MeasureOf(Angle(K, F, A)), MeasureOf(Angle(12)))",
+    ""
+  ],
+  "line_instances": [
+    "BF",
+    "BK",
+    "DA",
+    "DF",
+    "FA",
+    "FK"
+  ],
+  "point_positions": {
+    "A": [
+      307.0,
+      106.0
+    ],
+    "B": [
+      31.0,
+      101.0
+    ],
+    "D": [
+      17.0,
+      10.0
+    ],
+    "F": [
+      163.0,
+      58.0
+    ],
+    "H": [
+      316.0,
+      16.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

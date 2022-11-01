@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(X, P, Q)), 4x)",
+    "Equals(MeasureOf(Angle(R, Q, P)), 2x)",
+    "Equals(MeasureOf(Angle(R, X, P)), x)",
+    "Equals(MeasureOf(Angle(X, R, Q)), 5x)"
+  ],
+  "line_instances": [
+    "PQ",
+    "RQ",
+    "XP",
+    "XR"
+  ],
+  "point_positions": {
+    "P": [
+      228.0,
+      1.0
+    ],
+    "Q": [
+      265.0,
+      64.0
+    ],
+    "R": [
+      112.0,
+      64.0
+    ],
+    "X": [
+      0.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(P, Q)), 37)",
+    "Equals(LengthOf(Line(R, Q)), 58)",
+    "Perpendicular(Line(P, Q), Line(R, P))"
+  ],
+  "line_instances": [
+    "RP",
+    "RQ",
+    "PQ"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "R": [
+      201.81682102251335,
+      166.88957156840598
+    ],
+    "P": [
+      92.29787995348421,
+      1.4481617318185869
+    ],
+    "Q": [
+      -1.4210854715202004e-14,
+      61.0
+    ]
+  }
+}

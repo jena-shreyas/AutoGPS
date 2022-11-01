@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the perimeter of the triangle. Round to the nearest tenth if necessary.",
+  "choices": [
+    "6",
+    "9.6",
+    "12",
+    "13.2"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 459,
+  "annot_id": "pan_2020-03-23_07_55_56",
+  "is_standard": false,
+  "unit": "mm",
+  "compact_choices": [
+    "6",
+    "9.6",
+    "12",
+    "13.2"
+  ],
+  "precise_value": [
+    6.0,
+    9.6,
+    12.0,
+    13.2
+  ],
+  "rough_value": [
+    6,
+    9.6,
+    12,
+    13.2
+  ],
+  "compact_text": "Find the perimeter of the triangle. Round to the nearest tenth if necessary.",
+  "annotat_text": "Find the perimeter of the triangle. Round to the nearest tenth if necessary.",
+  "img_width": 273,
+  "img_height": 177,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

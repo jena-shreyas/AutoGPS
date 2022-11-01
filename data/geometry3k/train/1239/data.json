@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find L N.",
+  "choices": [
+    "11",
+    "15",
+    "17",
+    "29"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_4.pdf",
+  "comment": "",
+  "id": 1239,
+  "annot_id": "Shibiao_2020-03-21_12_01_25",
+  "is_standard": false,
+  "compact_choices": [
+    "11",
+    "15",
+    "17",
+    "29"
+  ],
+  "precise_value": [
+    11.0,
+    15.0,
+    17.0,
+    29.0
+  ],
+  "rough_value": [
+    11,
+    15,
+    17,
+    29
+  ],
+  "compact_text": "Find LN.",
+  "annotat_text": "Find $LN$.",
+  "unit": "",
+  "img_width": 623,
+  "img_height": 408,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

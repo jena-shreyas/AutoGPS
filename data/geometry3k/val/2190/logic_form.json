@@ -1,0 +1,59 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Regular(Pentagon($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Regular(Pentagon(A,E,D,B,C))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, E)), 4y-2)",
+    "Equals(LengthOf(Line(F, G)), 2y)",
+    "PointLiesOnLine(G, Line(C, B))",
+    "Perpendicular(Line(F, G), Line(G, B))"
+  ],
+  "line_instances": [
+    "AC",
+    "AE",
+    "BD",
+    "BF",
+    "BG",
+    "CB",
+    "CG",
+    "ED",
+    "EG",
+    "FG"
+  ],
+  "point_positions": {
+    "A": [
+      2.0,
+      66.0
+    ],
+    "B": [
+      147.0,
+      171.0
+    ],
+    "C": [
+      36.0,
+      170.0
+    ],
+    "D": [
+      181.0,
+      65.0
+    ],
+    "E": [
+      90.0,
+      1.0
+    ],
+    "F": [
+      90.0,
+      97.0
+    ],
+    "G": [
+      93.0,
+      171.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

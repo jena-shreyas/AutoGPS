@@ -1,0 +1,48 @@
+{
+  "problem_text": "If K L M N is a parallelogram, fnd x.",
+  "choices": [
+    "4",
+    "5",
+    "12",
+    "26"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter6.pdf page 61",
+  "comment": "",
+  "id": 1379,
+  "annot_id": "Ran_2020-03-19_06_38_28",
+  "is_standard": false,
+  "compact_choices": [
+    "4",
+    "5",
+    "12",
+    "26"
+  ],
+  "precise_value": [
+    4.0,
+    5.0,
+    12.0,
+    26.0
+  ],
+  "rough_value": [
+    4,
+    5,
+    12,
+    26
+  ],
+  "compact_text": "If KLMN is a parallelogram, fnd x.",
+  "annotat_text": "If KLMN is a parallelogram, find the value of the indicated variable. \r\nFind x",
+  "unit": "",
+  "img_width": 462,
+  "img_height": 230,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Isosceles(Trapezoid(X,Y,Z,W))",
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Trapezoid(X,Y,Z,W))",
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, A)), 8z)",
+    "Equals(MeasureOf(Angle(X, Y, A)), 70)"
+  ],
+  "line_instances": [
+    "XY",
+    "XB",
+    "YA",
+    "BA"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "X": [
+      0.25289485873089745,
+      108.6709896557048
+    ],
+    "A": [
+      77.0,
+      0.0
+    ],
+    "Y": [
+      115.66270647699443,
+      109.98853629305404
+    ],
+    "B": [
+      41.087472821542065,
+      1.3105870546914176
+    ]
+  }
+}

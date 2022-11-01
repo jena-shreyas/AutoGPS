@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the perimeter of \\triangle C P D if the perimeter of \\triangle B P A is 12, B M = \\sqrt { 13 }, and C N = 3 \\sqrt { 13 }.",
+  "choices": [
+    "6",
+    "12",
+    "24",
+    "36"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 57",
+  "comment": "",
+  "id": 221,
+  "annot_id": "Ran_2020-03-21_08_13_47",
+  "is_standard": false,
+  "compact_choices": [
+    "6",
+    "12",
+    "24",
+    "36"
+  ],
+  "precise_value": [
+    6.0,
+    12.0,
+    24.0,
+    36.0
+  ],
+  "rough_value": [
+    6,
+    12,
+    24,
+    36
+  ],
+  "compact_text": "Find the perimeter of \\triangle CPD if the perimeter of \\triangle BPA is 12, BM = \\sqrt{13}, and CN = 3\\sqrt{13}.",
+  "annotat_text": "Find the perimeter of $\\triangle C P D$ if the perimeter of $\\triangle B P A$ is 12 $, B M=\\sqrt{13},$ and $C N=3 \\sqrt{13}$",
+  "unit": "",
+  "img_width": 425,
+  "img_height": 253,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

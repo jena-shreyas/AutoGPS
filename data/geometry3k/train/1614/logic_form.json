@@ -1,0 +1,65 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(S, A, Q)), 103)",
+    "Equals(MeasureOf(Angle(U, A, T)), 43)",
+    "PointLiesOnLine(U, Line(F, R))",
+    "PointLiesOnLine(S, Line(F, R))",
+    "PointLiesOnLine(S, Line(F, U))",
+    "PointLiesOnLine(U, Line(R, S))",
+    "PointLiesOnLine(T, Line(R, Q))",
+    "PointLiesOnCircle(U, Circle(A, radius_2_0))",
+    "PointLiesOnCircle(T, Circle(A, radius_2_0))",
+    "PointLiesOnCircle(S, Circle(A, radius_2_0))",
+    "PointLiesOnCircle(Q, Circle(A, radius_2_0))"
+  ],
+  "line_instances": [
+    "FR",
+    "FS",
+    "FU",
+    "RQ",
+    "RS",
+    "RT",
+    "RU",
+    "TQ",
+    "US"
+  ],
+  "point_positions": {
+    "A": [
+      282.0,
+      145.0
+    ],
+    "F": [
+      384.0,
+      2.0
+    ],
+    "Q": [
+      383.0,
+      213.0
+    ],
+    "R": [
+      1.0,
+      175.0
+    ],
+    "S": [
+      324.0,
+      29.0
+    ],
+    "T": [
+      168.0,
+      192.0
+    ],
+    "U": [
+      167.0,
+      100.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

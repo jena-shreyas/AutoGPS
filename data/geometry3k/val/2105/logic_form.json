@@ -1,0 +1,34 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(E, F)), 9)",
+    "Equals(LengthOf(Line(G, F)), x)",
+    "Equals(MeasureOf(Angle(F, E, G)), 48)",
+    "Equals(LengthOf(Line(G, E)), 13)"
+  ],
+  "line_instances": [
+    "GE",
+    "GF",
+    "EF"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "G": [
+      423.57728149759845,
+      259.8363370143821
+    ],
+    "E": [
+      0.0,
+      168.0
+    ],
+    "F": [
+      282.10418039086517,
+      1.4677481335089908
+    ]
+  }
+}

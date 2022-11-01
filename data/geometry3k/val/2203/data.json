@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot F, m \\angle D F A = 50 and C F \\perp F B. Find m \\widehat B E.",
+  "choices": [
+    "50",
+    "60",
+    "120",
+    "130"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter10.pdf page 12",
+  "comment": "",
+  "id": 2203,
+  "annot_id": "Ran_2020-03-28_01_56_21",
+  "is_standard": false,
+  "compact_choices": [
+    "50",
+    "60",
+    "120",
+    "130"
+  ],
+  "precise_value": [
+    50.0,
+    60.0,
+    120.0,
+    130.0
+  ],
+  "rough_value": [
+    50,
+    60,
+    120,
+    130
+  ],
+  "compact_text": "In \\odot F, m \\angle DFA = 50 and CF \\perp FB. Find m \\widehat BE.",
+  "annotat_text": "In $\\odot F, m \\angle D F A=50$ and $\\overline{C F} \\perp \\overline{F B}$. Find $m \\widehat{B E}$",
+  "unit": "",
+  "img_width": 277,
+  "img_height": 272,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

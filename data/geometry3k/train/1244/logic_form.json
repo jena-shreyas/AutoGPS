@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Congruent(Triangle(P,Q,S),Triangle(R,Q,S))",
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Congruent(Triangle(P,Q,S),Triangle(R,Q,S))",
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Q, P)), 2x)",
+    "Equals(LengthOf(Line(R, Q)), 3y+8)",
+    "Equals(LengthOf(Line(R, S)), 2y)",
+    "Equals(LengthOf(Line(P, S)), x)",
+    "PointLiesOnLine(S, Line(R, P))",
+    "Perpendicular(Line(Q, S), Line(R, S))"
+  ],
+  "line_instances": [
+    "PS",
+    "QP",
+    "QS",
+    "RP",
+    "RQ",
+    "RS"
+  ],
+  "point_positions": {
+    "P": [
+      1.0,
+      322.0
+    ],
+    "Q": [
+      338.0,
+      1.0
+    ],
+    "R": [
+      674.0,
+      322.0
+    ],
+    "S": [
+      336.0,
+      322.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Similar(Shape($1),Shape($2))",
+    "Find(ScaleFactorOf(Blue(Shape($)),Green(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Rectangle(A, B, E, C),Rectangle(F, G, H, I))",
+    "Find(ScaleFactorOf(Blue(Rectangle(A, B, E, C)),Green(Rectangle(F, G, H, I))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(E, C)), 12)",
+    "Equals(LengthOf(Line(H, I)), x)",
+    "Equals(AreaOf(Rectangle(A, B, E, C)), 72)",
+    "Equals(AreaOf(Rectangle(F, G, H, I)), 50)"
+  ],
+  "line_instances": [
+    "BA",
+    "CA",
+    "EB",
+    "EC"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      0.0
+    ],
+    "B": [
+      125.0,
+      2.0
+    ],
+    "C": [
+      0.0,
+      69.0
+    ],
+    "E": [
+      127.0,
+      69.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

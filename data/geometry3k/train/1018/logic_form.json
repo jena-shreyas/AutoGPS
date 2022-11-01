@@ -1,0 +1,67 @@
+{
+  "text_logic_form": [
+    "Find(z)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(z)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, A, E)), 5y+5)",
+    "Equals(MeasureOf(Angle(A, D, E)), 4z+9)",
+    "Equals(MeasureOf(Angle(C, E, A)), 135)",
+    "Equals(MeasureOf(Angle(A, D, F)), 9y-2)",
+    "PointLiesOnLine(E, Line(D, C))",
+    "PointLiesOnLine(B, Line(D, F))",
+    "PointLiesOnLine(D, Line(E, B))",
+    "PointLiesOnLine(B, Line(E, F))",
+    "PointLiesOnLine(D, Line(E, F))",
+    "PointLiesOnLine(D, Line(B, C))",
+    "PointLiesOnLine(E, Line(B, C))",
+    "PointLiesOnLine(B, Line(C, F))",
+    "PointLiesOnLine(D, Line(C, F))",
+    "PointLiesOnLine(E, Line(C, F))"
+  ],
+  "line_instances": [
+    "AD",
+    "AE",
+    "BC",
+    "BF",
+    "CF",
+    "DB",
+    "DC",
+    "DE",
+    "DF",
+    "EB",
+    "EC",
+    "EF"
+  ],
+  "point_positions": {
+    "A": [
+      362.0,
+      0.0
+    ],
+    "B": [
+      677.0,
+      298.0
+    ],
+    "C": [
+      0.0,
+      295.0
+    ],
+    "D": [
+      496.0,
+      296.0
+    ],
+    "E": [
+      72.0,
+      296.0
+    ],
+    "F": [
+      704.0,
+      296.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Equals(Line(M,S),AltitudeOf(Triangle(M,N,Q)))",
+    "Equals(MeasureOf(Angle(1)),3x+11)",
+    "Equals(MeasureOf(Angle(2)),7x+9)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(Line(M,S),AltitudeOf(Triangle(M,N,Q)))",
+    "Equals(MeasureOf(Angle(1)),3x+11)",
+    "Equals(MeasureOf(Angle(2)),7x+9)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Q, S, R)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(R, S, M)), MeasureOf(angle 1))",
+    "PointLiesOnLine(S, Line(N, Q))",
+    "PointLiesOnLine(R, Line(Q, M))",
+    "Equals(LengthOf(Line(S, Q)), LengthOf(Line(S, N)))"
+  ],
+  "line_instances": [
+    "MR",
+    "NM",
+    "NQ",
+    "QM",
+    "QR",
+    "SM",
+    "SN",
+    "SQ",
+    "SR"
+  ],
+  "point_positions": {
+    "M": [
+      169.0,
+      3.0
+    ],
+    "N": [
+      257.0,
+      139.0
+    ],
+    "Q": [
+      0.0,
+      20.0
+    ],
+    "R": [
+      85.0,
+      11.0
+    ],
+    "S": [
+      130.0,
+      80.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

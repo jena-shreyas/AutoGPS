@@ -1,0 +1,48 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Regular(Polygon($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Regular(Pentagon(A,C,E,B,D))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, F)), 5)"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "BE",
+    "CE",
+    "CF",
+    "DB"
+  ],
+  "point_positions": {
+    "A": [
+      100.0,
+      1.0
+    ],
+    "B": [
+      161.0,
+      190.0
+    ],
+    "C": [
+      2.0,
+      76.0
+    ],
+    "D": [
+      200.0,
+      74.0
+    ],
+    "E": [
+      39.0,
+      189.0
+    ],
+    "F": [
+      105.0,
+      95.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

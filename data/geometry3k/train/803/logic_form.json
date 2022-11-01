@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Trapezoid(A,B,C,D)),750)",
+    "Find(HeightOf(Quadrilateral(A,B,C,D)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Trapezoid(A,B,C,D)),750)",
+    "Find(HeightOf(Quadrilateral(A,B,C,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, A)), 35)",
+    "Equals(LengthOf(Line(C, D)), 25)"
+  ],
+  "line_instances": [
+    "AD",
+    "BA",
+    "BC",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      3.0
+    ],
+    "B": [
+      245.0,
+      1.0
+    ],
+    "C": [
+      208.0,
+      141.0
+    ],
+    "D": [
+      35.0,
+      141.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

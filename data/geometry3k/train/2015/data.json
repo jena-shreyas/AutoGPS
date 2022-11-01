@@ -1,0 +1,48 @@
+{
+  "problem_text": "If A D = 8, A E = 12, and E C = 18, find A B.",
+  "choices": [
+    "15",
+    "16",
+    "18",
+    "20"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 44",
+  "comment": "",
+  "id": 2015,
+  "annot_id": "Ran_2020-03-21_07_38_08",
+  "is_standard": false,
+  "compact_choices": [
+    "15",
+    "16",
+    "18",
+    "20"
+  ],
+  "precise_value": [
+    15.0,
+    16.0,
+    18.0,
+    20.0
+  ],
+  "rough_value": [
+    15,
+    16,
+    18,
+    20
+  ],
+  "compact_text": "If AD = 8, AE = 12, and EC = 18, find AB.",
+  "annotat_text": "If $A D=8, A E=12,$ and $E C=18,$ find $A B$",
+  "unit": "",
+  "img_width": 273,
+  "img_height": 219,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

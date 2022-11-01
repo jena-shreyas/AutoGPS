@@ -1,0 +1,48 @@
+{
+  "problem_text": "If P R \\parallel W X, W X = 10, X Y = 6, W Y = 8, R Y = 5, and P S = 3, find S Y.",
+  "choices": [
+    "3",
+    "4",
+    "6",
+    "6.5"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 24",
+  "comment": "",
+  "id": 860,
+  "annot_id": "Ran_2020-03-20_16_57_40",
+  "is_standard": false,
+  "compact_choices": [
+    "3",
+    "4",
+    "6",
+    "6.5"
+  ],
+  "precise_value": [
+    3.0,
+    4.0,
+    6.0,
+    6.5
+  ],
+  "rough_value": [
+    3,
+    4,
+    6,
+    6.5
+  ],
+  "compact_text": "If PR \\parallel WX, WX = 10, XY = 6, WY = 8, RY = 5, and PS = 3, find SY.",
+  "annotat_text": "If PR || WX, WX = 10, XY = 6, WY = 8, RY = 5, and PS = 3, find SY",
+  "unit": "",
+  "img_width": 545,
+  "img_height": 383,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

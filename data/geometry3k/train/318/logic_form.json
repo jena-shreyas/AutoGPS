@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Parallelogram(Q,R,S,T)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallelogram(Q,R,S,T)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(R, Q, S)), 33)",
+    "Equals(LengthOf(Line(R, P)), y+4)",
+    "Equals(MeasureOf(Angle(S, Q, T)), 95)",
+    "Equals(LengthOf(Line(T, Q)), 5x)",
+    "Equals(LengthOf(Line(R, S)), 27)",
+    "Equals(LengthOf(Line(T, P)), 2y-5)",
+    "Equals(MeasureOf(Angle(T, S, Q)), 3z)",
+    "PointLiesOnLine(P, Line(R, T))",
+    "PointLiesOnLine(P, Line(S, Q))"
+  ],
+  "line_instances": [
+    "PQ",
+    "RP",
+    "RQ",
+    "RS",
+    "RT",
+    "SP",
+    "SQ",
+    "TP",
+    "TQ",
+    "TS"
+  ],
+  "point_positions": {
+    "P": [
+      322.0,
+      106.0
+    ],
+    "Q": [
+      162.0,
+      3.0
+    ],
+    "R": [
+      644.0,
+      1.0
+    ],
+    "S": [
+      481.0,
+      208.0
+    ],
+    "T": [
+      2.0,
+      209.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

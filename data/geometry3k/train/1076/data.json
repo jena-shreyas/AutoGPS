@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x.",
+  "choices": [
+    "80",
+    "85",
+    "90",
+    "95"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "",
+  "id": 1076,
+  "annot_id": "pan_2020-03-25_22_50_26",
+  "is_standard": false,
+  "compact_choices": [
+    "80",
+    "85",
+    "90",
+    "95"
+  ],
+  "precise_value": [
+    80.0,
+    85.0,
+    90.0,
+    95.0
+  ],
+  "rough_value": [
+    80,
+    85,
+    90,
+    95
+  ],
+  "compact_text": "Find x.",
+  "annotat_text": "Find x.",
+  "unit": "",
+  "img_width": 221,
+  "img_height": 255,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

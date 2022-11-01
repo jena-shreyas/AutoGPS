@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(A, D, H)), 3x)",
+    "Equals(MeasureOf(Angle(H, D, E)), x)",
+    "PointLiesOnLine(D, Line(A, E))"
+  ],
+  "line_instances": [
+    "AD",
+    "DE",
+    "DH"
+  ],
+  "point_positions": {
+    "A": [
+      5.0,
+      9.0
+    ],
+    "D": [
+      161.0,
+      8.0
+    ],
+    "E": [
+      350.0,
+      10.0
+    ],
+    "H": [
+      260.0,
+      106.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

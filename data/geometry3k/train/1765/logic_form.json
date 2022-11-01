@@ -1,0 +1,73 @@
+{
+  "text_logic_form": [
+    "IsMedianOf(Line(W,P),Shape($))",
+    "BisectsAngle(Line(W,P),Angle($))",
+    "Equals(LengthOf(Line(A,P)),3y+11)",
+    "Equals(LengthOf(Line(P,H)),7y-5)",
+    "Equals(MeasureOf(Angle(H,W,P)),x+12)",
+    "Equals(MeasureOf(Angle(P,A,W)),3x-2)",
+    "Equals(MeasureOf(Angle(H,W,A)),4x-16)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "IsMedianOf(Line(W,P),Triangle(W,H,A))",
+    "BisectsAngle(Line(W,P),Angle(H,W,A))",
+    "Equals(LengthOf(Line(A,P)),3y+11)",
+    "Equals(LengthOf(Line(P,H)),7y-5)",
+    "Equals(MeasureOf(Angle(H,W,P)),x+12)",
+    "Equals(MeasureOf(Angle(P,A,W)),3x-2)",
+    "Equals(MeasureOf(Angle(H,W,A)),4x-16)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(Q, Line(W, A))",
+    "PointLiesOnLine(X, Line(W, P))",
+    "PointLiesOnLine(P, Line(H, A))",
+    "PointLiesOnLine(X, Line(H, Q))",
+    ""
+  ],
+  "line_instances": [
+    "HA",
+    "HP",
+    "HQ",
+    "PA",
+    "QA",
+    "WA",
+    "WH",
+    "WP",
+    "WQ",
+    "XH",
+    "XP",
+    "XQ",
+    "XW"
+  ],
+  "point_positions": {
+    "A": [
+      210.0,
+      125.0
+    ],
+    "H": [
+      134.0,
+      1.0
+    ],
+    "P": [
+      172.0,
+      63.0
+    ],
+    "Q": [
+      161.0,
+      136.0
+    ],
+    "W": [
+      1.0,
+      167.0
+    ],
+    "X": [
+      148.0,
+      77.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

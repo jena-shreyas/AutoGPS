@@ -1,0 +1,63 @@
+{
+  "text_logic_form": [
+    "IsMidsegmentOf(Line(J,H),Triangle(K,L,M))",
+    "IsMidsegmentOf(Line(J,P),Triangle(K,L,M))",
+    "IsMidsegmentOf(Line(P,H),Triangle(K,L,M))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "IsMidsegmentOf(Line(J,H),Triangle(K,L,M))",
+    "IsMidsegmentOf(Line(J,P),Triangle(K,L,M))",
+    "IsMidsegmentOf(Line(P,H),Triangle(K,L,M))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(H, P)), 25)",
+    "PointLiesOnLine(P, Line(L, K))",
+    "PointLiesOnLine(H, Line(L, M))",
+    "PointLiesOnLine(J, Line(K, M))"
+  ],
+  "line_instances": [
+    "HJ",
+    "HL",
+    "HM",
+    "HP",
+    "JK",
+    "JP",
+    "LK",
+    "ML",
+    "PK",
+    "PL",
+    "JH",
+    "JM"
+  ],
+  "point_positions": {
+    "H": [
+      392.0,
+      123.0
+    ],
+    "J": [
+      191.0,
+      125.0
+    ],
+    "K": [
+      85.0,
+      7.0
+    ],
+    "L": [
+      470.0,
+      1.0
+    ],
+    "M": [
+      291.0,
+      264.0
+    ],
+    "P": [
+      271.0,
+      4.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

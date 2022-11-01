@@ -1,0 +1,48 @@
+{
+  "problem_text": "A B C D is a rhombus. If P B = 12, A B = 15, and m \\angle A B D = 24. Find m \\angle A C B.",
+  "choices": [
+    "15",
+    "24",
+    "27",
+    "66"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Rhombus"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 47",
+  "comment": "",
+  "id": 364,
+  "annot_id": "Ran_2020-03-19_04_51_00",
+  "is_standard": false,
+  "compact_choices": [
+    "15",
+    "24",
+    "27",
+    "66"
+  ],
+  "precise_value": [
+    15.0,
+    24.0,
+    27.0,
+    66.0
+  ],
+  "rough_value": [
+    15,
+    24,
+    27,
+    66
+  ],
+  "compact_text": "ABCD is a rhombus. If PB = 12, AB = 15, and m \\angle ABD = 24. Find m \\angle ACB.",
+  "annotat_text": "$ABCD$ is a rhombus. If $PB = 12$, $AB = 15$, and $m\\angle ABD = 24$. Find $m\\angle ACB$",
+  "unit": "",
+  "img_width": 305,
+  "img_height": 214,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

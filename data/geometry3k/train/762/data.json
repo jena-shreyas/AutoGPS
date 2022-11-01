@@ -1,0 +1,48 @@
+{
+  "problem_text": "If Q R \\parallel X Y, X Q \\cong Q Z, and Q R = 9.5 units, what is the length of X Y.",
+  "choices": [
+    "4.75",
+    "9.5",
+    "19",
+    "28.5"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 762,
+  "annot_id": "Shibiao_2020-03-22_14_08_55",
+  "is_standard": false,
+  "compact_choices": [
+    "4.75",
+    "9.5",
+    "19",
+    "28.5"
+  ],
+  "precise_value": [
+    4.75,
+    9.5,
+    19.0,
+    28.5
+  ],
+  "rough_value": [
+    4.75,
+    9.5,
+    19,
+    28.5
+  ],
+  "compact_text": "If QR \\parallel XY, XQ \\cong QZ, and QR = 9.5 units, what is the length of XY.",
+  "annotat_text": "If $\\overline{QR} \\| \\overline{XY}, \\overline{XQ} \\cong \\overline{QZ}$, and $QR=9.5$ units, what is the length of $\\overline{XY}$.",
+  "unit": "",
+  "img_width": 611,
+  "img_height": 441,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

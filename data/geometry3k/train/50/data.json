@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the perimeter of \\triangle D E F if \\triangle D E F \\sim \\triangle G F H.",
+  "choices": [
+    "12",
+    "12.25",
+    "12.5",
+    "12.75"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 12.75",
+  "comment": "",
+  "id": 50,
+  "annot_id": "Ran_2020-03-21_07_44_01",
+  "is_standard": false,
+  "compact_choices": [
+    "12",
+    "12.25",
+    "12.5",
+    "12.75"
+  ],
+  "precise_value": [
+    12.0,
+    12.25,
+    12.5,
+    12.75
+  ],
+  "rough_value": [
+    12,
+    12.25,
+    12.5,
+    12.75
+  ],
+  "compact_text": "Find the perimeter of \\triangle DEF if \\triangle DEF \\sim \\triangle GFH.",
+  "annotat_text": "Find the perimeter of $\\triangle D E F$  if  $\\triangle D E F \\sim \\triangle G F H$.",
+  "unit": "",
+  "img_width": 363,
+  "img_height": 227,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

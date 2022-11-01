@@ -1,0 +1,52 @@
+{
+  "text_logic_form": [
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(F, E, A)), 148)",
+    "Equals(MeasureOf(Angle(E, A, F)), 18)",
+    "Equals(MeasureOf(Angle(Y, Z, X)), 5x-y)",
+    "Equals(MeasureOf(Angle(Y, X, Z)), 3x+y)",
+    "Equals(MeasureOf(Angle(X, Y, Z)), MeasureOf(A, E, F))"
+  ],
+  "line_instances": [
+    "AE",
+    "AF",
+    "EF",
+    "XY",
+    "XZ",
+    "YZ"
+  ],
+  "point_positions": {
+    "A": [
+      487.0,
+      137.0
+    ],
+    "E": [
+      297.0,
+      17.0
+    ],
+    "F": [
+      0.0,
+      15.0
+    ],
+    "X": [
+      140.0,
+      247.0
+    ],
+    "Y": [
+      420.0,
+      240.0
+    ],
+    "Z": [
+      -50.0,
+      137.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

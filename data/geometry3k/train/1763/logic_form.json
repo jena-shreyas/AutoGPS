@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(2)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(2)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(R, Q, S)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(P, R, Q)), 33)",
+    "Equals(MeasureOf(Angle(S, Q, P)), 51)",
+    "Equals(MeasureOf(Angle(Q, S, R)), MeasureOf(angle 1))",
+    "PointLiesOnLine(S, Line(R, P))",
+    "Perpendicular(Line(Q, R), Line(Q, P))"
+  ],
+  "line_instances": [
+    "QR",
+    "QP",
+    "QS",
+    "RP",
+    "RS",
+    "PS"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "Q": [
+      1.573872437334387,
+      0.8606283267274648
+    ],
+    "R": [
+      485.81635375591,
+      0.6684126890706779
+    ],
+    "P": [
+      2.6584867075664818,
+      314.1411042944785
+    ],
+    "S": [
+      216.43816430794527,
+      175.54007868929472
+    ]
+  }
+}

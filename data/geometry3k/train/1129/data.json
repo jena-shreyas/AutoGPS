@@ -1,0 +1,50 @@
+{
+  "problem_text": "Square F G H J is inscribed in \\odot K. Find the measure of a central angle.",
+  "choices": [
+    "45",
+    "60",
+    "90",
+    "180"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Square",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 1129,
+  "annot_id": "pan_2020-03-23_04_35_59",
+  "is_standard": false,
+  "compact_choices": [
+    "45",
+    "60",
+    "90",
+    "180"
+  ],
+  "precise_value": [
+    45.0,
+    60.0,
+    90.0,
+    180.0
+  ],
+  "rough_value": [
+    45,
+    60,
+    90,
+    180
+  ],
+  "compact_text": "Square FGHJ is inscribed in \\odot K. Find the measure of a central angle.",
+  "annotat_text": "Square $F G H J$ is inscribed in $\\odot K$. Find the measure of a central angle.",
+  "unit": "",
+  "img_width": 269,
+  "img_height": 245,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

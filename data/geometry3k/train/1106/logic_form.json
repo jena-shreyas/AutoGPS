@@ -1,0 +1,81 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 8)",
+    "Equals(LengthOf(Line(C, B)), 10)",
+    "Equals(LengthOf(Line(C, D)), 9)",
+    "Equals(LengthOf(Line(E, D)), x)",
+    "PointLiesOnLine(E, Line(C, F))",
+    "PointLiesOnLine(D, Line(C, F))",
+    "PointLiesOnLine(D, Line(C, E))",
+    "PointLiesOnLine(B, Line(C, A))",
+    "PointLiesOnLine(E, Line(F, D))",
+    "PointLiesOnCircle(A, Circle(O, radius_2_0))",
+    "PointLiesOnCircle(B, Circle(O, radius_2_0))",
+    "PointLiesOnCircle(E, Circle(P, radius_4_0))",
+    "PointLiesOnCircle(D, Circle(P, radius_4_0))",
+    "PointLiesOnCircle(H, Circle(P, radius_4_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "CA",
+    "CB",
+    "CD",
+    "CE",
+    "CF",
+    "CH",
+    "DA",
+    "DB",
+    "DH",
+    "ED",
+    "FE",
+    "HB"
+  ],
+  "point_positions": {
+    "A": [
+      20.0,
+      3.0
+    ],
+    "B": [
+      20.0,
+      74.0
+    ],
+    "C": [
+      19.0,
+      150.0
+    ],
+    "D": [
+      79.0,
+      149.0
+    ],
+    "E": [
+      199.0,
+      148.0
+    ],
+    "F": [
+      290.0,
+      147.0
+    ],
+    "H": [
+      69.0,
+      68.0
+    ],
+    "O": [
+      37.0,
+      40.0
+    ],
+    "P": [
+      139.0,
+      100.0
+    ]
+  },
+  "circle_instances": [
+    "O",
+    "P"
+  ]
+}

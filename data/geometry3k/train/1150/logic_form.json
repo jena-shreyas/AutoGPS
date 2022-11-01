@@ -1,0 +1,51 @@
+{
+  "text_logic_form": [
+    "Equals(MeasureOf(Angle(19)),100+20x)",
+    "Equals(MeasureOf(Angle(20)),20x)",
+    "Find(MeasureOf(Angle(20)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(MeasureOf(Angle(19)),100+20x)",
+    "Equals(MeasureOf(Angle(20)),20x)",
+    "Find(MeasureOf(Angle(20)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(C, G, B)), MeasureOf(Angle(19)))",
+    "Equals(MeasureOf(Angle(B, G, D)), MeasureOf(Angle(20)))",
+    "PointLiesOnLine(G, Line(B, E))",
+    "PointLiesOnLine(G, Line(C, D))"
+  ],
+  "line_instances": [
+    "BE",
+    "BG",
+    "CD",
+    "EG",
+    "GC",
+    "GD"
+  ],
+  "point_positions": {
+    "B": [
+      7.0,
+      110.0
+    ],
+    "C": [
+      35.0,
+      3.0
+    ],
+    "D": [
+      206.0,
+      179.0
+    ],
+    "E": [
+      242.0,
+      96.0
+    ],
+    "G": [
+      131.0,
+      102.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

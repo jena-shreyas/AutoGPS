@@ -1,0 +1,33 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Regular(Polygon($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Regular(Triangle(A,B,C))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, C)), 4)"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      214.0
+    ],
+    "B": [
+      244.0,
+      212.0
+    ],
+    "C": [
+      121.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

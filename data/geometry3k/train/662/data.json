@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\angle J.",
+  "choices": [
+    "52",
+    "62",
+    "72",
+    "150"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 9",
+  "comment": "",
+  "id": 662,
+  "annot_id": "Ran_2020-03-15_04_22_02",
+  "is_standard": false,
+  "compact_choices": [
+    "52",
+    "62",
+    "72",
+    "150"
+  ],
+  "precise_value": [
+    52.0,
+    62.0,
+    72.0,
+    150.0
+  ],
+  "rough_value": [
+    52,
+    62,
+    72,
+    150
+  ],
+  "compact_text": "Find m \\angle J.",
+  "annotat_text": "Find $m\\angle J$",
+  "unit": "",
+  "img_width": 573,
+  "img_height": 388,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

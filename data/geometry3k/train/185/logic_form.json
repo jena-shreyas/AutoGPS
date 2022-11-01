@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Rhombus(W,X,Y,Z)),100)",
+    "Equals(LengthOf(Line(X,Z)),10)",
+    "Find(LengthOf(Line(W,Y)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Rhombus(W,X,Y,Z)),100)",
+    "Equals(LengthOf(Line(X,Z)),10)",
+    "Find(LengthOf(Line(W,Y)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(A, Line(Z, X))",
+    "PointLiesOnLine(A, Line(Y, W))"
+  ],
+  "line_instances": [
+    "WA",
+    "WX",
+    "XA",
+    "YA",
+    "YW",
+    "YX",
+    "ZA",
+    "ZW",
+    "ZX",
+    "ZY"
+  ],
+  "point_positions": {
+    "A": [
+      95.0,
+      48.0
+    ],
+    "W": [
+      0.0,
+      95.0
+    ],
+    "X": [
+      72.0,
+      3.0
+    ],
+    "Y": [
+      190.0,
+      0.0
+    ],
+    "Z": [
+      118.0,
+      94.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

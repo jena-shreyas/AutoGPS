@@ -1,0 +1,25 @@
+<annotation>
+	<folder>geometry_annotation</folder>
+	<filename>2455.png</filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>206</width>
+		<height>202</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>text</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>84</xmin>
+			<ymin>59</ymin>
+			<xmax>162</xmax>
+			<ymax>88</ymax>
+		</bndbox>
+	</object>
+</annotation>

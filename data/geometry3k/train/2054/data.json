@@ -1,0 +1,49 @@
+{
+  "problem_text": "Triangle A D C is circumscribed about \\odot O. Find the perimeter of \\triangle A D C if E C = D E + A F.",
+  "choices": [
+    "6",
+    "19",
+    "25",
+    "100"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter10.pdf page 36",
+  "comment": "",
+  "id": 2054,
+  "annot_id": "Ran_2020-03-29_03_46_17",
+  "is_standard": false,
+  "compact_choices": [
+    "6",
+    "19",
+    "25",
+    "100"
+  ],
+  "precise_value": [
+    6.0,
+    19.0,
+    25.0,
+    100.0
+  ],
+  "rough_value": [
+    6,
+    19,
+    25,
+    100
+  ],
+  "compact_text": "Triangle ADC is circumscribed about \\odot O. Find the perimeter of \\triangle ADC if EC = DE+AF.",
+  "annotat_text": "Triangle $A D C$ is circumscribed about $\\odot O .$ Find the perimeter of $\\triangle A D C$ if $E C=D E+A F$",
+  "unit": "",
+  "img_width": 335,
+  "img_height": 271,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,115 @@
+{
+  "text_logic_form": [
+    "Parallel(Line(a),Line(b))",
+    "Find(MeasureOf(Angle(1)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallel(Line(a),Line(b))",
+    "Parallel(Line(A,B),Line(F,I))",
+    "Find(MeasureOf(Angle(1)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(J, E, K)), MeasureOf(Angle(1)))",
+    "Equals(MeasureOf(Angle(A, L, E)), 133)",
+    "Equals(MeasureOf(Angle(G, K, I)), 126)",
+    "PointLiesOnLine(L, Line(B, A))",
+    "PointLiesOnLine(E, Line(L, C))",
+    "PointLiesOnLine(J, Line(L, C))",
+    "PointLiesOnLine(J, Line(L, E))",
+    "PointLiesOnLine(E, Line(C, D))",
+    "PointLiesOnLine(J, Line(C, D))",
+    "PointLiesOnLine(L, Line(C, D))",
+    "PointLiesOnLine(E, Line(C, J))",
+    "PointLiesOnLine(J, Line(D, E))",
+    "PointLiesOnLine(L, Line(D, E))",
+    "PointLiesOnLine(L, Line(D, J))",
+    "PointLiesOnLine(K, Line(E, H))",
+    "PointLiesOnLine(K, Line(J, I))",
+    "PointLiesOnLine(E, Line(G, H))",
+    "PointLiesOnLine(K, Line(G, H))",
+    "PointLiesOnLine(E, Line(G, K))",
+    "PointLiesOnLine(J, Line(K, F))",
+    "PointLiesOnLine(J, Line(F, I))",
+    "PointLiesOnLine(K, Line(F, I))"
+  ],
+  "line_instances": [
+    "BA",
+    "BL",
+    "CD",
+    "CE",
+    "CJ",
+    "DE",
+    "DJ",
+    "EG",
+    "EH",
+    "EJ",
+    "EK",
+    "FI",
+    "GH",
+    "GK",
+    "HK",
+    "JF",
+    "JI",
+    "JK",
+    "KF",
+    "KI",
+    "LA",
+    "LC",
+    "LD",
+    "LE",
+    "LJ"
+  ],
+  "point_positions": {
+    "A": [
+      60.0,
+      1.0
+    ],
+    "B": [
+      60.0,
+      329.0
+    ],
+    "C": [
+      398.0,
+      422.0
+    ],
+    "D": [
+      0.0,
+      51.0
+    ],
+    "E": [
+      317.0,
+      346.0
+    ],
+    "F": [
+      246.0,
+      65.0
+    ],
+    "G": [
+      462.0,
+      240.0
+    ],
+    "H": [
+      119.0,
+      489.0
+    ],
+    "I": [
+      247.0,
+      489.0
+    ],
+    "J": [
+      247.0,
+      280.0
+    ],
+    "K": [
+      247.0,
+      396.0
+    ],
+    "L": [
+      60.0,
+      107.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

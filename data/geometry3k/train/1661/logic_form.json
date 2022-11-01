@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Y, X, Z)), 15x-8y)",
+    "Equals(MeasureOf(Angle(B, V, C)), 52)",
+    "Equals(MeasureOf(Angle(B, C, V)), 6x+14y)",
+    "Equals(MeasureOf(Angle(B, V, C)), MeasureOf(Angle(Y, X, Z)))",
+    "Perpendicular(Line(V, B), Line(B, C))",
+    "Perpendicular(Line(X, Y), Line(Y, Z))"
+  ],
+  "line_instances": [
+    "BC",
+    "BV",
+    "CV",
+    "XY",
+    "XZ",
+    "YZ"
+  ],
+  "point_positions": {
+    "B": [
+      167.0,
+      59.0
+    ],
+    "C": [
+      93.0,
+      272.0
+    ],
+    "V": [
+      1.0,
+      2.0
+    ],
+    "X": [
+      -100.0,
+      2.0
+    ],
+    "Y": [
+      -127.0,
+      59.0
+    ],
+    "Z": [
+      -193.0,
+      272.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Arc(P,M)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Arc(P,M)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(P, M, Q)), 72)",
+    "PointLiesOnCircle(P, Circle(C, radius_3_0))",
+    "PointLiesOnCircle(M, Circle(C, radius_3_0))",
+    "PointLiesOnCircle(R, Circle(C, radius_3_0))"
+  ],
+  "line_instances": [
+    "PM",
+    "QM"
+  ],
+  "point_positions": {
+    "M": [
+      243.0,
+      239.0
+    ],
+    "P": [
+      107.0,
+      6.0
+    ],
+    "Q": [
+      376.0,
+      91.0
+    ],
+    "R": [
+      100.0,
+      100.0
+    ]
+  },
+  "circle_instances": [
+    "C"
+  ]
+}

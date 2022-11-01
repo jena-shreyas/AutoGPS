@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot P, P Q = 3, find m \\widehat R T S. Round to the nearest hundredth.",
+  "choices": [
+    "5.08",
+    "6.02",
+    "10.15",
+    "12.04"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "the answer may be wrong?",
+  "id": 2170,
+  "annot_id": "Shibiao_2020-03-27_12_17_53",
+  "is_standard": false,
+  "compact_choices": [
+    "5.08",
+    "6.02",
+    "10.15",
+    "12.04"
+  ],
+  "precise_value": [
+    5.08,
+    6.02,
+    10.15,
+    12.04
+  ],
+  "rough_value": [
+    5.08,
+    6.02,
+    10.15,
+    12.04
+  ],
+  "compact_text": "In \\odot P, PQ = 3, find m \\widehat RTS. Round to the nearest hundredth.",
+  "annotat_text": "In $\\odot P$, $PQ=3$, find $m \\widehat {RTS}$. Round to the nearest hundredth.",
+  "unit": "",
+  "img_width": 504,
+  "img_height": 494,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

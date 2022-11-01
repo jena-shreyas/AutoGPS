@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the exact circumference of the circle below.",
+  "choices": [
+    "16 \\pi",
+    "32 \\pi",
+    "128 \\pi",
+    "256 \\pi"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Square"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 971,
+  "annot_id": "pan_2020-03-28_00_28_52",
+  "is_standard": false,
+  "compact_choices": [
+    "16\\pi",
+    "32\\pi",
+    "128\\pi",
+    "256\\pi"
+  ],
+  "precise_value": [
+    50.26548245743669,
+    100.53096491487338,
+    402.1238596594935,
+    804.247719318987
+  ],
+  "rough_value": [
+    50.27,
+    100.53,
+    402.12,
+    804.25
+  ],
+  "compact_text": "Find the exact circumference of the circle below.",
+  "annotat_text": "Find the exact circumference of the circle below.",
+  "unit": "",
+  "img_width": 302,
+  "img_height": 288,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,54 @@
+{
+  "text_logic_form": [
+    "Rhombus(A,B,C,D)",
+    "Equals(LengthOf(Line(A,P)),3x-1)",
+    "Equals(LengthOf(Line(P,C)),x+9)",
+    "Find(LengthOf(Line(A,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rhombus(A,B,C,D)",
+    "Equals(LengthOf(Line(A,P)),3x-1)",
+    "Equals(LengthOf(Line(P,C)),x+9)",
+    "Find(LengthOf(Line(A,C)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(P, Line(B, D))",
+    "PointLiesOnLine(P, Line(C, A))",
+    "Perpendicular(Line(A, P), Line(D, P))"
+  ],
+  "line_instances": [
+    "BC",
+    "BD",
+    "BA",
+    "BP",
+    "CD",
+    "CA",
+    "CP",
+    "DA",
+    "DP",
+    "AP"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "B": [
+      220.5954165289054,
+      1.662674650698591
+    ],
+    "C": [
+      166.77464155029716,
+      161.84853144795147
+    ],
+    "D": [
+      0.0,
+      163.0
+    ],
+    "A": [
+      54.84151329243353,
+      1.5
+    ],
+    "P": [
+      111.0,
+      81.5
+    ]
+  }
+}

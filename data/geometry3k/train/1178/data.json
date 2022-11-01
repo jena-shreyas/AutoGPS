@@ -1,0 +1,48 @@
+{
+  "problem_text": "\\triangle R S T \\cong \\triangle V U T. What is the area of \\triangle R S T?",
+  "choices": [
+    "150",
+    "300",
+    "450",
+    "600"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_4.pdf",
+  "comment": "hard",
+  "id": 1178,
+  "annot_id": "Shibiao_2020-03-21_16_24_49",
+  "is_standard": false,
+  "compact_choices": [
+    "150",
+    "300",
+    "450",
+    "600"
+  ],
+  "precise_value": [
+    150.0,
+    300.0,
+    450.0,
+    600.0
+  ],
+  "rough_value": [
+    150,
+    300,
+    450,
+    600
+  ],
+  "compact_text": "\\triangle RST \\cong \\triangle VUT. What is the area of \\triangle RST?",
+  "annotat_text": "$\\triangle RST \\cong \\triangle VUT$. What is the area of $\\triangle RST$?",
+  "unit": "",
+  "img_width": 822,
+  "img_height": 491,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

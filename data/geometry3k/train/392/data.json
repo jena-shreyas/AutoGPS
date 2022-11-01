@@ -1,0 +1,48 @@
+{
+  "problem_text": "The diameters of \\odot A, \\odot B, and \\odot C are 8 inches, 18 inches, and 11 inches, respectively. Find F B.",
+  "choices": [
+    "4",
+    "5",
+    "5.5",
+    "11"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 392,
+  "annot_id": "Shibiao_2020-03-27_09_33_59",
+  "is_standard": false,
+  "compact_choices": [
+    "4",
+    "5",
+    "5.5",
+    "11"
+  ],
+  "precise_value": [
+    4.0,
+    5.0,
+    5.5,
+    11.0
+  ],
+  "rough_value": [
+    4,
+    5,
+    5.5,
+    11
+  ],
+  "compact_text": "The diameters of \\odot A, \\odot B, and \\odot C are 8 inches, 18 inches, and 11 inches, respectively. Find FB.",
+  "annotat_text": "The diameters of $\\odot A, \\odot B,$ and $\\odot C$ are $8$ inches, $18$ inches, and $11$ inches, respectively. Find $FB$.",
+  "unit": "",
+  "img_width": 735,
+  "img_height": 494,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Similar(Triangle(P,Q,M),Triangle(P,R,Q))",
+    "Find(PerimeterOf(Triangle(P,Q,R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(P,Q,M),Triangle(P,R,Q))",
+    "Find(PerimeterOf(Triangle(P,Q,R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Q, P)), 13)",
+    "Equals(LengthOf(Line(Q, M)), 12)",
+    "PointLiesOnLine(M, Line(R, P))",
+    "Perpendicular(Line(Q, R), Line(Q, P))",
+    "Perpendicular(Line(Q, M), Line(R, M))"
+  ],
+  "line_instances": [
+    "PM",
+    "QM",
+    "QP",
+    "QR",
+    "RM",
+    "RP"
+  ],
+  "point_positions": {
+    "M": [
+      54.0,
+      135.0
+    ],
+    "P": [
+      0.0,
+      134.0
+    ],
+    "Q": [
+      52.0,
+      2.0
+    ],
+    "R": [
+      402.0,
+      136.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

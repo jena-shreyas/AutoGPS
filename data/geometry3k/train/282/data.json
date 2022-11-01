@@ -1,0 +1,48 @@
+{
+  "problem_text": "The height of a triangle is 5 centimeters more than its base. The area of the triangle is 52 square centimeters. Find the base.",
+  "choices": [
+    "5.1",
+    "8",
+    "9.9",
+    "13"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 282,
+  "annot_id": "pan_2020-03-22_22_59_22",
+  "is_standard": false,
+  "unit": "cm",
+  "compact_choices": [
+    "5.1",
+    "8",
+    "9.9",
+    "13"
+  ],
+  "precise_value": [
+    5.1,
+    8.0,
+    9.9,
+    13.0
+  ],
+  "rough_value": [
+    5.1,
+    8,
+    9.9,
+    13
+  ],
+  "compact_text": "The height of a triangle is 5 centimeters more than its base. The area of the triangle is 52 square centimeters. Find the base.",
+  "annotat_text": "The height of a triangle is 5 centimeters more than its base. The area of the triangle is 52 square centimeters. Find the base.",
+  "img_width": 326,
+  "img_height": 377,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

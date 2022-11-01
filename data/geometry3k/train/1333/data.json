@@ -1,0 +1,48 @@
+{
+  "problem_text": "Equilateral pentagon P Q R S T is inscribed in \\odot U. Find m \\angle P Q R.",
+  "choices": [
+    "60",
+    "72",
+    "90",
+    "108"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter10.pdf page 31",
+  "comment": "",
+  "id": 1333,
+  "annot_id": "Ran_2020-03-29_03_29_23",
+  "is_standard": false,
+  "compact_choices": [
+    "60",
+    "72",
+    "90",
+    "108"
+  ],
+  "precise_value": [
+    60.0,
+    72.0,
+    90.0,
+    108.0
+  ],
+  "rough_value": [
+    60,
+    72,
+    90,
+    108
+  ],
+  "compact_text": "Equilateral pentagon PQRST is inscribed in \\odot U. Find m \\angle PQR.",
+  "annotat_text": "Equilateral pentagon $P Q R S T$ is inscribed in $\\odot U$.\r\nFind $m \\angle P Q R$",
+  "unit": "",
+  "img_width": 351,
+  "img_height": 334,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

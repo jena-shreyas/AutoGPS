@@ -1,0 +1,48 @@
+{
+  "problem_text": "According to the Perpendicular Bisector Theorem, what is the length of segment A B below?",
+  "choices": [
+    "2.5",
+    "3.0",
+    "4.0",
+    "5.0"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "Standardized Test Practice",
+  "id": 128,
+  "annot_id": "pan_2020-03-25_23_32_38",
+  "is_standard": true,
+  "unit": "cm",
+  "compact_choices": [
+    "2.5",
+    "3.0",
+    "4.0",
+    "5.0"
+  ],
+  "precise_value": [
+    2.5,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "rough_value": [
+    2.5,
+    3,
+    4,
+    5
+  ],
+  "compact_text": "According to the Perpendicular Bisector Theorem, what is the length of segment AB below?",
+  "annotat_text": "According to the Perpendicular Bisector Theorem, what is the length of segment AB below?",
+  "img_width": 603,
+  "img_height": 298,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

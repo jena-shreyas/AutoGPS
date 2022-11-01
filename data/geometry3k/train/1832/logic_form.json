@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Parallelogram($)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallelogram(A,D,C,B)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, E)), x+6)",
+    "Equals(LengthOf(Line(A, E)), 10)",
+    "Equals(LengthOf(Line(B, E)), 11)",
+    "Equals(LengthOf(Line(C, B)), y-7)",
+    "PointLiesOnLine(E, Line(A, C))",
+    "PointLiesOnLine(E, Line(B, D))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "BD",
+    "BE",
+    "CB",
+    "CD",
+    "CE",
+    "DE"
+  ],
+  "point_positions": {
+    "A": [
+      3.0,
+      2.0
+    ],
+    "B": [
+      81.0,
+      222.0
+    ],
+    "C": [
+      390.0,
+      256.0
+    ],
+    "D": [
+      312.0,
+      38.0
+    ],
+    "E": [
+      198.0,
+      130.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

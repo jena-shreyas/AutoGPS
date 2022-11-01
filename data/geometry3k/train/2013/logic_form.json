@@ -1,0 +1,35 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, C, B)), 3x+25)",
+    "Equals(MeasureOf(Angle(C, D, B)), 4x+5)",
+    "Equals(MeasureOf(Angle(D, B, C)), 5x-30)"
+  ],
+  "line_instances": [
+    "CB",
+    "CD",
+    "DB"
+  ],
+  "point_positions": {
+    "B": [
+      549.0,
+      372.0
+    ],
+    "C": [
+      451.0,
+      0.0
+    ],
+    "D": [
+      0.0,
+      371.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

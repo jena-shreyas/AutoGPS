@@ -1,0 +1,48 @@
+{
+  "problem_text": "In rhombus A B C D, m \\angle D A B = 2, m \\angle A D C and C B = 6. Find D A.",
+  "choices": [
+    "3",
+    "6",
+    "9",
+    "12"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Rhombus"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter8.pdf page 35",
+  "comment": "",
+  "id": 145,
+  "annot_id": "Ran_2020-03-27_04_45_00",
+  "is_standard": false,
+  "compact_choices": [
+    "3",
+    "6",
+    "9",
+    "12"
+  ],
+  "precise_value": [
+    3.0,
+    6.0,
+    9.0,
+    12.0
+  ],
+  "rough_value": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "compact_text": "In rhombus ABCD, m \\angle DAB = 2, m \\angle ADC and CB = 6. Find DA.",
+  "annotat_text": "In rhombus $A B C D, m \\angle D A B=2, m \\angle A D C$ and $C B=6$. Find DA",
+  "unit": "",
+  "img_width": 226,
+  "img_height": 172,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

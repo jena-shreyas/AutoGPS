@@ -1,0 +1,71 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Y, X)), 15)",
+    "Equals(LengthOf(Line(Y, Q)), x)",
+    "Equals(LengthOf(Line(M, P)), 16)",
+    "Equals(LengthOf(Line(M, K)), 20)",
+    "PointLiesOnLine(P, Line(L, K))",
+    "PointLiesOnLine(Q, Line(Z, X))",
+    "Perpendicular(Line(P, L), Line(M, P))",
+    "Perpendicular(Line(Y, Q), Line(Q, Z))",
+    "Equals(MeasureOf(Angle(M, K, L)), MeasureOf(Angle(Y, X, Z)))",
+    "Equals(MeasureOf(Angle(M, L, K)), MeasureOf(Angle(Y, Z, X)))"
+  ],
+  "line_instances": [
+    "MK",
+    "MP",
+    "ML",
+    "PK",
+    "PL",
+    "LK",
+    "YZ",
+    "YQ",
+    "YX",
+    "ZQ",
+    "QX",
+    "ZX"
+  ],
+  "point_positions": {
+    "K": [
+      2.0,
+      1.0
+    ],
+    "M": [
+      110.0,
+      324.0
+    ],
+    "P": [
+      107.0,
+      1.0
+    ],
+    "L": [
+      319.0,
+      0.0
+    ],
+    "Z": [
+      350.0,
+      250.0
+    ],
+    "Q": [
+      500.0,
+      250.0
+    ],
+    "X": [
+      570.0,
+      250.0
+    ],
+    "Y": [
+      500.0,
+      10.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

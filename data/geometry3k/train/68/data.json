@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the perimeter of the \\triangle A B C, if \\triangle A B C \\sim \\triangle C B D, A D = 5, C D = 12, and B C = 31.2.",
+  "choices": [
+    "32.5",
+    "72",
+    "78",
+    "187.2"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 41",
+  "comment": "",
+  "id": 68,
+  "annot_id": "Ran_2020-03-21_07_16_19",
+  "is_standard": false,
+  "compact_choices": [
+    "32.5",
+    "72",
+    "78",
+    "187.2"
+  ],
+  "precise_value": [
+    32.5,
+    72.0,
+    78.0,
+    187.2
+  ],
+  "rough_value": [
+    32.5,
+    72,
+    78,
+    187.2
+  ],
+  "compact_text": "Find the perimeter of the \\triangle ABC, if \\triangle ABC \\sim \\triangle CBD, AD = 5, CD = 12, and BC = 31.2.",
+  "annotat_text": "Find the perimeter of the $\\triangle A B C,$ if $\\triangle A B C \\sim \\triangle C B D, A D=5$, $C D=12,$ and $B C=31.2$",
+  "unit": "",
+  "img_width": 547,
+  "img_height": 270,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

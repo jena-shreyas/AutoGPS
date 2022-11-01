@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(V)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(V)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(V, U, T)), 3x-4)",
+    "Equals(MeasureOf(Angle(W, V, U)), x)",
+    "Equals(MeasureOf(Angle(T, W, V)), 3x-4)",
+    "Equals(MeasureOf(Angle(U, T, W)), x)"
+  ],
+  "line_instances": [
+    "TW",
+    "TU",
+    "WV",
+    "UV"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "T": [
+      0.0,
+      113.0
+    ],
+    "V": [
+      356.9946018893387,
+      0.6720647773279325
+    ],
+    "W": [
+      245.66261808367074,
+      112.33738191632929
+    ],
+    "U": [
+      110.00892057464263,
+      1.9999283487980506
+    ]
+  }
+}

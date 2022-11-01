@@ -1,0 +1,48 @@
+{
+  "problem_text": "Triangles F G H and F H J are inscribed in \\odot K with \\widehat F G \\cong \\widehat F I. Find x if m \\angle 1 = 6 x - 5, and m \\angle 2 = 7 x + 4.",
+  "choices": [
+    "3",
+    "7",
+    "20",
+    "30"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter10.pdf page 64",
+  "comment": "",
+  "id": 1316,
+  "annot_id": "Ran_2020-03-29_05_46_01",
+  "is_standard": false,
+  "compact_choices": [
+    "3",
+    "7",
+    "20",
+    "30"
+  ],
+  "precise_value": [
+    3.0,
+    7.0,
+    20.0,
+    30.0
+  ],
+  "rough_value": [
+    3,
+    7,
+    20,
+    30
+  ],
+  "compact_text": "Triangles FGH and FHJ are inscribed in \\odot K with \\widehat FG \\cong \\widehat FI. Find x if m \\angle 1 = 6x-5, and m \\angle 2 = 7x+4.",
+  "annotat_text": "Triangles $F G H$ and $F H J$ are inscribed in $\\odot K$ with $\\widehat{F G} \\cong \\widehat{F I} .$ Find $x$ if $m \\angle 1=6 x-5,$ and $m \\angle 2=7 x+4$",
+  "unit": "",
+  "img_width": 278,
+  "img_height": 273,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

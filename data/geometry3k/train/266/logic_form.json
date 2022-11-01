@@ -1,0 +1,38 @@
+{
+  "text_logic_form": [
+    "Similar(Triangle(D,E,F),Triangle(A,C,B))",
+    "Find(PerimeterOf(Triangle(D,E,F)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(D,E,F),Triangle(A,C,B))",
+    "Find(PerimeterOf(Triangle(D,E,F)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 13)",
+    "Equals(LengthOf(Line(A, C)), 7)",
+    "Equals(LengthOf(Line(F, E)), 14)",
+    "Equals(LengthOf(Line(C, B)), 10)"
+  ],
+  "line_instances": [
+    "DE",
+    "FD",
+    "FE"
+  ],
+  "point_positions": {
+    "D": [
+      85.0,
+      1.0
+    ],
+    "E": [
+      98.0,
+      144.0
+    ],
+    "F": [
+      1.0,
+      171.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

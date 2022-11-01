@@ -1,0 +1,48 @@
+{
+  "problem_text": "If \\triangle J K L \\sim \\triangle P Q R and the area of \\triangle J K L is 30 square inches, find the area of \\triangle P Q R.",
+  "choices": [
+    "19.2",
+    "24.0",
+    "37.5",
+    "46.9"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 763,
+  "annot_id": "pan_2020-03-23_07_03_14",
+  "is_standard": false,
+  "unit": "in^2",
+  "compact_choices": [
+    "19.2",
+    "24.0",
+    "37.5",
+    "46.9"
+  ],
+  "precise_value": [
+    19.2,
+    24.0,
+    37.5,
+    46.9
+  ],
+  "rough_value": [
+    19.2,
+    24,
+    37.5,
+    46.9
+  ],
+  "compact_text": "If \\triangle JKL \\sim \\triangle PQR and the area of \\triangle JKL is 30 square inches, find the area of \\triangle PQR.",
+  "annotat_text": "If $\\triangle J K L \\sim \\triangle P Q R$ and the area of $\\triangle J K L$ is\r\n30 square inches, find the area of $\\triangle P Q R$\u3002",
+  "img_width": 326,
+  "img_height": 462,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

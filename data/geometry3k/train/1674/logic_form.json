@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(A, Line(C, D))",
+    "PointLiesOnLine(A, Line(E, F))",
+    "Equals(LengthOf(Line(A, F)), 8)",
+    "Equals(LengthOf(Line(A, E)), 20)",
+    "Equals(LengthOf(Line(B, E)), 15)",
+    "Equals(LengthOf(Line(A, C)), LengthOf(Line(A, D)))",
+    "Perpendicular(Line(A, C), Line(A, F))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AE",
+    "AF",
+    "CB",
+    "CD",
+    "CF",
+    "DF",
+    "EB",
+    "EF"
+  ],
+  "point_positions": {
+    "A": [
+      148.0,
+      110.0
+    ],
+    "B": [
+      -0.0,
+      0.0
+    ],
+    "C": [
+      149.0,
+      2.0
+    ],
+    "D": [
+      147.0,
+      221.0
+    ],
+    "E": [
+      2.0,
+      109.0
+    ],
+    "F": [
+      206.0,
+      111.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

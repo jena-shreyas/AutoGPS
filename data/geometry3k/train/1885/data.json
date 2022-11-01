@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the diameter of circle M.",
+  "choices": [
+    "10.5",
+    "27.5",
+    "38.0",
+    "42.5"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1885,
+  "annot_id": "pan_2020-03-27_22_31_51",
+  "is_standard": false,
+  "compact_choices": [
+    "10.5",
+    "27.5",
+    "38.0",
+    "42.5"
+  ],
+  "precise_value": [
+    10.5,
+    27.5,
+    38.0,
+    42.5
+  ],
+  "rough_value": [
+    10.5,
+    27.5,
+    38,
+    42.5
+  ],
+  "compact_text": "Find the diameter of circle M.",
+  "annotat_text": "Find the diameter of circle M.",
+  "unit": "",
+  "img_width": 463,
+  "img_height": 459,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "Points S, T, and U are the midpoints of D E, E F, and D F, respectively. Find z.",
+  "choices": [
+    "0.383",
+    "0.575",
+    "1.15",
+    "2.875"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "Textbook 2_Chapter 5 - Relationships in Triangles.pdf",
+  "comment": "",
+  "id": 1813,
+  "annot_id": "pan_2020-03-18_20_31_35",
+  "is_standard": false,
+  "compact_choices": [
+    "0.383",
+    "0.575",
+    "1.15",
+    "2.875"
+  ],
+  "precise_value": [
+    0.383,
+    0.575,
+    1.15,
+    2.875
+  ],
+  "rough_value": [
+    0.38,
+    0.58,
+    1.15,
+    2.88
+  ],
+  "compact_text": "Points S, T, and U are the midpoints of DE, EF, and DF, respectively. Find z.",
+  "annotat_text": "Points $S$, $T$, and $U$ are the midpoints of $\\overline{DE}$, $\\overline{EF}$, and $\\overline{DF}$, respectively. Find $z$.",
+  "unit": "",
+  "img_width": 434,
+  "img_height": 419,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Trapezoid(A,B,C,D)",
+    "Equals(LengthOf(Line(A,C)),3x-7)",
+    "Equals(LengthOf(Line(B,D)),2x+8)",
+    "Isosceles(Quadrilateral(A,B,C,D))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Trapezoid(A,B,C,D)",
+    "Equals(LengthOf(Line(A,C)),3x-7)",
+    "Equals(LengthOf(Line(B,D)),2x+8)",
+    "Isosceles(Quadrilateral(A,B,C,D))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(P, Line(B, D))",
+    "PointLiesOnLine(P, Line(A, C))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AP",
+    "BA",
+    "BC",
+    "BD",
+    "BP",
+    "CD",
+    "CP",
+    "DP"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      0.0
+    ],
+    "B": [
+      195.0,
+      1.0
+    ],
+    "C": [
+      144.0,
+      139.0
+    ],
+    "D": [
+      51.0,
+      138.0
+    ],
+    "P": [
+      97.0,
+      94.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

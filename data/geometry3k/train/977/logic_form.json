@@ -1,0 +1,166 @@
+{
+  "text_logic_form": [
+    "Equals(LengthOf(Line(B,Y)),2.5)",
+    "Equals(LengthOf(Line(C,Z)),2.5)",
+    "Equals(LengthOf(Line(A,X)),2.5)",
+    "Equals(DiameterOf(Circle(G)),5)",
+    "Find(PerimeterOf(Polygon($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(LengthOf(Line(B,Y)),2.5)",
+    "Equals(LengthOf(Line(C,Z)),2.5)",
+    "Equals(LengthOf(Line(A,X)),2.5)",
+    "Equals(DiameterOf(Circle(G)),5)",
+    "Find(PerimeterOf(Polygon(A, B, C)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(I, Line(C, G))",
+    "PointLiesOnLine(Z, Line(C, G))",
+    "PointLiesOnLine(D, Line(C, A))",
+    "PointLiesOnLine(G, Line(C, F))",
+    "PointLiesOnLine(I, Line(C, F))",
+    "PointLiesOnLine(Z, Line(C, F))",
+    "PointLiesOnLine(Z, Line(C, I))",
+    "PointLiesOnLine(E, Line(C, B))",
+    "PointLiesOnLine(Y, Line(G, H))",
+    "PointLiesOnLine(X, Line(G, A))",
+    "PointLiesOnLine(K, Line(G, D))",
+    "PointLiesOnLine(H, Line(G, B))",
+    "PointLiesOnLine(Y, Line(G, B))",
+    "PointLiesOnLine(I, Line(G, Z))",
+    "PointLiesOnLine(G, Line(H, D))",
+    "PointLiesOnLine(Y, Line(H, D))",
+    "PointLiesOnLine(K, Line(H, D))",
+    "PointLiesOnLine(G, Line(H, K))",
+    "PointLiesOnLine(Y, Line(H, K))",
+    "PointLiesOnLine(F, Line(A, B))",
+    "PointLiesOnLine(G, Line(A, E))",
+    "PointLiesOnLine(X, Line(A, E))",
+    "PointLiesOnLine(G, Line(D, B))",
+    "PointLiesOnLine(H, Line(D, B))",
+    "PointLiesOnLine(Y, Line(D, B))",
+    "PointLiesOnLine(K, Line(D, B))",
+    "PointLiesOnLine(G, Line(D, Y))",
+    "PointLiesOnLine(K, Line(D, Y))",
+    "PointLiesOnLine(G, Line(F, I))",
+    "PointLiesOnLine(G, Line(F, Z))",
+    "PointLiesOnLine(I, Line(F, Z))",
+    "PointLiesOnLine(H, Line(B, Y))",
+    "PointLiesOnLine(G, Line(B, K))",
+    "PointLiesOnLine(H, Line(B, K))",
+    "PointLiesOnLine(Y, Line(B, K))",
+    "PointLiesOnLine(G, Line(E, X))",
+    "PointLiesOnLine(G, Line(Y, K))",
+    "PointLiesOnCircle(D, Circle(G, radius_1_0))",
+    "PointLiesOnCircle(F, Circle(G, radius_1_0))",
+    "PointLiesOnCircle(X, Circle(G, radius_1_0))",
+    "PointLiesOnCircle(E, Circle(G, radius_1_0))",
+    "PointLiesOnCircle(Y, Circle(G, radius_1_0))",
+    "PointLiesOnCircle(Z, Circle(G, radius_1_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AD",
+    "AE",
+    "AF",
+    "AX",
+    "BE",
+    "BK",
+    "BY",
+    "CA",
+    "CB",
+    "CD",
+    "CE",
+    "CF",
+    "CG",
+    "CH",
+    "CI",
+    "CZ",
+    "DB",
+    "DK",
+    "DX",
+    "DY",
+    "EX",
+    "FB",
+    "FI",
+    "FX",
+    "FZ",
+    "GA",
+    "GB",
+    "GD",
+    "GE",
+    "GF",
+    "GH",
+    "GI",
+    "GK",
+    "GX",
+    "GY",
+    "GZ",
+    "HA",
+    "HB",
+    "HD",
+    "HE",
+    "HF",
+    "HK",
+    "HY",
+    "IZ",
+    "YK"
+  ],
+  "point_positions": {
+    "A": [
+      123.0,
+      2.0
+    ],
+    "B": [
+      246.0,
+      214.0
+    ],
+    "C": [
+      0.0,
+      214.0
+    ],
+    "D": [
+      61.0,
+      105.0
+    ],
+    "E": [
+      122.0,
+      211.0
+    ],
+    "F": [
+      184.0,
+      104.0
+    ],
+    "G": [
+      124.0,
+      142.0
+    ],
+    "H": [
+      216.0,
+      195.0
+    ],
+    "I": [
+      91.0,
+      161.0
+    ],
+    "K": [
+      97.0,
+      128.0
+    ],
+    "X": [
+      124.0,
+      70.0
+    ],
+    "Y": [
+      185.0,
+      178.0
+    ],
+    "Z": [
+      61.0,
+      177.0
+    ]
+  },
+  "circle_instances": [
+    "G"
+  ]
+}

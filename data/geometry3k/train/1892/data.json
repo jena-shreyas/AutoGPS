@@ -1,0 +1,48 @@
+{
+  "problem_text": "J H is a midsegment of \\triangle K L M. Find x.",
+  "choices": [
+    "5",
+    "10",
+    "15",
+    "20"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 1892,
+  "annot_id": "Shibiao_2020-03-22_11_36_56",
+  "is_standard": false,
+  "compact_choices": [
+    "5",
+    "10",
+    "15",
+    "20"
+  ],
+  "precise_value": [
+    5.0,
+    10.0,
+    15.0,
+    20.0
+  ],
+  "rough_value": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "compact_text": "JH is a midsegment of \\triangle KLM. Find x.",
+  "annotat_text": "$\\overline{JH}$ is a midsegment of $\\triangle KLM$. Find $x$.",
+  "unit": "",
+  "img_width": 642,
+  "img_height": 457,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

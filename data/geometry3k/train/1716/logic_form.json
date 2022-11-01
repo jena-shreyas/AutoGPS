@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "IsAltitudeOf(Line(S,A),Shape($))",
+    "IsAltitudeOf(Line(F,B),Shape($))",
+    "Similar(Triangle(R,S,T),Triangle(E,F,G))",
+    "Find(LengthOf(Line(F,B)))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsAltitudeOf(Line(S,A),Triangle(S,R,T))",
+    "IsAltitudeOf(Line(F,B),Triangle(F,E,G))",
+    "Similar(Triangle(R,S,T),Triangle(E,F,G))",
+    "Find(LengthOf(Line(F,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(G, F)), 5)",
+    "Equals(LengthOf(Line(F, B)), 7-x)",
+    "Equals(LengthOf(Line(S, T)), 2)",
+    "Equals(LengthOf(Line(S, T)), x)",
+    "PointLiesOnLine(T, Line(R, A))",
+    "PointLiesOnLine(G, Line(E, B))",
+    "Perpendicular(Line(A, S), Line(A, T))",
+    "Perpendicular(Line(F, B), Line(B, G))"
+  ],
+  "line_instances": [
+    "RT",
+    "TA",
+    "RA",
+    "SR",
+    "ST",
+    "SA"
+  ],
+  "point_positions": {
+    "T": [
+      51.0,
+      72.0
+    ],
+    "S": [
+      216.0,
+      2.0
+    ],
+    "R": [
+      1.0,
+      72.0
+    ],
+    "A": [
+      216.0,
+      71.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

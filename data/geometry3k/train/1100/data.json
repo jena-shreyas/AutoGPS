@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x if \\odot M \\cong \\odot N.",
+  "choices": [
+    "8",
+    "9",
+    "10",
+    "12"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1100,
+  "annot_id": "pan_2020-03-28_00_33_12",
+  "is_standard": false,
+  "compact_choices": [
+    "8",
+    "9",
+    "10",
+    "12"
+  ],
+  "precise_value": [
+    8.0,
+    9.0,
+    10.0,
+    12.0
+  ],
+  "rough_value": [
+    8,
+    9,
+    10,
+    12
+  ],
+  "compact_text": "Find x if \\odot M \\cong \\odot N.",
+  "annotat_text": "Find $x$ if $\\odot M \\cong \\odot N$.",
+  "unit": "",
+  "img_width": 620,
+  "img_height": 303,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

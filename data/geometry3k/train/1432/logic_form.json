@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Similar(Polygon($1),Polygon($2))",
+    "Find(LengthOf(Line(E,D)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(A,B,E),Triangle(A,C,D))",
+    "Find(LengthOf(Line(E,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, E)), 6.25)",
+    "Equals(LengthOf(Line(A, B)), 10)",
+    "Equals(LengthOf(Line(D, E)), x-1)",
+    "Equals(LengthOf(Line(B, C)), x+2)",
+    "PointLiesOnLine(B, Line(A, C))",
+    "PointLiesOnLine(E, Line(A, D))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "BC",
+    "BE",
+    "CD",
+    "DE"
+  ],
+  "point_positions": {
+    "A": [
+      110.0,
+      2.0
+    ],
+    "B": [
+      50.0,
+      79.0
+    ],
+    "C": [
+      0.0,
+      145.0
+    ],
+    "D": [
+      107.0,
+      113.0
+    ],
+    "E": [
+      108.0,
+      64.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

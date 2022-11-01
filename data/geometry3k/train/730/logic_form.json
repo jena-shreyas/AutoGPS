@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Triangle(E,F,G)",
+    "Parallel(Line(H,L),Line(E,F))",
+    "Equals(LengthOf(Line(E,H)),9)",
+    "Equals(LengthOf(Line(H,G)),21)",
+    "Equals(LengthOf(Line(F,L)),6)",
+    "Find(LengthOf(Line(L,G)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(E,F,G)",
+    "Parallel(Line(H,L),Line(E,F))",
+    "Equals(LengthOf(Line(E,H)),9)",
+    "Equals(LengthOf(Line(H,G)),21)",
+    "Equals(LengthOf(Line(F,L)),6)",
+    "Find(LengthOf(Line(L,G)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(L, Line(G, F))",
+    "PointLiesOnLine(H, Line(G, E))",
+    "Parallel(Line(E, F), Line(H, L))"
+  ],
+  "line_instances": [
+    "EF",
+    "HL",
+    "EH",
+    "HG",
+    "EG",
+    "FL",
+    "LG",
+    "FG"
+  ],
+  "point_positions": {
+    "E": [
+      1.0,
+      10.0
+    ],
+    "F": [
+      210.0,
+      12.0
+    ],
+    "G": [
+      350.0,
+      252.0
+    ],
+    "H": [
+      88.0,
+      70.0
+    ],
+    "L": [
+      247.0,
+      75.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

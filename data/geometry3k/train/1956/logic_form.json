@@ -1,0 +1,35 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(E, G, H)), 3x+6)",
+    "Perpendicular(Line(E, H), Line(H, G))",
+    "Equals(LengthOf(Line(E, H)), LengthOf(Line(H, G)))"
+  ],
+  "line_instances": [
+    "EH",
+    "GE",
+    "GH"
+  ],
+  "point_positions": {
+    "E": [
+      1.0,
+      1.0
+    ],
+    "G": [
+      356.0,
+      36.0
+    ],
+    "H": [
+      163.0,
+      196.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

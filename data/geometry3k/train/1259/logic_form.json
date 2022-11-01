@@ -1,0 +1,87 @@
+{
+  "text_logic_form": [
+    "Similar(Triangle(C,B,H),Triangle(F,E,H))",
+    "Parallelogram(A,D,E,G)",
+    "Equals(LengthOf(Line(C,H)),7)",
+    "Equals(LengthOf(Line(F,H)),10)",
+    "Equals(LengthOf(Line(F,E)),11)",
+    "Equals(LengthOf(Line(E,H)),6)",
+    "Find(PerimeterOf(Triangle(C,B,H)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(C,B,H),Triangle(F,E,H))",
+    "Parallelogram(A,D,E,G)",
+    "Equals(LengthOf(Line(C,H)),7)",
+    "Equals(LengthOf(Line(F,H)),10)",
+    "Equals(LengthOf(Line(F,E)),11)",
+    "Equals(LengthOf(Line(E,H)),6)",
+    "Find(PerimeterOf(Triangle(C,B,H)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(H, F)), 10)",
+    "Equals(LengthOf(Line(C, H)), 7)",
+    "Equals(LengthOf(Line(E, H)), 6)",
+    "Equals(LengthOf(Line(E, F)), 11)",
+    "PointLiesOnLine(C, Line(B, D))",
+    "PointLiesOnLine(H, Line(B, E))",
+    "PointLiesOnLine(B, Line(D, A))",
+    "PointLiesOnLine(C, Line(D, A))",
+    "PointLiesOnLine(F, Line(E, G))",
+    "PointLiesOnLine(H, Line(C, F))",
+    "PointLiesOnLine(B, Line(C, A))"
+  ],
+  "line_instances": [
+    "BD",
+    "BE",
+    "BC",
+    "BA",
+    "BH",
+    "DE",
+    "DC",
+    "DA",
+    "EG",
+    "EF",
+    "EH",
+    "CF",
+    "CA",
+    "CH",
+    "AG",
+    "HF",
+    "GF"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "B": [
+      179.02158306488724,
+      21.44707777266452
+    ],
+    "D": [
+      0.0,
+      120.0
+    ],
+    "G": [
+      392.5,
+      46.5
+    ],
+    "E": [
+      183.49198305616568,
+      165.58393473486038
+    ],
+    "F": [
+      321.7828727227661,
+      89.93016482835543
+    ],
+    "C": [
+      79.58838805416434,
+      76.03375997032092
+    ],
+    "A": [
+      218.11381316598025,
+      0.12028502320715972
+    ],
+    "H": [
+      181.94030950626382,
+      81.90641120117907
+    ]
+  }
+}

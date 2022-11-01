@@ -1,0 +1,49 @@
+{
+  "problem_text": "A square with 5 - centimeter sides is inscribed in a circle. What is the circumference of the circle? Round your answer to the nearest tenth of a centimeter.",
+  "choices": [
+    "11.1",
+    "22.2",
+    "44.4",
+    "88.9"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Square"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1163,
+  "annot_id": "pan_2020-03-28_00_54_59",
+  "is_standard": false,
+  "compact_choices": [
+    "11.1",
+    "22.2",
+    "44.4",
+    "88.9"
+  ],
+  "precise_value": [
+    11.1,
+    22.2,
+    44.4,
+    88.9
+  ],
+  "rough_value": [
+    11.1,
+    22.2,
+    44.4,
+    88.9
+  ],
+  "compact_text": "A square with 5-centimeter sides is inscribed in a circle. What is the circumference of the circle? Round your answer to the nearest tenth of a centimeter.",
+  "annotat_text": "A square with 5-centimeter sides is inscribed in a circle. What is the circumference of the circle? Round your answer to the nearest\r\ntenth of a centimeter.",
+  "unit": "",
+  "img_width": 300,
+  "img_height": 267,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

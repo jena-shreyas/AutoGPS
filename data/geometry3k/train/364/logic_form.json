@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Rhombus(A,B,C,D)",
+    "Equals(LengthOf(Line(P,B)),12)",
+    "Equals(LengthOf(Line(A,B)),15)",
+    "Equals(MeasureOf(Angle(A,B,D)),24)",
+    "Find(MeasureOf(Angle(A,C,B)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rhombus(A,B,C,D)",
+    "Equals(LengthOf(Line(P,B)),12)",
+    "Equals(LengthOf(Line(A,B)),15)",
+    "Equals(MeasureOf(Angle(A,B,D)),24)",
+    "Find(MeasureOf(Angle(A,C,B)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(P, Line(D, B))",
+    "PointLiesOnLine(P, Line(C, A))"
+  ],
+  "line_instances": [
+    "DC",
+    "DB",
+    "DA",
+    "DP",
+    "CB",
+    "CA",
+    "CP",
+    "BA",
+    "BP",
+    "AP"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "D": [
+      0.3182952401359955,
+      112.01440221323656
+    ],
+    "C": [
+      141.6652172001462,
+      110.39081783406422
+    ],
+    "B": [
+      185.30561826507005,
+      1.004855816328174
+    ],
+    "A": [
+      45.3369673446888,
+      1.6231427944174683
+    ],
+    "P": [
+      93.3286219081272,
+      55.802120141342755
+    ]
+  }
+}

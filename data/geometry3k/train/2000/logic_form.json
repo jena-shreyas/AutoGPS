@@ -1,0 +1,169 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Shape($)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(G, L)), 6)",
+    "Equals(LengthOf(Line(P, N)), 11)",
+    "Equals(LengthOf(Line(E, F)), 6)",
+    "Equals(LengthOf(Line(J, Q)), 12)",
+    "PointLiesOnLine(N, Line(G, I))",
+    "PointLiesOnLine(P, Line(G, I))",
+    "PointLiesOnLine(M, Line(G, L))",
+    "PointLiesOnLine(P, Line(G, N))",
+    "PointLiesOnLine(A, Line(P, D))",
+    "PointLiesOnLine(O, Line(P, D))",
+    "PointLiesOnLine(N, Line(P, I))",
+    "PointLiesOnLine(S, Line(B, K))",
+    "PointLiesOnLine(K, Line(E, F))",
+    "PointLiesOnLine(R, Line(E, H))",
+    "PointLiesOnLine(J, Line(H, I))",
+    "PointLiesOnLine(Q, Line(H, I))",
+    "PointLiesOnLine(J, Line(H, Q))",
+    "PointLiesOnLine(Q, Line(J, I))",
+    "PointLiesOnLine(B, Line(J, K))",
+    "PointLiesOnLine(S, Line(J, K))",
+    "PointLiesOnLine(B, Line(J, S))",
+    "PointLiesOnLine(D, Line(F, L))"
+  ],
+  "line_instances": [
+    "AG",
+    "AM",
+    "AP",
+    "BE",
+    "BH",
+    "BJ",
+    "BK",
+    "BR",
+    "BS",
+    "CI",
+    "CN",
+    "CQ",
+    "DF",
+    "DL",
+    "DO",
+    "EF",
+    "EH",
+    "EJ",
+    "EK",
+    "ER",
+    "ES",
+    "FL",
+    "GD",
+    "GI",
+    "GL",
+    "GM",
+    "GN",
+    "GP",
+    "HI",
+    "HJ",
+    "HK",
+    "HQ",
+    "HR",
+    "HS",
+    "IN",
+    "IQ",
+    "JI",
+    "JK",
+    "JQ",
+    "JR",
+    "JS",
+    "KF",
+    "KR",
+    "KS",
+    "LO",
+    "MD",
+    "ML",
+    "MP",
+    "NQ",
+    "PD",
+    "PI",
+    "PL",
+    "PN",
+    "RS"
+  ],
+  "point_positions": {
+    "A": [
+      22.0,
+      22.0
+    ],
+    "B": [
+      176.0,
+      161.0
+    ],
+    "C": [
+      21.0,
+      162.0
+    ],
+    "D": [
+      98.0,
+      22.0
+    ],
+    "E": [
+      195.0,
+      116.0
+    ],
+    "F": [
+      100.0,
+      114.0
+    ],
+    "G": [
+      1.0,
+      1.0
+    ],
+    "H": [
+      196.0,
+      180.0
+    ],
+    "I": [
+      2.0,
+      182.0
+    ],
+    "J": [
+      173.0,
+      181.0
+    ],
+    "K": [
+      176.0,
+      115.0
+    ],
+    "L": [
+      97.0,
+      1.0
+    ],
+    "M": [
+      24.0,
+      1.0
+    ],
+    "N": [
+      1.0,
+      162.0
+    ],
+    "O": [
+      77.0,
+      21.0
+    ],
+    "P": [
+      2.0,
+      20.0
+    ],
+    "Q": [
+      24.0,
+      182.0
+    ],
+    "R": [
+      196.0,
+      162.0
+    ],
+    "S": [
+      177.0,
+      136.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Circle($)),20\\pi)",
+    "Find(CircumferenceOf(Circle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Circle(A)),20\\pi)",
+    "Find(CircumferenceOf(Circle(A)))"
+  ],
+  "diagram_logic_form": [
+    ""
+  ],
+  "line_instances": [
+    ""
+  ],
+  "point_positions": {
+    "A": [
+      133.0,
+      136.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

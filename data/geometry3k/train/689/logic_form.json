@@ -1,0 +1,90 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, V, U)), 34)",
+    "Equals(MeasureOf(Arc(X, C)), 128)",
+    "Equals(MeasureOf(Arc(U, W)), x)",
+    "PointLiesOnLine(W, Line(V, A))",
+    "PointLiesOnLine(X, Line(V, A))",
+    "PointLiesOnLine(U, Line(V, T))",
+    "PointLiesOnLine(C, Line(V, T))",
+    "PointLiesOnLine(U, Line(V, C))",
+    "PointLiesOnLine(A, Line(V, D))",
+    "PointLiesOnLine(W, Line(V, D))",
+    "PointLiesOnLine(X, Line(V, D))",
+    "PointLiesOnLine(W, Line(V, X))",
+    "PointLiesOnLine(X, Line(A, W))",
+    "PointLiesOnLine(C, Line(T, U))",
+    "PointLiesOnLine(A, Line(W, D))",
+    "PointLiesOnLine(X, Line(W, D))",
+    "PointLiesOnLine(A, Line(D, X))",
+    "PointLiesOnCircle(U, Circle(B, radius_4_0))",
+    "PointLiesOnCircle(W, Circle(B, radius_4_0))",
+    "PointLiesOnCircle(C, Circle(B, radius_4_0))",
+    "PointLiesOnCircle(X, Circle(B, radius_4_0))"
+  ],
+  "line_instances": [
+    "AD",
+    "AW",
+    "AX",
+    "DX",
+    "TC",
+    "TU",
+    "UC",
+    "VA",
+    "VC",
+    "VD",
+    "VT",
+    "VU",
+    "VW",
+    "VX",
+    "WD",
+    "WX"
+  ],
+  "point_positions": {
+    "A": [
+      242.0,
+      11.0
+    ],
+    "B": [
+      162.0,
+      78.0
+    ],
+    "C": [
+      200.0,
+      144.0
+    ],
+    "D": [
+      276.0,
+      10.0
+    ],
+    "T": [
+      245.0,
+      170.0
+    ],
+    "U": [
+      84.0,
+      77.0
+    ],
+    "V": [
+      1.0,
+      30.0
+    ],
+    "W": [
+      108.0,
+      22.0
+    ],
+    "X": [
+      206.0,
+      14.0
+    ]
+  },
+  "circle_instances": [
+    "B"
+  ]
+}

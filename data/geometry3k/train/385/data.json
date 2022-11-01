@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the scale factor from W to W'.",
+  "choices": [
+    "0.4",
+    "0.6",
+    "0.8",
+    "1"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Ratio"
+  ],
+  "source": "textbook1_chapter_9.pdf",
+  "comment": "",
+  "id": 385,
+  "annot_id": "Shibiao_2020-03-26_06_31_11",
+  "is_standard": false,
+  "compact_choices": [
+    "0.4",
+    "0.6",
+    "0.8",
+    "1"
+  ],
+  "precise_value": [
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "rough_value": [
+    0.4,
+    0.6,
+    0.8,
+    1
+  ],
+  "compact_text": "Find the scale factor from W to W'.",
+  "annotat_text": "Find the scale factor from $W$ to $W'$.",
+  "unit": "",
+  "img_width": 651,
+  "img_height": 549,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

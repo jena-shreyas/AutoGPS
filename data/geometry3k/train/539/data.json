@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the perimeter of the parallelogram.",
+  "choices": [
+    "94",
+    "96",
+    "98",
+    "100"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 539,
+  "annot_id": "pan_2020-03-22_20_43_08",
+  "is_standard": false,
+  "unit": "ft",
+  "compact_choices": [
+    "94",
+    "96",
+    "98",
+    "100"
+  ],
+  "precise_value": [
+    94.0,
+    96.0,
+    98.0,
+    100.0
+  ],
+  "rough_value": [
+    94,
+    96,
+    98,
+    100
+  ],
+  "compact_text": "Find the perimeter of the parallelogram.",
+  "annotat_text": "Find the perimeter of the parallelogram.",
+  "img_width": 348,
+  "img_height": 285,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot S, find P R.",
+  "choices": [
+    "6",
+    "12",
+    "14",
+    "18"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 888,
+  "annot_id": "Shibiao_2020-03-27_12_41_07",
+  "is_standard": false,
+  "compact_choices": [
+    "6",
+    "12",
+    "14",
+    "18"
+  ],
+  "precise_value": [
+    6.0,
+    12.0,
+    14.0,
+    18.0
+  ],
+  "rough_value": [
+    6,
+    12,
+    14,
+    18
+  ],
+  "compact_text": "In \\odot S, find PR.",
+  "annotat_text": "In $\\odot S$, find $PR$.",
+  "unit": "",
+  "img_width": 544,
+  "img_height": 452,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

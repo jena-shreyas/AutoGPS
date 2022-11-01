@@ -1,0 +1,169 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(E, C)), 6)",
+    "PointLiesOnLine(G, Line(A, D))",
+    "PointLiesOnLine(I, Line(A, D))",
+    "PointLiesOnLine(G, Line(A, I))",
+    "PointLiesOnLine(B, Line(D, C))",
+    "PointLiesOnLine(N, Line(D, C))",
+    "PointLiesOnLine(I, Line(D, G))",
+    "PointLiesOnLine(B, Line(D, N))",
+    "PointLiesOnLine(A, Line(D, Q))",
+    "PointLiesOnLine(G, Line(D, Q))",
+    "PointLiesOnLine(I, Line(D, Q))",
+    "PointLiesOnLine(H, Line(E, C))",
+    "PointLiesOnLine(F, Line(E, C))",
+    "PointLiesOnLine(R, Line(E, C))",
+    "PointLiesOnLine(H, Line(E, F))",
+    "PointLiesOnLine(M, Line(E, O))",
+    "PointLiesOnLine(M, Line(E, Q))",
+    "PointLiesOnLine(O, Line(E, Q))",
+    "PointLiesOnLine(H, Line(E, R))",
+    "PointLiesOnLine(F, Line(E, R))",
+    "PointLiesOnLine(A, Line(G, Q))",
+    "PointLiesOnLine(A, Line(I, Q))",
+    "PointLiesOnLine(G, Line(I, Q))",
+    "PointLiesOnLine(O, Line(M, Q))",
+    "PointLiesOnLine(F, Line(H, C))",
+    "PointLiesOnLine(R, Line(H, C))",
+    "PointLiesOnLine(F, Line(H, R))",
+    "PointLiesOnLine(N, Line(C, B))",
+    "PointLiesOnLine(R, Line(C, F))",
+    "PointLiesOnCircle(H, Circle(J, radius_9_0))",
+    "PointLiesOnCircle(M, Circle(J, radius_9_0))",
+    "PointLiesOnCircle(A, Circle(K, radius_10_0))",
+    "PointLiesOnCircle(G, Circle(K, radius_10_0))",
+    "PointLiesOnCircle(O, Circle(K, radius_10_0))",
+    "PointLiesOnCircle(F, Circle(L, radius_11_0))",
+    "PointLiesOnCircle(N, Circle(L, radius_11_0))",
+    "PointLiesOnCircle(R, Circle(L, radius_11_0))",
+    "PointLiesOnCircle(B, Circle(P, radius_15_0))",
+    "PointLiesOnCircle(I, Circle(P, radius_15_0))"
+  ],
+  "line_instances": [
+    "AD",
+    "AE",
+    "AG",
+    "AI",
+    "AM",
+    "AO",
+    "AQ",
+    "BL",
+    "BN",
+    "CB",
+    "CF",
+    "CN",
+    "CR",
+    "DB",
+    "DC",
+    "DG",
+    "DI",
+    "DN",
+    "DQ",
+    "EC",
+    "EF",
+    "EH",
+    "EM",
+    "EO",
+    "EQ",
+    "ER",
+    "FR",
+    "GI",
+    "GQ",
+    "HC",
+    "HF",
+    "HR",
+    "IQ",
+    "MO",
+    "MQ",
+    "OQ",
+    "RB",
+    "RN"
+  ],
+  "point_positions": {
+    "A": [
+      3.0,
+      176.0
+    ],
+    "B": [
+      49.0,
+      0.0
+    ],
+    "C": [
+      201.0,
+      1.0
+    ],
+    "D": [
+      1.0,
+      0.0
+    ],
+    "E": [
+      200.0,
+      201.0
+    ],
+    "F": [
+      200.0,
+      69.0
+    ],
+    "G": [
+      2.0,
+      124.0
+    ],
+    "H": [
+      199.0,
+      152.0
+    ],
+    "I": [
+      1.0,
+      50.0
+    ],
+    "J": [
+      151.0,
+      152.0
+    ],
+    "K": [
+      47.0,
+      150.0
+    ],
+    "L": [
+      153.0,
+      50.0
+    ],
+    "M": [
+      150.0,
+      200.0
+    ],
+    "N": [
+      153.0,
+      2.0
+    ],
+    "O": [
+      46.0,
+      199.0
+    ],
+    "P": [
+      49.0,
+      50.0
+    ],
+    "Q": [
+      2.0,
+      200.0
+    ],
+    "R": [
+      200.0,
+      31.0
+    ]
+  },
+  "circle_instances": [
+    "J",
+    "K",
+    "L",
+    "P"
+  ]
+}

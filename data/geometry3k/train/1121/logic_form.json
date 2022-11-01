@@ -1,0 +1,28 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Circle(A)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(N, A)), 4)",
+    "PointLiesOnCircle(N, Circle(A, radius_1_0))"
+  ],
+  "line_instances": [
+    "NA"
+  ],
+  "point_positions": {
+    "A": [
+      88.0,
+      91.0
+    ],
+    "N": [
+      157.0,
+      31.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

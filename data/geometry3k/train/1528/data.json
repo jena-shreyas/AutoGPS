@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the area of the shaded region formed by the circle and regular polygon. Round to the nearest tenth.",
+  "choices": [
+    "0.7",
+    "2.5",
+    "6.6",
+    "15.0"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 1528,
+  "annot_id": "pan_2020-03-23_06_51_49",
+  "is_standard": false,
+  "unit": "ft^2",
+  "compact_choices": [
+    "0.7",
+    "2.5",
+    "6.6",
+    "15.0"
+  ],
+  "precise_value": [
+    0.7,
+    2.5,
+    6.6,
+    15.0
+  ],
+  "rough_value": [
+    0.7,
+    2.5,
+    6.6,
+    15
+  ],
+  "compact_text": "Find the area of the shaded region formed by the circle and regular polygon. Round to the nearest tenth.",
+  "annotat_text": "Find the area of the shaded region formed by the circle and regular polygon. Round to the nearest tenth.",
+  "img_width": 310,
+  "img_height": 266,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Rectangle(J,K,L,M)",
+    "Equals(MeasureOf(Angle(K,J,L)),2x+4)",
+    "Equals(MeasureOf(Angle(J,L,K)),7x+5)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(J,K,L,M)",
+    "Equals(MeasureOf(Angle(K,J,L)),2x+4)",
+    "Equals(MeasureOf(Angle(J,L,K)),7x+5)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(P, Line(M, K))",
+    "PointLiesOnLine(P, Line(L, J))"
+  ],
+  "line_instances": [
+    "JP",
+    "KJ",
+    "KP",
+    "LJ",
+    "LK",
+    "LP",
+    "MJ",
+    "MK",
+    "ML",
+    "MP"
+  ],
+  "point_positions": {
+    "J": [
+      2.0,
+      1.0
+    ],
+    "K": [
+      438.0,
+      3.0
+    ],
+    "L": [
+      441.0,
+      192.0
+    ],
+    "M": [
+      2.0,
+      192.0
+    ],
+    "P": [
+      221.0,
+      97.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Kite(A,T,B,L)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(L, A)), 6)",
+    "Equals(LengthOf(Line(L, B)), 3\\sqrt{2})",
+    "PointLiesOnLine(E, Line(A, B))",
+    "PointLiesOnLine(E, Line(L, T))",
+    "Equals(LengthOf(Line(L, E)), LengthOf(Line(E, T)))",
+    "Equals(LengthOf(Line(E, T)), LengthOf(Line(E, B)))",
+    "Equals(LengthOf(Line(L, E)), LengthOf(Line(E, B)))",
+    "Perpendicular(Line(L, E), Line(E, B))",
+    ""
+  ],
+  "line_instances": [
+    "AT",
+    "BT",
+    "LA",
+    "LB",
+    "AE",
+    "EB",
+    "LE",
+    "ET"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      82.0
+    ],
+    "B": [
+      244.0,
+      83.0
+    ],
+    "L": [
+      164.0,
+      1.0
+    ],
+    "T": [
+      163.0,
+      161.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

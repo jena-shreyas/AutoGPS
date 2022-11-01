@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Parallelogram(R,S,T,U)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallelogram(R,S,T,U)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(U, T, S)), 4x+6)",
+    "Equals(MeasureOf(Angle(S, R, U)), 6x-54)"
+  ],
+  "line_instances": [
+    "RU",
+    "SR",
+    "ST",
+    "TU"
+  ],
+  "point_positions": {
+    "R": [
+      497.0,
+      229.0
+    ],
+    "S": [
+      1.0,
+      229.0
+    ],
+    "T": [
+      168.0,
+      1.0
+    ],
+    "U": [
+      665.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Square(C,E,N,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, N)), 2\\sqrt{2})",
+    "Equals(LengthOf(Line(C, B)), LengthOf(Line(B, N)))",
+    "Equals(LengthOf(Line(B, N)), LengthOf(Line(E, N)))",
+    "Equals(LengthOf(Line(E, N)), LengthOf(Line(C, E)))"
+  ],
+  "line_instances": [
+    "BC",
+    "CE",
+    "CN",
+    "EN",
+    "NB"
+  ],
+  "point_positions": {
+    "B": [
+      11.0,
+      196.0
+    ],
+    "C": [
+      9.0,
+      8.0
+    ],
+    "E": [
+      197.0,
+      10.0
+    ],
+    "N": [
+      198.0,
+      196.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

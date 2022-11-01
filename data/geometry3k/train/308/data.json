@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot C, m \\angle H C G = 2 x and m \\angle H C D = 6 x + 28, find m \\widehat E F.",
+  "choices": [
+    "38",
+    "52",
+    "68",
+    "142"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 308,
+  "annot_id": "Shibiao_2020-03-27_12_22_56",
+  "is_standard": false,
+  "compact_choices": [
+    "38",
+    "52",
+    "68",
+    "142"
+  ],
+  "precise_value": [
+    38.0,
+    52.0,
+    68.0,
+    142.0
+  ],
+  "rough_value": [
+    38,
+    52,
+    68,
+    142
+  ],
+  "compact_text": "In \\odot C, m \\angle HCG = 2x and m \\angle HCD = 6x+28, find m \\widehat EF.",
+  "annotat_text": "In $\\odot C$, $m \\angle HCG=2x$ and $m \\angle HCD=6x+28$, find $m \\widehat {EF}$.",
+  "unit": "",
+  "img_width": 456,
+  "img_height": 405,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

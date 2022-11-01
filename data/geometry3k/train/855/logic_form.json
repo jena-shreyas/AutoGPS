@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(E, J, C)), 2x)",
+    "Equals(MeasureOf(Angle(J, C, A)), 96)",
+    "Equals(MeasureOf(Angle(A, E, J)), 3y+44)",
+    "Equals(MeasureOf(Angle(C, A, E)), 94)",
+    "Parallel(Line(C,A), Line(J,E))",
+    ""
+  ],
+  "line_instances": [
+    "AC",
+    "AE",
+    "EJ",
+    "JC"
+  ],
+  "point_positions": {
+    "A": [
+      14.0,
+      217.0
+    ],
+    "C": [
+      3.0,
+      47.0
+    ],
+    "E": [
+      329.0,
+      219.0
+    ],
+    "J": [
+      286.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

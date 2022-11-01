@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x.",
+  "choices": [
+    "\\sqrt { 6 }",
+    "6",
+    "6 \\sqrt { 3 }",
+    "12"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter7.pdf page 24",
+  "comment": "",
+  "id": 105,
+  "annot_id": "Ran_2020-03-22_05_56_23",
+  "is_standard": false,
+  "compact_choices": [
+    "\\sqrt{6}",
+    "6",
+    "6\\sqrt{3}",
+    "12"
+  ],
+  "precise_value": [
+    2.449489742783178,
+    6.0,
+    10.392304845413264,
+    12.0
+  ],
+  "rough_value": [
+    2.45,
+    6,
+    10.39,
+    12
+  ],
+  "compact_text": "Find x.",
+  "annotat_text": "Find x",
+  "unit": "",
+  "img_width": 313,
+  "img_height": 151,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

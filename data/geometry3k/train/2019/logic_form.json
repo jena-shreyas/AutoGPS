@@ -1,0 +1,85 @@
+{
+  "text_logic_form": [
+    "Circle(R)",
+    "Equals(LengthOf(Line(S,U)),20)",
+    "Equals(LengthOf(Line(Y,W)),20)",
+    "Equals(MeasureOf(Arc(Y,X)),45)",
+    "Find(MeasureOf(Arc(S,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Circle(R)",
+    "Equals(LengthOf(Line(S,U)),20)",
+    "Equals(LengthOf(Line(Y,W)),20)",
+    "Equals(MeasureOf(Arc(Y,X)),45)",
+    "Find(MeasureOf(Arc(S,T)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(Z, Line(Y, W))",
+    "PointLiesOnLine(V, Line(U, S))",
+    "PointLiesOnLine(Z, Line(R, X))",
+    "PointLiesOnLine(V, Line(R, T))",
+    "PointLiesOnCircle(Y, Circle(R, radius_5_0))",
+    "PointLiesOnCircle(U, Circle(R, radius_5_0))",
+    "PointLiesOnCircle(S, Circle(R, radius_5_0))",
+    "PointLiesOnCircle(W, Circle(R, radius_5_0))",
+    "PointLiesOnCircle(X, Circle(R, radius_5_0))",
+    "PointLiesOnCircle(T, Circle(R, radius_5_0))",
+    "Perpendicular(Line(V, S), Line(V, R))",
+    "Perpendicular(Line(Z, R), Line(Y, Z))"
+  ],
+  "line_instances": [
+    "RT",
+    "RX",
+    "US",
+    "VR",
+    "VS",
+    "VT",
+    "VU",
+    "YW",
+    "YZ",
+    "ZR",
+    "ZW",
+    "ZX"
+  ],
+  "point_positions": {
+    "R": [
+      100.0,
+      97.0
+    ],
+    "S": [
+      106.0,
+      0.0
+    ],
+    "T": [
+      178.0,
+      39.0
+    ],
+    "U": [
+      195.0,
+      121.0
+    ],
+    "V": [
+      150.0,
+      60.0
+    ],
+    "W": [
+      141.0,
+      186.0
+    ],
+    "X": [
+      61.0,
+      188.0
+    ],
+    "Y": [
+      7.0,
+      128.0
+    ],
+    "Z": [
+      74.0,
+      157.0
+    ]
+  },
+  "circle_instances": [
+    "R"
+  ]
+}

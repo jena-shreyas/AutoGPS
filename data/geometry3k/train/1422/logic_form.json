@@ -1,0 +1,37 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Shape(A)),128)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Sectoe(K,J,L)),128)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(J, K)), x)",
+    "Equals(MeasureOf(Angle(L, K, J)), 152)",
+    "PointLiesOnCircle(L, Circle(K, radius_1_0))",
+    "PointLiesOnCircle(J, Circle(K, radius_1_0))"
+  ],
+  "line_instances": [
+    "KJ",
+    "LK"
+  ],
+  "point_positions": {
+    "J": [
+      57.0,
+      26.0
+    ],
+    "K": [
+      105.0,
+      102.0
+    ],
+    "L": [
+      110.0,
+      210.0
+    ]
+  },
+  "circle_instances": [
+    "K"
+  ]
+}

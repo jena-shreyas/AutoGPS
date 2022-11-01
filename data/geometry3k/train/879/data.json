@@ -1,0 +1,48 @@
+{
+  "problem_text": "The area of \\parallelogram A B C D is 150 square meters. The area of \\parallelogram F G H J is 54 square meters. If \\parallelogram A B C D \\sim \\parallelogram F G H J, find the value of x.",
+  "choices": [
+    "3.6",
+    "6",
+    "16.7",
+    "27.8"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 879,
+  "annot_id": "pan_2020-03-23_07_14_17",
+  "is_standard": false,
+  "compact_choices": [
+    "3.6",
+    "6",
+    "16.7",
+    "27.8"
+  ],
+  "precise_value": [
+    3.6,
+    6.0,
+    16.7,
+    27.8
+  ],
+  "rough_value": [
+    3.6,
+    6,
+    16.7,
+    27.8
+  ],
+  "compact_text": "The area of \\parallelogram ABCD is 150 square meters. The area of \\parallelogram FGHJ is 54 square meters. If \\parallelogram ABCD \\sim \\parallelogram FGHJ, find the value of x.",
+  "annotat_text": "The area of $\u25b1 A B C D$ is 150 square meters. The area of $\u25b1 F G H J$ is 54 square meters. If $\u25b1 A B C D \\sim \u25b1 F G H J$, find the value of $x$.",
+  "unit": "",
+  "img_width": 414,
+  "img_height": 253,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

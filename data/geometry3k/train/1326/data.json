@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find y.",
+  "choices": [
+    "12",
+    "13",
+    "14",
+    "15"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_4.pdf",
+  "comment": "",
+  "id": 1326,
+  "annot_id": "Shibiao_2020-03-21_13_28_04",
+  "is_standard": false,
+  "compact_choices": [
+    "12",
+    "13",
+    "14",
+    "15"
+  ],
+  "precise_value": [
+    12.0,
+    13.0,
+    14.0,
+    15.0
+  ],
+  "rough_value": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "compact_text": "Find y.",
+  "annotat_text": "Find $y$.",
+  "unit": "",
+  "img_width": 826,
+  "img_height": 403,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

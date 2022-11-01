@@ -1,0 +1,49 @@
+{
+  "problem_text": "Triangle J K L is circumscribed about \\odot R. Find the perimeter of \\triangle J K L.",
+  "choices": [
+    "38",
+    "52",
+    "54",
+    "74"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "beautiful missing points",
+  "id": 843,
+  "annot_id": "Shibiao_2020-03-28_11_20_51",
+  "is_standard": false,
+  "compact_choices": [
+    "38",
+    "52",
+    "54",
+    "74"
+  ],
+  "precise_value": [
+    38.0,
+    52.0,
+    54.0,
+    74.0
+  ],
+  "rough_value": [
+    38,
+    52,
+    54,
+    74
+  ],
+  "compact_text": "Triangle JKL is circumscribed about \\odot R. Find the perimeter of \\triangle JKL.",
+  "annotat_text": "Triangle $JKL$ is circumscribed about $\\odot R$. Find the perimeter of $\\triangle JKL$.",
+  "unit": "",
+  "img_width": 631,
+  "img_height": 520,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

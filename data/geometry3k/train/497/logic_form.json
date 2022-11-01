@@ -1,0 +1,44 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Shape(A)),153)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Parallelogram(B,C,A,T)),153)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(T, Line(A, D))",
+    "Perpendicular(Line(B, D), Line(D, T))"
+  ],
+  "line_instances": [
+    "AC",
+    "AT",
+    "CB",
+    "TB",
+    "BD",
+    "DT",
+    "AD"
+  ],
+  "point_positions": {
+    "A": [
+      287.0,
+      129.0
+    ],
+    "B": [
+      0.0,
+      0.0
+    ],
+    "C": [
+      221.0,
+      1.0
+    ],
+    "T": [
+      65.0,
+      129.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

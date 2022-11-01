@@ -1,0 +1,45 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Parallelogram($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Parallelogram(A,B,O,C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(E, C, O)), 60)",
+    "Equals(LengthOf(Line(C, O)), 20)",
+    "Equals(LengthOf(Line(B, O)), 15)",
+    "PointLiesOnLine(E, Line(C, A))",
+    "Perpendicular(Line(O, E), Line(E, A))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BO",
+    "CO",
+    "AE",
+    "CE",
+    "OE"
+  ],
+  "point_positions": {
+    "A": [
+      143.0,
+      0.0
+    ],
+    "B": [
+      218.0,
+      177.0
+    ],
+    "C": [
+      1.0,
+      2.0
+    ],
+    "O": [
+      75.0,
+      177.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

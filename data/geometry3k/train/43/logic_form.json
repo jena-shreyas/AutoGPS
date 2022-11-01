@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Parallelogram(N,Q,R,M)",
+    "Find(w)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallelogram(N,Q,R,M)",
+    "Find(w)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Q, N)), 3x+2)",
+    "Equals(LengthOf(Line(Q, L)), 12)",
+    "Equals(LengthOf(Line(M, N)), 2y+5)",
+    "Equals(LengthOf(Line(Q, R)), 3y)",
+    "Equals(LengthOf(Line(M, L)), LengthOf(w))",
+    "Equals(LengthOf(Line(M, R)), 4x-2)",
+    "PointLiesOnLine(L, Line(Q, M))",
+    "PointLiesOnLine(L, Line(R, N))"
+  ],
+  "line_instances": [
+    "ML",
+    "MN",
+    "MR",
+    "NL",
+    "QL",
+    "QM",
+    "QN",
+    "QR",
+    "RL",
+    "RN"
+  ],
+  "point_positions": {
+    "L": [
+      142.0,
+      82.0
+    ],
+    "M": [
+      0.0,
+      166.0
+    ],
+    "N": [
+      70.0,
+      2.0
+    ],
+    "Q": [
+      282.0,
+      0.0
+    ],
+    "R": [
+      212.0,
+      165.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

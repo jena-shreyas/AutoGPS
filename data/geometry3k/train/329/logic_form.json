@@ -1,0 +1,64 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Polygon($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Polygon($)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(N, D)), 2)",
+    "Equals(LengthOf(Line(N, C)), 10)",
+    "PointLiesOnLine(C, Line(A, N))",
+    "PointLiesOnLine(N, Line(A, D))",
+    "PointLiesOnLine(C, Line(A, D))",
+    "PointLiesOnLine(M, Line(N, B))",
+    "PointLiesOnLine(M, Line(C, B))",
+    "PointLiesOnLine(N, Line(C, D))",
+    "PointLiesOnCircle(A, Circle(M, radius_5_0))",
+    "PointLiesOnCircle(N, Circle(M, radius_5_0))",
+    "PointLiesOnCircle(C, Circle(M, radius_5_0))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AM",
+    "AN",
+    "CB",
+    "CD",
+    "CM",
+    "MB",
+    "NB",
+    "NC",
+    "ND",
+    "NM"
+  ],
+  "point_positions": {
+    "A": [
+      99.0,
+      179.0
+    ],
+    "B": [
+      90.0,
+      86.0
+    ],
+    "C": [
+      87.0,
+      180.0
+    ],
+    "D": [
+      22.0,
+      170.0
+    ],
+    "M": [
+      88.0,
+      96.0
+    ],
+    "N": [
+      51.0,
+      175.0
+    ]
+  },
+  "circle_instances": [
+    "M"
+  ]
+}

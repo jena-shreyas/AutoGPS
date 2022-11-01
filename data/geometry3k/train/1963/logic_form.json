@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Square(A,B,C,D)",
+    "Triangle(A,D,E)",
+    "Equals(MeasureOf(Angle(E,A,D)),30)",
+    "Equals(LengthOf(Line(A,E)),4\\sqrt{3})",
+    "Find(AreaOf(Square(A,B,C,D)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Square(A,B,C,D)",
+    "Triangle(A,D,E)",
+    "Equals(MeasureOf(Angle(E,A,D)),30)",
+    "Equals(LengthOf(Line(A,E)),4\\sqrt{3})",
+    "Find(AreaOf(Square(A,B,C,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, A, E)), 30)",
+    "Equals(LengthOf(Line(A, E)), 4\\sqrt{3})",
+    "Perpendicular(Line(A, D), Line(C, D))",
+    "Perpendicular(Line(A, B), Line(B, C))"
+  ],
+  "line_instances": [
+    "AD",
+    "AE",
+    "BA",
+    "BC",
+    "CD",
+    "ED"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      92.0
+    ],
+    "B": [
+      161.0,
+      0.0
+    ],
+    "C": [
+      254.0,
+      160.0
+    ],
+    "D": [
+      94.0,
+      252.0
+    ],
+    "E": [
+      2.0,
+      253.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

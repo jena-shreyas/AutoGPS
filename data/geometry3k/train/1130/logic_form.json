@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Rhombus(L,M,P,Q)",
+    "Equals(MeasureOf(Angle(Q,L,M)),2x^{2}-10)",
+    "Equals(MeasureOf(Angle(Q,P,M)),8x)",
+    "Equals(LengthOf(Line(M,P)),10)",
+    "Find(MeasureOf(Angle(L,P,Q)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rhombus(L,M,P,Q)",
+    "Equals(MeasureOf(Angle(Q,L,M)),2x^{2}-10)",
+    "Equals(MeasureOf(Angle(Q,P,M)),8x)",
+    "Equals(LengthOf(Line(M,P)),10)",
+    "Find(MeasureOf(Angle(L,P,Q)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(P, M)), 10)",
+    "PointLiesOnLine(R, Line(P, L))",
+    "PointLiesOnLine(R, Line(M, Q))"
+  ],
+  "line_instances": [
+    "LQ",
+    "LR",
+    "ML",
+    "MQ",
+    "MR",
+    "PL",
+    "PM",
+    "PQ",
+    "PR",
+    "QR"
+  ],
+  "point_positions": {
+    "L": [
+      1.0,
+      99.0
+    ],
+    "M": [
+      156.0,
+      100.0
+    ],
+    "P": [
+      279.0,
+      0.0
+    ],
+    "Q": [
+      124.0,
+      2.0
+    ],
+    "R": [
+      140.0,
+      50.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

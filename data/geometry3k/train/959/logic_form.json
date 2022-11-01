@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Similar(Shape($1),Shape($2))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Trapezoid(B,N,A,L),Trapezoid(E,F,G,H))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(N, B)), 6)",
+    "Equals(LengthOf(Line(E, F)), x)",
+    "Equals(AreaOf(Trapezoid(B, N, A, L)), 72)",
+    "Equals(AreaOf(Trapezoid(E, F, G, H)), 50)"
+  ],
+  "line_instances": [
+    "AL",
+    "BL",
+    "EF",
+    "EH",
+    "FG",
+    "GH",
+    "NA",
+    "NB"
+  ],
+  "point_positions": {
+    "A": [
+      183.0,
+      152.0
+    ],
+    "B": [
+      1.0,
+      0.0
+    ],
+    "L": [
+      1.0,
+      151.0
+    ],
+    "N": [
+      87.0,
+      2.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

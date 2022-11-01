@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Q, R)), 3y-1)",
+    "Equals(LengthOf(Line(R, S)), y+11)",
+    "Equals(LengthOf(Line(Q, S)), 4y-9)",
+    "Equals(LengthOf(Line(Q, R)), LengthOf(Line(R, S)))"
+  ],
+  "line_instances": [
+    "QS",
+    "RQ",
+    "RS"
+  ],
+  "point_positions": {
+    "Q": [
+      0.0,
+      187.0
+    ],
+    "R": [
+      200.0,
+      3.0
+    ],
+    "S": [
+      400.0,
+      187.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

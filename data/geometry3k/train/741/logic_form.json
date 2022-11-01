@@ -1,0 +1,49 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Parallelogram(A,B,C,D)),150)",
+    "Equals(AreaOf(Parallelogram(F,G,H,J)),54)",
+    "Similar(Parallelogram(A,B,C,D),Parallelogram(F,G,H,J))",
+    "Find(ScaleFactorOf(Parallelogram(F,G,H,J),Parallelogram(A,B,C,D)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Parallelogram(A,B,C,D)),150)",
+    "Equals(AreaOf(Parallelogram(F,G,H,J)),54)",
+    "Similar(Parallelogram(A,B,C,D),Parallelogram(F,G,H,J))",
+    "Find(ScaleFactorOf(Parallelogram(F,G,H,J),Parallelogram(A,B,C,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, D)), 10)",
+    "Equals(LengthOf(Line(J, H)), x)"
+  ],
+  "line_instances": [
+    "BC",
+    "BA",
+    "CD",
+    "AD",
+    "FG",
+    "GH",
+    "JH",
+    "FJ"
+  ],
+  "point_positions": {
+    "B": [
+      144.0,
+      1.0
+    ],
+    "C": [
+      109.0,
+      165.0
+    ],
+    "A": [
+      35.0,
+      2.0
+    ],
+    "D": [
+      2.0,
+      166.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

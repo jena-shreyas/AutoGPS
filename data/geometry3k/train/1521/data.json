@@ -1,0 +1,48 @@
+{
+  "problem_text": "Circle A has diameters D F and P G. If P A = 7, find P G.",
+  "choices": [
+    "7",
+    "14",
+    "28",
+    "35"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter10.pdf page 4",
+  "comment": "",
+  "id": 1521,
+  "annot_id": "Ran_2020-03-28_00_56_34",
+  "is_standard": false,
+  "compact_choices": [
+    "7",
+    "14",
+    "28",
+    "35"
+  ],
+  "precise_value": [
+    7.0,
+    14.0,
+    28.0,
+    35.0
+  ],
+  "rough_value": [
+    7,
+    14,
+    28,
+    35
+  ],
+  "compact_text": "Circle A has diameters DF and PG. If PA = 7, find PG.",
+  "annotat_text": "Circle $A$ has diameters $\\overline{D F}$ and $\\overline{P G}$\r\nIf $P A=7,$ find $P G$",
+  "unit": "",
+  "img_width": 373,
+  "img_height": 364,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

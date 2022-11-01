@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find Y Z of isosceles \\triangle X Y Z.",
+  "choices": [
+    "1",
+    "7",
+    "8",
+    "9"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter6.pdf page2",
+  "comment": "",
+  "id": 1837,
+  "annot_id": "Ran_2020-03-15_02_53_09",
+  "is_standard": false,
+  "compact_choices": [
+    "1",
+    "7",
+    "8",
+    "9"
+  ],
+  "precise_value": [
+    1.0,
+    7.0,
+    8.0,
+    9.0
+  ],
+  "rough_value": [
+    1,
+    7,
+    8,
+    9
+  ],
+  "compact_text": "Find YZ of isosceles \\triangle XYZ.",
+  "annotat_text": "Find $YZ$ of isosceles $\\triangle XYZ$",
+  "unit": "",
+  "img_width": 489,
+  "img_height": 307,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Find(RatioOf(AreaOf(Triangle(A,B,C)),AreaOf(Square(B,C,D,E))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(RatioOf(AreaOf(Triangle(A,B,C)),AreaOf(Square(B,C,D,E))))"
+  ],
+  "diagram_logic_form": [
+    "Perpendicular(Line(E, D), Line(D, C))",
+    "Equals(LengthOf(Line(B, A)), LengthOf(Line(B, C)))",
+    "Equals(LengthOf(Line(B, C)), LengthOf(Line(A, C)))"
+  ],
+  "line_instances": [
+    "AC",
+    "BA",
+    "BC",
+    "DC",
+    "EB",
+    "ED"
+  ],
+  "point_positions": {
+    "A": [
+      228.0,
+      63.0
+    ],
+    "B": [
+      125.0,
+      2.0
+    ],
+    "C": [
+      126.0,
+      124.0
+    ],
+    "D": [
+      0.0,
+      126.0
+    ],
+    "E": [
+      2.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

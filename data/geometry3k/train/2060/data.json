@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the measure of \\angle Z to the nearest tenth.",
+  "choices": [
+    "31.0",
+    "36.9",
+    "53.1",
+    "59.0"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "",
+  "id": 2060,
+  "annot_id": "pan_2020-03-24_05_51_40",
+  "is_standard": false,
+  "compact_choices": [
+    "31.0",
+    "36.9",
+    "53.1",
+    "59.0"
+  ],
+  "precise_value": [
+    31.0,
+    36.9,
+    53.1,
+    59.0
+  ],
+  "rough_value": [
+    31,
+    36.9,
+    53.1,
+    59
+  ],
+  "compact_text": "Find the measure of \\angle Z to the nearest tenth.",
+  "annotat_text": "Find the measure of $\u2220Z$ to the nearest tenth.",
+  "unit": "",
+  "img_width": 300,
+  "img_height": 248,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

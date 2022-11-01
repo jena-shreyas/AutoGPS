@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Rhombus(J,K,L,M)",
+    "Equals(LengthOf(Line(C,K)),8)",
+    "Equals(LengthOf(Line(J,K)),10)",
+    "Find(LengthOf(Line(J,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rhombus(J,K,L,M)",
+    "Equals(LengthOf(Line(C,K)),8)",
+    "Equals(LengthOf(Line(J,K)),10)",
+    "Find(LengthOf(Line(J,C)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(C, Line(J, L))",
+    "PointLiesOnLine(C, Line(M, K))"
+  ],
+  "line_instances": [
+    "JL",
+    "JM",
+    "JK",
+    "JC",
+    "LM",
+    "LK",
+    "LC",
+    "MK",
+    "MC",
+    "KC"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "J": [
+      46.331815306767865,
+      0.3889271030992987
+    ],
+    "L": [
+      140.8466827671167,
+      109.39967364783348
+    ],
+    "M": [
+      0.3179581342119491,
+      111.0144093351927
+    ],
+    "K": [
+      186.65215057325884,
+      0.4975503561497092
+    ],
+    "C": [
+      93.1696113074205,
+      55.696113074204945
+    ]
+  }
+}

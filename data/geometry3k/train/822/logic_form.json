@@ -1,0 +1,121 @@
+{
+  "text_logic_form": [
+    "Parallel(Line(K,H),Line(J,I))",
+    "Find(MeasureOf(Angle(2)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallel(Line(K,H),Line(J,I))",
+    "Find(MeasureOf(Angle(2)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(J, K, H)), 36)",
+    "Equals(MeasureOf(Angle(H, K, C)), 54)",
+    "Equals(MeasureOf(Angle(L, J, K)), MeasureOf(angle 3))",
+    "Equals(MeasureOf(Angle(K, H, L)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(D, H, K)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(D, C, F)), 120)",
+    "PointLiesOnLine(F, Line(A, C))",
+    "PointLiesOnLine(I, Line(A, C))",
+    "PointLiesOnLine(I, Line(A, F))",
+    "PointLiesOnLine(A, Line(C, K))",
+    "PointLiesOnLine(F, Line(C, K))",
+    "PointLiesOnLine(I, Line(C, K))",
+    "PointLiesOnLine(H, Line(C, E))",
+    "PointLiesOnLine(F, Line(C, I))",
+    "PointLiesOnLine(A, Line(K, F))",
+    "PointLiesOnLine(I, Line(K, F))",
+    "PointLiesOnLine(A, Line(K, I))",
+    "PointLiesOnLine(G, Line(B, J))",
+    "PointLiesOnLine(L, Line(B, J))",
+    "PointLiesOnLine(G, Line(B, L))",
+    "PointLiesOnLine(G, Line(J, H))",
+    "PointLiesOnLine(L, Line(J, H))",
+    "PointLiesOnLine(L, Line(J, G))",
+    "PointLiesOnLine(C, Line(H, D))",
+    "PointLiesOnLine(B, Line(H, G))",
+    "PointLiesOnLine(G, Line(H, L))",
+    "PointLiesOnLine(C, Line(D, E))",
+    "PointLiesOnLine(H, Line(D, E))"
+  ],
+  "line_instances": [
+    "AC",
+    "AK",
+    "AF",
+    "AI",
+    "CK",
+    "CD",
+    "CE",
+    "CH",
+    "CF",
+    "CI",
+    "KJ",
+    "KH",
+    "KF",
+    "KI",
+    "FI",
+    "BJ",
+    "BH",
+    "BG",
+    "BL",
+    "JH",
+    "JG",
+    "JL",
+    "HD",
+    "HE",
+    "HG",
+    "HL",
+    "GL",
+    "DE"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      118.0,
+      48.0
+    ],
+    "B": [
+      229.1304347826087,
+      129.76086956521738
+    ],
+    "C": [
+      60.28155339805825,
+      150.5
+    ],
+    "J": [
+      265.0099292066792,
+      66.16252278386371
+    ],
+    "K": [
+      147.19697918838656,
+      1.4260753910971715
+    ],
+    "D": [
+      0.0,
+      150.0
+    ],
+    "E": [
+      281.0,
+      150.0
+    ],
+    "H": [
+      213.5701754385965,
+      148.33333333333331
+    ],
+    "F": [
+      97.0,
+      83.0
+    ],
+    "G": [
+      237.5,
+      112.0
+    ],
+    "I": [
+      110.64788732394366,
+      61.056338028169016
+    ],
+    "L": [
+      258.8421052631579,
+      75.28947368421052
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "\\odot J \\cong \\odot K and \\widehat M N \\cong \\widehat P Q. Find P Q.",
+  "choices": [
+    "7",
+    "17",
+    "21",
+    "24"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "! two subgraph",
+  "id": 1794,
+  "annot_id": "Shibiao_2020-03-27_12_36_07",
+  "is_standard": false,
+  "compact_choices": [
+    "7",
+    "17",
+    "21",
+    "24"
+  ],
+  "precise_value": [
+    7.0,
+    17.0,
+    21.0,
+    24.0
+  ],
+  "rough_value": [
+    7,
+    17,
+    21,
+    24
+  ],
+  "compact_text": "\\odot J \\cong \\odot K and \\widehat MN \\cong \\widehat PQ. Find PQ.",
+  "annotat_text": "$\\odot J \\cong \\odot K$ and $\\widehat {MN} \\cong \\widehat {PQ}$. Find $PQ$.",
+  "unit": "",
+  "img_width": 835,
+  "img_height": 532,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

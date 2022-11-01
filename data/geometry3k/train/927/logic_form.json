@@ -1,0 +1,81 @@
+{
+  "text_logic_form": [
+    "IsMidpointOf(Point(J),Line(K,H))",
+    "IsMidpointOf(Point(P),Line(H,M))",
+    "IsMidpointOf(Point(L),Line(M,K))",
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "IsMidpointOf(Point(J),Line(K,H))",
+    "IsMidpointOf(Point(P),Line(H,M))",
+    "IsMidpointOf(Point(L),Line(M,K))",
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Q, H)), y)",
+    "Equals(LengthOf(Line(Q, J)), 2z)",
+    "Equals(LengthOf(Line(Q, P)), 2x-6)",
+    "Equals(LengthOf(Line(Q, K)), 7)",
+    "Equals(LengthOf(Line(Q, L)), 3)",
+    "Equals(LengthOf(Line(Q, M)), 4)",
+    "PointLiesOnLine(J, Line(K, H))",
+    "PointLiesOnLine(L, Line(K, M))",
+    "PointLiesOnLine(Q, Line(K, P))",
+    "PointLiesOnLine(P, Line(H, M))",
+    "PointLiesOnLine(Q, Line(H, L))",
+    "PointLiesOnLine(Q, Line(M, J))"
+  ],
+  "line_instances": [
+    "HJ",
+    "HL",
+    "HM",
+    "HP",
+    "KH",
+    "KJ",
+    "KL",
+    "KM",
+    "KP",
+    "MJ",
+    "ML",
+    "MP",
+    "QH",
+    "QJ",
+    "QK",
+    "QL",
+    "QM",
+    "QP"
+  ],
+  "point_positions": {
+    "H": [
+      512.0,
+      2.0
+    ],
+    "J": [
+      258.0,
+      100.0
+    ],
+    "K": [
+      0.0,
+      200.0
+    ],
+    "L": [
+      238.0,
+      263.0
+    ],
+    "M": [
+      469.0,
+      323.0
+    ],
+    "P": [
+      491.0,
+      164.0
+    ],
+    "Q": [
+      329.0,
+      176.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

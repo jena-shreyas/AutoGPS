@@ -1,0 +1,66 @@
+{
+  "text_logic_form": [
+    "CircumscribedTo(Triangle(A,D,C),Circle(O))",
+    "Equals(LengthOf(Line(E,C)),Add(Line(D,E),Line(A,F)))",
+    "Find(PerimeterOf(Triangle(A,D,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "CircumscribedTo(Triangle(A,D,C),Circle(O))",
+    "Equals(LengthOf(Line(E,C)),Add(Line(D,E),Line(A,F)))",
+    "Find(PerimeterOf(Triangle(A,D,C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(F, D)), 6)",
+    "Equals(LengthOf(Line(A, B)), 19)",
+    "PointLiesOnLine(B, Line(C, A))",
+    "PointLiesOnLine(E, Line(C, D))",
+    "PointLiesOnLine(F, Line(D, A))",
+    "PointLiesOnCircle(B, Circle(H, radius_6_0))",
+    "PointLiesOnCircle(F, Circle(H, radius_6_0))",
+    "PointLiesOnCircle(E, Circle(H, radius_6_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "CA",
+    "CB",
+    "CD",
+    "CE",
+    "DA",
+    "DE",
+    "FA",
+    "FD"
+  ],
+  "point_positions": {
+    "A": [
+      264.0,
+      139.0
+    ],
+    "B": [
+      170.0,
+      131.0
+    ],
+    "C": [
+      0.0,
+      118.0
+    ],
+    "D": [
+      200.0,
+      2.0
+    ],
+    "E": [
+      127.0,
+      45.0
+    ],
+    "F": [
+      223.0,
+      52.0
+    ],
+    "H": [
+      175.0,
+      75.0
+    ]
+  },
+  "circle_instances": [
+    "H"
+  ]
+}

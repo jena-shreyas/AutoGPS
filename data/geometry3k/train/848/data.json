@@ -1,0 +1,49 @@
+{
+  "problem_text": "A regular hexagon is inscribed in a circle with a diameter of 14. Find the area of the red segment.",
+  "choices": [
+    "4.44",
+    "8.88",
+    "21.22",
+    "25.66"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "very hard",
+  "id": 848,
+  "annot_id": "pan_2020-03-22_06_47_13",
+  "is_standard": false,
+  "compact_choices": [
+    "4.44",
+    "8.88",
+    "21.22",
+    "25.66"
+  ],
+  "precise_value": [
+    4.44,
+    8.88,
+    21.22,
+    25.66
+  ],
+  "rough_value": [
+    4.44,
+    8.88,
+    21.22,
+    25.66
+  ],
+  "compact_text": "A regular hexagon is inscribed in a circle with a diameter of 14. Find the area of the red segment.",
+  "annotat_text": "A regular hexagon is inscribed in a circle with a diameter of 14. Find the area of the red segment.",
+  "unit": "",
+  "img_width": 349,
+  "img_height": 293,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

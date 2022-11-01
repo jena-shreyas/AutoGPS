@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Perpendicular(Line(T,U),Line(U,V))",
+    "Perpendicular(Line(U,V),Line(V,W))",
+    "Find(MeasureOf(Angle(1)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Perpendicular(Line(T,U),Line(U,V))",
+    "Perpendicular(Line(U,V),Line(V,W))",
+    "Find(MeasureOf(Angle(1)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(A, U, V)), MeasureOf(angle 2))",
+    "Equals(LengthOf(Line(V, T)), 5)",
+    "Equals(MeasureOf(Angle(W, A, V)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(U, V, A)), 27)",
+    "Equals(MeasureOf(Angle(V, W, A)), 72)",
+    "PointLiesOnLine(A, Line(V, T))",
+    "PointLiesOnLine(A, Line(W, U))"
+  ],
+  "line_instances": [
+    "VW",
+    "VU",
+    "VT",
+    "VA",
+    "WU",
+    "WA",
+    "UT",
+    "UA",
+    "TA"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "V": [
+      1.0,
+      231.61737290558702
+    ],
+    "W": [
+      201.3722926941328,
+      230.33294567800198
+    ],
+    "U": [
+      0.8536200532602294,
+      1.7103001694689084
+    ],
+    "T": [
+      203.29420289855074,
+      0.33188405797100984
+    ],
+    "A": [
+      101.25046967761328,
+      116.78394829788833
+    ]
+  }
+}

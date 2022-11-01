@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Rectangle(A,B,C,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 3.2)",
+    "Equals(LengthOf(Line(A, C)), 1.1)"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BD",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      0.0
+    ],
+    "B": [
+      246.0,
+      1.0
+    ],
+    "C": [
+      2.0,
+      84.0
+    ],
+    "D": [
+      247.0,
+      85.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

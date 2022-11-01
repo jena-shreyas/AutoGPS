@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the measure of \\angle C.",
+  "choices": [
+    "56",
+    "110",
+    "112",
+    "130"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Angle",
+    "Other"
+  ],
+  "source": "textbook1_chapter6.pdf page 33",
+  "comment": "",
+  "id": 1185,
+  "annot_id": "Ran_2020-03-18_23_39_32",
+  "is_standard": false,
+  "compact_choices": [
+    "56",
+    "110",
+    "112",
+    "130"
+  ],
+  "precise_value": [
+    56.0,
+    110.0,
+    112.0,
+    130.0
+  ],
+  "rough_value": [
+    56,
+    110,
+    112,
+    130
+  ],
+  "compact_text": "Find the measure of \\angle C.",
+  "annotat_text": "Find the measure of $\\angle C$",
+  "unit": "",
+  "img_width": 648,
+  "img_height": 478,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

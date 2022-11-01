@@ -1,0 +1,49 @@
+{
+  "problem_text": "The segment is tangent to the circle. Find x to the nearest hundredth.",
+  "choices": [
+    "3.00",
+    "4.03",
+    "6.72",
+    "8.06"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "hard",
+  "id": 958,
+  "annot_id": "Shibiao_2020-03-28_11_38_38",
+  "is_standard": false,
+  "compact_choices": [
+    "3.00",
+    "4.03",
+    "6.72",
+    "8.06"
+  ],
+  "precise_value": [
+    3.0,
+    4.03,
+    6.72,
+    8.06
+  ],
+  "rough_value": [
+    3,
+    4.03,
+    6.72,
+    8.06
+  ],
+  "compact_text": "The segment is tangent to the circle. Find x to the nearest hundredth.",
+  "annotat_text": "The segment is tangent to the circle. Find $x$ to the nearest hundredth.",
+  "unit": "",
+  "img_width": 581,
+  "img_height": 407,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

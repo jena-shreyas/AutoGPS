@@ -1,0 +1,70 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(F, D, I)), x+12)",
+    "Equals(MeasureOf(Angle(C, D, F)), y)",
+    "Equals(MeasureOf(Angle(E, F, G)), 114)",
+    "PointLiesOnLine(F, Line(B, E))",
+    "PointLiesOnLine(D, Line(F, J))",
+    "PointLiesOnLine(D, Line(C, I))",
+    "PointLiesOnLine(F, Line(D, G))",
+    "PointLiesOnLine(D, Line(G, J))",
+    "PointLiesOnLine(F, Line(G, J))"
+  ],
+  "line_instances": [
+    "BE",
+    "BF",
+    "CD",
+    "CI",
+    "DG",
+    "DI",
+    "DJ",
+    "EF",
+    "FD",
+    "FG",
+    "FJ",
+    "GJ"
+  ],
+  "point_positions": {
+    "B": [
+      0.0,
+      165.0
+    ],
+    "C": [
+      319.0,
+      70.0
+    ],
+    "D": [
+      161.0,
+      71.0
+    ],
+    "E": [
+      317.0,
+      164.0
+    ],
+    "F": [
+      119.0,
+      166.0
+    ],
+    "G": [
+      85.0,
+      242.0
+    ],
+    "I": [
+      0.0,
+      70.0
+    ],
+    "J": [
+      193.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

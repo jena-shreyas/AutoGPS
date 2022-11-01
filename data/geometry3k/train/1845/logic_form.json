@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Shape(A)),92)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Kite(A,B,C,X)),92)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(X, B)), 22)",
+    "Equals(LengthOf(Line(A, C)), x)"
+  ],
+  "line_instances": [
+    "AB",
+    "AX",
+    "BC",
+    "XC"
+  ],
+  "point_positions": {
+    "A": [
+      145.0,
+      1.0
+    ],
+    "B": [
+      3.0,
+      70.0
+    ],
+    "C": [
+      147.0,
+      137.0
+    ],
+    "X": [
+      230.0,
+      69.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

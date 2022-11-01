@@ -1,0 +1,48 @@
+{
+  "problem_text": "What is the area of the triangle? Round your answer to the nearest tenth if necessary.",
+  "choices": [
+    "137.4",
+    "161.3",
+    "170.5",
+    "186.9"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "Standardized Test Example, hard, The answer is B!",
+  "id": 1601,
+  "annot_id": "pan_2020-03-23_09_05_20",
+  "is_standard": true,
+  "unit": "m^2",
+  "compact_choices": [
+    "137.4",
+    "161.3",
+    "170.5",
+    "186.9"
+  ],
+  "precise_value": [
+    137.4,
+    161.3,
+    170.5,
+    186.9
+  ],
+  "rough_value": [
+    137.4,
+    161.3,
+    170.5,
+    186.9
+  ],
+  "compact_text": "What is the area of the triangle? Round your answer to the nearest tenth if necessary.",
+  "annotat_text": "What is the area of the triangle? Round your answer to the nearest tenth if necessary.",
+  "img_width": 404,
+  "img_height": 250,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

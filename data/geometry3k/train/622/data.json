@@ -1,0 +1,49 @@
+{
+  "problem_text": "In the figure, square W X Y Z is inscribed in \\odot R. Find the measure of a central angle.",
+  "choices": [
+    "45",
+    "90",
+    "180",
+    "270"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 622,
+  "annot_id": "pan_2020-03-23_07_38_01",
+  "is_standard": false,
+  "compact_choices": [
+    "45",
+    "90",
+    "180",
+    "270"
+  ],
+  "precise_value": [
+    45.0,
+    90.0,
+    180.0,
+    270.0
+  ],
+  "rough_value": [
+    45,
+    90,
+    180,
+    270
+  ],
+  "compact_text": "In the figure, square WXYZ is inscribed in \\odot R. Find the measure of a central angle.",
+  "annotat_text": "In the figure, square $WXYZ$ is inscribed in $\\odot R$. Find the measure of a central angle.",
+  "unit": "",
+  "img_width": 206,
+  "img_height": 215,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

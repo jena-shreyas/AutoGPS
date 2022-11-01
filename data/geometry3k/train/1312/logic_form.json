@@ -1,0 +1,59 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Regular(Polygon($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Regular(Polygon(A,B,R,Q,C))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(R, P)), 10)",
+    "PointLiesOnLine(S, Line(Q, R))",
+    "Perpendicular(Line(S, R), Line(S, P))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AS",
+    "BR",
+    "CQ",
+    "QP",
+    "QR",
+    "RP",
+    "SP",
+    "SQ",
+    "SR"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      89.0
+    ],
+    "B": [
+      122.0,
+      1.0
+    ],
+    "C": [
+      46.0,
+      225.0
+    ],
+    "P": [
+      121.0,
+      128.0
+    ],
+    "Q": [
+      194.0,
+      226.0
+    ],
+    "R": [
+      238.0,
+      89.0
+    ],
+    "S": [
+      216.0,
+      160.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

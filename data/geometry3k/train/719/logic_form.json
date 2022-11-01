@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Kite(W,X,Y,Z)",
+    "Equals(MeasureOf(Angle(W,X,Y)),120)",
+    "Equals(MeasureOf(Angle(W,Z,Y)),4x)",
+    "Equals(MeasureOf(Angle(Z,W,X)),10x)",
+    "Find(MeasureOf(Angle(Z,Y,X)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Kite(W,X,Y,Z)",
+    "Equals(MeasureOf(Angle(W,X,Y)),120)",
+    "Equals(MeasureOf(Angle(W,Z,Y)),4x)",
+    "Equals(MeasureOf(Angle(Z,W,X)),10x)",
+    "Find(MeasureOf(Angle(Z,Y,X)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(U, Line(W, Y))",
+    "PointLiesOnLine(U, Line(Z, X))"
+  ],
+  "line_instances": [
+    "WU",
+    "WX",
+    "WY",
+    "WZ",
+    "XU",
+    "YU",
+    "YX",
+    "YZ",
+    "ZU",
+    "ZX"
+  ],
+  "point_positions": {
+    "U": [
+      148.0,
+      91.0
+    ],
+    "W": [
+      146.0,
+      1.0
+    ],
+    "X": [
+      218.0,
+      91.0
+    ],
+    "Y": [
+      147.0,
+      180.0
+    ],
+    "Z": [
+      0.0,
+      90.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Arc(G,J,F)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Arc(G,J,F)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(M, G, F)), 82)",
+    "",
+    "PointLiesOnCircle(G, Circle(C, radius_5_0))",
+    "PointLiesOnCircle(F, Circle(C, radius_5_0))",
+    "PointLiesOnCircle(H, Circle(C, radius_5_0))",
+    "PointLiesOnCircle(J, Circle(C, radius_5_0))"
+  ],
+  "line_instances": [
+    ""
+  ],
+  "point_positions": {
+    "C": [
+      160.0,
+      187.0
+    ],
+    "F": [
+      93.0,
+      309.0
+    ],
+    "G": [
+      198.0,
+      54.0
+    ],
+    "H": [
+      335.0,
+      90.0
+    ],
+    "J": [
+      257.0,
+      299.0
+    ],
+    "M": [
+      2.0,
+      3.0
+    ]
+  },
+  "circle_instances": [
+    "C"
+  ]
+}

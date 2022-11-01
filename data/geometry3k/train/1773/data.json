@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\triangle A B C, A D and D C are angle bisectors and m \\angle B = 76. What is the measure of \\angle A D C?",
+  "choices": [
+    "26",
+    "52",
+    "76",
+    "128"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "Standardized Test Practice, hard",
+  "id": 1773,
+  "annot_id": "pan_2020-03-18_06_01_32",
+  "is_standard": true,
+  "compact_choices": [
+    "26",
+    "52",
+    "76",
+    "128"
+  ],
+  "precise_value": [
+    26.0,
+    52.0,
+    76.0,
+    128.0
+  ],
+  "rough_value": [
+    26,
+    52,
+    76,
+    128
+  ],
+  "compact_text": "In \\triangle ABC, AD and DC are angle bisectors and m \\angle B = 76. What is the measure of \\angle ADC?",
+  "annotat_text": "In $\\triangle ABC$, $\\overline{AD}$ and $\\overline{DC}$ are angle bisectors and $m \\angle B=76$. What is the measure of $\\angle ADC $?",
+  "unit": "",
+  "img_width": 371,
+  "img_height": 312,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

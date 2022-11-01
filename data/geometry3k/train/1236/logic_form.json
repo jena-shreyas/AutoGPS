@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Rectangle(J,K,L,M)",
+    "IsDiagonalOf(Line(J,L),Rectangle(J,K,L,M))",
+    "IsDiagonalOf(Line(M,K),Rectangle(J,K,L,M))",
+    "Equals(LengthOf(Line(J,L)),2x+5)",
+    "Equals(LengthOf(Line(K,M)),4x-11)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(J,K,L,M)",
+    "IsDiagonalOf(Line(J,L),Rectangle(J,K,L,M))",
+    "IsDiagonalOf(Line(M,K),Rectangle(J,K,L,M))",
+    "Equals(LengthOf(Line(J,L)),2x+5)",
+    "Equals(LengthOf(Line(K,M)),4x-11)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(N, Line(K, M))",
+    "PointLiesOnLine(N, Line(J, L))"
+  ],
+  "line_instances": [
+    "KJ",
+    "KL",
+    "KM",
+    "KN",
+    "JL",
+    "JM",
+    "JN",
+    "LM",
+    "LN",
+    "MN"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "K": [
+      279.0,
+      120.0
+    ],
+    "J": [
+      2.124695340753391,
+      119.36709977175875
+    ],
+    "L": [
+      276.5874024805528,
+      1.9898738529071878
+    ],
+    "M": [
+      1.210144261692534,
+      1.0043737939906237
+    ],
+    "N": [
+      140.3254846178291,
+      60.2091763388466
+    ]
+  }
+}

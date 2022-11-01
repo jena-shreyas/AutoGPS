@@ -1,0 +1,59 @@
+{
+  "text_logic_form": [
+    "Similar(Pentagon(F,G,H,J,K),Pentagon(V,W,X,U,Z))",
+    "Find(ScaleFactorOf(Shape($1),Shape($2)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Pentagon(F,G,H,J,K),Pentagon(V,W,X,U,Z))",
+    "Find(ScaleFactorOf(Shape($1),Shape($2)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(V, A, X)), p-nta5)",
+    "Equals(LengthOf(Line(J, V)), 42)",
+    "Equals(LengthOf(Line(Z, V)), 63)",
+    "PointLiesOnLine(B, Line(X, A))",
+    "PointLiesOnLine(A, Line(Z, V))"
+  ],
+  "line_instances": [
+    "UX",
+    "UZ",
+    "XJ",
+    "XA",
+    "ZA",
+    "ZV",
+    "JV",
+    "VA",
+    "AB"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "U": [
+      235.0577695995351,
+      86.21638984391393
+    ],
+    "J": [
+      1.9489169091497018,
+      86.21144519883609
+    ],
+    "A": [
+      119.0,
+      223.24489795918367
+    ],
+    "X": [
+      118.5,
+      0.36974789915967676
+    ],
+    "V": [
+      46.328988655563606,
+      223.98648322471638
+    ],
+    "Z": [
+      191.7499393056567,
+      222.3316338917213
+    ],
+    "B": [
+      119.0,
+      121.0
+    ]
+  }
+}

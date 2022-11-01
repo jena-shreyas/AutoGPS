@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\angle A.",
+  "choices": [
+    "72",
+    "78",
+    "85",
+    "105"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter8.pdf page 53",
+  "comment": "",
+  "id": 2128,
+  "annot_id": "Ran_2020-03-27_05_37_08",
+  "is_standard": false,
+  "compact_choices": [
+    "72",
+    "78",
+    "85",
+    "105"
+  ],
+  "precise_value": [
+    72.0,
+    78.0,
+    85.0,
+    105.0
+  ],
+  "rough_value": [
+    72,
+    78,
+    85,
+    105
+  ],
+  "compact_text": "Find m \\angle A.",
+  "annotat_text": "Find $m\\angle A$",
+  "unit": "",
+  "img_width": 286,
+  "img_height": 187,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,76 @@
+{
+  "text_logic_form": [
+    "Find(RatioOf(AreaOf(Circle($)),AreaOf(Square($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(RatioOf(AreaOf(Circle(H)),AreaOf(Square(E,C,A,F))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, H)), 3r)",
+    "PointLiesOnLine(D, Line(A, C))",
+    "PointLiesOnLine(J, Line(A, F))",
+    "PointLiesOnLine(I, Line(C, E))",
+    "PointLiesOnLine(B, Line(F, E))",
+    "PointLiesOnCircle(B, Circle(H, radius_7_0))",
+    "PointLiesOnCircle(D, Circle(H, radius_7_0))",
+    "PointLiesOnCircle(I, Circle(H, radius_7_0))",
+    "PointLiesOnCircle(J, Circle(H, radius_7_0))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AF",
+    "AJ",
+    "BE",
+    "CD",
+    "CE",
+    "CI",
+    "DH",
+    "EI",
+    "FB",
+    "FE",
+    "FJ",
+    ""
+  ],
+  "point_positions": {
+    "A": [
+      263.0,
+      263.0
+    ],
+    "B": [
+      1.0,
+      133.0
+    ],
+    "C": [
+      264.0,
+      1.0
+    ],
+    "D": [
+      264.0,
+      134.0
+    ],
+    "E": [
+      1.0,
+      0.0
+    ],
+    "F": [
+      0.0,
+      265.0
+    ],
+    "H": [
+      137.0,
+      133.0
+    ],
+    "I": [
+      136.0,
+      1.0
+    ],
+    "J": [
+      141.0,
+      262.0
+    ]
+  },
+  "circle_instances": [
+    "H"
+  ]
+}

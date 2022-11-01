@@ -1,0 +1,38 @@
+{
+  "text_logic_form": [
+    "Similar(Shape($1),Shape($2))",
+    "Find(ScaleFactorOf(Blue(Shape($)),Green(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(A,B,C),Triangle(D,E,F))",
+    "Find(ScaleFactorOf(Blue(Triangle(D,E,F)),Green(Triangle(A,B,C))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), x)",
+    "Equals(LengthOf(Line(D, E)), 14)",
+    "Equals(AreaOf(Triangle(A,B,C)),150)",
+    "Equals(AreaOf(Triangle(D,E,F)), 96)"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      80.0
+    ],
+    "B": [
+      109.0,
+      1.0
+    ],
+    "C": [
+      145.0,
+      79.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

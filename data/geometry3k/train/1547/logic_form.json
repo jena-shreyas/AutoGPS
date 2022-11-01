@@ -1,0 +1,65 @@
+{
+  "text_logic_form": [
+    "Regular(Polygon($))",
+    "Find(MeasureOf(Angle(A,B,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Regular(Polygon(A,B,C,D,E,F,G,I,H))",
+    "Find(MeasureOf(Angle(A,B,C)))"
+  ],
+  "diagram_logic_form": [
+    ""
+  ],
+  "line_instances": [
+    "AB",
+    "BC",
+    "CD",
+    "DE",
+    "EF",
+    "FG",
+    "GI",
+    "HA",
+    "IH"
+  ],
+  "point_positions": {
+    "A": [
+      210.0,
+      31.0
+    ],
+    "B": [
+      255.0,
+      113.0
+    ],
+    "C": [
+      235.0,
+      195.0
+    ],
+    "D": [
+      170.0,
+      255.0
+    ],
+    "E": [
+      100.0,
+      255.0
+    ],
+    "F": [
+      34.0,
+      195.0
+    ],
+    "G": [
+      0.0,
+      113.0
+    ],
+    "I": [
+      41.0,
+      35.0
+    ],
+    "H": [
+      128.0,
+      2.0
+    ]
+  },
+  "circle_instances": [
+    "G"
+  ]
+}

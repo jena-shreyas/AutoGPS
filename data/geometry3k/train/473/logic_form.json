@@ -1,0 +1,38 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Arc(R,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Arc(R,T)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(R, S, T)), 63)",
+    "PointLiesOnCircle(S, Circle(A, radius_1_0))",
+    "PointLiesOnCircle(T, Circle(A, radius_1_0))"
+  ],
+  "line_instances": [
+    "SR",
+    "ST"
+  ],
+  "point_positions": {
+    "A": [
+      161.0,
+      160.0
+    ],
+    "R": [
+      46.0,
+      75.0
+    ],
+    "S": [
+      121.0,
+      313.0
+    ],
+    "T": [
+      312.0,
+      121.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

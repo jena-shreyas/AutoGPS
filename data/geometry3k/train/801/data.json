@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\triangle G H J, H P = 5 x - 16, P J = 3 x + 8, m \\angle G J N = 6 y - 3, m \\angle N J H = 4 y + 23 and m \\angle H M G = 4 z + 14. Find m \\angle G J H if J N is an angle bisector.",
+  "choices": [
+    "60",
+    "90",
+    "120",
+    "150"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 5 - Relationships in Triangles.pdf",
+  "comment": "",
+  "id": 801,
+  "annot_id": "pan_2020-03-19_05_43_43",
+  "is_standard": false,
+  "compact_choices": [
+    "60",
+    "90",
+    "120",
+    "150"
+  ],
+  "precise_value": [
+    60.0,
+    90.0,
+    120.0,
+    150.0
+  ],
+  "rough_value": [
+    60,
+    90,
+    120,
+    150
+  ],
+  "compact_text": "In \\triangle GHJ, HP = 5x-16, PJ = 3x+8, m \\angle GJN = 6y-3, m \\angle NJH = 4y+23 and m \\angle HMG = 4z+14. Find m \\angle GJH if JN is an angle bisector.",
+  "annotat_text": "In $\\Delta G H J$, $H P=5 x-16$, $P J=3 x+8$, $m \\angle G J N=6 y-3$, $m \\angle N J H=4 y+23$ and $m \\angle H M G=4 z+14$. Find $m\u2220GJH$ if $\\overline{JN}$ is an angle bisector.",
+  "unit": "",
+  "img_width": 320,
+  "img_height": 249,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

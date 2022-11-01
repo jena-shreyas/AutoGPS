@@ -1,0 +1,51 @@
+{
+  "text_logic_form": [
+    "Parallelogram(W,X,Y,Z)",
+    "Find(MeasureOf(Angle(Y,Z,W)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallelogram(W,X,Y,Z)",
+    "Find(MeasureOf(Angle(Y,Z,W)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Y, X, A)), 33)",
+    "Equals(MeasureOf(Angle(Z, X, W)), 82)",
+    "PointLiesOnLine(A, Line(X, Z))",
+    "PointLiesOnLine(A, Line(Y, W))"
+  ],
+  "line_instances": [
+    "XZ",
+    "XY",
+    "XW",
+    "XA",
+    "ZY",
+    "ZW",
+    "ZA",
+    "YW",
+    "YA",
+    "WA"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "X": [
+      40.229489549267726,
+      3.2324043793544774
+    ],
+    "Z": [
+      164.00790079814612,
+      82.01195300243198
+    ],
+    "Y": [
+      205.79372245259717,
+      0.45185122700436864
+    ],
+    "W": [
+      0.0,
+      83.0
+    ],
+    "A": [
+      102.37575757575758,
+      42.24848484848485
+    ]
+  }
+}

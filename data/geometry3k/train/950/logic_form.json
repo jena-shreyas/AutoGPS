@@ -1,0 +1,149 @@
+{
+  "text_logic_form": [
+    "Tangent(Line(A,E),Circle($))",
+    "Equals(LengthOf(Line(A,D)),12)",
+    "Equals(LengthOf(Line(F,E)),18)",
+    "Find(LengthOf(Line(A,E)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Tangent(Line(A,E),Circle(D))",
+    "Equals(LengthOf(Line(A,D)),12)",
+    "Equals(LengthOf(Line(F,E)),18)",
+    "Find(LengthOf(Line(A,E)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, B)), LengthOf(k))",
+    "PointLiesOnLine(D, Line(A, C))",
+    "PointLiesOnLine(M, Line(A, C))",
+    "PointLiesOnLine(M, Line(A, D))",
+    "PointLiesOnLine(N, Line(C, H))",
+    "PointLiesOnLine(I, Line(C, B))",
+    "PointLiesOnLine(D, Line(C, M))",
+    "PointLiesOnLine(F, Line(E, D))",
+    "PointLiesOnLine(A, Line(E, L))",
+    "PointLiesOnLine(I, Line(M, J))",
+    "PointLiesOnLine(M, Line(F, I))",
+    "PointLiesOnLine(I, Line(F, J))",
+    "PointLiesOnLine(M, Line(F, J))",
+    "PointLiesOnLine(K, Line(G, H))",
+    "PointLiesOnLine(H, Line(G, N))",
+    "PointLiesOnLine(K, Line(G, N))",
+    "PointLiesOnLine(H, Line(K, N))",
+    "PointLiesOnCircle(A, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(F, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(C, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(H, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(B, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(J, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(K, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(L, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(N, Circle(D, radius_5_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AL",
+    "AM",
+    "BI",
+    "BL",
+    "CB",
+    "CD",
+    "CG",
+    "CH",
+    "CI",
+    "CK",
+    "CM",
+    "CN",
+    "DB",
+    "DF",
+    "DH",
+    "DI",
+    "DJ",
+    "DL",
+    "DM",
+    "DN",
+    "ED",
+    "EF",
+    "EL",
+    "EM",
+    "FG",
+    "FI",
+    "FJ",
+    "GH",
+    "GK",
+    "GN",
+    "HK",
+    "HN",
+    "IJ",
+    "KN",
+    "LH",
+    "MF",
+    "MH",
+    "MI",
+    "MJ",
+    "MN"
+  ],
+  "point_positions": {
+    "A": [
+      99.0,
+      13.0
+    ],
+    "B": [
+      32.0,
+      15.0
+    ],
+    "C": [
+      28.0,
+      120.0
+    ],
+    "D": [
+      64.0,
+      65.0
+    ],
+    "E": [
+      197.0,
+      65.0
+    ],
+    "F": [
+      128.0,
+      65.0
+    ],
+    "G": [
+      127.0,
+      128.0
+    ],
+    "H": [
+      62.0,
+      130.0
+    ],
+    "I": [
+      31.0,
+      46.0
+    ],
+    "J": [
+      5.0,
+      41.0
+    ],
+    "K": [
+      85.0,
+      128.0
+    ],
+    "L": [
+      84.0,
+      3.0
+    ],
+    "M": [
+      71.0,
+      54.0
+    ],
+    "N": [
+      49.0,
+      128.0
+    ]
+  },
+  "circle_instances": [
+    "D"
+  ]
+}

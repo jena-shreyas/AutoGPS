@@ -1,0 +1,100 @@
+{
+  "text_logic_form": [
+    "Isosceles(Triangle(A,B,C))",
+    "Equilateral(Triangle(D,C,E))",
+    "Isosceles(Triangle(F,C,G))",
+    "Equals(Angle(4),Angle(C))",
+    "Find(MeasureOf(Angle(4)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Triangle(A,B,C))",
+    "Equilateral(Triangle(D,C,E))",
+    "Isosceles(Triangle(F,C,G))",
+    "Find(MeasureOf(Angle(4)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, C, A)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(F, C, D)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(G, C, F)), MeasureOf(angle 3))",
+    "Equals(MeasureOf(Angle(E, C, G)), MeasureOf(angle 4))",
+    "Equals(MeasureOf(Angle(B, C, E)), MeasureOf(angle 5))",
+    "Equals(MeasureOf(Angle(C, A, E)), 42)",
+    "Equals(MeasureOf(Angle(C, F, E)), 77)",
+    "PointLiesOnLine(F, Line(E, D))",
+    "PointLiesOnLine(G, Line(E, D))",
+    "PointLiesOnLine(D, Line(E, A))",
+    "PointLiesOnLine(F, Line(E, A))",
+    "PointLiesOnLine(G, Line(E, A))",
+    "PointLiesOnLine(G, Line(E, F))",
+    "PointLiesOnLine(E, Line(D, B))",
+    "PointLiesOnLine(F, Line(D, B))",
+    "PointLiesOnLine(G, Line(D, B))",
+    "PointLiesOnLine(F, Line(D, G))",
+    "PointLiesOnLine(E, Line(B, A))",
+    "PointLiesOnLine(D, Line(B, A))",
+    "PointLiesOnLine(F, Line(B, A))",
+    "PointLiesOnLine(G, Line(B, A))",
+    "PointLiesOnLine(E, Line(B, F))",
+    "PointLiesOnLine(G, Line(B, F))",
+    "PointLiesOnLine(E, Line(B, G))",
+    "PointLiesOnLine(D, Line(A, F))",
+    "PointLiesOnLine(D, Line(A, G))",
+    "PointLiesOnLine(F, Line(A, G))"
+  ],
+  "line_instances": [
+    "AF",
+    "AG",
+    "BA",
+    "BF",
+    "BG",
+    "CA",
+    "CB",
+    "CD",
+    "CE",
+    "CF",
+    "CG",
+    "DA",
+    "DB",
+    "DF",
+    "DG",
+    "EA",
+    "EB",
+    "ED",
+    "EF",
+    "EG",
+    "FG"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      233.0
+    ],
+    "B": [
+      518.0,
+      233.0
+    ],
+    "C": [
+      259.0,
+      1.0
+    ],
+    "D": [
+      103.0,
+      233.0
+    ],
+    "E": [
+      413.0,
+      233.0
+    ],
+    "F": [
+      208.0,
+      233.0
+    ],
+    "G": [
+      311.0,
+      233.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

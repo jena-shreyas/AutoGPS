@@ -1,0 +1,105 @@
+{
+  "text_logic_form": [
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, G, C)), 3x)",
+    "Equals(MeasureOf(Angle(C, G, H)), 42)",
+    "Equals(MeasureOf(Angle(G, C, D)), z)",
+    "Equals(MeasureOf(Angle(G, C, H)), 48)",
+    "Equals(MeasureOf(Angle(G, H, C)), y)",
+    "Parallel(Line(G,D), Line(H,C))",
+    ""
+  ],
+  "line_instances": [
+    "DC",
+    "GC",
+    "GD",
+    "HC",
+    "HG"
+  ],
+  "point_positions": {
+    "A": [
+      203.0,
+      109.0
+    ],
+    "B": [
+      7.0,
+      133.0
+    ],
+    "C": [
+      197.0,
+      218.0
+    ],
+    "D": [
+      196.0,
+      8.0
+    ],
+    "E": [
+      98.0,
+      8.0
+    ],
+    "F": [
+      97.0,
+      217.0
+    ],
+    "G": [
+      8.0,
+      9.0
+    ],
+    "H": [
+      8.0,
+      217.0
+    ],
+    "I": [
+      8.0,
+      171.0
+    ],
+    "J": [
+      8.0,
+      58.0
+    ],
+    "K": [
+      198.0,
+      65.0
+    ],
+    "L": [
+      11.0,
+      101.0
+    ],
+    "M": [
+      196.0,
+      192.0
+    ],
+    "N": [
+      196.0,
+      120.0
+    ],
+    "O": [
+      196.0,
+      84.0
+    ],
+    "P": [
+      7.0,
+      115.0
+    ],
+    "Q": [
+      196.0,
+      206.0
+    ],
+    "R": [
+      199.0,
+      98.0
+    ],
+    "S": [
+      8.0,
+      20.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

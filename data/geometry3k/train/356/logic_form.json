@@ -1,0 +1,69 @@
+{
+  "text_logic_form": [
+    "Equals(LengthOf(Line(C,F)),6(3-x))",
+    "Equals(LengthOf(Line(D,B)),12y-4)",
+    "Find(PerimeterOf(Polygon($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(LengthOf(Line(C,F)),6(3-x))",
+    "Equals(LengthOf(Line(D,B)),12y-4)",
+    "Find(PerimeterOf(Polygon(A, B, C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(E, C)), 3x)",
+    "Equals(LengthOf(Line(A, F)), 10z-40)",
+    "Equals(LengthOf(Line(E, B)), 4y)",
+    "Equals(LengthOf(Line(D, A)), 2z)",
+    "PointLiesOnLine(F, Line(C, A))",
+    "PointLiesOnLine(E, Line(C, B))",
+    "PointLiesOnLine(D, Line(B, A))",
+    "PointLiesOnCircle(E, Circle(G, radius_3_0))",
+    "PointLiesOnCircle(F, Circle(G, radius_3_0))",
+    "PointLiesOnCircle(D, Circle(G, radius_3_0))"
+  ],
+  "line_instances": [
+    "AF",
+    "BA",
+    "BD",
+    "CA",
+    "CB",
+    "CF",
+    "DA",
+    "EB",
+    "EC",
+    "ED"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      153.0
+    ],
+    "B": [
+      238.0,
+      153.0
+    ],
+    "C": [
+      283.0,
+      1.0
+    ],
+    "D": [
+      203.0,
+      153.0
+    ],
+    "E": [
+      251.0,
+      116.0
+    ],
+    "F": [
+      177.0,
+      58.0
+    ],
+    "G": [
+      203.0,
+      105.0
+    ]
+  },
+  "circle_instances": [
+    "G"
+  ]
+}

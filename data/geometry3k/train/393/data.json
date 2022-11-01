@@ -1,0 +1,48 @@
+{
+  "problem_text": "If W P is a median and an angle bisector, A P = 3 y + 11, P H = 7 y - 5, m \\angle H W P = x + 12, m \\angle P A W = 3 x - 2, and m \\angle H W A = 4 x - 16, find y.",
+  "choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 5 - Relationships in Triangles.pdf",
+  "comment": "",
+  "id": 393,
+  "annot_id": "pan_2020-03-18_21_19_11",
+  "is_standard": false,
+  "compact_choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "precise_value": [
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "rough_value": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "compact_text": "If WP is a median and an angle bisector, AP = 3y+11, PH = 7y-5, m \\angle HWP = x+12, m \\angle PAW = 3x-2, and m \\angle HWA = 4x-16, find y.",
+  "annotat_text": "If $\\overline{W P}$ is a median and an angle bisector, $A P=3 y+11$, $P H=7 y-5$, $m \\angle H W P=x+12$, $m \\angle P A W=3 x-2$, and $m \\angle H W A=4 x-16$, find $y$.",
+  "unit": "",
+  "img_width": 279,
+  "img_height": 261,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

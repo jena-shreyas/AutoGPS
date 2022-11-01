@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, D)), 9)",
+    "Equals(LengthOf(Line(C, E)), x)",
+    "Equals(LengthOf(Line(D, E)), 7)",
+    "Equals(LengthOf(Line(X, A)), 20)",
+    "Equals(LengthOf(Line(A, B)), y)",
+    "Equals(LengthOf(Line(X, B)), 14)"
+  ],
+  "line_instances": [
+    "AB",
+    "XA",
+    "XB",
+    "CD",
+    "DE",
+    "CE"
+  ],
+  "point_positions": {
+    "A": [
+      117.0,
+      1.0
+    ],
+    "B": [
+      158.0,
+      196.0
+    ],
+    "X": [
+      0.0,
+      197.0
+    ],
+    "D": [
+      -100.0,
+      150.0
+    ],
+    "E": [
+      -220.0,
+      150.0
+    ],
+    "C": [
+      -150.0,
+      70.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

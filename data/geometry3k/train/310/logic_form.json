@@ -1,0 +1,35 @@
+{
+  "text_logic_form": [
+    "Find(CircumferenceOf(Circle(S)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(CircumferenceOf(Circle(S)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Arc(R,S,T)), 7.94)",
+    "Equals(MeasureOf(Angle(N, S, T)), 70)",
+    "PointLiesOnCircle(R, Circle(S, radius_0_0))",
+    "PointLiesOnCircle(T, Circle(S, radius_0_0))"
+  ],
+  "line_instances": [
+    "SR",
+    "ST"
+  ],
+  "point_positions": {
+    "T": [
+      276.0,
+      140.0
+    ],
+    "S": [
+      141.0,
+      142.0
+    ],
+    "R": [
+      184.0,
+      268.0
+    ]
+  },
+  "circle_instances": [
+    "S"
+  ]
+}

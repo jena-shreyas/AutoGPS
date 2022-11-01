@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Isosceles(Trapezoid($))",
+    "Equals(PerimeterOf(Polygon($)),74)",
+    "Find(AreaOf(Polygon($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Trapezoid(A,B,C,D))",
+    "Equals(PerimeterOf(Trapezoid(A,B,C,D)),74)",
+    "Find(AreaOf(Trapezoid(A,B,C,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, D)), 19)",
+    "Equals(LengthOf(Line(A, B)), 35)"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BD",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      240.0,
+      130.0
+    ],
+    "B": [
+      1.0,
+      130.0
+    ],
+    "C": [
+      186.0,
+      1.0
+    ],
+    "D": [
+      57.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the area of the figure. Round to the nearest tenth if necessary.",
+  "choices": [
+    "48",
+    "143",
+    "286",
+    "572"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Rhombus"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 1974,
+  "annot_id": "pan_2020-03-23_08_50_50",
+  "is_standard": false,
+  "unit": "cm^2",
+  "compact_choices": [
+    "48",
+    "143",
+    "286",
+    "572"
+  ],
+  "precise_value": [
+    48.0,
+    143.0,
+    286.0,
+    572.0
+  ],
+  "rough_value": [
+    48,
+    143,
+    286,
+    572
+  ],
+  "compact_text": "Find the area of the figure. Round to the nearest tenth if necessary.",
+  "annotat_text": "Find the area of the figure. Round to the nearest tenth if necessary.",
+  "img_width": 239,
+  "img_height": 170,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

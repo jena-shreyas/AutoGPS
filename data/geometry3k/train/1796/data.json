@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the perimeter of the parallelogram. Round to the nearest tenth if necessary.",
+  "choices": [
+    "82",
+    "164",
+    "836",
+    "1448"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 1796,
+  "annot_id": "pan_2020-03-23_04_27_58",
+  "is_standard": false,
+  "unit": "ft",
+  "compact_choices": [
+    "82",
+    "164",
+    "836",
+    "1448"
+  ],
+  "precise_value": [
+    82.0,
+    164.0,
+    836.0,
+    1448.0
+  ],
+  "rough_value": [
+    82,
+    164,
+    836,
+    1448
+  ],
+  "compact_text": "Find the perimeter of the parallelogram. Round to the nearest tenth if necessary.",
+  "annotat_text": "Find the perimeter of the parallelogram. Round to the nearest tenth if necessary.",
+  "img_width": 322,
+  "img_height": 210,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

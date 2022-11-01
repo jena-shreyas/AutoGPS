@@ -1,0 +1,60 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Y, Q, F)), 4x-5)",
+    "Equals(MeasureOf(Angle(E, Y, Q)), 3y+1)",
+    "Equals(MeasureOf(Angle(M, A, Q)), 3x+11)",
+    "PointLiesOnLine(Y, Line(E, M))",
+    "PointLiesOnLine(Q, Line(F, A))",
+    "Parallel(Line(E, F), Line(Y, Q))",
+    "Parallel(Line(Y, Q), Line(M, A))",
+    "Parallel(Line(M, A), Line(E, F))",
+    "Parallel(Line(E, M), Line(F, A))"
+  ],
+  "line_instances": [
+    "EF",
+    "YQ",
+    "AM",
+    "EY",
+    "YM",
+    "EM",
+    "FQ",
+    "QA",
+    "AF",
+    ""
+  ],
+  "point_positions": {
+    "A": [
+      378.0,
+      120.0
+    ],
+    "E": [
+      1.0,
+      8.0
+    ],
+    "F": [
+      311.0,
+      7.0
+    ],
+    "M": [
+      66.0,
+      119.0
+    ],
+    "Q": [
+      345.0,
+      66.0
+    ],
+    "Y": [
+      37.0,
+      67.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

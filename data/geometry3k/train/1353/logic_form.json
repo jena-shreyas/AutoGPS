@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Square(K,H,D,E)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(E, H)), 8)",
+    "Equals(LengthOf(Line(D, E)), 8)",
+    "Perpendicular(Line(D, K), Line(H, K))",
+    "Perpendicular(Line(K, H), Line(E, H))",
+    "Perpendicular(Line(D, E), Line(H, E))",
+    "Perpendicular(Line(K, D), Line(E, D))"
+  ],
+  "line_instances": [
+    "KH",
+    "HE",
+    "ED",
+    "DK"
+  ],
+  "point_positions": {
+    "D": [
+      0.0,
+      175.0
+    ],
+    "E": [
+      174.0,
+      173.0
+    ],
+    "H": [
+      173.0,
+      1.0
+    ],
+    "K": [
+      2.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

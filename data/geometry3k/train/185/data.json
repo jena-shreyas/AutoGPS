@@ -1,0 +1,48 @@
+{
+  "problem_text": "Rhombus W X Y Z has an area of 100 square meters. Find W Y if X Z = 10 meters.",
+  "choices": [
+    "5",
+    "10",
+    "20",
+    "40"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Rhombus"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "",
+  "id": 185,
+  "annot_id": "pan_2020-03-21_21_14_06",
+  "is_standard": false,
+  "unit": "meters",
+  "compact_choices": [
+    "5",
+    "10",
+    "20",
+    "40"
+  ],
+  "precise_value": [
+    5.0,
+    10.0,
+    20.0,
+    40.0
+  ],
+  "rough_value": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "compact_text": "Rhombus WXYZ has an area of 100 square meters. Find WY if XZ = 10 meters.",
+  "annotat_text": "Rhombus $WXYZ$ has an area of 100 square meters. Find $WY$ if $XZ = 10$ meters.",
+  "img_width": 293,
+  "img_height": 197,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

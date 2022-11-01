@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x. Round to the nearest tenth.",
+  "choices": [
+    "11.7",
+    "12.7",
+    "13.3",
+    "13.7"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 202,
+  "annot_id": "Shibiao_2020-03-27_09_21_15",
+  "is_standard": false,
+  "compact_choices": [
+    "11.7",
+    "12.7",
+    "13.3",
+    "13.7"
+  ],
+  "precise_value": [
+    11.7,
+    12.7,
+    13.3,
+    13.7
+  ],
+  "rough_value": [
+    11.7,
+    12.7,
+    13.3,
+    13.7
+  ],
+  "compact_text": "Find x. Round to the nearest tenth.",
+  "annotat_text": "Find $x$. Round to the nearest tenth.",
+  "unit": "",
+  "img_width": 534,
+  "img_height": 364,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

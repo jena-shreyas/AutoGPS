@@ -1,0 +1,118 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(C, Line(N, E))",
+    "PointLiesOnLine(I, Line(N, E))",
+    "PointLiesOnLine(C, Line(N, I))",
+    "PointLiesOnLine(C, Line(N, J))",
+    "PointLiesOnLine(D, Line(B, P))",
+    "PointLiesOnLine(B, Line(D, O))",
+    "PointLiesOnLine(B, Line(O, L))",
+    "PointLiesOnLine(B, Line(O, P))",
+    "PointLiesOnLine(D, Line(O, P))",
+    "PointLiesOnLine(I, Line(C, E))",
+    "PointLiesOnLine(E, Line(J, M))",
+    "PointLiesOnCircle(F, Circle(H, radius_7_0))",
+    "PointLiesOnCircle(G, Circle(H, radius_7_0))"
+  ],
+  "line_instances": [
+    "AK",
+    "AN",
+    "BD",
+    "BG",
+    "BO",
+    "BP",
+    "DL",
+    "DO",
+    "DP",
+    "EI",
+    "EJ",
+    "EM",
+    "GF",
+    "IJ",
+    "JM",
+    "KP",
+    "NC",
+    "NE",
+    "NI",
+    "NJ",
+    "OJ",
+    "OL",
+    "OP",
+    "PL"
+  ],
+  "point_positions": {
+    "A": [
+      178.0,
+      177.0
+    ],
+    "B": [
+      51.0,
+      4.0
+    ],
+    "C": [
+      32.0,
+      162.0
+    ],
+    "D": [
+      174.0,
+      3.0
+    ],
+    "E": [
+      1.0,
+      41.0
+    ],
+    "F": [
+      72.0,
+      64.0
+    ],
+    "G": [
+      74.0,
+      23.0
+    ],
+    "H": [
+      108.0,
+      41.0
+    ],
+    "I": [
+      19.0,
+      115.0
+    ],
+    "J": [
+      4.0,
+      21.0
+    ],
+    "K": [
+      213.0,
+      32.0
+    ],
+    "L": [
+      157.0,
+      8.0
+    ],
+    "M": [
+      0.0,
+      70.0
+    ],
+    "N": [
+      36.0,
+      179.0
+    ],
+    "O": [
+      20.0,
+      4.0
+    ],
+    "P": [
+      193.0,
+      4.0
+    ]
+  },
+  "circle_instances": [
+    "H"
+  ]
+}

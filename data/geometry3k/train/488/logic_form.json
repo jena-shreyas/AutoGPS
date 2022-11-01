@@ -1,0 +1,48 @@
+{
+  "text_logic_form": [
+    "Equals(RadiusOf(Circle(P)),5)",
+    "Equals(LengthOf(Line(P,R)),3)",
+    "Find(LengthOf(Line(Q,S)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(RadiusOf(Circle(P)),5)",
+    "Equals(LengthOf(Line(P,R)),3)",
+    "Find(LengthOf(Line(Q,S)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(R, P)), 3)",
+    "PointLiesOnLine(R, Line(Q, S))",
+    "PointLiesOnCircle(Q, Circle(P, radius_2_0))",
+    "PointLiesOnCircle(S, Circle(P, radius_2_0))",
+    "Perpendicular(Line(Q, R), Line(P, R))"
+  ],
+  "line_instances": [
+    "PR",
+    "QP",
+    "QR",
+    "QS",
+    "SP",
+    "SR"
+  ],
+  "point_positions": {
+    "P": [
+      86.0,
+      89.0
+    ],
+    "Q": [
+      142.0,
+      21.0
+    ],
+    "R": [
+      143.0,
+      87.0
+    ],
+    "S": [
+      144.0,
+      156.0
+    ]
+  },
+  "circle_instances": [
+    "P"
+  ]
+}

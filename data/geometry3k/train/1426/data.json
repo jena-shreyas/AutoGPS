@@ -1,0 +1,48 @@
+{
+  "problem_text": "If m \\angle A E D = 95 and m \\widehat A D = 120, what is m \\angle B A C?",
+  "choices": [
+    "30",
+    "35",
+    "40",
+    "60"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "standard problem test",
+  "id": 1426,
+  "annot_id": "Shibiao_2020-03-28_12_34_19",
+  "is_standard": true,
+  "compact_choices": [
+    "30",
+    "35",
+    "40",
+    "60"
+  ],
+  "precise_value": [
+    30.0,
+    35.0,
+    40.0,
+    60.0
+  ],
+  "rough_value": [
+    30,
+    35,
+    40,
+    60
+  ],
+  "compact_text": "If m \\angle AED = 95 and m \\widehat AD = 120, what is m \\angle BAC?",
+  "annotat_text": "If $m \\angle AED=95$ and $m \\widehat{AD}=120$, what is $m \\angle BAC$?",
+  "unit": "",
+  "img_width": 462,
+  "img_height": 409,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

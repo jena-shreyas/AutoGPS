@@ -1,0 +1,71 @@
+{
+  "text_logic_form": [
+    "Parallel(Line(m),Line(n))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallel(Line(T,C),Line(N,B))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(T, A, D)), 21+2x)",
+    "Equals(MeasureOf(Angle(B, F, A)), x+84)",
+    "PointLiesOnLine(F, Line(N, B))",
+    "PointLiesOnLine(A, Line(F, E))",
+    "PointLiesOnLine(F, Line(A, D))",
+    "PointLiesOnLine(A, Line(C, T))",
+    "PointLiesOnLine(A, Line(D, E))",
+    "PointLiesOnLine(F, Line(D, E))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AE",
+    "AT",
+    "BF",
+    "CT",
+    "DE",
+    "FA",
+    "FD",
+    "FE",
+    "NB",
+    "NF"
+  ],
+  "point_positions": {
+    "A": [
+      80.0,
+      95.0
+    ],
+    "B": [
+      366.0,
+      175.0
+    ],
+    "C": [
+      159.0,
+      189.0
+    ],
+    "D": [
+      372.0,
+      95.0
+    ],
+    "E": [
+      0.0,
+      95.0
+    ],
+    "F": [
+      299.0,
+      95.0
+    ],
+    "N": [
+      221.0,
+      1.0
+    ],
+    "T": [
+      19.0,
+      22.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

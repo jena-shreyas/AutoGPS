@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the measure of m \\angle C.",
+  "choices": [
+    "35",
+    "70",
+    "90",
+    "140"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 2017,
+  "annot_id": "pan_2020-03-27_21_35_43",
+  "is_standard": false,
+  "compact_choices": [
+    "35",
+    "70",
+    "90",
+    "140"
+  ],
+  "precise_value": [
+    35.0,
+    70.0,
+    90.0,
+    140.0
+  ],
+  "rough_value": [
+    35,
+    70,
+    90,
+    140
+  ],
+  "compact_text": "Find the measure of m \\angle C.",
+  "annotat_text": "Find the measure of $m\u2220C$.",
+  "unit": "",
+  "img_width": 403,
+  "img_height": 345,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

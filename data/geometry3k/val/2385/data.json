@@ -1,0 +1,48 @@
+{
+  "problem_text": "If m \\widehat A E = 75, find m \\angle A D E.",
+  "choices": [
+    "37.5",
+    "75",
+    "102.5",
+    "135"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter10.pdf page 68",
+  "comment": "",
+  "id": 2385,
+  "annot_id": "Ran_2020-03-29_06_07_21",
+  "is_standard": false,
+  "compact_choices": [
+    "37.5",
+    "75",
+    "102.5",
+    "135"
+  ],
+  "precise_value": [
+    37.5,
+    75.0,
+    102.5,
+    135.0
+  ],
+  "rough_value": [
+    37.5,
+    75,
+    102.5,
+    135
+  ],
+  "compact_text": "If m \\widehat AE = 75, find m \\angle ADE.",
+  "annotat_text": "If $m \\widehat{A E}=75,$ find $m \\angle A D E$",
+  "unit": "",
+  "img_width": 207,
+  "img_height": 182,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

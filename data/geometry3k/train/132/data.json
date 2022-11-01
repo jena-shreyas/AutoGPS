@@ -1,0 +1,49 @@
+{
+  "problem_text": "In \\odot A, W X = X Y = 22. Find A B.",
+  "choices": [
+    "5",
+    "10",
+    "11",
+    "22"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "the picture is complicated",
+  "id": 132,
+  "annot_id": "Shibiao_2020-03-27_12_44_41",
+  "is_standard": false,
+  "compact_choices": [
+    "5",
+    "10",
+    "11",
+    "22"
+  ],
+  "precise_value": [
+    5.0,
+    10.0,
+    11.0,
+    22.0
+  ],
+  "rough_value": [
+    5,
+    10,
+    11,
+    22
+  ],
+  "compact_text": "In \\odot A, WX = XY = 22. Find AB.",
+  "annotat_text": "In $\\odot A$, $WX=XY=22$. Find $AB$.",
+  "unit": "",
+  "img_width": 555,
+  "img_height": 468,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "If R Q \\cong R S, R P \\cong R T and m \\angle R Q S = 80, find m \\angle P.",
+  "choices": [
+    "50",
+    "60",
+    "70",
+    "80"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "",
+  "id": 2116,
+  "annot_id": "pan_2020-03-18_19_11_03",
+  "is_standard": false,
+  "compact_choices": [
+    "50",
+    "60",
+    "70",
+    "80"
+  ],
+  "precise_value": [
+    50.0,
+    60.0,
+    70.0,
+    80.0
+  ],
+  "rough_value": [
+    50,
+    60,
+    70,
+    80
+  ],
+  "compact_text": "If RQ \\cong RS, RP \\cong RT and m \\angle RQS = 80, find m \\angle P.",
+  "annotat_text": "If $\\overline{RQ} \\cong \\overline{RS}$, $\\overline{RP} \\cong \\overline{RT}$ and $ m \u2220RQS = 80 $, find $ m \u2220P $.",
+  "unit": "",
+  "img_width": 303,
+  "img_height": 318,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

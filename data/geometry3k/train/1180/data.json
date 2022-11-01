@@ -1,0 +1,48 @@
+{
+  "problem_text": "Each pair of polygons is similar. Find y.",
+  "choices": [
+    "48.45",
+    "49",
+    "88",
+    "110"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 16",
+  "comment": "",
+  "id": 1180,
+  "annot_id": "Ran_2020-03-20_05_32_59",
+  "is_standard": false,
+  "compact_choices": [
+    "48.45",
+    "49",
+    "88",
+    "110"
+  ],
+  "precise_value": [
+    48.45,
+    49.0,
+    88.0,
+    110.0
+  ],
+  "rough_value": [
+    48.45,
+    49,
+    88,
+    110
+  ],
+  "compact_text": "Each pair of polygons is similar. Find y.",
+  "annotat_text": "Each pair of polygons is similar. Find y",
+  "unit": "",
+  "img_width": 709,
+  "img_height": 380,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

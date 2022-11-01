@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Find(TanOf(Angle(R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(TanOf(Angle(R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(T, R)), 3)",
+    "Equals(LengthOf(Line(T, S)), 4)",
+    "Equals(LengthOf(Line(S, R)), 5)",
+    "Perpendicular(Line(T, S), Line(T, R))"
+  ],
+  "line_instances": [
+    "SR",
+    "TR",
+    "TS"
+  ],
+  "point_positions": {
+    "R": [
+      163.0,
+      74.0
+    ],
+    "S": [
+      0.0,
+      86.0
+    ],
+    "T": [
+      103.0,
+      2.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

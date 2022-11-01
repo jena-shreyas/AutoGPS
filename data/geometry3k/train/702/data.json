@@ -1,0 +1,48 @@
+{
+  "problem_text": "If W Z = 25.3, Y Z = 22.4, W Z = 25.3, find X Y.",
+  "choices": [
+    "14.9",
+    "21",
+    "22.4",
+    "25.3"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_5.pdf",
+  "comment": "",
+  "id": 702,
+  "annot_id": "Shibiao_2020-03-22_03_17_05",
+  "is_standard": false,
+  "compact_choices": [
+    "14.9",
+    "21",
+    "22.4",
+    "25.3"
+  ],
+  "precise_value": [
+    14.9,
+    21.0,
+    22.4,
+    25.3
+  ],
+  "rough_value": [
+    14.9,
+    21,
+    22.4,
+    25.3
+  ],
+  "compact_text": "If WZ = 25.3, YZ = 22.4, WZ = 25.3, find XY.",
+  "annotat_text": "If $WZ=25.3$, $YZ=22.4$, $WZ=25.3$, find $XY$.",
+  "unit": "",
+  "img_width": 523,
+  "img_height": 532,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

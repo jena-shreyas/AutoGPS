@@ -1,0 +1,48 @@
+{
+  "problem_text": "Rhombus R S T U has an area of 675 square meters. Find S U.",
+  "choices": [
+    "22.5",
+    "25.98",
+    "30",
+    "45"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Rhombus"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "",
+  "id": 1483,
+  "annot_id": "pan_2020-03-22_05_16_53",
+  "is_standard": false,
+  "unit": "m",
+  "compact_choices": [
+    "22.5",
+    "25.98",
+    "30",
+    "45"
+  ],
+  "precise_value": [
+    22.5,
+    25.98,
+    30.0,
+    45.0
+  ],
+  "rough_value": [
+    22.5,
+    25.98,
+    30,
+    45
+  ],
+  "compact_text": "Rhombus RSTU has an area of 675 square meters. Find SU.",
+  "annotat_text": "Rhombus $RSTU$ has an area of 675 square meters. Find $SU$.",
+  "img_width": 339,
+  "img_height": 256,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}
