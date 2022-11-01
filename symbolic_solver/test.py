@@ -67,7 +67,7 @@ def getParameters():
 
     args.low_first = args.strategy in ["low-first", "final"] # apply the low-first search strategy
     args.step_limit = 100 # the maximum search steps
-    args.debug_mode = True # debug mode
+    args.debug_mode = False # debug mode
     args.enable_round = False
     args.enable_predict = True
 
@@ -113,7 +113,7 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
                     if args.debug_mode:
                         print("\033[0;0;41mError:\033[0m", repr(e))
 
-    ## Parse text logic forms
+    # Parse text logic forms
     target = None
     text_logic_forms = text_parser["text_logic_forms"]
     for text in text_logic_forms:
