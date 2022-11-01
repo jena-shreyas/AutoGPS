@@ -126,6 +126,9 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
     for text in text_logic_forms:
         if args.debug_mode:
             print("The text logic form is", text)
+
+        # The parser detects the target literal by searching for "Find"  keyword
+        # Then the parser extracts the target from the target literal
         if text.find('Find') != -1:
             target = parser.findTarget(parser.parse(text)) # ['Value', 'A', 'C']
         else:
@@ -138,8 +141,8 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
     ## Set up, initialize and run the logic solver
     solver = LogicSolver(parser.logic)
     solver.initSearch()
-    answer, steps, step_lst = solver.Search(target=target,
-                                            order_list=order_lst,
+    answer, steps, step_lst = solver.Search(target=target,              # target to be found in order to solve the problem
+                                            order_list=order_lst,       # the sequence of theorems to be applied (in case of no-theorem-predict strategy, it is None)
                                             round_or_step=args.enable_round,
                                             upper_bound=args.round_limit if args.enable_round else args.step_limit,
                                             enable_low_first=args.low_first)
