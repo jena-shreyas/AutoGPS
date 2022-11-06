@@ -36,7 +36,7 @@ def getParameters():
     parser.add_argument("--use_annotated", action="store_true", help="use annotated data instead of generated data")
     parser.add_argument("--predict_path", type=str, help="the predict sequence for the solver")
     parser.add_argument("--start_index", type=int, default=2401, help="the start point of testing data")
-    parser.add_argument("--end_index", type=int, default=3001, help="the end point of testing data")
+    parser.add_argument("--end_index", type=int, default=2403, help="the end point of testing data")
     parser.add_argument("--time_limit", type=int, default=150, help="the seconds of time limit")
     parser.add_argument("--num_threads", type=int, default=20, help="the number of running threads, recommendation: # of CPU threads")
 
@@ -67,7 +67,7 @@ def getParameters():
 
     args.low_first = args.strategy in ["low-first", "final"] # apply the low-first search strategy
     args.step_limit = 100 # the maximum search steps
-    args.debug_mode = True # debug mode
+    args.debug_mode = False # debug mode
     args.enable_round = False
     args.enable_predict = True
 

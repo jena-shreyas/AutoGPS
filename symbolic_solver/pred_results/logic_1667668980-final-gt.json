@@ -1,0 +1,46 @@
+{
+  "result": [
+    {
+      "pid": 2401,
+      "target": "['Area', 'A', 'B', 'C']",
+      "guess": 60.0,
+      "correctness": "yes",
+      "steps": 0,
+      "step_lst": [],
+      "time": 0.56
+    },
+    {
+      "pid": 2402,
+      "target": "['Value', 'O', 'X']",
+      "guess": 5.0,
+      "correctness": "yes",
+      "steps": 1,
+      "step_lst": [
+        16
+      ],
+      "time": 4.18
+    }
+  ],
+  "test_list": [
+    2401,
+    2402
+  ],
+  "solved_list": [
+    2401,
+    2402
+  ],
+  "solved_correct_list": [
+    2401,
+    2402
+  ],
+  "solved_wrong_list": [],
+  "unsolved_list": [],
+  "avg_solve_time": 2.37,
+  "avg_solved_time": 2.37,
+  "avg_solve_step": 0.5,
+  "avg_solved_step": 0.5,
+  "real_time": 8,
+  "problem_data_version": "../data/geometry3k",
+  "text_logic_version": "../data/geometry3k/logic_forms/text_logic_forms_annot_dissolved.json",
+  "diagram_logic_version": "../data/geometry3k/logic_forms/diagram_logic_forms_annot.json"
+}
