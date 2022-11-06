@@ -1,0 +1,87 @@
+{
+  "result": [
+    {
+      "pid": 2401,
+      "target": "['Area', 'A', 'B', 'C']",
+      "guess": 60.0,
+      "correctness": "yes",
+      "steps": 0,
+      "step_lst": [],
+      "time": 0.57
+    },
+    {
+      "pid": 2402,
+      "target": "['Value', 'O', 'X']",
+      "guess": 5.0,
+      "correctness": "yes",
+      "steps": 1,
+      "step_lst": [
+        16
+      ],
+      "time": 3.86
+    },
+    {
+      "pid": 2403,
+      "target": "['Value', 'x']",
+      "guess": 18.80912807335911,
+      "correctness": "yes",
+      "steps": 28,
+      "step_lst": [
+        17,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "time": 1.24
+    }
+  ],
+  "test_list": [
+    2401,
+    2402,
+    2403
+  ],
+  "solved_list": [
+    2401,
+    2402,
+    2403
+  ],
+  "solved_correct_list": [
+    2401,
+    2402,
+    2403
+  ],
+  "solved_wrong_list": [],
+  "unsolved_list": [],
+  "avg_solve_time": 1.89,
+  "avg_solved_time": 1.89,
+  "avg_solve_step": 9.666666666666666,
+  "avg_solved_step": 9.666666666666666,
+  "real_time": 7,
+  "problem_data_version": "../data/geometry3k",
+  "text_logic_version": "../data/geometry3k/logic_forms/text_logic_forms_annot_dissolved.json",
+  "diagram_logic_version": "../data/geometry3k/logic_forms/diagram_logic_forms_annot.json"
+}
