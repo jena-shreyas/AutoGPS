@@ -113,7 +113,7 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
                     if args.debug_mode:
                         print("\033[0;0;41mError:\033[0m", repr(e))
 
-    ## Parse text logic forms
+    # Parse text logic forms
     target = None
     text_logic_forms = text_parser["text_logic_forms"]
     for text in text_logic_forms:

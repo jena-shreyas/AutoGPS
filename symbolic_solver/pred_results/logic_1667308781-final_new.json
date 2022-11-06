@@ -1,0 +1,34 @@
+{
+  "result": [
+    {
+      "pid": 2402,
+      "target": "['Value', 'O', 'X']",
+      "guess": 5.0,
+      "correctness": "yes",
+      "steps": 1,
+      "step_lst": [
+        16
+      ],
+      "time": 1.26
+    }
+  ],
+  "test_list": [
+    2402
+  ],
+  "solved_list": [
+    2402
+  ],
+  "solved_correct_list": [
+    2402
+  ],
+  "solved_wrong_list": [],
+  "unsolved_list": [],
+  "avg_solve_time": 1.26,
+  "avg_solved_time": 1.26,
+  "avg_solve_step": 1.0,
+  "avg_solved_step": 1.0,
+  "real_time": 1,
+  "problem_data_version": "../data/geometry3k",
+  "text_logic_version": "../data/geometry3k/logic_forms/text_logic_forms_annot_dissolved.json",
+  "diagram_logic_version": "../data/geometry3k/logic_forms/diagram_logic_forms_annot.json"
+}

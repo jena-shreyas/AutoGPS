@@ -25,7 +25,7 @@ class LogicSolver:
                        13: self.func13_polygon_interior_angles_theorem, 14: self.func14_similar_triangle_theorem,
                        15: self.func15_angle_bisector_theorem, 16: self.func16_cosine_theorem,
                        17: self.func17_sine_theorem};
-        self.interval = 11
+        self.interval = 11  
         # <= interval: Propagate;   > interval: Build Equations.
 
     @staticmethod
@@ -81,27 +81,45 @@ class LogicSolver:
         return self._hasSymbol(expr) and all([str(expr).find(t) == -1 for t in ['+', '-', '*']])
 
     def Solve_Equations(self):
-        # add equations for angles, lines and arcs
+        '''
+            Function to augment the equations created by applying theorems with 
+            simple equations for various geometric literals like length, angle, etc.
+            and solve the system of equations to get the values of the literals.
+
+            Returns:
+                True if the system of equations is solved successfully.
+        '''
+        # Add extra simple equations for angles, lines and arcs to complete the system of equations.
         for line in self.logic.find_all_lines():
-            lst = self.logic.find_line_with_length(line, skip_if_has_number=False)  # [line_CX + line_XD, 24.0]
+            lst = self.logic.find_line_with_length(line, skip_if_has_number=False)  
+            # [line_CX + line_XD, 24.0]
+
             for i in range(1, len(lst)):
                 # print ("[equations] line equations", line, lst[i-1], lst[i])
                 self.equations.append(lst[i] - lst[i - 1])
+
         for angle in self.logic.find_all_angles():
             lst = self.logic.find_angle_measure(angle, skip_if_has_number=False)
             # [angle_ODC, -angle_COD - angle_ODC + 180, angle_OCD]
+
             for i in range(1, len(lst)):
                 # print ("[equations] angle equations", angle, lst[i-1], lst[i], lst[i] - lst[i-1])
                 self.equations.append(lst[i] - lst[i - 1])
+
         for arc in self.logic.find_all_arcs():  # arc = ('O', 'B', 'C')
-            lst = self.logic.find_arc_measure(arc, skip_if_has_number=False)  # [360 - arc_OCB, angle_BOC, arc_OBC]
+            lst = self.logic.find_arc_measure(arc, skip_if_has_number=False) 
+            # [360 - arc_OCB, angle_BOC, arc_OBC]
+
             for i in range(1, len(lst)):
                 # print ("[equations] arc equations", angle, lst[i-1], lst[i])
                 self.equations.append(lst[i] - lst[i - 1])
 
+
+        # Solve the system of equations using sympy module functions
         self.equations = list(set(self.equations))  # remove redundant equations quickly
         self.equations, temp_equations = [], self.equations
         mp = []
+
         for equation in temp_equations:
             if not type(equation) in [float, int] and len(equation.free_symbols) > 0:  # unknown variables
                 symbols = set(equation.free_symbols)  # {line_XD, line_CX} # symbols: unknown variables in the equation
@@ -180,6 +198,7 @@ class LogicSolver:
                             if total_symbols[i] != list(res[j])[i]:
                                 sol[total_symbols[i]] = list(res[j])[i]
                         solutions.append(sol)
+
         if len(solutions) >= 1:
             # Handle with multiple solution
             estimate = lambda sol: sum([str(expr)[0] != '-' for expr in sol.values()])  # negative value
@@ -201,8 +220,11 @@ class LogicSolver:
             # We may substitute the key in the previous dict further.
             self.logic.variables.update(nowdict)
             return True
+
         self.hasSolution = len(self.equations) == 0
         return False
+
+
 
     def func1_direct_triangle_sum_theorem(self):
         Update = False
@@ -654,44 +676,65 @@ class LogicSolver:
         assert (self.can_search, "Please execute initSearch() before search.")
 
         # try to get the answer before using theorems
-        step_lst = []
+        step_lst = []       # stores the theorem sequence applied, will be useful in path tracing from start state to goal state
         now_answer = self._getAnswer(target)
+
         if now_answer is not None:
             return now_answer, 0, step_lst
 
         if round_or_step:
+
             rounds = 0
             Update = True
+
             while rounds <= upper_bound and Update:
+
                 rounds += 1
                 Update = False
                 self.equations = []
+
                 for i in range(1, len(self.function_maps)+1):
-                    if enable_low_first and i > self.interval: continue
-                    step_lst.append(i)
-                    changed = self.function_maps[i]()
+
+                    # if low first is enabled, only apply theorems with low complexity (no. of such thms is specified by self.interval)
+                    # Once it is exceeded, we have exhaustively applied all low-complexity thms.
+                    # Now we start building equations.
+                    if enable_low_first and i > self.interval: continue         
+                    step_lst.append(i)                      # add i'th theorem to the applied theorem sequence
+                    changed = self.function_maps[i]()       # apply the ith theorem and go to the next problem state
+
                     if changed is not None and changed:
-                        Update = True
-                Update = Update or len(self.equations) > 0
-                FindSolution = self.Solve_Equations()
-                now_answer = self._getAnswer(target)
+                        Update = True                       # mark that the problem state has changed
+
+                Update = Update or len(self.equations) > 0  # if there are equations, we need to solve them
+                FindSolution = self.Solve_Equations()       # solve the equations created in the previous steps to return FindSolution = True if a solution is found
+                now_answer = self._getAnswer(target)        
+
                 if now_answer is not None:
                     return now_answer, rounds, step_lst
+
                 if not enable_low_first or FindSolution: continue
+
+                # If we are here, it means that we have not found a solution yet.
+                # Now, we apply the remaining theorems (of high-complexity) and build equations.
                 self.equations = []
+
                 for i in range(self.interval+1, len(self.function_maps)+1):
                     step_lst.append(i)
                     self.function_maps[i]()
+
                 Update = Update or len(self.equations) > 0
                 self.Solve_Equations()
                 now_answer = self._getAnswer(target)
+
                 if now_answer is not None:
                     return now_answer, rounds, step_lst
+
             return None, rounds, step_lst
 
         else:
             # check order_lst
             func_ids = self.function_maps.keys()
+
             if isinstance(order_list, list) and len(order_list) > 0:
                 result = all([order in func_ids for order in order_list])
                 if not result:
@@ -702,14 +745,15 @@ class LogicSolver:
             # Run the predicting series.
             steps = 0
             for element in order_list:
+
                 steps += 1
                 step_lst.append(element)
-                self.equations = []
-                self.function_maps[element]()
-                self.Solve_Equations()
+                self.equations = []                 
+                self.function_maps[element]()               # At each step, on applying theorem i, we get a new problem state and some new equations are created.
+                self.Solve_Equations()                      # solve the equations created in the previous steps to return FindSolution = True if a solution is found
                 now_answer = self._getAnswer(target)
                 if now_answer is not None:
-                    return now_answer, steps, step_lst
+                    return now_answer, steps, step_lst      # if a solution is found, return the solution and the number of steps taken to find it
 
             Update = True
             while Update and steps < upper_bound:
@@ -718,15 +762,19 @@ class LogicSolver:
                 # print (self.logic.variables)
                 Update = False
                 FindSolution = False
+
                 for i in range(1, len(self.function_maps)+1):
                     if enable_low_first and i > self.interval:
                         continue
+
                     steps += 1
                     step_lst.append(i)
                     self.equations = []
                     changed = self.function_maps[i]()
+
                     if changed is not None and not changed or changed is None and len(self.equations) == 0:
                         continue
+
                     Update = True
                     FindSolution = self.Solve_Equations() or FindSolution
                     now_answer = self._getAnswer(target)
@@ -734,7 +782,9 @@ class LogicSolver:
                         return now_answer, steps, step_lst
 
                 if not enable_low_first or FindSolution: continue
+
                 for i in range(self.interval+1, len(self.function_maps)+1):
+
                     steps += 1
                     step_lst.append(i)
                     self.equations = []
@@ -745,4 +795,5 @@ class LogicSolver:
                     now_answer = self._getAnswer(target)
                     if now_answer is not None:
                         return now_answer, steps, step_lst
+                        
             return None, steps, step_lst
