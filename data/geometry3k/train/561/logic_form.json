@@ -1,0 +1,49 @@
+{
+  "text_logic_form": [
+    "Equals(x,7\\sqrt{3})",
+    "Find(b)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(x,7\\sqrt{3})",
+    "Find(b)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(C, B, E)), 60)",
+    "Equals(LengthOf(Line(E, A)), y)",
+    "Equals(LengthOf(Line(C, B)), LengthOf(a))",
+    "Equals(MeasureOf(Angle(C, A, B)), 30)",
+    "Equals(LengthOf(Line(A, C)), LengthOf(b))",
+    "PointLiesOnLine(E, Line(A, B))",
+    "Perpendicular(Line(E, A), Line(E, C))",
+    "Perpendicular(Line(E, C), Line(A, C))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "CB",
+    "EA",
+    "EB",
+    "EC"
+  ],
+  "point_positions": {
+    "A": [
+      242.0,
+      139.0
+    ],
+    "B": [
+      2.0,
+      2.0
+    ],
+    "C": [
+      1.0,
+      140.0
+    ],
+    "E": [
+      60.0,
+      35.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

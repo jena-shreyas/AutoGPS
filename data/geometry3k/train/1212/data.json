@@ -1,0 +1,48 @@
+{
+  "problem_text": "In right triangle A B C shown below, what is the measure of \\angle A to the nearest tenth of a degree?",
+  "choices": [
+    "32.2",
+    "38.9",
+    "51.1",
+    "57.8"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "",
+  "id": 1212,
+  "annot_id": "pan_2020-03-25_22_13_01",
+  "is_standard": true,
+  "compact_choices": [
+    "32.2",
+    "38.9",
+    "51.1",
+    "57.8"
+  ],
+  "precise_value": [
+    32.2,
+    38.9,
+    51.1,
+    57.8
+  ],
+  "rough_value": [
+    32.2,
+    38.9,
+    51.1,
+    57.8
+  ],
+  "compact_text": "In right triangle ABC shown below, what is the measure of \\angle A to the nearest tenth of a degree?",
+  "annotat_text": "In right triangle $ABC$ shown below, what is the measure of $\u2220 A$ to the nearest tenth of a degree?",
+  "unit": "",
+  "img_width": 345,
+  "img_height": 288,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

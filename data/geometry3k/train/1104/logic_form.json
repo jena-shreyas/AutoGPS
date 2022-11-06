@@ -1,0 +1,70 @@
+{
+  "text_logic_form": [
+    "Circle(P)",
+    "Equals(MeasureOf(Arc(E,N)),66)",
+    "Equals(MeasureOf(Angle(G,P,M)),89)",
+    "Find(MeasureOf(Angle(E,G,N)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Circle(P)",
+    "Equals(MeasureOf(Arc(E,N)),66)",
+    "Equals(MeasureOf(Angle(G,P,M)),89)",
+    "Find(MeasureOf(Angle(E,G,N)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(B, Line(M, E))",
+    "PointLiesOnLine(B, Line(N, P))",
+    "PointLiesOnLine(P, Line(N, G))",
+    "PointLiesOnLine(B, Line(N, G))",
+    "PointLiesOnLine(P, Line(G, B))",
+    "PointLiesOnCircle(M, Circle(P, radius_4_0))",
+    "PointLiesOnCircle(E, Circle(P, radius_4_0))",
+    "PointLiesOnCircle(N, Circle(P, radius_4_0))",
+    "PointLiesOnCircle(G, Circle(P, radius_4_0))"
+  ],
+  "line_instances": [
+    "EB",
+    "EG",
+    "EN",
+    "GB",
+    "MB",
+    "ME",
+    "MG",
+    "MN",
+    "MP",
+    "NB",
+    "NG",
+    "NP",
+    "PB",
+    "PG"
+  ],
+  "point_positions": {
+    "B": [
+      117.0,
+      110.0
+    ],
+    "E": [
+      186.0,
+      45.0
+    ],
+    "G": [
+      18.0,
+      46.0
+    ],
+    "M": [
+      41.0,
+      183.0
+    ],
+    "N": [
+      186.0,
+      155.0
+    ],
+    "P": [
+      103.0,
+      100.0
+    ]
+  },
+  "circle_instances": [
+    "P"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "text_logic_form": [
+    "Equals(LengthOf(Line(P,Q)),Line(U,Q))",
+    "Equals(LengthOf(Line(P,R)),Line(R,T))",
+    "Equals(MeasureOf(Angle(P,Q,U)),40)",
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(LengthOf(Line(P,Q)),Line(U,Q))",
+    "Equals(LengthOf(Line(P,R)),Line(R,T))",
+    "Equals(MeasureOf(Angle(P,Q,U)),40)",
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(U, Line(T, P))",
+    "PointLiesOnLine(A, Line(T, R))",
+    "PointLiesOnLine(Q, Line(R, P))"
+  ],
+  "line_instances": [
+    "AQ",
+    "AR",
+    "AT",
+    "AU",
+    "QP",
+    "QR",
+    "RP",
+    "TP",
+    "TR",
+    "UP",
+    "UQ",
+    "UT"
+  ],
+  "point_positions": {
+    "A": [
+      181.0,
+      90.0
+    ],
+    "P": [
+      0.0,
+      228.0
+    ],
+    "Q": [
+      81.0,
+      90.0
+    ],
+    "R": [
+      131.0,
+      2.0
+    ],
+    "T": [
+      263.0,
+      228.0
+    ],
+    "U": [
+      131.0,
+      227.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

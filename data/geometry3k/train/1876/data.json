@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\angle E.",
+  "choices": [
+    "38",
+    "76",
+    "79",
+    "158"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 9",
+  "comment": "",
+  "id": 1876,
+  "annot_id": "Ran_2020-03-15_04_30_11",
+  "is_standard": false,
+  "compact_choices": [
+    "38",
+    "76",
+    "79",
+    "158"
+  ],
+  "precise_value": [
+    38.0,
+    76.0,
+    79.0,
+    158.0
+  ],
+  "rough_value": [
+    38,
+    76,
+    79,
+    158
+  ],
+  "compact_text": "Find m \\angle E.",
+  "annotat_text": "Find $m\\angle E$",
+  "unit": "",
+  "img_width": 459,
+  "img_height": 350,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

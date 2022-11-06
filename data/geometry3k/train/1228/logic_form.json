@@ -1,0 +1,33 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(T,R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(T,R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(R, P, T)), 60)",
+    "Equals(LengthOf(Line(P, T)), 4)",
+    "Equals(LengthOf(Line(R, P)), 4)"
+  ],
+  "line_instances": [
+    "RP",
+    "RT",
+    "PT"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "R": [
+      273.7379557680813,
+      259.62363020522014
+    ],
+    "P": [
+      178.43508290041999,
+      1.2755717441929733
+    ],
+    "T": [
+      0.0,
+      214.0
+    ]
+  }
+}

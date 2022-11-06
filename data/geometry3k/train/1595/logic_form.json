@@ -1,0 +1,54 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(S,R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(S,R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(S, T)), 3)",
+    "Equals(MeasureOf(Angle(J, K, L)), 87)",
+    "Equals(MeasureOf(Angle(L, J, K)), 46)",
+    "Equals(MeasureOf(Angle(T, R, S)), 46)",
+    "Equals(LengthOf(Line(J, K)), 16)",
+    "Equals(MeasureOf(Angle(T, S, R)), 87)",
+    "Equals(LengthOf(Line(K, L)), 12)"
+  ],
+  "line_instances": [
+    "JK",
+    "JL",
+    "KL",
+    "TS",
+    "TR",
+    "SR"
+  ],
+  "point_positions": {
+    "J": [
+      14.0,
+      3.0
+    ],
+    "K": [
+      1.0,
+      264.0
+    ],
+    "L": [
+      273.0,
+      263.0
+    ],
+    "T": [
+      150.0,
+      0.0
+    ],
+    "S": [
+      250.0,
+      0.0
+    ],
+    "R": [
+      240.0,
+      200.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "text_logic_form": [
+    "InscribedIn(Circle(P),Equilateral(Triangle(L,M,N)))",
+    "Find(CircumferenceOf(Circle(P)))"
+  ],
+  "dissolved_text_logic_form": [
+    "InscribedIn(Circle(P),Equilateral(Triangle(L,M,N)))",
+    "Find(CircumferenceOf(Circle(P)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(N, L)), 8)",
+    "",
+    "PointLiesOnLine(E, Line(N, M))",
+    "PointLiesOnLine(F, Line(L, N))",
+    "PointLiesOnLine(D, Line(M, L))",
+    "PointLiesOnCircle(D, Circle(P, radius_1_0))",
+    "PointLiesOnCircle(E, Circle(P, radius_1_0))",
+    "PointLiesOnCircle(F, Circle(P, radius_1_0))"
+  ],
+  "line_instances": [
+    "LN",
+    "ML",
+    "MN",
+    "EM",
+    "EN",
+    "FN",
+    "FL",
+    "DL",
+    "DM"
+  ],
+  "point_positions": {
+    "D": [
+      92.0,
+      155.0
+    ],
+    "E": [
+      184.0,
+      313.0
+    ],
+    "F": [
+      271.0,
+      157.0
+    ],
+    "L": [
+      181.0,
+      0.0
+    ],
+    "M": [
+      0.0,
+      313.0
+    ],
+    "N": [
+      361.0,
+      313.0
+    ],
+    "P": [
+      184.0,
+      208.0
+    ]
+  },
+  "circle_instances": [
+    "P"
+  ]
+}

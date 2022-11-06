@@ -1,0 +1,52 @@
+{
+  "text_logic_form": [
+    "IsDiameterOf(SideOf(Square($)),Circle($))",
+    "Equals(SideOf(Square($)),5)",
+    "Shaded(Shape($))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsDiameterOf(SideOf(Square(B,C,T,A)),Circle(D))",
+    "Equals(SideOf(Square(B,C,T,A)),5)",
+    "Shaded(Shape(B,C,T,A))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, C)), 5)",
+    "Equals(LengthOf(Line(T, C)), 5)",
+    "PointLiesOnLine(D, Line(A, B))",
+    "PointLiesOnCircle(A, Circle(D, radius_4_0))",
+    "PointLiesOnCircle(B, Circle(D, radius_4_0))"
+  ],
+  "line_instances": [
+    "DB",
+    "DA",
+    "AB",
+    "AT",
+    "BC",
+    "CT"
+  ],
+  "point_positions": {
+    "A": [
+      58.0,
+      114.0
+    ],
+    "B": [
+      57.0,
+      1.0
+    ],
+    "C": [
+      172.0,
+      2.0
+    ],
+    "D": [
+      58.0,
+      56.0
+    ],
+    "T": [
+      171.0,
+      115.0
+    ]
+  },
+  "circle_instances": [
+    "D"
+  ]
+}

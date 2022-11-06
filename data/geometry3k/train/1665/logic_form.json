@@ -1,0 +1,40 @@
+{
+  "text_logic_form": [
+    "Parallelogram(M,N,P,Q)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallelogram(M,N,P,Q)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(M, Q, P)), 6x)",
+    "Equals(MeasureOf(Angle(Q, P, N)), 7x+11)",
+    "Equals(LengthOf(Line(Q, P)), x)"
+  ],
+  "line_instances": [
+    "QP",
+    "QM",
+    "PN",
+    "MN"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "Q": [
+      0.6676069389368138,
+      110.99550304566452
+    ],
+    "P": [
+      220.55519085825432,
+      109.01495258935084
+    ],
+    "N": [
+      244.1836731936055,
+      1.3311576870582797
+    ],
+    "M": [
+      23.666353011768877,
+      1.001500088641599
+    ]
+  }
+}

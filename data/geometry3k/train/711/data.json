@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find D B.",
+  "choices": [
+    "7.5",
+    "9.2",
+    "15",
+    "18.4"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "the answer may be wrong",
+  "id": 711,
+  "annot_id": "Shibiao_2020-03-22_11_28_15",
+  "is_standard": false,
+  "compact_choices": [
+    "7.5",
+    "9.2",
+    "15",
+    "18.4"
+  ],
+  "precise_value": [
+    7.5,
+    9.2,
+    15.0,
+    18.4
+  ],
+  "rough_value": [
+    7.5,
+    9.2,
+    15,
+    18.4
+  ],
+  "compact_text": "Find DB.",
+  "annotat_text": "Find $DB$.",
+  "unit": "",
+  "img_width": 709,
+  "img_height": 465,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

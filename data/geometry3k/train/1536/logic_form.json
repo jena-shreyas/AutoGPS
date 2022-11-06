@@ -1,0 +1,54 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(A, E, D)), 2x+10)",
+    "Equals(MeasureOf(Angle(C, D, E)), x)",
+    "Equals(MeasureOf(Angle(B, C, D)), 2x-20)",
+    "PointLiesOnLine(F, Line(A, E))",
+    "Perpendicular(Line(F, A), Line(A, B))",
+    "Perpendicular(Line(A, B), Line(C, B))"
+  ],
+  "line_instances": [
+    "AB",
+    "AE",
+    "CB",
+    "DC",
+    "ED",
+    "FA",
+    "FE"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      1.0
+    ],
+    "B": [
+      2.0,
+      208.0
+    ],
+    "C": [
+      210.0,
+      206.0
+    ],
+    "D": [
+      334.0,
+      80.0
+    ],
+    "E": [
+      211.0,
+      2.0
+    ],
+    "F": [
+      122.0,
+      3.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

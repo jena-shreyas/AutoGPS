@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(P)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(P)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(P, N, O)), 56)",
+    "Equals(MeasureOf(Angle(N, B, M)), 70)",
+    "",
+    "PointLiesOnCircle(O, Circle(B, radius_5_0))",
+    "PointLiesOnCircle(N, Circle(B, radius_5_0))",
+    "PointLiesOnCircle(P, Circle(B, radius_5_0))",
+    "PointLiesOnCircle(M, Circle(B, radius_5_0))"
+  ],
+  "line_instances": [
+    "NP",
+    "ON",
+    "PM"
+  ],
+  "point_positions": {
+    "B": [
+      151.0,
+      150.0
+    ],
+    "M": [
+      4.0,
+      118.0
+    ],
+    "N": [
+      88.0,
+      287.0
+    ],
+    "O": [
+      288.0,
+      214.0
+    ],
+    "P": [
+      165.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    "B"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot F, find m \\widehat A D B.",
+  "choices": [
+    "63",
+    "153",
+    "233",
+    "243"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 286,
+  "annot_id": "Shibiao_2020-03-27_11_51_52",
+  "is_standard": false,
+  "compact_choices": [
+    "63",
+    "153",
+    "233",
+    "243"
+  ],
+  "precise_value": [
+    63.0,
+    153.0,
+    233.0,
+    243.0
+  ],
+  "rough_value": [
+    63,
+    153,
+    233,
+    243
+  ],
+  "compact_text": "In \\odot F, find m \\widehat ADB.",
+  "annotat_text": "In $\\odot F$, find $m \\widehat {ADB}$.",
+  "unit": "",
+  "img_width": 479,
+  "img_height": 466,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,37 @@
+{
+  "text_logic_form": [
+    "UseTheorem(Pythagorean_Theorem)",
+    "Find(LengthOf(HypotenuseOf(Right(Triangle($)))))"
+  ],
+  "dissolved_text_logic_form": [
+    "UseTheorem(Pythagorean_Theorem)",
+    "Find(LengthOf(HypotenuseOf(Right(Triangle(A, C, B)))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, C)), 5)",
+    "Equals(LengthOf(Line(B, C)), 3)",
+    "Perpendicular(Line(A, C), Line(B, C))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      0.0
+    ],
+    "B": [
+      165.0,
+      81.0
+    ],
+    "C": [
+      86.0,
+      133.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

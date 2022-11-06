@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Shape(A)),96)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Rhombus(O,B,A,L)),96)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(L, E)), 7.3)",
+    "Equals(LengthOf(Line(O, E)), x)",
+    "Equals(LengthOf(Line(O, E)), LengthOf(Line(E, A)))",
+    "Equals(LengthOf(Line(L, E)), LengthOf(Line(E, B)))"
+  ],
+  "line_instances": [
+    "BA",
+    "LA",
+    "OB",
+    "OL",
+    "OE",
+    "AE",
+    "LE",
+    "BE"
+  ],
+  "point_positions": {
+    "A": [
+      156.0,
+      134.0
+    ],
+    "B": [
+      232.0,
+      5.0
+    ],
+    "L": [
+      0.0,
+      134.0
+    ],
+    "O": [
+      74.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

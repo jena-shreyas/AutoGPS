@@ -1,0 +1,48 @@
+{
+  "problem_text": "Use parallelogram J K L M to find m \\angle J M L if J K = 2 b + 3 and J M = 3 a.",
+  "choices": [
+    "30",
+    "70",
+    "80",
+    "100"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter8.pdf page 15",
+  "comment": "",
+  "id": 2094,
+  "annot_id": "Ran_2020-03-27_01_16_09",
+  "is_standard": false,
+  "compact_choices": [
+    "30",
+    "70",
+    "80",
+    "100"
+  ],
+  "precise_value": [
+    30.0,
+    70.0,
+    80.0,
+    100.0
+  ],
+  "rough_value": [
+    30,
+    70,
+    80,
+    100
+  ],
+  "compact_text": "Use parallelogram JKLM to find m \\angle JML if JK = 2b+3 and JM = 3a.",
+  "annotat_text": "Use parallelogram JKLM to find $m \\angle JML$ if $J K=2 b+3$ and $J M=3 a$.",
+  "unit": "",
+  "img_width": 375,
+  "img_height": 251,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

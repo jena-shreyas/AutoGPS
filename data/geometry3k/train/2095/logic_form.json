@@ -1,0 +1,64 @@
+{
+  "text_logic_form": [
+    "Circle(F)",
+    "Equals(MeasureOf(Angle(D,F,A)),50)",
+    "Perpendicular(Line(C,F),Line(F,B))",
+    "Find(MeasureOf(Arc(C,B,E)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Circle(F)",
+    "Equals(MeasureOf(Angle(D,F,A)),50)",
+    "Perpendicular(Line(C,F),Line(F,B))",
+    "Find(MeasureOf(Arc(C,B,E)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(A, F, D)), 50)",
+    "PointLiesOnLine(F, Line(B, A))",
+    "PointLiesOnLine(F, Line(E, D))",
+    "PointLiesOnCircle(C, Circle(F, radius_0_0))",
+    "PointLiesOnCircle(B, Circle(F, radius_0_0))",
+    "PointLiesOnCircle(A, Circle(F, radius_0_0))",
+    "PointLiesOnCircle(E, Circle(F, radius_0_0))",
+    "PointLiesOnCircle(D, Circle(F, radius_0_0))",
+    "Perpendicular(Line(F, C), Line(F, B))"
+  ],
+  "line_instances": [
+    "FC",
+    "FB",
+    "FA",
+    "FE",
+    "FD",
+    "CD",
+    "BA",
+    "ED"
+  ],
+  "circle_instances": [
+    "F"
+  ],
+  "point_positions": {
+    "F": [
+      90.0661516775427,
+      91.06173520459417
+    ],
+    "C": [
+      91.99524038722797,
+      0.15072107111438982
+    ],
+    "B": [
+      182.34366732708895,
+      92.0056648460509
+    ],
+    "A": [
+      1.1559252241439708,
+      89.01905371248588
+    ],
+    "E": [
+      147.09216823675624,
+      162.11663768014284
+    ],
+    "D": [
+      34.67663181141042,
+      19.856268575501673
+    ]
+  }
+}

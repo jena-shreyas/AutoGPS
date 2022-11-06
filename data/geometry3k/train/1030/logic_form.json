@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Kite(W,X,Y,Z)",
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Kite(W,X,Y,Z)",
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Z, Y, X)), 120)",
+    "Perpendicular(Line(W, X), Line(Z, W))"
+  ],
+  "line_instances": [
+    "WX",
+    "YX",
+    "ZW",
+    "ZY"
+  ],
+  "point_positions": {
+    "W": [
+      98.0,
+      151.0
+    ],
+    "X": [
+      0.0,
+      56.0
+    ],
+    "Y": [
+      99.0,
+      1.0
+    ],
+    "Z": [
+      189.0,
+      54.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

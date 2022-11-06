@@ -1,0 +1,215 @@
+{
+  "text_logic_form": [
+    "Parallel(Line(a),Line(b))",
+    "Find(MeasureOf(Angle(M,R,Q)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallel(Line(a),Line(b))",
+    "Find(MeasureOf(Angle(M,R,Q)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(M, R, Q)), 5x+7)",
+    "Equals(MeasureOf(Angle(R, P, N)), 7x-21)",
+    "PointLiesOnLine(G, Line(L, M))",
+    "PointLiesOnLine(R, Line(L, M))",
+    "PointLiesOnLine(R, Line(L, G))",
+    "PointLiesOnLine(M, Line(L, H))",
+    "PointLiesOnLine(G, Line(L, H))",
+    "PointLiesOnLine(R, Line(L, H))",
+    "PointLiesOnLine(L, Line(M, A))",
+    "PointLiesOnLine(G, Line(M, A))",
+    "PointLiesOnLine(R, Line(M, A))",
+    "PointLiesOnLine(G, Line(M, R))",
+    "PointLiesOnLine(L, Line(A, G))",
+    "PointLiesOnLine(R, Line(A, G))",
+    "PointLiesOnLine(L, Line(A, H))",
+    "PointLiesOnLine(M, Line(A, H))",
+    "PointLiesOnLine(G, Line(A, H))",
+    "PointLiesOnLine(R, Line(A, H))",
+    "PointLiesOnLine(L, Line(A, R))",
+    "PointLiesOnLine(M, Line(G, H))",
+    "PointLiesOnLine(M, Line(H, R))",
+    "PointLiesOnLine(G, Line(H, R))",
+    "PointLiesOnLine(I, Line(R, P))",
+    "PointLiesOnLine(P, Line(R, D))",
+    "PointLiesOnLine(E, Line(R, D))",
+    "PointLiesOnLine(I, Line(R, D))",
+    "PointLiesOnLine(Q, Line(R, D))",
+    "PointLiesOnLine(P, Line(R, E))",
+    "PointLiesOnLine(I, Line(R, E))",
+    "PointLiesOnLine(P, Line(R, Q))",
+    "PointLiesOnLine(E, Line(R, Q))",
+    "PointLiesOnLine(I, Line(R, Q))",
+    "PointLiesOnLine(E, Line(P, D))",
+    "PointLiesOnLine(Q, Line(P, D))",
+    "PointLiesOnLine(N, Line(P, B))",
+    "PointLiesOnLine(K, Line(P, B))",
+    "PointLiesOnLine(I, Line(P, C))",
+    "PointLiesOnLine(R, Line(P, C))",
+    "PointLiesOnLine(F, Line(P, J))",
+    "PointLiesOnLine(N, Line(P, K))",
+    "PointLiesOnLine(E, Line(P, Q))",
+    "PointLiesOnLine(Q, Line(D, E))",
+    "PointLiesOnLine(P, Line(D, C))",
+    "PointLiesOnLine(E, Line(D, C))",
+    "PointLiesOnLine(I, Line(D, C))",
+    "PointLiesOnLine(R, Line(D, C))",
+    "PointLiesOnLine(Q, Line(D, C))",
+    "PointLiesOnLine(P, Line(D, I))",
+    "PointLiesOnLine(E, Line(D, I))",
+    "PointLiesOnLine(Q, Line(D, I))",
+    "PointLiesOnLine(P, Line(B, F))",
+    "PointLiesOnLine(N, Line(B, F))",
+    "PointLiesOnLine(K, Line(B, F))",
+    "PointLiesOnLine(K, Line(B, N))",
+    "PointLiesOnLine(P, Line(B, J))",
+    "PointLiesOnLine(F, Line(B, J))",
+    "PointLiesOnLine(N, Line(B, J))",
+    "PointLiesOnLine(K, Line(B, J))",
+    "PointLiesOnLine(P, Line(E, C))",
+    "PointLiesOnLine(I, Line(E, C))",
+    "PointLiesOnLine(R, Line(E, C))",
+    "PointLiesOnLine(P, Line(E, I))",
+    "PointLiesOnLine(P, Line(F, N))",
+    "PointLiesOnLine(P, Line(F, K))",
+    "PointLiesOnLine(N, Line(F, K))",
+    "PointLiesOnLine(P, Line(N, J))",
+    "PointLiesOnLine(F, Line(N, J))",
+    "PointLiesOnLine(R, Line(C, I))",
+    "PointLiesOnLine(P, Line(C, Q))",
+    "PointLiesOnLine(E, Line(C, Q))",
+    "PointLiesOnLine(I, Line(C, Q))",
+    "PointLiesOnLine(R, Line(C, Q))",
+    "PointLiesOnLine(P, Line(I, Q))",
+    "PointLiesOnLine(E, Line(I, Q))",
+    "PointLiesOnLine(P, Line(J, K))",
+    "PointLiesOnLine(F, Line(J, K))",
+    "PointLiesOnLine(N, Line(J, K))"
+  ],
+  "line_instances": [
+    "AG",
+    "AH",
+    "AR",
+    "BF",
+    "BJ",
+    "BK",
+    "BN",
+    "CI",
+    "CQ",
+    "DC",
+    "DE",
+    "DI",
+    "DQ",
+    "EC",
+    "EI",
+    "EQ",
+    "FJ",
+    "FK",
+    "FN",
+    "GH",
+    "GR",
+    "HR",
+    "IQ",
+    "JK",
+    "LA",
+    "LG",
+    "LH",
+    "LM",
+    "LR",
+    "MA",
+    "MG",
+    "MH",
+    "MR",
+    "NJ",
+    "NK",
+    "PB",
+    "PC",
+    "PD",
+    "PE",
+    "PF",
+    "PI",
+    "PJ",
+    "PK",
+    "PN",
+    "PQ",
+    "RC",
+    "RD",
+    "RE",
+    "RI",
+    "RP",
+    "RQ"
+  ],
+  "point_positions": {
+    "A": [
+      50.0,
+      265.0
+    ],
+    "B": [
+      278.0,
+      299.0
+    ],
+    "C": [
+      6.0,
+      101.0
+    ],
+    "D": [
+      598.0,
+      178.0
+    ],
+    "E": [
+      529.0,
+      169.0
+    ],
+    "F": [
+      432.0,
+      52.0
+    ],
+    "G": [
+      158.0,
+      92.0
+    ],
+    "H": [
+      215.0,
+      6.0
+    ],
+    "I": [
+      321.0,
+      143.0
+    ],
+    "J": [
+      446.0,
+      34.0
+    ],
+    "K": [
+      289.0,
+      280.0
+    ],
+    "L": [
+      85.0,
+      211.0
+    ],
+    "M": [
+      186.0,
+      49.0
+    ],
+    "N": [
+      313.0,
+      241.0
+    ],
+    "P": [
+      372.0,
+      149.0
+    ],
+    "Q": [
+      539.0,
+      169.0
+    ],
+    "R": [
+      141.0,
+      118.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

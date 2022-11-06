@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(R,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(R,T)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(T, B)), 5)",
+    "Equals(MeasureOf(Angle(A, T, B)), 135)",
+    "PointLiesOnLine(T, Line(A, R))"
+  ],
+  "line_instances": [
+    "AR",
+    "AT",
+    "RB",
+    "RT",
+    "TB"
+  ],
+  "point_positions": {
+    "A": [
+      177.0,
+      178.0
+    ],
+    "B": [
+      1.0,
+      134.0
+    ],
+    "R": [
+      0.0,
+      0.0
+    ],
+    "T": [
+      137.0,
+      138.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

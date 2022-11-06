@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Isosceles(Triangle(J,M,N))",
+    "Equals(LengthOf(Line(J,M)),Line(M,N))",
+    "Find(LengthOf(Line(J,N)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Triangle(J,M,N))",
+    "Equals(LengthOf(Line(J,M)),Line(M,N))",
+    "Find(LengthOf(Line(J,N)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(M, J)), 2x-5)",
+    "Equals(LengthOf(Line(N, M)), 3x-9)",
+    "Equals(LengthOf(Line(N, J)), x-2)"
+  ],
+  "line_instances": [
+    "MJ",
+    "NJ",
+    "NM"
+  ],
+  "point_positions": {
+    "J": [
+      4.0,
+      183.0
+    ],
+    "M": [
+      69.0,
+      3.0
+    ],
+    "N": [
+      138.0,
+      181.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

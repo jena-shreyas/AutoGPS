@@ -1,0 +1,122 @@
+{
+  "text_logic_form": [
+    "IsIncenterOf(Point(P),Triangle(A,E,C))",
+    "Find(LengthOf(Line(D,E)))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsIncenterOf(Point(P),Triangle(A,E,C))",
+    "Find(LengthOf(Line(D,E)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(F, A, P)), 33)",
+    "Equals(LengthOf(Line(A, B)), 10.9)",
+    "Equals(LengthOf(Line(P, A)), 13)",
+    "Equals(LengthOf(Line(E, P)), 14.9)",
+    "Equals(MeasureOf(Angle(P, C, D)), 28.5)",
+    "PointLiesOnLine(D, Line(E, C))",
+    "PointLiesOnLine(H, Line(E, P))",
+    "PointLiesOnLine(I, Line(E, P))",
+    "PointLiesOnLine(H, Line(E, B))",
+    "PointLiesOnLine(P, Line(E, B))",
+    "PointLiesOnLine(I, Line(E, B))",
+    "PointLiesOnLine(F, Line(E, A))",
+    "PointLiesOnLine(H, Line(E, I))",
+    "PointLiesOnLine(P, Line(F, C))",
+    "PointLiesOnLine(G, Line(F, J))",
+    "PointLiesOnLine(B, Line(A, C))",
+    "PointLiesOnLine(P, Line(A, D))",
+    "PointLiesOnLine(P, Line(J, D))",
+    "PointLiesOnLine(I, Line(H, P))",
+    "PointLiesOnLine(P, Line(H, B))",
+    "PointLiesOnLine(I, Line(H, B))",
+    "PointLiesOnLine(P, Line(B, I))",
+    "Perpendicular(Line(A, B), Line(P, B))",
+    "Perpendicular(Line(F, P), Line(E, F))",
+    "Perpendicular(Line(P, D), Line(E, D))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AJ",
+    "AP",
+    "BC",
+    "BI",
+    "CD",
+    "EA",
+    "EB",
+    "EC",
+    "ED",
+    "EF",
+    "EH",
+    "EI",
+    "EJ",
+    "EP",
+    "FA",
+    "FC",
+    "FJ",
+    "FP",
+    "GA",
+    "GE",
+    "GF",
+    "GJ",
+    "HB",
+    "HI",
+    "HP",
+    "JD",
+    "JP",
+    "PB",
+    "PC",
+    "PD",
+    "PI"
+  ],
+  "point_positions": {
+    "A": [
+      276.0,
+      2.0
+    ],
+    "B": [
+      357.0,
+      181.0
+    ],
+    "C": [
+      445.0,
+      380.0
+    ],
+    "D": [
+      219.0,
+      345.0
+    ],
+    "E": [
+      1.0,
+      311.0
+    ],
+    "F": [
+      143.0,
+      151.0
+    ],
+    "G": [
+      239.0,
+      54.0
+    ],
+    "H": [
+      80.0,
+      280.0
+    ],
+    "I": [
+      116.0,
+      267.0
+    ],
+    "J": [
+      262.0,
+      35.0
+    ],
+    "P": [
+      238.0,
+      223.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

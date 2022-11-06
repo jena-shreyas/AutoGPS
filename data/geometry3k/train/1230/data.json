@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x if A D is an altitude of \\triangle A B C.",
+  "choices": [
+    "12",
+    "18",
+    "22",
+    "24"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "Textbook 2_Chapter 5 - Relationships in Triangles.pdf",
+  "comment": "",
+  "id": 1230,
+  "annot_id": "pan_2020-03-18_21_38_32",
+  "is_standard": false,
+  "compact_choices": [
+    "12",
+    "18",
+    "22",
+    "24"
+  ],
+  "precise_value": [
+    12.0,
+    18.0,
+    22.0,
+    24.0
+  ],
+  "rough_value": [
+    12,
+    18,
+    22,
+    24
+  ],
+  "compact_text": "Find x if AD is an altitude of \\triangle ABC.",
+  "annotat_text": "Find $x$ if $\\overline{AD}$ is an altitude of $\\triangle ABC$.",
+  "unit": "",
+  "img_width": 458,
+  "img_height": 261,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

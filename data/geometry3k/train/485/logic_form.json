@@ -1,0 +1,76 @@
+{
+  "text_logic_form": [
+    "Regular(Polygon($))",
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Regular(Polygon(A,E,C,D))",
+    "Find(AreaOf(Shaded(Polygon(A,E,C,D))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, G)), 7)",
+    "PointLiesOnLine(F, Line(A, D))",
+    "PointLiesOnLine(I, Line(A, E))",
+    "PointLiesOnLine(G, Line(D, C))",
+    "PointLiesOnLine(H, Line(E, C))",
+    "PointLiesOnCircle(F, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(G, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(H, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(I, Circle(B, radius_1_0))"
+  ],
+  "line_instances": [
+    "AD",
+    "AE",
+    "AF",
+    "AI",
+    "CG",
+    "CH",
+    "DC",
+    "DF",
+    "DG",
+    "EC",
+    "EH",
+    "EI"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      0.0
+    ],
+    "B": [
+      91.0,
+      87.0
+    ],
+    "C": [
+      175.0,
+      176.0
+    ],
+    "D": [
+      1.0,
+      174.0
+    ],
+    "E": [
+      175.0,
+      1.0
+    ],
+    "F": [
+      1.0,
+      87.0
+    ],
+    "G": [
+      89.0,
+      175.0
+    ],
+    "H": [
+      174.0,
+      86.0
+    ],
+    "I": [
+      91.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    "B"
+  ]
+}

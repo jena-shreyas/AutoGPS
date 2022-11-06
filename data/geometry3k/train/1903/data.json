@@ -1,0 +1,48 @@
+{
+  "problem_text": "In the figure, the vertices of quadrilateral A B C D intersect square E F G H and divide its sides into segments with measure that have a ratio of 1:2. Find the area of A B C D.",
+  "choices": [
+    "40.5",
+    "45",
+    "63",
+    "81"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Square"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "",
+  "id": 1903,
+  "annot_id": "pan_2020-03-22_05_42_21",
+  "is_standard": false,
+  "unit": "ft^2",
+  "compact_choices": [
+    "40.5",
+    "45",
+    "63",
+    "81"
+  ],
+  "precise_value": [
+    40.5,
+    45.0,
+    63.0,
+    81.0
+  ],
+  "rough_value": [
+    40.5,
+    45,
+    63,
+    81
+  ],
+  "compact_text": "In the figure, the vertices of quadrilateral ABCD intersect square EFGH and divide its sides into segments with measure that have a ratio of 1:2. Find the area of ABCD.",
+  "annotat_text": "In the figure, the vertices of quadrilateral ABCD intersect square EFGH and divide its sides into segments with measures that have a ratio of 1:2. Find the area of ABCD.",
+  "img_width": 343,
+  "img_height": 278,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

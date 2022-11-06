@@ -1,0 +1,99 @@
+{
+  "text_logic_form": [
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(K, D, J)), 4x)",
+    "Equals(MeasureOf(Angle(A, M, D)), 56)",
+    "Equals(MeasureOf(Angle(E, L, O)), 3y-11)",
+    "Parallel(Line(P, J), Line(A, B))",
+    "Parallel(Line(A, B), Line(O, G))",
+    "Parallel(Line(P, J), Line(O, G))",
+    "PointLiesOnLine(D, Line(J, P))",
+    "PointLiesOnLine(M, Line(A, B))",
+    "PointLiesOnLine(L, Line(O, G))",
+    "PointLiesOnLine(D, Line(K, M))",
+    "PointLiesOnLine(D, Line(K, L))",
+    "PointLiesOnLine(D, Line(K, E))",
+    "PointLiesOnLine(M, Line(D, L))",
+    "PointLiesOnLine(M, Line(K, L))",
+    "PointLiesOnLine(M, Line(D, E))",
+    "PointLiesOnLine(M, Line(K, E))",
+    "PointLiesOnLine(L, Line(E, M))",
+    "PointLiesOnLine(L, Line(D, E))",
+    "PointLiesOnLine(L, Line(K, E))"
+  ],
+  "line_instances": [
+    "AB",
+    "AM",
+    "DE",
+    "DJ",
+    "DL",
+    "DM",
+    "KD",
+    "KE",
+    "KL",
+    "KM",
+    "LE",
+    "LG",
+    "MB",
+    "ME",
+    "ML",
+    "OG",
+    "OL",
+    "PD",
+    "PJ"
+  ],
+  "point_positions": {
+    "A": [
+      64.0,
+      143.0
+    ],
+    "B": [
+      221.0,
+      33.0
+    ],
+    "D": [
+      72.0,
+      63.0
+    ],
+    "E": [
+      276.0,
+      144.0
+    ],
+    "G": [
+      280.0,
+      65.0
+    ],
+    "J": [
+      161.0,
+      2.0
+    ],
+    "K": [
+      3.0,
+      35.0
+    ],
+    "L": [
+      205.0,
+      116.0
+    ],
+    "M": [
+      139.0,
+      89.0
+    ],
+    "O": [
+      127.0,
+      172.0
+    ],
+    "P": [
+      5.0,
+      108.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

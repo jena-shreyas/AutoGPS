@@ -1,0 +1,64 @@
+{
+  "text_logic_form": [
+    "Similar(Quadrilateral(M,N,P,Q),Quadrilateral(X,Y,Z,W))",
+    "Find(ScaleFactorOf(Quadrilateral(M,N,P,Q),Quadrilateral(X,Y,Z,W)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Quadrilateral(M,N,P,Q),Quadrilateral(X,Y,Z,W))",
+    "Find(ScaleFactorOf(Quadrilateral(M,N,P,Q),Quadrilateral(X,Y,Z,W)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(N, P)), 10)",
+    "Equals(LengthOf(Line(W, X)), 4)",
+    "Equals(LengthOf(Line(Q, P)), 7)",
+    "Equals(LengthOf(Line(Q, M)), 8)",
+    "Equals(LengthOf(Line(N, M)), 9)"
+  ],
+  "line_instances": [
+    "NM",
+    "PN",
+    "PQ",
+    "QM",
+    "ZW",
+    "WX",
+    "XY",
+    "YZ"
+  ],
+  "point_positions": {
+    "M": [
+      1.0,
+      232.0
+    ],
+    "N": [
+      188.0,
+      1.0
+    ],
+    "P": [
+      512.0,
+      102.0
+    ],
+    "Q": [
+      300.0,
+      198.0
+    ],
+    "X": [
+      -100.0,
+      1.0
+    ],
+    "W": [
+      -200.0,
+      5.0
+    ],
+    "Y": [
+      -150.0,
+      150.0
+    ],
+    "Z": [
+      -300.0,
+      75.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

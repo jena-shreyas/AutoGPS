@@ -1,0 +1,40 @@
+{
+  "text_logic_form": [
+    "Find(RatioOf(MeasureOf(Angle(A,C,B)),MeasureOf(Angle(A,O,B))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(RatioOf(MeasureOf(Angle(A,C,B)),MeasureOf(Angle(A,O,B))))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnCircle(C, Circle(O, radius_1_0))",
+    "PointLiesOnCircle(A, Circle(O, radius_1_0))",
+    "PointLiesOnCircle(B, Circle(O, radius_1_0))"
+  ],
+  "line_instances": [
+    "CA",
+    "CB",
+    "OA",
+    "OB"
+  ],
+  "point_positions": {
+    "A": [
+      120.0,
+      22.0
+    ],
+    "B": [
+      123.0,
+      112.0
+    ],
+    "C": [
+      2.0,
+      75.0
+    ],
+    "O": [
+      69.0,
+      71.0
+    ]
+  },
+  "circle_instances": [
+    "O"
+  ]
+}

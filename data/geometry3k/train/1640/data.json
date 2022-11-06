@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\widehat T S.",
+  "choices": [
+    "108",
+    "126",
+    "132",
+    "144"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1640,
+  "annot_id": "Shibiao_2020-03-28_12_17_19",
+  "is_standard": false,
+  "compact_choices": [
+    "108",
+    "126",
+    "132",
+    "144"
+  ],
+  "precise_value": [
+    108.0,
+    126.0,
+    132.0,
+    144.0
+  ],
+  "rough_value": [
+    108,
+    126,
+    132,
+    144
+  ],
+  "compact_text": "Find m \\widehat TS.",
+  "annotat_text": "Find $m \\widehat {TS}$.",
+  "unit": "",
+  "img_width": 469,
+  "img_height": 465,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

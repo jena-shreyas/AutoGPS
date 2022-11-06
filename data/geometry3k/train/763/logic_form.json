@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Similar(Triangle(J,K,L),Triangle(P,Q,R))",
+    "Equals(AreaOf(Triangle(J,K,L)),30)",
+    "Find(AreaOf(Triangle(P,Q,R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(J,K,L),Triangle(P,Q,R))",
+    "Equals(AreaOf(Triangle(J,K,L)),30)",
+    "Find(AreaOf(Triangle(P,Q,R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(J, K)), 12)",
+    "Equals(LengthOf(Line(P, Q)), 15)"
+  ],
+  "line_instances": [
+    "PQ",
+    "PR",
+    "RQ",
+    "JK",
+    "KL",
+    "JL"
+  ],
+  "point_positions": {
+    "P": [
+      1.0,
+      128.0
+    ],
+    "Q": [
+      235.0,
+      129.0
+    ],
+    "R": [
+      234.0,
+      2.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

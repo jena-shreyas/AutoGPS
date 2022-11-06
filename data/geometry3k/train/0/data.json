@@ -1,0 +1,48 @@
+{
+  "problem_text": "\\triangle R S T \\cong \\triangle X Y Z. Find y.",
+  "choices": [
+    "5",
+    "14",
+    "15",
+    "35"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_4.pdf",
+  "comment": "! two subgraph",
+  "id": 0,
+  "annot_id": "Shibiao_2020-03-21_16_14_38",
+  "is_standard": false,
+  "compact_choices": [
+    "5",
+    "14",
+    "15",
+    "35"
+  ],
+  "precise_value": [
+    5.0,
+    14.0,
+    15.0,
+    35.0
+  ],
+  "rough_value": [
+    5,
+    14,
+    15,
+    35
+  ],
+  "compact_text": "\\triangle RST \\cong \\triangle XYZ. Find y.",
+  "annotat_text": "$\\triangle RST \\cong \\triangle XYZ$. Find $y$.",
+  "unit": "",
+  "img_width": 864,
+  "img_height": 434,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

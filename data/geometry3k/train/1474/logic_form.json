@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(F,H)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(F,H)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(F, B, G)), 60)",
+    "Equals(MeasureOf(Angle(B, G, H)), 60)",
+    "Equals(LengthOf(Line(H, G)), 12)",
+    "PointLiesOnLine(A, Line(F, H))"
+  ],
+  "line_instances": [
+    "AF",
+    "AH",
+    "FG",
+    "FH",
+    "FB",
+    "HG",
+    "GB"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      255.44525547445255,
+      189.84671532846716
+    ],
+    "F": [
+      144.48604292737986,
+      0.9764238638173026
+    ],
+    "G": [
+      0.0,
+      253.0
+    ],
+    "H": [
+      288.7431117827655,
+      250.20632371234927
+    ],
+    "B": [
+      116.0,
+      57.0
+    ]
+  }
+}

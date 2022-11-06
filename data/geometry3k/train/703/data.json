@@ -1,0 +1,49 @@
+{
+  "problem_text": "In quadrilateral A B C D, A C = 188, B D = 214, m \\angle B P C = 70, and P is the midpoint of A C and B D. Find the perimeter of quadrilateral A B C D.",
+  "choices": [
+    "343.1",
+    "423.1",
+    "561.2",
+    "671.2"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle",
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter7.pdf page 50",
+  "comment": "",
+  "id": 703,
+  "annot_id": "Ran_2020-03-24_04_24_51",
+  "is_standard": false,
+  "compact_choices": [
+    "343.1",
+    "423.1",
+    "561.2",
+    "671.2"
+  ],
+  "precise_value": [
+    343.1,
+    423.1,
+    561.2,
+    671.2
+  ],
+  "rough_value": [
+    343.1,
+    423.1,
+    561.2,
+    671.2
+  ],
+  "compact_text": "In quadrilateral ABCD, AC = 188, BD = 214, m \\angle BPC = 70, and P is the midpoint of AC and BD. Find the perimeter of quadrilateral ABCD.",
+  "annotat_text": "In quadrilateral $A B C D, A C=188, B D=214$, $m \\angle B P C=70,$ and $P$ is the midpoint of $A C$ and BD. Find the perimeter of quadrilateral $A B C D .$",
+  "unit": "",
+  "img_width": 403,
+  "img_height": 262,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

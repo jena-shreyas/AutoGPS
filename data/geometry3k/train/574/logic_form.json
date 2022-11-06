@@ -1,0 +1,39 @@
+{
+  "text_logic_form": [
+    "Equilateral(Triangle(F,G,H))",
+    "Triangle($)",
+    "Find(LengthOf(Line(F,G)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equilateral(Triangle(F,G,H))",
+    "Triangle(F, H, G)",
+    "Find(LengthOf(Line(F,G)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(F, H)), 6x+1)",
+    "Equals(LengthOf(Line(G, F)), 3x+10)",
+    "Equals(LengthOf(Line(G, H)), 9x-8)"
+  ],
+  "line_instances": [
+    "FH",
+    "GF",
+    "GH"
+  ],
+  "point_positions": {
+    "F": [
+      227.0,
+      2.0
+    ],
+    "G": [
+      453.0,
+      326.0
+    ],
+    "H": [
+      0.0,
+      325.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

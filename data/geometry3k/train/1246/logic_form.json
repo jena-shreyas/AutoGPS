@@ -1,0 +1,133 @@
+{
+  "text_logic_form": [
+    "Parallel(Line(m),Line(n))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallel(Line(T,K),Line(N,A))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(N, E, B)), 2x)",
+    "Equals(MeasureOf(Angle(F, G, C)), 6x-144)",
+    "PointLiesOnLine(I, Line(A, E))",
+    "PointLiesOnLine(E, Line(A, N))",
+    "PointLiesOnLine(I, Line(A, N))",
+    "PointLiesOnLine(H, Line(E, B))",
+    "PointLiesOnLine(G, Line(E, C))",
+    "PointLiesOnLine(E, Line(N, I))",
+    "PointLiesOnLine(F, Line(I, D))",
+    "PointLiesOnLine(H, Line(I, J))",
+    "PointLiesOnLine(G, Line(T, F))",
+    "PointLiesOnLine(F, Line(T, K))",
+    "PointLiesOnLine(G, Line(T, K))",
+    "PointLiesOnLine(I, Line(F, H))",
+    "PointLiesOnLine(H, Line(F, J))",
+    "PointLiesOnLine(I, Line(F, J))",
+    "PointLiesOnLine(E, Line(G, B))",
+    "PointLiesOnLine(H, Line(G, B))",
+    "PointLiesOnLine(E, Line(G, H))",
+    "PointLiesOnLine(F, Line(G, K))",
+    "PointLiesOnLine(E, Line(B, C))",
+    "PointLiesOnLine(G, Line(B, C))",
+    "PointLiesOnLine(H, Line(B, C))",
+    "PointLiesOnLine(E, Line(C, H))",
+    "PointLiesOnLine(G, Line(C, H))",
+    "PointLiesOnLine(F, Line(H, D))",
+    "PointLiesOnLine(I, Line(H, D))",
+    "PointLiesOnLine(F, Line(D, J))",
+    "PointLiesOnLine(H, Line(D, J))",
+    "PointLiesOnLine(I, Line(D, J))"
+  ],
+  "line_instances": [
+    "AE",
+    "AI",
+    "AN",
+    "BC",
+    "BH",
+    "CH",
+    "DJ",
+    "EB",
+    "EC",
+    "EG",
+    "EH",
+    "EI",
+    "EN",
+    "FD",
+    "FG",
+    "FH",
+    "FJ",
+    "FK",
+    "GB",
+    "GC",
+    "GH",
+    "GK",
+    "HD",
+    "HJ",
+    "ID",
+    "IF",
+    "IH",
+    "IJ",
+    "NI",
+    "TF",
+    "TG",
+    "TK"
+  ],
+  "point_positions": {
+    "A": [
+      183.0,
+      242.0
+    ],
+    "B": [
+      314.0,
+      203.0
+    ],
+    "C": [
+      0.0,
+      76.0
+    ],
+    "D": [
+      31.0,
+      235.0
+    ],
+    "E": [
+      192.0,
+      154.0
+    ],
+    "F": [
+      125.0,
+      213.0
+    ],
+    "G": [
+      133.0,
+      130.0
+    ],
+    "H": [
+      261.0,
+      181.0
+    ],
+    "I": [
+      187.0,
+      199.0
+    ],
+    "J": [
+      314.0,
+      169.0
+    ],
+    "K": [
+      122.0,
+      242.0
+    ],
+    "N": [
+      207.0,
+      1.0
+    ],
+    "T": [
+      144.0,
+      14.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

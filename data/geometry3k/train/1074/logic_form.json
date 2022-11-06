@@ -1,0 +1,56 @@
+{
+  "text_logic_form": [
+    "Equilateral(Triangle($))",
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equilateral(Triangle(A,D,C))",
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, F)), 4)",
+    "PointLiesOnCircle(A, Circle(F, radius_5_0))",
+    "PointLiesOnCircle(C, Circle(F, radius_5_0))",
+    "PointLiesOnCircle(D, Circle(F, radius_5_0))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AE",
+    "AF",
+    "CD",
+    "DE",
+    "EB",
+    "EF",
+    "FB"
+  ],
+  "point_positions": {
+    "A": [
+      197.0,
+      53.0
+    ],
+    "B": [
+      107.0,
+      74.0
+    ],
+    "C": [
+      106.0,
+      210.0
+    ],
+    "D": [
+      14.0,
+      53.0
+    ],
+    "E": [
+      145.0,
+      85.0
+    ],
+    "F": [
+      104.0,
+      107.0
+    ]
+  },
+  "circle_instances": [
+    "F"
+  ]
+}

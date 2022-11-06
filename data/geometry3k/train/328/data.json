@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find U Z.",
+  "choices": [
+    "12",
+    "18",
+    "24",
+    "32"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 328,
+  "annot_id": "Shibiao_2020-03-22_10_04_50",
+  "is_standard": false,
+  "compact_choices": [
+    "12",
+    "18",
+    "24",
+    "32"
+  ],
+  "precise_value": [
+    12.0,
+    18.0,
+    24.0,
+    32.0
+  ],
+  "rough_value": [
+    12,
+    18,
+    24,
+    32
+  ],
+  "compact_text": "Find UZ.",
+  "annotat_text": "Find $UZ$.",
+  "unit": "",
+  "img_width": 775,
+  "img_height": 458,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

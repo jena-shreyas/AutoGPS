@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "IsMidsegmentOf(Line(L,H),Trapezoid(F,G,J,K))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "IsMidsegmentOf(Line(L,H),Trapezoid(F,G,J,K))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(G, F)), x)",
+    "Equals(LengthOf(Line(H, L)), 15)",
+    "Equals(LengthOf(Line(J, K)), 18.2)",
+    "PointLiesOnLine(H, Line(G, J))",
+    "PointLiesOnLine(L, Line(F, K))"
+  ],
+  "line_instances": [
+    "FK",
+    "FL",
+    "GF",
+    "GH",
+    "GJ",
+    "HJ",
+    "HL",
+    "JK",
+    "LK"
+  ],
+  "point_positions": {
+    "F": [
+      30.0,
+      0.0
+    ],
+    "G": [
+      292.0,
+      2.0
+    ],
+    "H": [
+      345.0,
+      64.0
+    ],
+    "J": [
+      396.0,
+      124.0
+    ],
+    "K": [
+      4.0,
+      124.0
+    ],
+    "L": [
+      17.0,
+      63.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

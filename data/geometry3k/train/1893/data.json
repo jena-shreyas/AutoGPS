@@ -1,0 +1,48 @@
+{
+  "problem_text": "H is the incenter of \\triangle A B C. Find m \\angle D H G.",
+  "choices": [
+    "60",
+    "100",
+    "120",
+    "150"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_5.pdf",
+  "comment": "",
+  "id": 1893,
+  "annot_id": "Shibiao_2020-03-22_08_28_44",
+  "is_standard": false,
+  "compact_choices": [
+    "60",
+    "100",
+    "120",
+    "150"
+  ],
+  "precise_value": [
+    60.0,
+    100.0,
+    120.0,
+    150.0
+  ],
+  "rough_value": [
+    60,
+    100,
+    120,
+    150
+  ],
+  "compact_text": "H is the incenter of \\triangle ABC. Find m \\angle DHG.",
+  "annotat_text": "$H$ is the incenter of $\\triangle ABC$. Find $m \\angle DHG$.",
+  "unit": "",
+  "img_width": 599,
+  "img_height": 512,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

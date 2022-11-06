@@ -1,0 +1,62 @@
+{
+  "text_logic_form": [
+    "UseTheorem(Perpendicular_Bisector_Theorem)",
+    "Find(LengthOf(Line(A,B)))"
+  ],
+  "dissolved_text_logic_form": [
+    "UseTheorem(Perpendicular_Bisector_Theorem)",
+    "Find(LengthOf(Line(A,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, A)), 2.5)",
+    "PointLiesOnLine(C, Line(D, B))",
+    "PointLiesOnLine(A, Line(C, F))",
+    "PointLiesOnLine(C, Line(A, G))",
+    "PointLiesOnLine(A, Line(F, G))",
+    "PointLiesOnLine(C, Line(F, G))",
+    "Perpendicular(Line(A, C), Line(C, B))",
+    "Equals(LengthOf(Line(D, C)), LengthOf(Line(C, B)))"
+  ],
+  "line_instances": [
+    "AF",
+    "AG",
+    "BA",
+    "BC",
+    "CA",
+    "CF",
+    "CG",
+    "DA",
+    "DB",
+    "DC",
+    "FG"
+  ],
+  "point_positions": {
+    "A": [
+      402.0,
+      104.0
+    ],
+    "B": [
+      50.0,
+      208.0
+    ],
+    "C": [
+      50.0,
+      103.0
+    ],
+    "D": [
+      50.0,
+      0.0
+    ],
+    "F": [
+      555.0,
+      104.0
+    ],
+    "G": [
+      0.0,
+      103.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

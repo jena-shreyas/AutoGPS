@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Equals(RadiusOf(Circle(A)),14)",
+    "Equals(LengthOf(Line(C,D)),22)",
+    "Find(LengthOf(Line(C,E)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(RadiusOf(Circle(A)),14)",
+    "Equals(LengthOf(Line(C,D)),22)",
+    "Find(LengthOf(Line(C,E)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(E, Line(B, A))",
+    "PointLiesOnLine(E, Line(C, D))",
+    "PointLiesOnCircle(B, Circle(A, radius_2_0))",
+    "PointLiesOnCircle(C, Circle(A, radius_2_0))",
+    "PointLiesOnCircle(D, Circle(A, radius_2_0))",
+    "Perpendicular(Line(A, E), Line(E, D))"
+  ],
+  "line_instances": [
+    "AE",
+    "BA",
+    "BE",
+    "CD",
+    "EC",
+    "ED"
+  ],
+  "point_positions": {
+    "A": [
+      147.0,
+      147.0
+    ],
+    "B": [
+      247.0,
+      245.0
+    ],
+    "C": [
+      123.0,
+      288.0
+    ],
+    "D": [
+      287.0,
+      123.0
+    ],
+    "E": [
+      206.0,
+      204.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

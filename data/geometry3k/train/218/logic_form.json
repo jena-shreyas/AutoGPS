@@ -1,0 +1,34 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(T,U,V)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(T,U,V)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(V, T, U)), 74)",
+    "Equals(LengthOf(Line(T, V)), LengthOf(Line(T, U)))"
+  ],
+  "line_instances": [
+    "TU",
+    "TV",
+    "VU"
+  ],
+  "point_positions": {
+    "T": [
+      244.0,
+      0.0
+    ],
+    "U": [
+      2.0,
+      180.0
+    ],
+    "V": [
+      350.0,
+      284.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

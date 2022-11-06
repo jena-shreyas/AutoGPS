@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the circumference of \\odot A.",
+  "choices": [
+    "10 \\pi",
+    "20 \\pi",
+    "50 \\pi",
+    "100 \\pi"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": " textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1036,
+  "annot_id": "pan_2020-03-27_22_00_14",
+  "is_standard": false,
+  "unit": "in",
+  "compact_choices": [
+    "10\\pi",
+    "20\\pi",
+    "50\\pi",
+    "100\\pi"
+  ],
+  "precise_value": [
+    31.41592653589793,
+    62.83185307179586,
+    157.07963267948966,
+    314.1592653589793
+  ],
+  "rough_value": [
+    31.42,
+    62.83,
+    157.08,
+    314.16
+  ],
+  "compact_text": "Find the circumference of \\odot A.",
+  "annotat_text": "Find the circumference of $\\odot A$.",
+  "img_width": 298,
+  "img_height": 276,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

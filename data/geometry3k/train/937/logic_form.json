@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Equals(LengthOf(Line(T,U)),14)",
+    "Find(RadiusOf(Circle(Q)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(LengthOf(Line(T,U)),14)",
+    "Find(RadiusOf(Circle(Q)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(Q, Line(T, U))",
+    "PointLiesOnCircle(V, Circle(Q, radius_7_0))",
+    "PointLiesOnCircle(T, Circle(Q, radius_7_0))",
+    "PointLiesOnCircle(U, Circle(Q, radius_7_0))"
+  ],
+  "line_instances": [
+    "QV",
+    "TQ",
+    "TU",
+    "UQ"
+  ],
+  "point_positions": {
+    "Q": [
+      194.0,
+      189.0
+    ],
+    "T": [
+      194.0,
+      0.0
+    ],
+    "U": [
+      196.0,
+      387.0
+    ],
+    "V": [
+      379.0,
+      139.0
+    ]
+  },
+  "circle_instances": [
+    "Q"
+  ]
+}

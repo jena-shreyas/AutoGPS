@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x.",
+  "choices": [
+    "26",
+    "37",
+    "80",
+    "89"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter10.pdf page 66",
+  "comment": "",
+  "id": 448,
+  "annot_id": "Ran_2020-03-29_05_58_36",
+  "is_standard": false,
+  "compact_choices": [
+    "26",
+    "37",
+    "80",
+    "89"
+  ],
+  "precise_value": [
+    26.0,
+    37.0,
+    80.0,
+    89.0
+  ],
+  "rough_value": [
+    26,
+    37,
+    80,
+    89
+  ],
+  "compact_text": "Find x.",
+  "annotat_text": "Find x",
+  "unit": "",
+  "img_width": 291,
+  "img_height": 168,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

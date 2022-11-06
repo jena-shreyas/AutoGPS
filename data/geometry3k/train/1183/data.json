@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the measure of \\angle 1 in the figure.",
+  "choices": [
+    "75",
+    "80",
+    "85",
+    "90"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "",
+  "id": 1183,
+  "annot_id": "pan_2020-03-18_19_23_34",
+  "is_standard": false,
+  "compact_choices": [
+    "75",
+    "80",
+    "85",
+    "90"
+  ],
+  "precise_value": [
+    75.0,
+    80.0,
+    85.0,
+    90.0
+  ],
+  "rough_value": [
+    75,
+    80,
+    85,
+    90
+  ],
+  "compact_text": "Find the measure of \\angle 1 in the figure.",
+  "annotat_text": "Find the measure of $ \\angle 1$ in the figure.",
+  "unit": "",
+  "img_width": 251,
+  "img_height": 224,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

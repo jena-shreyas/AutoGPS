@@ -1,0 +1,66 @@
+{
+  "text_logic_form": [
+    "Equals(Triangle($),Triangle($1,$2,$3))",
+    "Equals(MeasureOf(Angle($1)),30)",
+    "Equals(MeasureOf(Angle($2)),60)",
+    "Equals(MeasureOf(Angle($3)),90)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(Triangle($),Triangle($1,$2,$3))",
+    "Equals(MeasureOf(Angle($1)),30)",
+    "Equals(MeasureOf(Angle($2)),60)",
+    "Equals(MeasureOf(Angle($3)),90)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, C)), 4)",
+    "Equals(MeasureOf(Angle(C, B, E)), 30)",
+    "Equals(MeasureOf(Angle(E, B, A)), 30)",
+    "Equals(MeasureOf(Angle(A, B, D)), 30)",
+    "Equals(MeasureOf(Angle(D, B, F)), 30)",
+    "Equals(LengthOf(Line(B, F)), x)",
+    "Perpendicular(Line(E, C), Line(B, E))",
+    "Perpendicular(Line(A, E), Line(A, B))",
+    "Perpendicular(Line(A, D), Line(B, D))",
+    "Perpendicular(Line(D, F), Line(B, F))"
+  ],
+  "line_instances": [
+    "AB",
+    "AD",
+    "AE",
+    "BC",
+    "BD",
+    "BE",
+    "BF",
+    "DF",
+    "EC"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      218.09968127276724,
+      52.72547387464404
+    ],
+    "B": [
+      124.19753548309268,
+      213.4471946462125
+    ],
+    "C": [
+      1.5226917057902938,
+      0.6666666666666714
+    ],
+    "D": [
+      266.89365833409977,
+      131.32867580037134
+    ],
+    "E": [
+      122.81017590214984,
+      0.773670014880949
+    ],
+    "F": [
+      266.3448018945744,
+      213.0022351720284
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "problem_text": "The triangle is inscribed in \\odot D. Find the exact circumference of \\odot D.",
+  "choices": [
+    "4 \\sqrt { 13 } \\pi",
+    "4 \\sqrt { 15 } \\pi",
+    "6 \\sqrt { 13 } \\pi",
+    "6 \\sqrt { 15 } \\pi"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1630,
+  "annot_id": "Shibiao_2020-03-27_09_35_42",
+  "is_standard": false,
+  "compact_choices": [
+    "4\\sqrt{13}\\pi",
+    "4\\sqrt{15}\\pi",
+    "6\\sqrt{13}\\pi",
+    "6\\sqrt{15}\\pi"
+  ],
+  "precise_value": [
+    45.308693596555905,
+    48.669344111683344,
+    67.96304039483385,
+    73.00401616752501
+  ],
+  "rough_value": [
+    45.31,
+    48.67,
+    67.96,
+    73.0
+  ],
+  "compact_text": "The triangle is inscribed in \\odot D. Find the exact circumference of \\odot D.",
+  "annotat_text": "The triangle is inscribed in $\\odot D$. Find the exact circumference of $\\odot D$.",
+  "unit": "",
+  "img_width": 498,
+  "img_height": 418,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

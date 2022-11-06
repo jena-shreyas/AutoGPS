@@ -1,0 +1,64 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Blue(Sector($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Blue(Sector(B,A,F))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(A, B, F)), 46)",
+    "Equals(MeasureOf(Angle(F, B, C)), 50)",
+    "Equals(MeasureOf(Angle(E, B, A)), 57)",
+    "Equals(MeasureOf(Angle(D, B, E)), 57)",
+    "Equals(MeasureOf(Angle(C, B, G)), 70)",
+    "Equals(MeasureOf(Angle(C, B, D)), 80)",
+    "Equals(LengthOf(Line(A, B)), 6)",
+    "PointLiesOnCircle(A, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(C, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(D, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(E, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(F, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(G, Circle(B, radius_1_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "BC",
+    "BD",
+    "BE",
+    "BF",
+    "BG"
+  ],
+  "point_positions": {
+    "A": [
+      91.0,
+      10.0
+    ],
+    "B": [
+      144.0,
+      145.0
+    ],
+    "C": [
+      279.0,
+      106.0
+    ],
+    "D": [
+      43.0,
+      244.0
+    ],
+    "E": [
+      3.0,
+      114.0
+    ],
+    "F": [
+      200.0,
+      13.0
+    ],
+    "G": [
+      222.0,
+      253.0
+    ]
+  },
+  "circle_instances": [
+    "B"
+  ]
+}

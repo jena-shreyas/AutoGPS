@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find F B if S A and F B are altitudes and \\triangle R S T \\sim \\triangle E F G.",
+  "choices": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 42",
+  "comment": "",
+  "id": 1716,
+  "annot_id": "Ran_2020-03-21_07_19_31",
+  "is_standard": false,
+  "compact_choices": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "precise_value": [
+    1.0,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "rough_value": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "compact_text": "Find FB if SA and FB are altitudes and \\triangle RST \\sim \\triangle EFG.",
+  "annotat_text": "Find $F B$ if $\\overline{S A}$ and $\\overline{F B}$ are altitudes and $\\triangle R S T \\sim \\triangle E F G$",
+  "unit": "",
+  "img_width": 567,
+  "img_height": 152,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,96 @@
+{
+  "text_logic_form": [
+    "Congruent(Triangle(R,S,T),Triangle(V,U,T))",
+    "Find(AreaOf(Triangle(R,S,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Congruent(Triangle(R,S,T),Triangle(V,U,T))",
+    "Find(AreaOf(Triangle(R,S,T)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(U, V)), 15x)",
+    "Equals(LengthOf(Line(S, T)), 11x-2)",
+    "Equals(LengthOf(Line(T, U)), 8x+4)",
+    "PointLiesOnLine(D, Line(S, T))",
+    "PointLiesOnLine(T, Line(S, C))",
+    "PointLiesOnLine(D, Line(S, C))",
+    "PointLiesOnLine(T, Line(S, U))",
+    "PointLiesOnLine(C, Line(S, U))",
+    "PointLiesOnLine(D, Line(S, U))",
+    "PointLiesOnLine(B, Line(T, V))",
+    "PointLiesOnLine(C, Line(T, U))",
+    "PointLiesOnLine(T, Line(C, D))",
+    "PointLiesOnLine(E, Line(U, V))",
+    "PointLiesOnLine(T, Line(U, D))",
+    "PointLiesOnLine(C, Line(U, D))",
+    "Perpendicular(Line(R, S), Line(S, T))",
+    "Perpendicular(Line(V, U), Line(U, T))"
+  ],
+  "line_instances": [
+    "AE",
+    "CD",
+    "CU",
+    "EV",
+    "SC",
+    "SD",
+    "SR",
+    "ST",
+    "SU",
+    "TB",
+    "TC",
+    "TD",
+    "TR",
+    "TU",
+    "TV",
+    "UA",
+    "UD",
+    "UE",
+    "UV",
+    "VB"
+  ],
+  "point_positions": {
+    "A": [
+      618.0,
+      264.0
+    ],
+    "B": [
+      590.0,
+      57.0
+    ],
+    "C": [
+      397.0,
+      295.0
+    ],
+    "D": [
+      56.0,
+      293.0
+    ],
+    "E": [
+      651.0,
+      262.0
+    ],
+    "R": [
+      1.0,
+      1.0
+    ],
+    "S": [
+      2.0,
+      292.0
+    ],
+    "T": [
+      325.0,
+      293.0
+    ],
+    "U": [
+      651.0,
+      293.0
+    ],
+    "V": [
+      649.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

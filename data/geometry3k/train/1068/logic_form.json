@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Rhombus(M,N,O,P)",
+    "Equals(LengthOf(Line(P,R)),12)",
+    "Find(LengthOf(Line(R,N)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rhombus(M,N,O,P)",
+    "Equals(LengthOf(Line(P,R)),12)",
+    "Find(LengthOf(Line(R,N)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(R, Line(O, M))",
+    "PointLiesOnLine(R, Line(P, N))"
+  ],
+  "line_instances": [
+    "MN",
+    "MR",
+    "NR",
+    "OM",
+    "ON",
+    "OP",
+    "OR",
+    "PM",
+    "PN",
+    "PR"
+  ],
+  "point_positions": {
+    "M": [
+      80.0,
+      0.0
+    ],
+    "N": [
+      308.0,
+      0.0
+    ],
+    "O": [
+      229.0,
+      186.0
+    ],
+    "P": [
+      2.0,
+      187.0
+    ],
+    "R": [
+      154.0,
+      94.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

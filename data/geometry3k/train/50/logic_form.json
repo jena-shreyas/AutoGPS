@@ -1,0 +1,61 @@
+{
+  "text_logic_form": [
+    "Similar(Triangle(D,E,F),Triangle(G,F,H))",
+    "Find(PerimeterOf(Triangle(D,E,F)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(D,E,F),Triangle(G,F,H))",
+    "Find(PerimeterOf(Triangle(D,E,F)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(H, G)), 2)",
+    "Equals(LengthOf(Line(F, G)), 2.5)",
+    "Equals(LengthOf(Line(F, H)), 4)",
+    "Equals(LengthOf(Line(F, E)), 6)",
+    "PointLiesOnLine(F, Line(E, H))",
+    "PointLiesOnLine(D, Line(E, C))",
+    "PointLiesOnLine(G, Line(H, C))"
+  ],
+  "line_instances": [
+    "GC",
+    "DC",
+    "EC",
+    "ED",
+    "EH",
+    "FG",
+    "FD",
+    "FE",
+    "FH",
+    "HG",
+    "HC"
+  ],
+  "point_positions": {
+    "G": [
+      200.0,
+      20.0
+    ],
+    "C": [
+      98.0,
+      1.0
+    ],
+    "D": [
+      61.0,
+      54.0
+    ],
+    "E": [
+      1.0,
+      139.0
+    ],
+    "F": [
+      152.0,
+      75.0
+    ],
+    "H": [
+      256.0,
+      32.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

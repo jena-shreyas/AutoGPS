@@ -1,0 +1,42 @@
+{
+  "text_logic_form": [
+    "Parallelogram($)",
+    "Find(a)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallelogram(T,V,W,S)",
+    "Find(a)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(V, T)), 3b+5)",
+    "Equals(LengthOf(Line(S, T)), 15)",
+    "Equals(LengthOf(Line(W, S)), x+11)"
+  ],
+  "line_instances": [
+    "ST",
+    "VT",
+    "WS",
+    "WV"
+  ],
+  "point_positions": {
+    "S": [
+      22.0,
+      213.0
+    ],
+    "T": [
+      1.0,
+      0.0
+    ],
+    "V": [
+      255.0,
+      45.0
+    ],
+    "W": [
+      277.0,
+      256.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

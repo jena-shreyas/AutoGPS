@@ -1,0 +1,61 @@
+{
+  "text_logic_form": [
+    "Equals(MeasureOf(Angle(S)),3x)",
+    "Equals(MeasureOf(Angle(V)),x+16)",
+    "Find(MeasureOf(Angle(S)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(MeasureOf(Angle(S)),3x)",
+    "Equals(MeasureOf(Angle(V)),x+16)",
+    "Find(MeasureOf(Angle(S)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(S, U, V)), 2x+15)",
+    "Equals(MeasureOf(Angle(S, T, B)), 3x-5)",
+    "PointLiesOnLine(B, Line(V, T))",
+    "PointLiesOnLine(B, Line(U, S))",
+    "PointLiesOnCircle(V, Circle(A, radius_4_0))",
+    "PointLiesOnCircle(T, Circle(A, radius_4_0))",
+    "PointLiesOnCircle(S, Circle(A, radius_4_0))",
+    "PointLiesOnCircle(U, Circle(A, radius_4_0))"
+  ],
+  "line_instances": [
+    "BS",
+    "TB",
+    "TS",
+    "UB",
+    "US",
+    "VB",
+    "VT",
+    "VU"
+  ],
+  "point_positions": {
+    "A": [
+      168.0,
+      160.0
+    ],
+    "B": [
+      147.0,
+      93.0
+    ],
+    "S": [
+      69.0,
+      281.0
+    ],
+    "T": [
+      82.0,
+      28.0
+    ],
+    "U": [
+      184.0,
+      3.0
+    ],
+    "V": [
+      303.0,
+      241.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

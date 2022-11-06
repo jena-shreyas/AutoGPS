@@ -1,0 +1,61 @@
+{
+  "text_logic_form": [
+    "Parallel(Line(P,R),Line(K,L))",
+    "Equals(LengthOf(Line(K,N)),9)",
+    "Equals(LengthOf(Line(L,N)),16)",
+    "Equals(LengthOf(Line(P,M)),Mul(Line(K,P),2))",
+    "Find(LengthOf(Line(M,L)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallel(Line(P,R),Line(K,L))",
+    "Equals(LengthOf(Line(K,N)),9)",
+    "Equals(LengthOf(Line(L,N)),16)",
+    "Equals(LengthOf(Line(P,M)),Mul(Line(K,P),2))",
+    "Find(LengthOf(Line(M,L)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(E, F)), 3y)",
+    "Equals(LengthOf(Line(E, B)), 3y-6)",
+    "Equals(LengthOf(Line(B, F)), 2y+4)",
+    "Equals(LengthOf(Line(F, G)), \\frac{1}{2}x+12)",
+    "Equals(LengthOf(Line(D, G)), \\frac{3}{2}x+8)",
+    "PointLiesOnLine(G, Line(D, F))",
+    "PointLiesOnLine(B, Line(E, F))",
+    ""
+  ],
+  "line_instances": [
+    "BF",
+    "BG",
+    "DE",
+    "DF",
+    "DG",
+    "EB",
+    "EF",
+    "FG"
+  ],
+  "point_positions": {
+    "B": [
+      133.0,
+      99.0
+    ],
+    "D": [
+      296.0,
+      328.0
+    ],
+    "E": [
+      261.0,
+      1.0
+    ],
+    "F": [
+      0.0,
+      196.0
+    ],
+    "G": [
+      153.0,
+      264.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

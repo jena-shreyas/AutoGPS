@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Equals(HeightOf(Triangle($)),Add(BaseOf(Polygon($)),5))",
+    "Equals(AreaOf(Triangle($)),52)",
+    "Find(HeightOf(Polygon($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(HeightOf(Triangle(A,C,E)),Add(BaseOf(Triangle(A,C,E)),5))",
+    "Equals(AreaOf(Triangle(A,C,E)),52)",
+    "Find(HeightOf(Triangle(A,C,E)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, C)), b+5)",
+    "Equals(LengthOf(Line(A, E)), b)",
+    "PointLiesOnLine(B, Line(A, E))",
+    "Perpendicular(Line(C, B), Line(B, E))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AE",
+    "CB",
+    "CE",
+    "EB"
+  ],
+  "point_positions": {
+    "A": [
+      207.0,
+      284.0
+    ],
+    "C": [
+      71.0,
+      6.0
+    ],
+    "E": [
+      1.0,
+      282.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

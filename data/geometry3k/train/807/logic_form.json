@@ -1,0 +1,155 @@
+{
+  "text_logic_form": [
+    "IsChordOf(Line(J,F),Circle($))",
+    "IsChordOf(Line(B,C),Circle($))",
+    "IntersectAt(Line(J,F),Line(B,C),Point(K))",
+    "Equals(LengthOf(Line(B,K)),8)",
+    "Equals(LengthOf(Line(K,C)),12)",
+    "Equals(LengthOf(Line(K,F)),16)",
+    "Find(LengthOf(Line(J,K)))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsChordOf(Line(J,F),Circle(D))",
+    "IsChordOf(Line(B,C),Circle(D))",
+    "IntersectAt(Line(J,F),Line(B,C),Point(K))",
+    "Equals(LengthOf(Line(B,K)),8)",
+    "Equals(LengthOf(Line(K,C)),12)",
+    "Equals(LengthOf(Line(K,F)),16)",
+    "Find(LengthOf(Line(J,K)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, D)), LengthOf(k))",
+    "PointLiesOnLine(K, Line(C, A))",
+    "PointLiesOnLine(D, Line(C, A))",
+    "PointLiesOnLine(D, Line(C, K))",
+    "PointLiesOnLine(N, Line(C, H))",
+    "PointLiesOnLine(I, Line(C, B))",
+    "PointLiesOnLine(K, Line(I, F))",
+    "PointLiesOnLine(K, Line(A, D))",
+    "PointLiesOnLine(L, Line(G, H))",
+    "PointLiesOnLine(H, Line(G, N))",
+    "PointLiesOnLine(L, Line(G, N))",
+    "PointLiesOnLine(I, Line(K, J))",
+    "PointLiesOnLine(F, Line(D, E))",
+    "PointLiesOnLine(H, Line(L, N))",
+    "PointLiesOnLine(I, Line(F, J))",
+    "PointLiesOnLine(K, Line(F, J))",
+    "PointLiesOnLine(A, Line(E, M))",
+    "PointLiesOnCircle(C, Circle(D, radius_10_0))",
+    "PointLiesOnCircle(F, Circle(D, radius_10_0))",
+    "PointLiesOnCircle(A, Circle(D, radius_10_0))",
+    "PointLiesOnCircle(H, Circle(D, radius_10_0))",
+    "PointLiesOnCircle(B, Circle(D, radius_10_0))",
+    "PointLiesOnCircle(J, Circle(D, radius_10_0))",
+    "PointLiesOnCircle(L, Circle(D, radius_10_0))",
+    "PointLiesOnCircle(M, Circle(D, radius_10_0))",
+    "PointLiesOnCircle(N, Circle(D, radius_10_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AD",
+    "AE",
+    "AK",
+    "AM",
+    "BD",
+    "BM",
+    "CA",
+    "CB",
+    "CD",
+    "CG",
+    "CH",
+    "CI",
+    "CK",
+    "CL",
+    "CN",
+    "DE",
+    "DF",
+    "DJ",
+    "DM",
+    "DN",
+    "EM",
+    "FE",
+    "FJ",
+    "GF",
+    "GH",
+    "GL",
+    "GN",
+    "HD",
+    "HL",
+    "HM",
+    "HN",
+    "IB",
+    "ID",
+    "IF",
+    "IJ",
+    "IK",
+    "KD",
+    "KE",
+    "KF",
+    "KH",
+    "KJ",
+    "KN",
+    "LN"
+  ],
+  "point_positions": {
+    "A": [
+      99.0,
+      13.0
+    ],
+    "B": [
+      32.0,
+      15.0
+    ],
+    "C": [
+      28.0,
+      120.0
+    ],
+    "D": [
+      64.0,
+      65.0
+    ],
+    "E": [
+      197.0,
+      65.0
+    ],
+    "F": [
+      128.0,
+      65.0
+    ],
+    "G": [
+      127.0,
+      128.0
+    ],
+    "H": [
+      62.0,
+      130.0
+    ],
+    "I": [
+      31.0,
+      46.0
+    ],
+    "J": [
+      5.0,
+      41.0
+    ],
+    "K": [
+      71.0,
+      54.0
+    ],
+    "L": [
+      85.0,
+      128.0
+    ],
+    "M": [
+      84.0,
+      3.0
+    ],
+    "N": [
+      49.0,
+      128.0
+    ]
+  },
+  "circle_instances": [
+    "D"
+  ]
+}

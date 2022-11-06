@@ -1,0 +1,48 @@
+{
+  "problem_text": "For the pair of similar figures, find the area of the green figure.",
+  "choices": [
+    "7.6",
+    "10.1",
+    "18",
+    "24"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 945,
+  "annot_id": "pan_2020-03-23_07_08_25",
+  "is_standard": false,
+  "unit": "ft^2",
+  "compact_choices": [
+    "7.6",
+    "10.1",
+    "18",
+    "24"
+  ],
+  "precise_value": [
+    7.6,
+    10.1,
+    18.0,
+    24.0
+  ],
+  "rough_value": [
+    7.6,
+    10.1,
+    18,
+    24
+  ],
+  "compact_text": "For the pair of similar figures, find the area of the green figure.",
+  "annotat_text": "For the pair of similar figures, find the area of the green figure.",
+  "img_width": 352,
+  "img_height": 199,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

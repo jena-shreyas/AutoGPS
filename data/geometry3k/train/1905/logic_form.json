@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Rectangle(E,F,G,H)",
+    "Equals(MeasureOf(Angle(F,E,G)),57)",
+    "Find(MeasureOf(Angle(G,E,H)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(E,F,G,H)",
+    "Equals(MeasureOf(Angle(F,E,G)),57)",
+    "Find(MeasureOf(Angle(G,E,H)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(K, Line(E, G))",
+    "PointLiesOnLine(K, Line(H, F))",
+    "Perpendicular(Line(H, E), Line(H, G))"
+  ],
+  "line_instances": [
+    "EF",
+    "EG",
+    "EH",
+    "EK",
+    "FK",
+    "GF",
+    "GH",
+    "GK",
+    "HK"
+  ],
+  "point_positions": {
+    "E": [
+      0.0,
+      0.0
+    ],
+    "F": [
+      341.0,
+      2.0
+    ],
+    "G": [
+      343.0,
+      163.0
+    ],
+    "H": [
+      2.0,
+      164.0
+    ],
+    "K": [
+      173.0,
+      83.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

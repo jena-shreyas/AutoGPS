@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Equals(RadiusOf(Circle(O)),10)",
+    "Equals(LengthOf(Line(A,B)),10)",
+    "Equals(LengthOf(Line(A,B)),60)",
+    "Find(MeasureOf(Arc(A,X)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(RadiusOf(Circle(O)),10)",
+    "Equals(LengthOf(Line(A,B)),10)",
+    "Equals(LengthOf(Line(A,B)),60)",
+    "Find(MeasureOf(Arc(A,X)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(X, Line(Y, O))",
+    "PointLiesOnLine(X, Line(A, B))",
+    "PointLiesOnCircle(Y, Circle(O, radius_1_0))",
+    "PointLiesOnCircle(A, Circle(O, radius_1_0))",
+    "PointLiesOnCircle(B, Circle(O, radius_1_0))",
+    "Perpendicular(Line(X, B), Line(O, X))"
+  ],
+  "line_instances": [
+    "YO",
+    "YX",
+    "OX",
+    "XA",
+    "XB",
+    "AB"
+  ],
+  "circle_instances": [
+    "O"
+  ],
+  "point_positions": {
+    "Y": [
+      56.0,
+      15.0
+    ],
+    "O": [
+      90.25,
+      91.75
+    ],
+    "A": [
+      5.5651567090242295,
+      60.264242572680914
+    ],
+    "B": [
+      119.60284616281973,
+      6.656781718332603
+    ],
+    "X": [
+      63.98751244231291,
+      32.80074201429735
+    ]
+  }
+}

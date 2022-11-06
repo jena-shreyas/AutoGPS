@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the measure of \\angle 1 if m \\angle D G F = 53 and m \\angle A G C = 40.",
+  "choices": [
+    "30",
+    "37",
+    "40",
+    "50"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "",
+  "id": 1748,
+  "annot_id": "pan_2020-03-18_05_34_10",
+  "is_standard": false,
+  "compact_choices": [
+    "30",
+    "37",
+    "40",
+    "50"
+  ],
+  "precise_value": [
+    30.0,
+    37.0,
+    40.0,
+    50.0
+  ],
+  "rough_value": [
+    30,
+    37,
+    40,
+    50
+  ],
+  "compact_text": "Find the measure of \\angle 1 if m \\angle DGF = 53 and m \\angle AGC = 40.",
+  "annotat_text": "Find the measure of $\\angle 1$ if $m\u2220DGF = 53$ and $m\u2220AGC = 40$.",
+  "unit": "",
+  "img_width": 608,
+  "img_height": 314,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,59 @@
+{
+  "text_logic_form": [
+    "RightAngle(Angle(R,S,T))",
+    "Perpendicular(Line(S,U),Line(R,T))",
+    "Perpendicular(Line(U,V),Line(S,T))",
+    "Equals(MeasureOf(Angle(R,T,S)),47)",
+    "Find(MeasureOf(Angle(R,S,U)))"
+  ],
+  "dissolved_text_logic_form": [
+    "RightAngle(Angle(R,S,T))",
+    "Perpendicular(Line(S,U),Line(R,T))",
+    "Perpendicular(Line(U,V),Line(S,T))",
+    "Equals(MeasureOf(Angle(R,T,S)),47)",
+    "Find(MeasureOf(Angle(R,S,U)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(V, Line(S, T))",
+    "PointLiesOnLine(U, Line(R, T))",
+    "Perpendicular(Line(S, R), Line(S, V))",
+    "Perpendicular(Line(U, V), Line(T, V))",
+    "Perpendicular(Line(U, S), Line(U, R))"
+  ],
+  "line_instances": [
+    "RT",
+    "SR",
+    "ST",
+    "SV",
+    "TV",
+    "UR",
+    "US",
+    "UT",
+    "UV"
+  ],
+  "point_positions": {
+    "R": [
+      1.0,
+      124.0
+    ],
+    "S": [
+      129.0,
+      1.0
+    ],
+    "T": [
+      253.0,
+      125.0
+    ],
+    "U": [
+      131.0,
+      124.0
+    ],
+    "V": [
+      192.0,
+      63.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

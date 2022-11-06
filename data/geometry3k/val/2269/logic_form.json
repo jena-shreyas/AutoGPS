@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(1)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(1)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Arc(D, A)), 38)",
+    "Equals(MeasureOf(Arc(E, B)), 46)",
+    "Equals(MeasureOf(Angle(1)), MeasureOf(Angle(A, C, E)))",
+    "PointLiesOnLine(C, Line(A, B))",
+    "PointLiesOnLine(C, Line(D, E))",
+    "PointLiesOnCircle(A, Circle(F, radius_5_0))",
+    "PointLiesOnCircle(B, Circle(F, radius_5_0))",
+    "PointLiesOnCircle(D, Circle(F, radius_5_0))",
+    "PointLiesOnCircle(E, Circle(F, radius_5_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "BC",
+    "BE",
+    "CD",
+    "CE",
+    "DE"
+  ],
+  "point_positions": {
+    "A": [
+      3.0,
+      63.0
+    ],
+    "B": [
+      106.0,
+      17.0
+    ],
+    "C": [
+      56.0,
+      39.0
+    ],
+    "D": [
+      14.0,
+      26.0
+    ],
+    "E": [
+      125.0,
+      61.0
+    ],
+    "F": [
+      66.0,
+      62.0
+    ]
+  },
+  "circle_instances": [
+    "F"
+  ]
+}

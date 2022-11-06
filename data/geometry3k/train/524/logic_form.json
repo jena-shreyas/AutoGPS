@@ -1,0 +1,71 @@
+{
+  "text_logic_form": [
+    "Circle(J)",
+    "Equals(LengthOf(Line(G,H)),9)",
+    "Equals(LengthOf(Line(K,L)),4x+1)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Circle(J)",
+    "Equals(LengthOf(Line(G,H)),9)",
+    "Equals(LengthOf(Line(K,L)),4x+1)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(J, R)), 5)",
+    "Equals(LengthOf(Line(S, J)), 5)",
+    "PointLiesOnLine(R, Line(H, G))",
+    "PointLiesOnLine(S, Line(L, K))",
+    "",
+    "PointLiesOnCircle(G, Circle(J, radius_9_0))",
+    "PointLiesOnCircle(H, Circle(J, radius_9_0))",
+    "PointLiesOnCircle(L, Circle(J, radius_9_0))",
+    "PointLiesOnCircle(K, Circle(J, radius_9_0))",
+    "Perpendicular(Line(H, R), Line(J, R))",
+    "Perpendicular(Line(S, J), Line(S, K))"
+  ],
+  "line_instances": [
+    "HG",
+    "HR",
+    "JR",
+    "LK",
+    "RG",
+    "SH",
+    "SJ",
+    "SK",
+    "SL"
+  ],
+  "point_positions": {
+    "G": [
+      49.0,
+      244.0
+    ],
+    "H": [
+      49.0,
+      37.0
+    ],
+    "J": [
+      144.0,
+      142.0
+    ],
+    "K": [
+      105.0,
+      283.0
+    ],
+    "L": [
+      289.0,
+      164.0
+    ],
+    "R": [
+      51.0,
+      147.0
+    ],
+    "S": [
+      197.0,
+      222.0
+    ]
+  },
+  "circle_instances": [
+    "J"
+  ]
+}

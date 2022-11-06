@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the area of the figure. Round to the nearest tenth if necessary.",
+  "choices": [
+    "52.4",
+    "53.4",
+    "57.6",
+    "73.6"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Rectangle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "",
+  "id": 909,
+  "annot_id": "pan_2020-03-22_06_35_04",
+  "is_standard": false,
+  "unit": "units^2",
+  "compact_choices": [
+    "52.4",
+    "53.4",
+    "57.6",
+    "73.6"
+  ],
+  "precise_value": [
+    52.4,
+    53.4,
+    57.6,
+    73.6
+  ],
+  "rough_value": [
+    52.4,
+    53.4,
+    57.6,
+    73.6
+  ],
+  "compact_text": "Find the area of the figure. Round to the nearest tenth if necessary.",
+  "annotat_text": "Find the area of the figure. Round to the nearest tenth if necessary.",
+  "img_width": 324,
+  "img_height": 232,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

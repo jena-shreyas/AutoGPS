@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the measure of m \\angle K.",
+  "choices": [
+    "26.5",
+    "53",
+    "58",
+    "106"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 998,
+  "annot_id": "pan_2020-03-27_21_36_16",
+  "is_standard": false,
+  "compact_choices": [
+    "26.5",
+    "53",
+    "58",
+    "106"
+  ],
+  "precise_value": [
+    26.5,
+    53.0,
+    58.0,
+    106.0
+  ],
+  "rough_value": [
+    26.5,
+    53,
+    58,
+    106
+  ],
+  "compact_text": "Find the measure of m \\angle K.",
+  "annotat_text": "Find the measure of $m\u2220K$.",
+  "unit": "",
+  "img_width": 387,
+  "img_height": 332,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

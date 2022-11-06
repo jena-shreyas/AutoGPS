@@ -1,0 +1,90 @@
+{
+  "text_logic_form": [
+    "Square(A)",
+    "Square(B)",
+    "Square(C)",
+    "Equals(LengthOf(Line(J,K)),Mul(Line(K,L),2))",
+    "Equals(LengthOf(Line(K,L)),Mul(Line(L,M),2))",
+    "Equals(PerimeterOf(Shape($)),66)",
+    "Find(AreaOf(Polygon($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Square(A)",
+    "Square(B)",
+    "Square(C)",
+    "Equals(LengthOf(Line(J,K)),Mul(Line(K,L),2))",
+    "Equals(LengthOf(Line(K,L)),Mul(Line(L,M),2))",
+    "Equals(PerimeterOf(Shape($)),66)",
+    "Find(AreaOf(Polygon($)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(K, Line(J, M))",
+    "PointLiesOnLine(L, Line(J, M))",
+    "PointLiesOnLine(K, Line(J, L))",
+    "PointLiesOnLine(L, Line(M, K))",
+    "PointLiesOnLine(A, Line(K, F))",
+    "PointLiesOnLine(B, Line(L, D))"
+  ],
+  "line_instances": [
+    "JE",
+    "JM",
+    "JK",
+    "JL",
+    "EF",
+    "MK",
+    "ML",
+    "MG",
+    "KA",
+    "KF",
+    "KL",
+    "LD",
+    "LB",
+    "DA",
+    "DB",
+    "AF",
+    "BG"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "J": [
+      1.3283023697708813,
+      196.00386921463803
+    ],
+    "D": [
+      289.9986708019495,
+      99.96743464776252
+    ],
+    "E": [
+      0.6666921762200104,
+      0.005050891558880721
+    ],
+    "A": [
+      196.759975849388,
+      102.9752181788243
+    ],
+    "F": [
+      197.3383587153389,
+      1.9950256371010937
+    ],
+    "M": [
+      342.0,
+      197.0
+    ],
+    "K": [
+      197.99534808163747,
+      197.0789201642201
+    ],
+    "L": [
+      294.9739763638534,
+      197.36242091440852
+    ],
+    "B": [
+      292.4807692307692,
+      148.02884615384616
+    ],
+    "G": [
+      342.0,
+      151.0
+    ]
+  }
+}

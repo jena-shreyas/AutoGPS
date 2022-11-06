@@ -1,0 +1,48 @@
+{
+  "problem_text": "If A N is 5 meters long, find the exact circumference of \\odot N.",
+  "choices": [
+    "\\pi",
+    "10",
+    "5 \\pi",
+    "10 \\pi"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter10.pdf page 68",
+  "comment": "",
+  "id": 1027,
+  "annot_id": "Ran_2020-03-29_06_04_04",
+  "is_standard": false,
+  "compact_choices": [
+    "\\pi",
+    "10",
+    "5\\pi",
+    "10\\pi"
+  ],
+  "precise_value": [
+    3.141592653589793,
+    10.0,
+    15.707963267948966,
+    31.41592653589793
+  ],
+  "rough_value": [
+    3.14,
+    10,
+    15.71,
+    31.42
+  ],
+  "compact_text": "If AN is 5 meters long, find the exact circumference of \\odot N.",
+  "annotat_text": "If $A N$ is 5 meters long, find the exact circumference of $\\odot N .$",
+  "unit": "",
+  "img_width": 207,
+  "img_height": 182,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

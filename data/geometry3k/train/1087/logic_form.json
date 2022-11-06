@@ -1,0 +1,59 @@
+{
+  "text_logic_form": [
+    "Regular(Polygon($))",
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Regular(Pentagon(B,D,I,E,C))",
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(PerimeterOf(Cirle(A))), 12)",
+    "PointLiesOnCircle(B, Circle(A, radius_0_0))",
+    "PointLiesOnCircle(C, Circle(A, radius_0_0))",
+    "PointLiesOnCircle(D, Circle(A, radius_0_0))",
+    "PointLiesOnCircle(I, Circle(A, radius_0_0))",
+    "PointLiesOnCircle(E, Circle(A, radius_0_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AI",
+    "BC",
+    "BD",
+    "CE",
+    "DI",
+    "IE"
+  ],
+  "point_positions": {
+    "A": [
+      114.0,
+      113.0
+    ],
+    "B": [
+      3.0,
+      108.0
+    ],
+    "C": [
+      74.0,
+      217.0
+    ],
+    "D": [
+      84.0,
+      6.0
+    ],
+    "E": [
+      201.0,
+      182.0
+    ],
+    "I": [
+      206.0,
+      52.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

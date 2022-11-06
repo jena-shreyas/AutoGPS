@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find \\angle 6.",
+  "choices": [
+    "28.5",
+    "56",
+    "57",
+    "123"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_4.pdf",
+  "comment": "hard",
+  "id": 938,
+  "annot_id": "Shibiao_2020-03-21_12_23_58",
+  "is_standard": false,
+  "compact_choices": [
+    "28.5",
+    "56",
+    "57",
+    "123"
+  ],
+  "precise_value": [
+    28.5,
+    56.0,
+    57.0,
+    123.0
+  ],
+  "rough_value": [
+    28.5,
+    56,
+    57,
+    123
+  ],
+  "compact_text": "Find \\angle 6.",
+  "annotat_text": "Find $\\angle 6$.",
+  "unit": "",
+  "img_width": 536,
+  "img_height": 483,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

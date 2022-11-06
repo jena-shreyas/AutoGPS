@@ -1,0 +1,52 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Quadrilateral(A,D,B,C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, D)), 39)",
+    "Equals(LengthOf(Line(D, B)), 18)",
+    "Equals(LengthOf(Line(C, B)), 56)",
+    "Perpendicular(Line(A, E), Line(B, E))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "CB",
+    "DB",
+    "AE",
+    "BE",
+    "CE"
+  ],
+  "point_positions": {
+    "A": [
+      215.0,
+      2.0
+    ],
+    "B": [
+      0.0,
+      100.0
+    ],
+    "C": [
+      312.0,
+      101.0
+    ],
+    "D": [
+      2.0,
+      0.0
+    ],
+    "E": [
+      195.0,
+      82.0
+    ],
+    "O": [
+      215.0,
+      80.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

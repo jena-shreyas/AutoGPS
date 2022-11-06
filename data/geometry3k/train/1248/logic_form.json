@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Triangle(W,X,Y)),248)",
+    "Find(LengthOf(BaseOf(Polygon($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Triangle(W,X,Y)),248)",
+    "Find(LengthOf(BaseOf(Triangle(X,W,Y))))"
+  ],
+  "diagram_logic_form": [
+    "Perpendicular(Line(X,A), Line(W,Y))",
+    "Equals(LengthOf(Line(A,X)), 16)"
+  ],
+  "line_instances": [
+    "WX",
+    "WY",
+    "YX",
+    "XA"
+  ],
+  "point_positions": {
+    "A": [
+      65.0,
+      131.0
+    ],
+    "W": [
+      1.0,
+      153.0
+    ],
+    "X": [
+      66.0,
+      1.0
+    ],
+    "Y": [
+      302.0,
+      154.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

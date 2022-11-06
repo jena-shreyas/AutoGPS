@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the area of the blue sector.",
+  "choices": [
+    "2.3 \\pi",
+    "4.6 \\pi",
+    "6.9 \\pi",
+    "9.2 \\pi"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "very hard",
+  "id": 1207,
+  "annot_id": "pan_2020-03-22_06_46_24",
+  "is_standard": false,
+  "compact_choices": [
+    "2.3\\pi",
+    "4.6\\pi",
+    "6.9\\pi",
+    "9.2\\pi"
+  ],
+  "precise_value": [
+    7.225663103256523,
+    14.451326206513047,
+    21.676989309769574,
+    28.902652413026093
+  ],
+  "rough_value": [
+    7.23,
+    14.45,
+    21.68,
+    28.9
+  ],
+  "compact_text": "Find the area of the blue sector.",
+  "annotat_text": "Find the area of the blue sector.",
+  "unit": "",
+  "img_width": 417,
+  "img_height": 350,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

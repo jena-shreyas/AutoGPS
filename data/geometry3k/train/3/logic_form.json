@@ -1,0 +1,35 @@
+{
+  "text_logic_form": [
+    "Trapezoid($)",
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Trapezoid(W,X,Y,Z)",
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(W, Z)), 23)",
+    "Equals(MeasureOf(Angle(Z, W, X)), 112)",
+    "Equals(LengthOf(Line(X, Y)), 23)",
+    "Parallel(Line(W, X), Line(Z, Y))"
+  ],
+  "line_instances": [
+    "VZ",
+    "WX",
+    "WZ",
+    "XY"
+  ],
+  "point_positions": {
+    "X": [
+      12.0,
+      87.0
+    ],
+    "Y": [
+      255.0,
+      151.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

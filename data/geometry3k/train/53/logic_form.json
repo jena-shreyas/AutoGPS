@@ -1,0 +1,62 @@
+{
+  "text_logic_form": [
+    "IsDiameterOf(Line(E,C),Circle(O))",
+    "IsDiameterOf(Line(A,B),Circle(O))",
+    "Find(MeasureOf(Arc(A,C,E)))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsDiameterOf(Line(E,C),Circle(O))",
+    "IsDiameterOf(Line(A,B),Circle(O))",
+    "Find(MeasureOf(Arc(A,C,E)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(F, O, E)), 45)",
+    "PointLiesOnLine(O, Line(A, B))",
+    "PointLiesOnLine(O, Line(E, C))",
+    "PointLiesOnCircle(A, Circle(O, radius_1_0))",
+    "PointLiesOnCircle(C, Circle(O, radius_1_0))",
+    "PointLiesOnCircle(F, Circle(O, radius_1_0))",
+    "PointLiesOnCircle(E, Circle(O, radius_1_0))",
+    "PointLiesOnCircle(B, Circle(O, radius_1_0))",
+    "Perpendicular(Line(A, O), Line(C, O))",
+    "Perpendicular(Line(E, O), Line(B, O))"
+  ],
+  "line_instances": [
+    "AB",
+    "AO",
+    "CE",
+    "OB",
+    "OC",
+    "OE",
+    "OF"
+  ],
+  "point_positions": {
+    "A": [
+      32.0,
+      180.0
+    ],
+    "B": [
+      181.0,
+      31.0
+    ],
+    "C": [
+      179.0,
+      180.0
+    ],
+    "E": [
+      31.0,
+      31.0
+    ],
+    "F": [
+      1.0,
+      109.0
+    ],
+    "O": [
+      105.0,
+      104.0
+    ]
+  },
+  "circle_instances": [
+    "O"
+  ]
+}

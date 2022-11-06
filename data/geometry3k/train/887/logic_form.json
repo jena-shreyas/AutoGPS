@@ -1,0 +1,152 @@
+{
+  "text_logic_form": [
+    "Equals(MeasureOf(Angle(1)),3x+40)",
+    "Equals(MeasureOf(Angle(2)),2(y-10))",
+    "Equals(MeasureOf(Angle(3)),2x+70)",
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(MeasureOf(Angle(1)),3x+40)",
+    "Equals(MeasureOf(Angle(2)),2(y-10))",
+    "Equals(MeasureOf(Angle(3)),2x+70)",
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(R, F, X)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(F, E, I)), MeasureOf(angle 3))",
+    "Equals(MeasureOf(Angle(H, W, L)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(P, A, C)), MeasureOf(angle 4))",
+    "PointLiesOnLine(G, Line(L, N))",
+    "PointLiesOnLine(G, Line(L, F))",
+    "PointLiesOnLine(G, Line(Q, H))",
+    "PointLiesOnLine(G, Line(Q, M))",
+    "PointLiesOnLine(F, Line(L, N))",
+    "PointLiesOnLine(F, Line(G, N))",
+    "PointLiesOnLine(F, Line(R, E))",
+    "PointLiesOnLine(F, Line(R, O))",
+    "PointLiesOnLine(E, Line(P, I))",
+    "PointLiesOnLine(E, Line(H, I))",
+    "PointLiesOnLine(E, Line(F, O))",
+    "PointLiesOnLine(E, Line(R, O))",
+    "PointLiesOnLine(H, Line(P, I))",
+    "PointLiesOnLine(H, Line(P, E))",
+    "PointLiesOnLine(H, Line(Q, M))",
+    "PointLiesOnLine(H, Line(G, M))",
+    ""
+  ],
+  "line_instances": [
+    "EI",
+    "EO",
+    "FE",
+    "FN",
+    "FN",
+    "FO",
+    "GF",
+    "GH",
+    "GM",
+    "GM",
+    "HE",
+    "HI",
+    "LG",
+    "LG",
+    "LN",
+    "PE",
+    "PH",
+    "PI",
+    "QG",
+    "QH",
+    "QM",
+    "RE",
+    "RF",
+    "RO"
+  ],
+  "point_positions": {
+    "B": [
+      188.0,
+      63.0
+    ],
+    "C": [
+      41.0,
+      125.0
+    ],
+    "E": [
+      243.0,
+      182.0
+    ],
+    "F": [
+      162.0,
+      95.0
+    ],
+    "G": [
+      95.0,
+      182.0
+    ],
+    "H": [
+      177.0,
+      270.0
+    ],
+    "I": [
+      324.0,
+      80.0
+    ],
+    "J": [
+      103.0,
+      171.0
+    ],
+    "K": [
+      107.0,
+      38.0
+    ],
+    "L": [
+      4.0,
+      302.0
+    ],
+    "M": [
+      248.0,
+      349.0
+    ],
+    "N": [
+      237.0,
+      1.0
+    ],
+    "O": [
+      321.0,
+      269.0
+    ],
+    "P": [
+      115.0,
+      349.0
+    ],
+    "Q": [
+      4.0,
+      85.0
+    ],
+    "R": [
+      74.0,
+      3.0
+    ],
+    "S": [
+      277.0,
+      141.0
+    ],
+    "T": [
+      206.0,
+      230.0
+    ],
+    "U": [
+      213.0,
+      34.0
+    ],
+    "V": [
+      296.0,
+      116.0
+    ],
+    "X": [
+      200.0,
+      45.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x.",
+  "choices": [
+    "11",
+    "11.2",
+    "12.4",
+    "13.8"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 1707,
+  "annot_id": "Shibiao_2020-03-22_12_23_16",
+  "is_standard": false,
+  "compact_choices": [
+    "11",
+    "11.2",
+    "12.4",
+    "13.8"
+  ],
+  "precise_value": [
+    11.0,
+    11.2,
+    12.4,
+    13.8
+  ],
+  "rough_value": [
+    11,
+    11.2,
+    12.4,
+    13.8
+  ],
+  "compact_text": "Find x.",
+  "annotat_text": "Find $x$.",
+  "unit": "",
+  "img_width": 550,
+  "img_height": 404,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(7)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(7)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(E, D, F)), MeasureOf(Angle(7)))",
+    "Equals(MeasureOf(Angle(F, D, A)), 140)",
+    "PointLiesOnLine(D, Line(A, E))",
+    "PointLiesOnLine(F, Line(D, C))",
+    "PointLiesOnCircle(D, Circle(B, radius_1_0))",
+    "PointLiesOnCircle(F, Circle(B, radius_1_0))"
+  ],
+  "line_instances": [
+    "AD",
+    "AE",
+    "CF",
+    "DC",
+    "DE",
+    "DF"
+  ],
+  "point_positions": {
+    "A": [
+      213.0,
+      198.0
+    ],
+    "B": [
+      92.0,
+      120.0
+    ],
+    "C": [
+      156.0,
+      1.0
+    ],
+    "D": [
+      91.0,
+      198.0
+    ],
+    "E": [
+      0.0,
+      197.0
+    ],
+    "F": [
+      139.0,
+      54.0
+    ]
+  },
+  "circle_instances": [
+    "B"
+  ]
+}

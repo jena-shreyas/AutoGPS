@@ -1,0 +1,48 @@
+{
+  "problem_text": "\\triangle R S T \\cong \\triangle V U T. Find x.",
+  "choices": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_4.pdf",
+  "comment": "",
+  "id": 122,
+  "annot_id": "Shibiao_2020-03-21_16_23_42",
+  "is_standard": false,
+  "compact_choices": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "precise_value": [
+    1.0,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "rough_value": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "compact_text": "\\triangle RST \\cong \\triangle VUT. Find x.",
+  "annotat_text": "$\\triangle RST \\cong \\triangle VUT$. Find $x$.",
+  "unit": "",
+  "img_width": 822,
+  "img_height": 491,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

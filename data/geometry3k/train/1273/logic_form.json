@@ -1,0 +1,27 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, F)), 9)"
+  ],
+  "line_instances": [
+    ""
+  ],
+  "point_positions": {
+    "B": [
+      201.0,
+      75.0
+    ],
+    "F": [
+      0.0,
+      99.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

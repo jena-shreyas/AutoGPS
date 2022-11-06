@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Right(Triangle(R,S,T))",
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Right(Triangle(R,S,T))",
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(S, T, P)), 150)",
+    "PointLiesOnLine(T, Line(R, P))",
+    "Perpendicular(Line(R, S), Line(T, S))"
+  ],
+  "line_instances": [
+    "RS",
+    "ST",
+    "RT",
+    "TP",
+    "RP"
+  ],
+  "point_positions": {
+    "S": [
+      2.0,
+      198.0
+    ],
+    "P": [
+      438.0,
+      254.0
+    ],
+    "R": [
+      1.0,
+      1.0
+    ],
+    "T": [
+      346.0,
+      201.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

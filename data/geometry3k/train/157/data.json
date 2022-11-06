@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the perimeter of quadrilateral A B C D.",
+  "choices": [
+    "27 + 14 \\sqrt { 2 }",
+    "40 + 14 \\sqrt { 2 }",
+    "27 + 28 \\sqrt { 2 }",
+    "40 + 28 \\sqrt { 2 }"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Rectangle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "",
+  "id": 157,
+  "annot_id": "pan_2020-03-24_04_18_55",
+  "is_standard": false,
+  "compact_choices": [
+    "27+14\\sqrt{2}",
+    "40+14\\sqrt{2}",
+    "27+28\\sqrt{2}",
+    "40+28\\sqrt{2}"
+  ],
+  "precise_value": [
+    46.798989873223334,
+    59.798989873223334,
+    66.59797974644667,
+    79.59797974644667
+  ],
+  "rough_value": [
+    46.8,
+    59.8,
+    66.6,
+    79.6
+  ],
+  "compact_text": "Find the perimeter of quadrilateral ABCD.",
+  "annotat_text": "Find the perimeter of quadrilateral ABCD.",
+  "unit": "",
+  "img_width": 609,
+  "img_height": 263,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

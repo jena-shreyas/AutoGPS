@@ -1,0 +1,42 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(E,F,G)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(E,F,G)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(G, F, E)), 9x+7)",
+    "Equals(MeasureOf(Angle(G, D, E)), 5x)",
+    "Equals(MeasureOf(Angle(D, E, F)), 5x)",
+    "PointLiesOnLine(F, Line(D, G))"
+  ],
+  "line_instances": [
+    "DE",
+    "DF",
+    "DG",
+    "EF",
+    "FG"
+  ],
+  "point_positions": {
+    "D": [
+      0.0,
+      148.0
+    ],
+    "E": [
+      268.0,
+      148.0
+    ],
+    "F": [
+      136.0,
+      71.0
+    ],
+    "G": [
+      206.0,
+      36.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

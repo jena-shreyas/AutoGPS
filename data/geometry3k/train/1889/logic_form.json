@@ -1,0 +1,79 @@
+{
+  "text_logic_form": [
+    "CircumscribedTo(Rhombus(A,B,C,D),Circle(P))",
+    "Equals(PerimeterOf(Rhombus(A,B,C,D)),32)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "CircumscribedTo(Rhombus(A,B,C,D),Circle(P))",
+    "Equals(PerimeterOf(Rhombus(A,B,C,D)),32)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, F)), 3)",
+    "Equals(LengthOf(Line(D, H)), x)",
+    "PointLiesOnLine(F, Line(B, A))",
+    "PointLiesOnLine(G, Line(B, C))",
+    "PointLiesOnLine(E, Line(A, D))",
+    "PointLiesOnLine(H, Line(C, D))",
+    "PointLiesOnCircle(H, Circle(P, radius_4_0))",
+    "PointLiesOnCircle(E, Circle(P, radius_4_0))",
+    "PointLiesOnCircle(G, Circle(P, radius_4_0))",
+    "PointLiesOnCircle(F, Circle(P, radius_4_0))"
+  ],
+  "line_instances": [
+    "AD",
+    "AE",
+    "AF",
+    "BA",
+    "BC",
+    "BF",
+    "BG",
+    "CD",
+    "CG",
+    "CH",
+    "DE",
+    "DH"
+  ],
+  "point_positions": {
+    "A": [
+      23.0,
+      5.0
+    ],
+    "B": [
+      164.0,
+      3.0
+    ],
+    "C": [
+      142.0,
+      144.0
+    ],
+    "D": [
+      0.0,
+      145.0
+    ],
+    "E": [
+      13.0,
+      65.0
+    ],
+    "F": [
+      79.0,
+      5.0
+    ],
+    "G": [
+      151.0,
+      86.0
+    ],
+    "H": [
+      81.0,
+      144.0
+    ],
+    "P": [
+      81.0,
+      76.0
+    ]
+  },
+  "circle_instances": [
+    "P"
+  ]
+}

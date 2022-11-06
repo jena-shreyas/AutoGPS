@@ -1,0 +1,89 @@
+{
+  "text_logic_form": [
+    "Parallel(Line(P,R),Line(W,X))",
+    "Equals(LengthOf(Line(W,X)),10)",
+    "Equals(LengthOf(Line(X,Y)),6)",
+    "Equals(LengthOf(Line(W,Y)),8)",
+    "Equals(LengthOf(Line(R,Y)),5)",
+    "Equals(LengthOf(Line(P,S)),3)",
+    "Find(LengthOf(Line(S,Y)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallel(Line(P,R),Line(W,X))",
+    "Equals(LengthOf(Line(W,X)),10)",
+    "Equals(LengthOf(Line(X,Y)),6)",
+    "Equals(LengthOf(Line(W,Y)),8)",
+    "Equals(LengthOf(Line(R,Y)),5)",
+    "Equals(LengthOf(Line(P,S)),3)",
+    "Find(LengthOf(Line(S,Y)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(S, Line(W, Y))",
+    "PointLiesOnLine(S, Line(Q, P))",
+    "PointLiesOnLine(Q, Line(W, X))",
+    "PointLiesOnLine(B, Line(Y, X))",
+    "PointLiesOnLine(B, Line(Q, R))",
+    "PointLiesOnLine(B, Line(Q, R))",
+    "PointLiesOnLine(Y, Line(P, R))",
+    "Perpendicular(Line(C, P), Line(Y, S))",
+    "Perpendicular(Line(Y, S), Line(Y, B))",
+    "Perpendicular(Line(C, Q), Line(Q, B))"
+  ],
+  "line_instances": [
+    "PR",
+    "QB",
+    "QP",
+    "QR",
+    "QS",
+    "QX",
+    "RB",
+    "SP",
+    "WQ",
+    "WS",
+    "WX",
+    "WY",
+    "XB",
+    "YB",
+    "YP",
+    "YR",
+    "YS",
+    "YX"
+  ],
+  "point_positions": {
+    "B": [
+      120.0,
+      130.0
+    ],
+    "P": [
+      290.0,
+      0.0
+    ],
+    "Q": [
+      291.0,
+      133.0
+    ],
+    "R": [
+      3.0,
+      131.0
+    ],
+    "S": [
+      291.0,
+      82.0
+    ],
+    "W": [
+      409.0,
+      81.0
+    ],
+    "X": [
+      121.0,
+      212.0
+    ],
+    "Y": [
+      119.0,
+      80.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "W X Y Z is a square. If W T = 3, find m \\angle W T Z.",
+  "choices": [
+    "15",
+    "30",
+    "45",
+    "90"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Square"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 47",
+  "comment": "",
+  "id": 1683,
+  "annot_id": "Ran_2020-03-19_04_55_59",
+  "is_standard": false,
+  "compact_choices": [
+    "15",
+    "30",
+    "45",
+    "90"
+  ],
+  "precise_value": [
+    15.0,
+    30.0,
+    45.0,
+    90.0
+  ],
+  "rough_value": [
+    15,
+    30,
+    45,
+    90
+  ],
+  "compact_text": "WXYZ is a square. If WT = 3, find m \\angle WTZ.",
+  "annotat_text": "WXYZ is a square. If $WT = 3$, find $m \\angle WTZ$",
+  "unit": "",
+  "img_width": 287,
+  "img_height": 229,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

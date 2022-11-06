@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\angle Q.",
+  "choices": [
+    "50",
+    "58",
+    "60",
+    "121"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 9",
+  "comment": "",
+  "id": 756,
+  "annot_id": "Ran_2020-03-15_04_15_14",
+  "is_standard": false,
+  "compact_choices": [
+    "50",
+    "58",
+    "60",
+    "121"
+  ],
+  "precise_value": [
+    50.0,
+    58.0,
+    60.0,
+    121.0
+  ],
+  "rough_value": [
+    50,
+    58,
+    60,
+    121
+  ],
+  "compact_text": "Find m \\angle Q.",
+  "annotat_text": "Find $m\\angle Q$",
+  "unit": "",
+  "img_width": 523,
+  "img_height": 372,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

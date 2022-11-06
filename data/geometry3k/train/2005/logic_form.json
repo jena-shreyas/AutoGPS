@@ -1,0 +1,40 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Rectangle(W,X,Y,Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Rectangle(W,X,Y,Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Y, X)), 5.8)",
+    "Equals(LengthOf(Line(Y, Z)), 3.2)",
+    "Perpendicular(Line(W, X), Line(X, Y))"
+  ],
+  "line_instances": [
+    "WZ",
+    "ZY",
+    "XY",
+    "WX"
+  ],
+  "point_positions": {
+    "W": [
+      2.0,
+      1.0
+    ],
+    "X": [
+      2.0,
+      165.0
+    ],
+    "Y": [
+      327.0,
+      165.0
+    ],
+    "Z": [
+      330.0,
+      3.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

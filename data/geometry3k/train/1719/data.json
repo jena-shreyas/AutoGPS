@@ -1,0 +1,48 @@
+{
+  "problem_text": "Use the figure to find the indicated variable. If m \\angle 4 = 2 x - 17 and m \\angle 1 = 85, find x.",
+  "choices": [
+    "51",
+    "56",
+    "61",
+    "85"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_3.pdf",
+  "comment": "",
+  "id": 1719,
+  "annot_id": "pan_2020-03-13_21_46_01",
+  "is_standard": false,
+  "compact_choices": [
+    "51",
+    "56",
+    "61",
+    "85"
+  ],
+  "precise_value": [
+    51.0,
+    56.0,
+    61.0,
+    85.0
+  ],
+  "rough_value": [
+    51,
+    56,
+    61,
+    85
+  ],
+  "compact_text": "Use the figure to find the indicated variable. If m \\angle 4 = 2x-17 and m \\angle 1 = 85, find x.",
+  "annotat_text": "Use the figure to find the indicated variable. If $m \\angle 4 = 2x - 17$ and $m \\angle 1 = 85$, find $x$.",
+  "unit": "",
+  "img_width": 503,
+  "img_height": 355,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,86 @@
+{
+  "text_logic_form": [
+    "Congruent(Circle(J),Circle(K))",
+    "Congruent(Arc(M,N),Arc(P,Q))",
+    "Find(LengthOf(Line(P,Q)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Congruent(Circle(J),Circle(K))",
+    "Congruent(Arc(M,N),Arc(P,Q))",
+    "Find(LengthOf(Line(P,Q)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(J, N)), 2x+1)",
+    "Equals(LengthOf(Line(B, N)), 0)",
+    "Equals(LengthOf(Line(B, N)), 3x-7)",
+    "Equals(LengthOf(Line(B, N)), 0)",
+    "PointLiesOnLine(J, Line(M, A))",
+    "PointLiesOnLine(B, Line(M, A))",
+    "PointLiesOnLine(P, Line(M, A))",
+    "PointLiesOnLine(B, Line(M, J))",
+    "PointLiesOnLine(J, Line(M, N))",
+    "PointLiesOnLine(B, Line(M, N))",
+    "PointLiesOnLine(P, Line(M, N))",
+    "PointLiesOnLine(J, Line(M, P))",
+    "PointLiesOnLine(B, Line(M, P))",
+    "PointLiesOnLine(P, Line(A, J))",
+    "PointLiesOnLine(J, Line(A, B))",
+    "PointLiesOnLine(P, Line(A, B))",
+    "PointLiesOnLine(P, Line(J, N))",
+    "PointLiesOnLine(J, Line(B, N))",
+    "PointLiesOnLine(P, Line(B, N))",
+    "PointLiesOnLine(J, Line(B, P))",
+    "PointLiesOnCircle(M, Circle(O, radius_2_0))",
+    "PointLiesOnCircle(N, Circle(O, radius_2_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AJ",
+    "AN",
+    "AP",
+    "BN",
+    "BP",
+    "JB",
+    "JN",
+    "JP",
+    "MA",
+    "MB",
+    "MJ",
+    "MN",
+    "MP",
+    "NP"
+  ],
+  "point_positions": {
+    "A": [
+      94.0,
+      54.0
+    ],
+    "B": [
+      59.0,
+      169.0
+    ],
+    "J": [
+      74.0,
+      119.0
+    ],
+    "M": [
+      36.0,
+      234.0
+    ],
+    "N": [
+      116.0,
+      3.0
+    ],
+    "O": [
+      144.0,
+      142.0
+    ],
+    "P": [
+      87.0,
+      84.0
+    ]
+  },
+  "circle_instances": [
+    "O"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find D C if D G and J M are altitudes and \\triangle K J L \\sim \\triangle E D C.",
+  "choices": [
+    "2",
+    "4",
+    "6",
+    "8"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 42",
+  "comment": "",
+  "id": 278,
+  "annot_id": "Ran_2020-03-21_07_21_09",
+  "is_standard": false,
+  "compact_choices": [
+    "2",
+    "4",
+    "6",
+    "8"
+  ],
+  "precise_value": [
+    2.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "rough_value": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "compact_text": "Find DC if DG and JM are altitudes and \\triangle KJL \\sim \\triangle EDC.",
+  "annotat_text": "Find $D C$ if $\\overline{D G}$ and $\\overline{J M}$ are altitudes and $\\triangle K J L \\sim \\triangle E D C$",
+  "unit": "",
+  "img_width": 541,
+  "img_height": 192,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

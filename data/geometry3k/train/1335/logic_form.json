@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Quadrilateral(A,B,C,D)",
+    "Equals(Line(A,C),40)",
+    "Equals(Line(B,D),Mul(Line(A,C),\\frac{3}{5}))",
+    "BisectsAngle(Line(B,D),Line(A,C))",
+    "Parallelogram(A,B,C,D)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Quadrilateral(A,B,C,D)",
+    "Equals(Line(A,C),40)",
+    "Equals(Line(B,D),Mul(Line(A,C),\\frac{3}{5}))",
+    "BisectsAngle(Line(B,D),Line(A,C))",
+    "Parallelogram(A,B,C,D)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, E)), 3x)",
+    "PointLiesOnLine(E, Line(D, B))",
+    "PointLiesOnLine(E, Line(C, A))"
+  ],
+  "line_instances": [
+    "DC",
+    "DA",
+    "DB",
+    "DE",
+    "CA",
+    "CB",
+    "CE",
+    "AB",
+    "AE",
+    "BE"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "D": [
+      101.9051446905523,
+      140.23563735883107
+    ],
+    "C": [
+      431.012044906502,
+      142.04452548737237
+    ],
+    "A": [
+      0.0,
+      0.0
+    ],
+    "B": [
+      330.8854169968186,
+      1.9828007459955472
+    ],
+    "E": [
+      216.53392430958064,
+      71.1755028980566
+    ]
+  }
+}

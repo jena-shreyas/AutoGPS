@@ -1,0 +1,97 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(H, B)), 30)",
+    "Equals(LengthOf(Line(A, H)), 15)",
+    "Equals(LengthOf(Line(A, D)), 48)",
+    "PointLiesOnLine(H, Line(A, C))",
+    "PointLiesOnLine(J, Line(A, C))",
+    "PointLiesOnLine(F, Line(A, D))",
+    "PointLiesOnLine(I, Line(A, D))",
+    "PointLiesOnLine(I, Line(A, F))",
+    "PointLiesOnLine(J, Line(A, H))",
+    "PointLiesOnLine(H, Line(C, J))",
+    "PointLiesOnLine(F, Line(D, I))",
+    "PointLiesOnLine(E, Line(H, B))",
+    "PointLiesOnLine(G, Line(H, B))",
+    "PointLiesOnCircle(B, Circle(K, radius_10_0))",
+    "PointLiesOnCircle(C, Circle(K, radius_10_0))",
+    "PointLiesOnCircle(F, Circle(K, radius_10_0))",
+    "PointLiesOnCircle(H, Circle(K, radius_10_0))",
+    "PointLiesOnCircle(I, Circle(K, radius_10_0))",
+    "PointLiesOnCircle(J, Circle(K, radius_10_0))",
+    "Perpendicular(Line(A, J), Line(A, I))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AF",
+    "AH",
+    "AI",
+    "AJ",
+    "CH",
+    "CJ",
+    "DB",
+    "DF",
+    "DI",
+    "FI",
+    "HB",
+    "HE",
+    "HJ",
+    "BG"
+  ],
+  "circle_instances": [
+    "K"
+  ],
+  "point_positions": {
+    "A": [
+      -1.4210854715202004e-14,
+      229.0
+    ],
+    "B": [
+      239.50245864379966,
+      114.15292052286912
+    ],
+    "C": [
+      5.0,
+      82.0
+    ],
+    "D": [
+      395.4421770128388,
+      230.663582309856
+    ],
+    "E": [
+      88.0,
+      113.0
+    ],
+    "F": [
+      174.92749825069558,
+      229.44062342128638
+    ],
+    "G": [
+      154.0,
+      113.0
+    ],
+    "H": [
+      1.0035071938447828,
+      112.97907971598679
+    ],
+    "I": [
+      61.529439760851915,
+      229.15498599435983
+    ],
+    "J": [
+      2.4035535847554996,
+      158.33552460818868
+    ],
+    "K": [
+      118.5,
+      121.5
+    ]
+  }
+}

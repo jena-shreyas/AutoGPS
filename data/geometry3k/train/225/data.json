@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\angle X.",
+  "choices": [
+    "14",
+    "56",
+    "70",
+    "117"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 56",
+  "comment": "",
+  "id": 225,
+  "annot_id": "Ran_2020-03-19_05_44_40",
+  "is_standard": false,
+  "compact_choices": [
+    "14",
+    "56",
+    "70",
+    "117"
+  ],
+  "precise_value": [
+    14.0,
+    56.0,
+    70.0,
+    117.0
+  ],
+  "rough_value": [
+    14,
+    56,
+    70,
+    117
+  ],
+  "compact_text": "Find m \\angle X.",
+  "annotat_text": "Find $m \\angle X$",
+  "unit": "",
+  "img_width": 360,
+  "img_height": 245,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

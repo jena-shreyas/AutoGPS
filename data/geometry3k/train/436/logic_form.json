@@ -1,0 +1,63 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(P,Q,S)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(P,Q,S)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Q, S, R)), 48)",
+    "PointLiesOnLine(R, Line(Q, A))",
+    "PointLiesOnLine(P, Line(Q, B))",
+    "Perpendicular(Line(Q, P), Line(S, P))",
+    "Perpendicular(Line(Q, R), Line(S, R))",
+    "Equals(LengthOf(Line(S, P)), LengthOf(Line(S, R)))",
+    "Equals(MeasureOf(Angle(P, Q, S)), MeasureOf(Angle(R, Q, S)))"
+  ],
+  "line_instances": [
+    "PB",
+    "QA",
+    "QB",
+    "QP",
+    "QR",
+    "QS",
+    "QY",
+    "RA",
+    "SP",
+    "SR",
+    "SY"
+  ],
+  "point_positions": {
+    "A": [
+      391.0,
+      225.0
+    ],
+    "B": [
+      1.0,
+      229.0
+    ],
+    "P": [
+      66.0,
+      152.0
+    ],
+    "Q": [
+      196.0,
+      2.0
+    ],
+    "R": [
+      328.0,
+      152.0
+    ],
+    "S": [
+      197.0,
+      267.0
+    ],
+    "Y": [
+      194.0,
+      336.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

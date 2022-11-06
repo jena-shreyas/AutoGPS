@@ -1,0 +1,48 @@
+{
+  "text_logic_form": [
+    "Right(Triangle(X,Y,Z))",
+    "Equals(Line(X,Y),HypotenuseOf(Right(Triangle(X,Y,Z))))",
+    "Equals(LengthOf(Line(Y,P)),Line(Y,Z))",
+    "Equals(MeasureOf(Angle(P,Y,Z)),26)",
+    "Find(MeasureOf(Angle(X,Z,P)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Right(Triangle(X,Y,Z))",
+    "Equals(Line(X,Y),HypotenuseOf(Right(Triangle(X,Y,Z))))",
+    "Equals(LengthOf(Line(Y,P)),Line(Y,Z))",
+    "Equals(MeasureOf(Angle(P,Y,Z)),26)",
+    "Find(MeasureOf(Angle(X,Z,P)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(P, Line(X, Y))"
+  ],
+  "line_instances": [
+    "XP",
+    "XY",
+    "XZ",
+    "YP",
+    "YZ",
+    "ZP"
+  ],
+  "point_positions": {
+    "P": [
+      164.0,
+      11.0
+    ],
+    "X": [
+      186.0,
+      2.0
+    ],
+    "Y": [
+      0.0,
+      84.0
+    ],
+    "Z": [
+      187.0,
+      84.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

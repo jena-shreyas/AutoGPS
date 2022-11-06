@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the radius of \\odot K. Round to the nearest hundredth.",
+  "choices": [
+    "9.50",
+    "19.00",
+    "56.37",
+    "59.69"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "hard",
+  "id": 2069,
+  "annot_id": "Shibiao_2020-03-27_12_20_19",
+  "is_standard": false,
+  "compact_choices": [
+    "9.50",
+    "19.00",
+    "56.37",
+    "59.69"
+  ],
+  "precise_value": [
+    9.5,
+    19.0,
+    56.37,
+    59.69
+  ],
+  "rough_value": [
+    9.5,
+    19,
+    56.37,
+    59.69
+  ],
+  "compact_text": "Find the radius of \\odot K. Round to the nearest hundredth.",
+  "annotat_text": "Find the radius of $\\odot K$. Round to the nearest hundredth.",
+  "unit": "",
+  "img_width": 424,
+  "img_height": 430,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

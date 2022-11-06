@@ -1,0 +1,90 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(3)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(3)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(A, E, G)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(D, A, I)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(G, E, B)), 52)",
+    "Equals(MeasureOf(Angle(B, A, D)), 38)",
+    "Equals(MeasureOf(Angle(C, E, A)), MeasureOf(angle 4))",
+    "Equals(MeasureOf(Angle(C, H, A)), MeasureOf(angle 3))",
+    "PointLiesOnLine(E, Line(A, B))",
+    "PointLiesOnLine(H, Line(A, D))",
+    "PointLiesOnLine(A, Line(B, I))",
+    "PointLiesOnLine(E, Line(B, I))",
+    "PointLiesOnLine(A, Line(D, F))",
+    "PointLiesOnLine(H, Line(D, F))",
+    "PointLiesOnLine(H, Line(E, C))",
+    "PointLiesOnLine(A, Line(E, I))",
+    "PointLiesOnLine(A, Line(F, H))",
+    "PointLiesOnLine(E, Line(H, G))",
+    "PointLiesOnLine(E, Line(C, G))",
+    "PointLiesOnLine(H, Line(C, G))",
+    "Perpendicular(Line(A, H), Line(E, H))"
+  ],
+  "line_instances": [
+    "AB",
+    "AD",
+    "AE",
+    "AF",
+    "AH",
+    "AI",
+    "BE",
+    "BI",
+    "CG",
+    "DF",
+    "DH",
+    "EC",
+    "EG",
+    "EH",
+    "EI",
+    "FH",
+    "HC",
+    "HG"
+  ],
+  "point_positions": {
+    "A": [
+      82.0,
+      72.0
+    ],
+    "B": [
+      385.0,
+      120.0
+    ],
+    "C": [
+      68.0,
+      218.0
+    ],
+    "D": [
+      186.0,
+      249.0
+    ],
+    "E": [
+      268.0,
+      101.0
+    ],
+    "F": [
+      40.0,
+      0.0
+    ],
+    "G": [
+      385.0,
+      33.0
+    ],
+    "H": [
+      142.0,
+      175.0
+    ],
+    "I": [
+      0.0,
+      59.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

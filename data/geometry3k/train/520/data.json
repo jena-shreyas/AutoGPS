@@ -1,0 +1,48 @@
+{
+  "problem_text": "What is the area of the shaded region if r = 4.",
+  "choices": [
+    "16 - 16 \\pi",
+    "16 - 8 \\pi",
+    "64 - 16 \\pi",
+    "64 - 8 \\pi"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "Diagram wrong!!!",
+  "id": 520,
+  "annot_id": "Shibiao_2020-03-27_12_28_11",
+  "is_standard": true,
+  "compact_choices": [
+    "16-16\\pi",
+    "16-8\\pi",
+    "64-16\\pi",
+    "64-8\\pi"
+  ],
+  "precise_value": [
+    -34.26548245743669,
+    -9.132741228718345,
+    13.73451754256331,
+    38.867258771281655
+  ],
+  "rough_value": [
+    -34.27,
+    -9.13,
+    13.73,
+    38.87
+  ],
+  "compact_text": "What is the area of the shaded region if r = 4.",
+  "annotat_text": "What is the area of the shaded region if $r=4$.",
+  "unit": "",
+  "img_width": 480,
+  "img_height": 419,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\widehat B X.",
+  "choices": [
+    "21",
+    "45",
+    "63",
+    "117"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook2_chapter10.pdf page 63",
+  "comment": "",
+  "id": 1742,
+  "annot_id": "Ran_2020-03-29_05_33_11",
+  "is_standard": false,
+  "compact_choices": [
+    "21",
+    "45",
+    "63",
+    "117"
+  ],
+  "precise_value": [
+    21.0,
+    45.0,
+    63.0,
+    117.0
+  ],
+  "rough_value": [
+    21,
+    45,
+    63,
+    117
+  ],
+  "compact_text": "Find m \\widehat BX.",
+  "annotat_text": "Find $m \\widehat{B X}$",
+  "unit": "",
+  "img_width": 354,
+  "img_height": 271,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

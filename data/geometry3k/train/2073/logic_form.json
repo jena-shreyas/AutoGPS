@@ -1,0 +1,104 @@
+{
+  "text_logic_form": [
+    "Tangent(Line($),Circle($))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Tangent(Line(B, F),Circle(C))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Arc(G, I)), 5x)",
+    "Equals(MeasureOf(Angle(E, B, D)), 60)",
+    "Equals(MeasureOf(Arc(F, J)), 105)",
+    "PointLiesOnLine(E, Line(A, B))",
+    "PointLiesOnLine(G, Line(A, B))",
+    "PointLiesOnLine(J, Line(A, B))",
+    "PointLiesOnLine(J, Line(A, E))",
+    "PointLiesOnLine(E, Line(A, G))",
+    "PointLiesOnLine(J, Line(A, G))",
+    "PointLiesOnLine(G, Line(B, E))",
+    "PointLiesOnLine(I, Line(B, F))",
+    "PointLiesOnLine(E, Line(B, J))",
+    "PointLiesOnLine(G, Line(B, J))",
+    "PointLiesOnLine(H, Line(E, D))",
+    "PointLiesOnLine(E, Line(G, J))",
+    "PointLiesOnCircle(F, Circle(C, radius_2_0))",
+    "PointLiesOnCircle(G, Circle(C, radius_2_0))",
+    "PointLiesOnCircle(H, Circle(C, radius_2_0))",
+    "PointLiesOnCircle(J, Circle(C, radius_2_0))",
+    "Perpendicular(Line(B, G), Line(B, I))",
+    "Perpendicular(Line(B, D), Line(H, D))",
+    "Perpendicular(Line(E, C), Line(E, H))"
+  ],
+  "line_instances": [
+    "AB",
+    "AE",
+    "AG",
+    "AH",
+    "AJ",
+    "BD",
+    "BE",
+    "BF",
+    "BG",
+    "BI",
+    "BJ",
+    "EC",
+    "ED",
+    "EF",
+    "EG",
+    "EH",
+    "EJ",
+    "FC",
+    "FI",
+    "GH",
+    "GJ",
+    "HD",
+    "HJ"
+  ],
+  "point_positions": {
+    "A": [
+      205.0,
+      119.0
+    ],
+    "B": [
+      0.0,
+      0.0
+    ],
+    "C": [
+      151.0,
+      54.0
+    ],
+    "D": [
+      1.0,
+      87.0
+    ],
+    "E": [
+      154.0,
+      90.0
+    ],
+    "F": [
+      153.0,
+      1.0
+    ],
+    "G": [
+      96.0,
+      56.0
+    ],
+    "H": [
+      109.0,
+      89.0
+    ],
+    "I": [
+      127.0,
+      4.0
+    ],
+    "J": [
+      176.0,
+      102.0
+    ]
+  },
+  "circle_instances": [
+    "C"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Y, W, X)), 52)",
+    "Equals(MeasureOf(Angle(W, X, Y)), 6y-2)",
+    "Equals(MeasureOf(Angle(W, Y, X)), 4x+20)",
+    "Equals(LengthOf(Line(W, X)), LengthOf(Line(W, Y)))"
+  ],
+  "line_instances": [
+    "WX",
+    "WY",
+    "XY"
+  ],
+  "point_positions": {
+    "W": [
+      0.0,
+      0.0
+    ],
+    "X": [
+      273.0,
+      82.0
+    ],
+    "Y": [
+      107.0,
+      272.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

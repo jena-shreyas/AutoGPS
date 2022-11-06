@@ -1,0 +1,48 @@
+{
+  "problem_text": "In the figure, m \\angle 8 = 96 and m \\angle 12 = 42. Find the measure of \\angle 9.",
+  "choices": [
+    "42",
+    "84",
+    "94",
+    "96"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_3.pdf",
+  "comment": "",
+  "id": 394,
+  "annot_id": "pan_2020-03-15_06_20_41",
+  "is_standard": false,
+  "compact_choices": [
+    "42",
+    "84",
+    "94",
+    "96"
+  ],
+  "precise_value": [
+    42.0,
+    84.0,
+    94.0,
+    96.0
+  ],
+  "rough_value": [
+    42,
+    84,
+    94,
+    96
+  ],
+  "compact_text": "In the figure, m \\angle 8 = 96 and m \\angle 12 = 42. Find the measure of \\angle 9.",
+  "annotat_text": "In the figure, $m\u22208 = 96$ and $m\u222012 = 42$. Find the measure of $\\angle 9$.",
+  "unit": "",
+  "img_width": 434,
+  "img_height": 293,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

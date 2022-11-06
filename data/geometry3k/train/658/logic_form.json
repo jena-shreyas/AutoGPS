@@ -1,0 +1,44 @@
+{
+  "text_logic_form": [
+    "Similar(Triangle($1),Triangle($2))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(V,G,C),Triangle(B,M,H))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, M)), 16)",
+    "Equals(LengthOf(Line(V, G)), 12)",
+    "Equals(LengthOf(Line(H, M)), 22)",
+    "Equals(LengthOf(Line(G, C)), x)",
+    "Equals(MeasureOf(Angle(V, G, C)), MeasureOf(Angle(B, M, H)))",
+    "Equals(MeasureOf(Angle(G, V, C)), MeasureOf(Angle(M, B, H)))",
+    ""
+  ],
+  "line_instances": [
+    "VG",
+    "GC",
+    "VC",
+    "BM",
+    "MH",
+    "BH"
+  ],
+  "point_positions": {
+    "B": [
+      73.0,
+      18.0
+    ],
+    "H": [
+      410.0,
+      189.0
+    ],
+    "M": [
+      1.0,
+      210.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

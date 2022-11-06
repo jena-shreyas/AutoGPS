@@ -1,0 +1,72 @@
+{
+  "text_logic_form": [
+    "IsIncenterOf(Point(Q),Triangle(J,K,L))",
+    "Find(MeasureOf(Angle(Q,J,K)))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsIncenterOf(Point(Q),Triangle(J,K,L))",
+    "Find(MeasureOf(Angle(Q,J,K)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(P, L, Q)), 26)",
+    "Equals(LengthOf(Line(J, P)), 20)",
+    "Equals(MeasureOf(Angle(M, K, Q)), 29)",
+    "Equals(LengthOf(Line(J, Q)), 25)",
+    "PointLiesOnLine(N, Line(J, K))",
+    "PointLiesOnLine(P, Line(J, L))",
+    "PointLiesOnLine(M, Line(K, L))",
+    "Perpendicular(Line(P, L), Line(P, Q))",
+    "Perpendicular(Line(M, L), Line(Q, M))",
+    "Perpendicular(Line(Q, N), Line(K, N))"
+  ],
+  "line_instances": [
+    "QK",
+    "QL",
+    "QM",
+    "QN",
+    "QP",
+    "JQ",
+    "JK",
+    "JL",
+    "JN",
+    "JP",
+    "KL",
+    "KM",
+    "KN",
+    "ML",
+    "PL"
+  ],
+  "point_positions": {
+    "J": [
+      1.0,
+      318.0
+    ],
+    "K": [
+      374.0,
+      311.0
+    ],
+    "L": [
+      260.0,
+      1.0
+    ],
+    "M": [
+      325.0,
+      174.0
+    ],
+    "N": [
+      229.0,
+      314.0
+    ],
+    "P": [
+      143.0,
+      144.0
+    ],
+    "Q": [
+      224.0,
+      209.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

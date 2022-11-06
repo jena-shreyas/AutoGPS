@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Triangle(A,B,C)",
+    "IsMedianOf(Line(B,D),Triangle(A,B,C))",
+    "Equals(LengthOf(Line(A,D)),3x+5)",
+    "Equals(LengthOf(Line(C,D)),5x-1)",
+    "Find(LengthOf(Line(A,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(A,B,C)",
+    "IsMedianOf(Line(B,D),Triangle(A,B,C))",
+    "Equals(LengthOf(Line(A,D)),3x+5)",
+    "Equals(LengthOf(Line(C,D)),5x-1)",
+    "Find(LengthOf(Line(A,C)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(D, Line(A, C))"
+  ],
+  "line_instances": [
+    "BD",
+    "BA",
+    "BC",
+    "DA",
+    "DC",
+    "AC"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "B": [
+      55.49622296050203,
+      1.5103868586193983
+    ],
+    "D": [
+      79.9203821656051,
+      156.5
+    ],
+    "A": [
+      0.12121212121212466,
+      156.33333333333331
+    ],
+    "C": [
+      157.11677282377917,
+      156.33333333333331
+    ]
+  }
+}

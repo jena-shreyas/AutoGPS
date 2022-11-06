@@ -1,0 +1,48 @@
+{
+  "problem_text": "The area A of the shaded region is given. Find x. A = 128 ft^2.",
+  "choices": [
+    "4.9",
+    "6.4",
+    "9.8",
+    "19.6"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 1422,
+  "annot_id": "pan_2020-03-23_02_58_55",
+  "is_standard": false,
+  "compact_choices": [
+    "4.9",
+    "6.4",
+    "9.8",
+    "19.6"
+  ],
+  "precise_value": [
+    4.9,
+    6.4,
+    9.8,
+    19.6
+  ],
+  "rough_value": [
+    4.9,
+    6.4,
+    9.8,
+    19.6
+  ],
+  "compact_text": "The area A of the shaded region is given. Find x. A = 128 ft^2.",
+  "annotat_text": "The area $A$ of the shaded region is given. Find $x$. $A = 128$ ft$^2$ .",
+  "unit": "",
+  "img_width": 235,
+  "img_height": 275,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

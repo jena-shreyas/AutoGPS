@@ -1,0 +1,48 @@
+{
+  "problem_text": "P M is a diameter of \\odot R. Find m \\widehat M N P.",
+  "choices": [
+    "120",
+    "140",
+    "160",
+    "180"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1591,
+  "annot_id": "Shibiao_2020-03-27_11_49_30",
+  "is_standard": false,
+  "compact_choices": [
+    "120",
+    "140",
+    "160",
+    "180"
+  ],
+  "precise_value": [
+    120.0,
+    140.0,
+    160.0,
+    180.0
+  ],
+  "rough_value": [
+    120,
+    140,
+    160,
+    180
+  ],
+  "compact_text": "PM is a diameter of \\odot R. Find m \\widehat MNP.",
+  "annotat_text": "$\\overline{PM}$ is a diameter of $\\odot R$. Find $m \\widehat {MNP}$.",
+  "unit": "",
+  "img_width": 528,
+  "img_height": 514,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

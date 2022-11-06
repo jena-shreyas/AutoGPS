@@ -1,0 +1,45 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Triangle(J,K,M)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Triangle(J,K,M)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(J, K)), 8.5)",
+    "Equals(LengthOf(Line(K, M)), 5)",
+    "Equals(LengthOf(Line(K, L)), 4)",
+    "Perpendicular(Line(K,L), Line(J,M))"
+  ],
+  "line_instances": [
+    "AL",
+    "JK",
+    "JM",
+    "KM"
+  ],
+  "point_positions": {
+    "A": [
+      262.0,
+      108.0
+    ],
+    "J": [
+      2.0,
+      129.0
+    ],
+    "K": [
+      240.0,
+      1.0
+    ],
+    "L": [
+      240.0,
+      110.0
+    ],
+    "M": [
+      317.0,
+      130.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Isosceles(Triangle(D,F,G))",
+    "Isosceles(Triangle(F,G,H))",
+    "Equals(MeasureOf(Angle(F,D,H)),28)",
+    "Equals(LengthOf(Line(D,G)),Line(F,G))",
+    "Equals(LengthOf(Line(F,G)),Line(F,H))",
+    "Find(MeasureOf(Angle(D,F,G)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Triangle(D,F,G))",
+    "Isosceles(Triangle(F,G,H))",
+    "Equals(MeasureOf(Angle(F,D,H)),28)",
+    "Equals(LengthOf(Line(D,G)),Line(F,G))",
+    "Equals(LengthOf(Line(F,G)),Line(F,H))",
+    "Find(MeasureOf(Angle(D,F,G)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(F, D, H)), 28)",
+    "PointLiesOnLine(G, Line(D, H))",
+    "Equals(LengthOf(Line(F, G)), LengthOf(Line(H, F)))",
+    "Equals(LengthOf(Line(H, A)), LengthOf(Line(D, G)))"
+  ],
+  "line_instances": [
+    "DG",
+    "DH",
+    "FD",
+    "FG",
+    "FH",
+    "HG"
+  ],
+  "point_positions": {
+    "D": [
+      1.0,
+      105.0
+    ],
+    "F": [
+      193.0,
+      2.0
+    ],
+    "G": [
+      160.0,
+      106.0
+    ],
+    "H": [
+      227.0,
+      106.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

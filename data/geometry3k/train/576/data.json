@@ -1,0 +1,48 @@
+{
+  "problem_text": "If M D = 7, find R I.",
+  "choices": [
+    "7",
+    "14",
+    "21",
+    "28"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter10.pdf page 24",
+  "comment": "",
+  "id": 576,
+  "annot_id": "Ran_2020-03-28_03_42_25",
+  "is_standard": false,
+  "compact_choices": [
+    "7",
+    "14",
+    "21",
+    "28"
+  ],
+  "precise_value": [
+    7.0,
+    14.0,
+    21.0,
+    28.0
+  ],
+  "rough_value": [
+    7,
+    14,
+    21,
+    28
+  ],
+  "compact_text": "If MD = 7, find RI.",
+  "annotat_text": "If $M D=7,$ find $R I$",
+  "unit": "",
+  "img_width": 254,
+  "img_height": 256,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

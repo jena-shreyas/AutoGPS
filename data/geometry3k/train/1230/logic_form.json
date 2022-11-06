@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Equals(Line(A,D),AltitudeOf(Triangle(A,B,C)))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(Line(A,D),AltitudeOf(Triangle(A,B,C)))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, C)), x+7)",
+    "Equals(MeasureOf(Angle(A, D, C)), 4x-6)",
+    "Equals(LengthOf(Line(D, B)), 2x-15)",
+    "PointLiesOnLine(D, Line(B, C))",
+    "Perpendicular(Line(A, D), Line(D, B))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "BC",
+    "DB",
+    "DC"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      87.0
+    ],
+    "B": [
+      328.0,
+      182.0
+    ],
+    "C": [
+      328.0,
+      2.0
+    ],
+    "D": [
+      328.0,
+      88.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

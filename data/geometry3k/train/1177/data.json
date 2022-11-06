@@ -1,0 +1,48 @@
+{
+  "problem_text": "The area of trapezoid J K L M is 138 square feet. The area of trapezoid Q R S T is 5.52 square feet. If trapezoid J K L M \\sim trapezoid Q R S T, find the scale factor from trapezoid J K L M to trapezoid Q R S T.",
+  "choices": [
+    "\\frac { 1 } { 25 }",
+    "\\frac { 1 } { 5 }",
+    "5",
+    "25"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Trapezoid"
+  ],
+  "problem_type_goal": [
+    "Ratio"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 1177,
+  "annot_id": "pan_2020-03-23_08_27_05",
+  "is_standard": false,
+  "compact_choices": [
+    "\\frac{1}{25}",
+    "\\frac{1}{5}",
+    "5",
+    "25"
+  ],
+  "precise_value": [
+    0.04,
+    0.2,
+    5.0,
+    25.0
+  ],
+  "rough_value": [
+    0.04,
+    0.2,
+    5,
+    25
+  ],
+  "compact_text": "The area of trapezoid JKLM is 138 square feet. The area of trapezoid QRST is 5.52 square feet. If trapezoid JKLM \\sim trapezoid QRST, find the scale factor from trapezoid JKLM to trapezoid QRST.",
+  "annotat_text": "The area of trapezoid $JKLM$ is 138 square feet. The area of trapezoid $QRST$ is 5.52 square feet. If trapezoid $J K L M$ $ \\sim$ trapezoid $QRST$, find the scale factor from trapezoid $JKLM$ to trapezoid $QRST$.",
+  "unit": "",
+  "img_width": 573,
+  "img_height": 211,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

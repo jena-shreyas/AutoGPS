@@ -1,0 +1,48 @@
+{
+  "problem_text": "\\triangle N D G \\cong \\triangle L G D. Find x.",
+  "choices": [
+    "36",
+    "54",
+    "60",
+    "77"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_4.pdf",
+  "comment": "",
+  "id": 1800,
+  "annot_id": "Shibiao_2020-03-21_16_28_07",
+  "is_standard": false,
+  "compact_choices": [
+    "36",
+    "54",
+    "60",
+    "77"
+  ],
+  "precise_value": [
+    36.0,
+    54.0,
+    60.0,
+    77.0
+  ],
+  "rough_value": [
+    36,
+    54,
+    60,
+    77
+  ],
+  "compact_text": "\\triangle NDG \\cong \\triangle LGD. Find x.",
+  "annotat_text": "$\\triangle NDG \\cong \\triangle LGD$. Find $x$.",
+  "unit": "",
+  "img_width": 976,
+  "img_height": 428,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

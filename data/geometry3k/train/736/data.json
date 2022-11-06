@@ -1,0 +1,50 @@
+{
+  "problem_text": "Find the area of the blue region.",
+  "choices": [
+    "85.8",
+    "114.2",
+    "214.2",
+    "228.4"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Square",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "",
+  "id": 736,
+  "annot_id": "pan_2020-03-22_06_48_48",
+  "is_standard": false,
+  "unit": "units^2",
+  "compact_choices": [
+    "85.8",
+    "114.2",
+    "214.2",
+    "228.4"
+  ],
+  "precise_value": [
+    85.8,
+    114.2,
+    214.2,
+    228.4
+  ],
+  "rough_value": [
+    85.8,
+    114.2,
+    214.2,
+    228.4
+  ],
+  "compact_text": "Find the area of the blue region.",
+  "annotat_text": "Find the area of the blue region.",
+  "img_width": 323,
+  "img_height": 257,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

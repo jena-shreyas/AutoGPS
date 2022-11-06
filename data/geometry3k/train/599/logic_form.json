@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Similar(Shape($1),Shape($2))",
+    "Find(AreaOf(Green(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Rectangle(A,B,C,D),Rectangle(E,F,G,H))",
+    "Find(AreaOf(Green(Rectangle(E,F,G,H))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, C)), 8)",
+    "Equals(LengthOf(Line(G, H)), 5)",
+    "Equals(AreaOf(Rectangle(A,B,C,D)), 32)"
+  ],
+  "line_instances": [
+    "AB",
+    "AD",
+    "BC",
+    "DC",
+    "EF",
+    "FG",
+    "GH",
+    "HE"
+  ],
+  "point_positions": {
+    "A": [
+      90.0,
+      2.0
+    ],
+    "B": [
+      91.0,
+      161.0
+    ],
+    "C": [
+      0.0,
+      160.0
+    ],
+    "D": [
+      2.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

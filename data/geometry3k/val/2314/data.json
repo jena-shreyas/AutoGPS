@@ -1,0 +1,48 @@
+{
+  "problem_text": "If \\sin x = 0.6 and A B = 12, what is the area of \\triangle A B C?",
+  "choices": [
+    "9.6",
+    "28.8",
+    "31.2",
+    "34.6"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "Standardized Test Practice, SAT/ACT",
+  "id": 2314,
+  "annot_id": "pan_2020-03-25_21_07_16",
+  "is_standard": true,
+  "unit": "units^2",
+  "compact_choices": [
+    "9.6",
+    "28.8",
+    "31.2",
+    "34.6"
+  ],
+  "precise_value": [
+    9.6,
+    28.8,
+    31.2,
+    34.6
+  ],
+  "rough_value": [
+    9.6,
+    28.8,
+    31.2,
+    34.6
+  ],
+  "compact_text": "If \\sin x = 0.6 and AB = 12, what is the area of \\triangle ABC?",
+  "annotat_text": "If $\\sin x=0.6$ and $A B=12,$ what is the area of $\\triangle A B C ?$",
+  "img_width": 348,
+  "img_height": 234,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find y. Round to the nearest tenth, if necessary.",
+  "choices": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line",
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter10.pdf page 54",
+  "comment": "",
+  "id": 2109,
+  "annot_id": "Ran_2020-03-29_05_09_51",
+  "is_standard": false,
+  "compact_choices": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "precise_value": [
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "rough_value": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "compact_text": "Find y. Round to the nearest tenth, if necessary.",
+  "annotat_text": "Find y. Round to the nearest tenth, if necessary.",
+  "unit": "",
+  "img_width": 293,
+  "img_height": 238,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

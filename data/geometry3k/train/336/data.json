@@ -1,0 +1,48 @@
+{
+  "problem_text": "If m \\angle S = 3 x and m \\angle V = x + 16, find m \\angle S.",
+  "choices": [
+    "16",
+    "24",
+    "32",
+    "48"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 336,
+  "annot_id": "Shibiao_2020-03-28_08_53_54",
+  "is_standard": false,
+  "compact_choices": [
+    "16",
+    "24",
+    "32",
+    "48"
+  ],
+  "precise_value": [
+    16.0,
+    24.0,
+    32.0,
+    48.0
+  ],
+  "rough_value": [
+    16,
+    24,
+    32,
+    48
+  ],
+  "compact_text": "If m \\angle S = 3x and m \\angle V = x+16, find m \\angle S.",
+  "annotat_text": "If $m \\angle S=3x$ and $m \\angle V=x+16$, find $m \\angle S$.",
+  "unit": "",
+  "img_width": 667,
+  "img_height": 473,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

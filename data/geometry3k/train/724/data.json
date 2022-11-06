@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the value of the variable x in the figure.",
+  "choices": [
+    "86",
+    "94",
+    "96",
+    "114"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_3.pdf",
+  "comment": "",
+  "id": 724,
+  "annot_id": "pan_2020-03-14_00_50_47",
+  "is_standard": false,
+  "compact_choices": [
+    "86",
+    "94",
+    "96",
+    "114"
+  ],
+  "precise_value": [
+    86.0,
+    94.0,
+    96.0,
+    114.0
+  ],
+  "rough_value": [
+    86,
+    94,
+    96,
+    114
+  ],
+  "compact_text": "Find the value of the variable x in the figure.",
+  "annotat_text": "Find the value of the variable $x$ in the figure.",
+  "unit": "",
+  "img_width": 413,
+  "img_height": 330,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,75 @@
+{
+  "text_logic_form": [
+    "IsIncenterOf(Point(J),Angle(A,B,C))",
+    "Find(LengthOf(Line(J,F)))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsIncenterOf(Point(J),Angle(A,B,C))",
+    "Find(LengthOf(Line(J,F)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(G, C, B)), 32)",
+    "Equals(MeasureOf(Angle(G, B, A)), 34)",
+    "Equals(LengthOf(Line(A, G)), 15)",
+    "Equals(LengthOf(Line(A, E)), 12)",
+    "PointLiesOnLine(E, Line(B, A))",
+    "PointLiesOnLine(D, Line(B, C))",
+    "PointLiesOnLine(F, Line(A, C))",
+    "PointLiesOnLine(G, Line(A, D))",
+    "Perpendicular(Line(C, D), Line(G, D))",
+    "Perpendicular(Line(G, E), Line(A, E))",
+    "Perpendicular(Line(G, F), Line(A, F))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AE",
+    "AG",
+    "BA",
+    "BC",
+    "BD",
+    "BE",
+    "BG",
+    "CD",
+    "FA",
+    "FB",
+    "FC",
+    "FG",
+    "GC",
+    "GD",
+    "GE"
+  ],
+  "point_positions": {
+    "A": [
+      352.0,
+      448.0
+    ],
+    "B": [
+      2.0,
+      188.0
+    ],
+    "C": [
+      309.0,
+      1.0
+    ],
+    "D": [
+      151.0,
+      97.0
+    ],
+    "E": [
+      140.0,
+      291.0
+    ],
+    "F": [
+      327.0,
+      186.0
+    ],
+    "G": [
+      209.0,
+      196.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

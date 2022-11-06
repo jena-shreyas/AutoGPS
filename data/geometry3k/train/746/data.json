@@ -1,0 +1,48 @@
+{
+  "problem_text": "In the figure, C P is an altitude, C Q is the angle bisector of \\angle A C B, and R is the midpoint of A B. Find A B if A R = 3 x + 6 and R B = 5 x - 14.",
+  "choices": [
+    "66",
+    "68",
+    "70",
+    "72"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "Textbook 2_Chapter 5 - Relationships in Triangles.pdf",
+  "comment": "",
+  "id": 746,
+  "annot_id": "pan_2020-03-19_05_19_21",
+  "is_standard": false,
+  "compact_choices": [
+    "66",
+    "68",
+    "70",
+    "72"
+  ],
+  "precise_value": [
+    66.0,
+    68.0,
+    70.0,
+    72.0
+  ],
+  "rough_value": [
+    66,
+    68,
+    70,
+    72
+  ],
+  "compact_text": "In the figure, CP is an altitude, CQ is the angle bisector of \\angle ACB, and R is the midpoint of AB. Find AB if AR = 3x+6 and RB = 5x-14.",
+  "annotat_text": "In the figure, $\\overline{CP}$ is an altitude, $\\overline{CQ}$ is the angle bisector of $\u2220ACB$, and $R$ is the midpoint of $\\overline{AB}$. Find  $AB$ if $AR=3x+6$ and $RB = 5x - 14 $.",
+  "unit": "",
+  "img_width": 363,
+  "img_height": 267,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

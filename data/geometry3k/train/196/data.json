@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x to the nearest tenth.",
+  "choices": [
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 196,
+  "annot_id": "pan_2020-03-27_21_10_13",
+  "is_standard": false,
+  "compact_choices": [
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "precise_value": [
+    7.0,
+    8.0,
+    9.0,
+    10.0
+  ],
+  "rough_value": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "compact_text": "Find x to the nearest tenth.",
+  "annotat_text": "Find x to the nearest tenth. Assume that segments that appear to be tangent are tangent.",
+  "unit": "",
+  "img_width": 296,
+  "img_height": 267,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

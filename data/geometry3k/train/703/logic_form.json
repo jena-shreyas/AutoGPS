@@ -1,0 +1,60 @@
+{
+  "text_logic_form": [
+    "Quadrilateral(A,B,C,D)",
+    "Equals(LengthOf(Line(A,C)),188)",
+    "Equals(LengthOf(Line(B,D)),214)",
+    "Equals(MeasureOf(Angle(B,P,C)),70)",
+    "IsMidpointOf(Point(P),Line(A,C))",
+    "Line(B,D)",
+    "Find(PerimeterOf(Quadrilateral(A,B,C,D)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Quadrilateral(A,B,C,D)",
+    "Equals(LengthOf(Line(A,C)),188)",
+    "Equals(LengthOf(Line(B,D)),214)",
+    "Equals(MeasureOf(Angle(B,P,C)),70)",
+    "IsMidpointOf(Point(P),Line(A,C))",
+    "Line(B,D)",
+    "Find(PerimeterOf(Quadrilateral(A,B,C,D)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(P, Line(A, C))",
+    "PointLiesOnLine(P, Line(B, D))",
+    "Equals(LengthOf(Line(A, D)), LengthOf(Line(B, C)))"
+  ],
+  "line_instances": [
+    "AB",
+    "AD",
+    "AC",
+    "AP",
+    "BD",
+    "BC",
+    "BP",
+    "DC",
+    "DP",
+    "CP"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      70.39310632518216,
+      11.601040908208311
+    ],
+    "B": [
+      300.82000039218,
+      11.895621662940854
+    ],
+    "D": [
+      0.45623306560011656,
+      147.49804191817339
+    ],
+    "C": [
+      231.66786671653887,
+      145.00464434885606
+    ],
+    "P": [
+      150.5,
+      79.5
+    ]
+  }
+}

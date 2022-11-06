@@ -1,0 +1,40 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(C, D, G)), 78)",
+    "Equals(MeasureOf(Angle(G, D, E)), x)",
+    "PointLiesOnLine(D, Line(C, E))"
+  ],
+  "line_instances": [
+    "CD",
+    "CE",
+    "DE",
+    "DG"
+  ],
+  "point_positions": {
+    "C": [
+      6.0,
+      132.0
+    ],
+    "D": [
+      217.0,
+      131.0
+    ],
+    "E": [
+      395.0,
+      131.0
+    ],
+    "G": [
+      173.0,
+      9.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Blue(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Blue(Sector(A,B,D))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(DiameterOf(Circle(A))), 10)",
+    "Equals(MeasureOf(Angle(B, A, D)), 80)",
+    "Equals(MeasureOf(Angle(E, A, B)), 64)",
+    "Equals(MeasureOf(Angle(L, A, E)), 40)",
+    "Equals(MeasureOf(Angle(D, A, C)), 112)",
+    "Equals(MeasureOf(Angle(C, A, L)), 64)",
+    "PointLiesOnCircle(L, Circle(A, radius_1_0))",
+    "PointLiesOnCircle(B, Circle(A, radius_1_0))",
+    "PointLiesOnCircle(C, Circle(A, radius_1_0))",
+    "PointLiesOnCircle(D, Circle(A, radius_1_0))",
+    "PointLiesOnCircle(E, Circle(A, radius_1_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AL"
+  ],
+  "point_positions": {
+    "A": [
+      112.0,
+      115.0
+    ],
+    "B": [
+      69.0,
+      216.0
+    ],
+    "C": [
+      177.0,
+      22.0
+    ],
+    "D": [
+      3.0,
+      89.0
+    ],
+    "E": [
+      186.0,
+      197.0
+    ],
+    "L": [
+      223.0,
+      129.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

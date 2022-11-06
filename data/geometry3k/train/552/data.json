@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find y if \\triangle J L M \\sim \\triangle Q S T.",
+  "choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "! two subgraph",
+  "id": 552,
+  "annot_id": "Shibiao_2020-03-22_09_22_46",
+  "is_standard": false,
+  "compact_choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "precise_value": [
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "rough_value": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "compact_text": "Find y if \\triangle JLM \\sim \\triangle QST.",
+  "annotat_text": "Find $y$ if $\\triangle JLM \\sim \\triangle QST$.",
+  "unit": "",
+  "img_width": 951,
+  "img_height": 449,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

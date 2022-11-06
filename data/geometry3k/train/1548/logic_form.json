@@ -1,0 +1,63 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, C)), 9)",
+    "Equals(LengthOf(Line(R, O)), 14)",
+    "Equals(LengthOf(Line(P, O)), x)",
+    "Equals(LengthOf(Line(P, Q)), y)",
+    "Equals(LengthOf(Line(A, Y)), 18)",
+    "Equals(LengthOf(Line(Y, B)), 21)"
+  ],
+  "line_instances": [
+    "AC",
+    "AY",
+    "CB",
+    "YB",
+    "OP",
+    "PQ",
+    "QR",
+    "RO"
+  ],
+  "point_positions": {
+    "A": [
+      74.0,
+      2.0
+    ],
+    "B": [
+      252.0,
+      218.0
+    ],
+    "C": [
+      183.0,
+      3.0
+    ],
+    "Y": [
+      1.0,
+      218.0
+    ],
+    "O": [
+      -100.0,
+      70.0
+    ],
+    "P": [
+      -150.0,
+      180.0
+    ],
+    "Q": [
+      -250.0,
+      180.0
+    ],
+    "R": [
+      -300.0,
+      70.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

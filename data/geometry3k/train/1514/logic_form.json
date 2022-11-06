@@ -1,0 +1,94 @@
+{
+  "text_logic_form": [
+    "Triangle(G,H,J)",
+    "Equals(LengthOf(Line(H,P)),5x-16)",
+    "Equals(LengthOf(Line(P,J)),3x+8)",
+    "Equals(MeasureOf(Angle(G,J,N)),6y-3)",
+    "Equals(MeasureOf(Angle(N,J,H)),4y+23)",
+    "Equals(MeasureOf(Angle(H,M,G)),4z+14)",
+    "Equals(Line(H,M),AltitudeOf(Angle(G,H,J)))",
+    "Find(z)"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(G,H,J)",
+    "Equals(LengthOf(Line(H,P)),5x-16)",
+    "Equals(LengthOf(Line(P,J)),3x+8)",
+    "Equals(MeasureOf(Angle(G,J,N)),6y-3)",
+    "Equals(MeasureOf(Angle(N,J,H)),4y+23)",
+    "Equals(MeasureOf(Angle(H,M,G)),4z+14)",
+    "Equals(Line(H,M),AltitudeOf(Angle(G,H,J)))",
+    "Find(z)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(N, Line(H, G))",
+    "PointLiesOnLine(P, Line(H, J))",
+    "PointLiesOnLine(B, Line(H, M))",
+    "PointLiesOnLine(M, Line(G, J))",
+    "PointLiesOnLine(A, Line(G, P))",
+    "PointLiesOnLine(A, Line(J, N))"
+  ],
+  "line_instances": [
+    "AB",
+    "AM",
+    "AN",
+    "AP",
+    "GA",
+    "GB",
+    "GJ",
+    "GM",
+    "GN",
+    "GP",
+    "HA",
+    "HB",
+    "HG",
+    "HJ",
+    "HM",
+    "HN",
+    "HP",
+    "JA",
+    "JB",
+    "JM",
+    "JN",
+    "JP",
+    "MB",
+    "NB",
+    "PB"
+  ],
+  "point_positions": {
+    "A": [
+      168.0,
+      74.0
+    ],
+    "B": [
+      181.0,
+      82.0
+    ],
+    "G": [
+      3.0,
+      52.0
+    ],
+    "H": [
+      218.0,
+      2.0
+    ],
+    "J": [
+      231.0,
+      161.0
+    ],
+    "M": [
+      160.0,
+      128.0
+    ],
+    "N": [
+      132.0,
+      22.0
+    ],
+    "P": [
+      225.0,
+      81.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

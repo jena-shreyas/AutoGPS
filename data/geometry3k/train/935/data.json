@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find y.",
+  "choices": [
+    "\\sqrt { 285 }",
+    "\\sqrt { 510 }",
+    "2 \\sqrt { 285 }",
+    "2 \\sqrt { 510 }"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_8.pdf",
+  "comment": "",
+  "id": 935,
+  "annot_id": "pan_2020-03-24_04_22_53",
+  "is_standard": false,
+  "compact_choices": [
+    "\\sqrt{285}",
+    "\\sqrt{510}",
+    "2\\sqrt{285}",
+    "2\\sqrt{510}"
+  ],
+  "precise_value": [
+    16.881943016134134,
+    22.58317958127243,
+    33.76388603226827,
+    45.16635916254486
+  ],
+  "rough_value": [
+    16.88,
+    22.58,
+    33.76,
+    45.17
+  ],
+  "compact_text": "Find y.",
+  "annotat_text": "Find y.",
+  "unit": "",
+  "img_width": 296,
+  "img_height": 286,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

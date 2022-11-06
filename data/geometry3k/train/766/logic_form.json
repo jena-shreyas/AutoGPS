@@ -1,0 +1,64 @@
+{
+  "text_logic_form": [
+    "Equals(Line(R,V),BaseOf(Trapezoid(R,S,T,V)))",
+    "Equals(Line(S,T),BaseOf(Trapezoid(R,S,T,V)))",
+    "IsMedianOf(Line(M,N),Trapezoid(R,S,T,V))",
+    "Equals(LengthOf(Line(M,N)),60)",
+    "Equals(LengthOf(Line(S,T)),4x-1)",
+    "Equals(LengthOf(Line(R,V)),6x+11)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(Line(R,V),BaseOf(Trapezoid(R,S,T,V)))",
+    "Equals(Line(S,T),BaseOf(Trapezoid(R,S,T,V)))",
+    "IsMedianOf(Line(M,N),Trapezoid(R,S,T,V))",
+    "Equals(LengthOf(Line(M,N)),60)",
+    "Equals(LengthOf(Line(S,T)),4x-1)",
+    "Equals(LengthOf(Line(R,V)),6x+11)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(M, Line(R, S))",
+    "PointLiesOnLine(N, Line(T, V))"
+  ],
+  "line_instances": [
+    "NT",
+    "NV",
+    "ST",
+    "MN",
+    "MS",
+    "MR",
+    "RS",
+    "RV",
+    "TV"
+  ],
+  "point_positions": {
+    "M": [
+      6.0,
+      56.0
+    ],
+    "N": [
+      163.0,
+      55.0
+    ],
+    "R": [
+      0.0,
+      0.0
+    ],
+    "S": [
+      12.0,
+      108.0
+    ],
+    "T": [
+      96.0,
+      109.0
+    ],
+    "V": [
+      218.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

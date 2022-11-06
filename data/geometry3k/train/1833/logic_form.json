@@ -1,0 +1,161 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(4)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(4)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(N, C, A)), MeasureOf(angle 8))",
+    "Equals(MeasureOf(Angle(C, E, B)), 110)",
+    "Equals(MeasureOf(Angle(A, E, C)), MeasureOf(angle 7))",
+    "Equals(MeasureOf(Angle(C, A, B)), MeasureOf(angle 6))",
+    "Equals(MeasureOf(Angle(N, E, D)), MeasureOf(angle 5))",
+    "Equals(MeasureOf(Angle(E, A, H)), MeasureOf(angle 4))",
+    "Equals(MeasureOf(Angle(M, A, F)), MeasureOf(angle 3))",
+    "Equals(MeasureOf(Angle(G, N, C)), 30)",
+    "Equals(MeasureOf(Angle(E, N, J)), 130)",
+    "Equals(MeasureOf(Angle(A, F, N)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(F, N, A)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(F, C, N)), MeasureOf(Angle(A, F, N)))",
+    "PointLiesOnLine(A, Line(N, G))",
+    "PointLiesOnLine(E, Line(A, B))",
+    "PointLiesOnLine(B, Line(A, I))",
+    "PointLiesOnLine(E, Line(A, I))",
+    "PointLiesOnLine(K, Line(A, I))",
+    "PointLiesOnLine(B, Line(A, K))",
+    "PointLiesOnLine(E, Line(A, K))",
+    "PointLiesOnLine(N, Line(A, M))",
+    "PointLiesOnLine(A, Line(C, F))",
+    "PointLiesOnLine(B, Line(E, I))",
+    "PointLiesOnLine(K, Line(E, I))",
+    "PointLiesOnLine(B, Line(E, K))",
+    "PointLiesOnLine(A, Line(E, L))",
+    "PointLiesOnLine(N, Line(F, J))",
+    "PointLiesOnLine(A, Line(G, H))",
+    "PointLiesOnLine(N, Line(G, M))",
+    "PointLiesOnLine(A, Line(G, M))",
+    "PointLiesOnLine(E, Line(B, D))",
+    "PointLiesOnLine(K, Line(B, I))",
+    "PointLiesOnLine(A, Line(B, L))",
+    "PointLiesOnLine(E, Line(B, L))",
+    "PointLiesOnLine(B, Line(D, I))",
+    "PointLiesOnLine(E, Line(D, I))",
+    "PointLiesOnLine(K, Line(D, I))",
+    "PointLiesOnLine(B, Line(D, K))",
+    "PointLiesOnLine(E, Line(D, K))",
+    "PointLiesOnLine(A, Line(I, L))",
+    "PointLiesOnLine(B, Line(I, L))",
+    "PointLiesOnLine(E, Line(I, L))",
+    "PointLiesOnLine(K, Line(I, L))",
+    "PointLiesOnLine(A, Line(K, L))",
+    "PointLiesOnLine(B, Line(K, L))",
+    "PointLiesOnLine(E, Line(K, L))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AF",
+    "AG",
+    "AH",
+    "AI",
+    "AK",
+    "AL",
+    "AM",
+    "BD",
+    "BI",
+    "BK",
+    "BL",
+    "CE",
+    "CF",
+    "DI",
+    "DK",
+    "DL",
+    "EB",
+    "ED",
+    "EI",
+    "EK",
+    "EL",
+    "FJ",
+    "GD",
+    "GH",
+    "GM",
+    "HJ",
+    "HM",
+    "IK",
+    "IL",
+    "JM",
+    "KL",
+    "NA",
+    "NC",
+    "NE",
+    "NF",
+    "NG",
+    "NH",
+    "NJ",
+    "NM"
+  ],
+  "point_positions": {
+    "A": [
+      133.0,
+      186.0
+    ],
+    "B": [
+      476.0,
+      63.0
+    ],
+    "C": [
+      219.0,
+      0.0
+    ],
+    "D": [
+      23.0,
+      230.0
+    ],
+    "E": [
+      325.0,
+      120.0
+    ],
+    "F": [
+      73.0,
+      313.0
+    ],
+    "G": [
+      47.0,
+      155.0
+    ],
+    "H": [
+      531.0,
+      326.0
+    ],
+    "I": [
+      519.0,
+      49.0
+    ],
+    "J": [
+      556.0,
+      315.0
+    ],
+    "K": [
+      498.0,
+      57.0
+    ],
+    "L": [
+      3.0,
+      233.0
+    ],
+    "M": [
+      551.0,
+      339.0
+    ],
+    "N": [
+      484.0,
+      314.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

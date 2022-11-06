@@ -1,0 +1,60 @@
+{
+  "text_logic_form": [
+    "Trapezoid(R,S,T,V)",
+    "IsMidpointOf(Point(A),LegOf(Trapezoid(R,S,T,V)))",
+    "IsMidpointOf(Point(B),LegOf(Trapezoid(R,S,T,V)))",
+    "Find(LengthOf(Line(V,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Trapezoid(R,S,T,V)",
+    "IsMidpointOf(Point(A),LegOf(Trapezoid(R,S,T,V)))",
+    "IsMidpointOf(Point(B),LegOf(Trapezoid(R,S,T,V)))",
+    "Find(LengthOf(Line(V,T)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(R, C)), 26)",
+    "Equals(LengthOf(Line(A, B)), 15)",
+    "PointLiesOnLine(A, Line(V, R))",
+    "PointLiesOnLine(B, Line(T, C))"
+  ],
+  "line_instances": [
+    "AB",
+    "CB",
+    "RA",
+    "RC",
+    "TB",
+    "TC",
+    "VA",
+    "VR",
+    "VT"
+  ],
+  "point_positions": {
+    "A": [
+      45.0,
+      48.0
+    ],
+    "B": [
+      175.0,
+      52.0
+    ],
+    "C": [
+      222.0,
+      1.0
+    ],
+    "R": [
+      0.0,
+      0.0
+    ],
+    "T": [
+      129.0,
+      102.0
+    ],
+    "V": [
+      96.0,
+      103.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "text_logic_form": [
+    "Triangle(J,L,P)",
+    "Equals(MeasureOf(Angle(J,M,P)),3x-6)",
+    "Equals(LengthOf(Line(J,K)),3y-2)",
+    "Equals(LengthOf(Line(L,K)),5y-8)",
+    "IsMedianOf(Line(P,K),Shape($))",
+    "Find(LengthOf(Line(L,K)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(J,L,P)",
+    "Equals(MeasureOf(Angle(J,M,P)),3x-6)",
+    "Equals(LengthOf(Line(J,K)),3y-2)",
+    "Equals(LengthOf(Line(L,K)),5y-8)",
+    "IsMedianOf(Line(P,K),Shape(J, L, P))",
+    "Find(LengthOf(Line(L,K)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(M, Line(P, L))",
+    "PointLiesOnLine(B, Line(P, K))",
+    "PointLiesOnLine(K, Line(J, L))",
+    "PointLiesOnLine(A, Line(J, L))",
+    "PointLiesOnLine(B, Line(J, M))",
+    "PointLiesOnLine(K, Line(J, A))",
+    "PointLiesOnLine(A, Line(L, K))"
+  ],
+  "line_instances": [
+    "BA",
+    "JA",
+    "JB",
+    "JK",
+    "JL",
+    "JM",
+    "KA",
+    "KB",
+    "LA",
+    "LK",
+    "LM",
+    "MB",
+    "PB",
+    "PJ",
+    "PK",
+    "PL",
+    "PM"
+  ],
+  "point_positions": {
+    "A": [
+      204.0,
+      89.0
+    ],
+    "B": [
+      218.0,
+      125.0
+    ],
+    "J": [
+      1.0,
+      233.0
+    ],
+    "K": [
+      179.0,
+      107.0
+    ],
+    "L": [
+      331.0,
+      3.0
+    ],
+    "M": [
+      359.0,
+      55.0
+    ],
+    "P": [
+      455.0,
+      233.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

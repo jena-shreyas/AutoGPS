@@ -1,0 +1,77 @@
+{
+  "text_logic_form": [
+    "Triangle(J,L,P)",
+    "Equals(MeasureOf(Angle(J,M,P)),3x-6)",
+    "Equals(LengthOf(Line(J,K)),3y-2)",
+    "Equals(LengthOf(Line(L,K)),5y-8)",
+    "Equals(Line(J,M),AltitudeOf(Triangle(J,L,P)))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(J,L,P)",
+    "Equals(MeasureOf(Angle(J,M,P)),3x-6)",
+    "Equals(LengthOf(Line(J,K)),3y-2)",
+    "Equals(LengthOf(Line(L,K)),5y-8)",
+    "Equals(Line(J,M),AltitudeOf(Triangle(J,L,P)))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(M, Line(P, L))",
+    "PointLiesOnLine(A, Line(P, K))",
+    "PointLiesOnLine(B, Line(J, L))",
+    "PointLiesOnLine(K, Line(J, L))",
+    "PointLiesOnLine(A, Line(J, M))",
+    "PointLiesOnLine(K, Line(J, B))",
+    "PointLiesOnLine(B, Line(L, K))"
+  ],
+  "line_instances": [
+    "PA",
+    "PJ",
+    "PL",
+    "PM",
+    "PK",
+    "AJ",
+    "AM",
+    "AB",
+    "AK",
+    "JL",
+    "JM",
+    "JB",
+    "JK",
+    "LM",
+    "LB",
+    "LK",
+    "KB"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "P": [
+      454.711070060208,
+      232.5
+    ],
+    "A": [
+      218.4277368554737,
+      124.999618999238
+    ],
+    "J": [
+      0.5731301538313289,
+      232.5
+    ],
+    "L": [
+      330.5068980729884,
+      2.5333361343913907
+    ],
+    "M": [
+      359.34080869860685,
+      55.325933476799946
+    ],
+    "B": [
+      203.66880616174583,
+      89.21566110397947
+    ],
+    "K": [
+      178.83448549410699,
+      106.9244390299184
+    ]
+  }
+}

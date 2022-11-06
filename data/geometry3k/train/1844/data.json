@@ -1,0 +1,48 @@
+{
+  "problem_text": "Triangle L M N is equilateral, and M P bisects L N. Find x.",
+  "choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "",
+  "id": 1844,
+  "annot_id": "pan_2020-03-18_07_46_52",
+  "is_standard": false,
+  "compact_choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "precise_value": [
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "rough_value": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "compact_text": "Triangle LMN is equilateral, and MP bisects LN. Find x.",
+  "annotat_text": "Triangle $LMN$ is equilateral, and $\\overline{MP}$ bisects $\\overline{LN}$. Find $x$.",
+  "unit": "",
+  "img_width": 295,
+  "img_height": 237,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find x if \\triangle J M N is an isosceles triangle with J M \\cong M N.",
+  "choices": [
+    "2",
+    "3",
+    "4",
+    "4"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle",
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "",
+  "id": 1823,
+  "annot_id": "pan_2020-03-17_07_35_30",
+  "is_standard": false,
+  "compact_choices": [
+    "2",
+    "3",
+    "4",
+    "4"
+  ],
+  "precise_value": [
+    2.0,
+    3.0,
+    4.0,
+    4.0
+  ],
+  "rough_value": [
+    2,
+    3,
+    4,
+    4
+  ],
+  "compact_text": "Find x if \\triangle JMN is an isosceles triangle with JM \\cong MN.",
+  "annotat_text": "Find $x$ if $\\triangle JMN$ is an isosceles triangle with $\\overline{JM} \\cong \\overline{M N}$.",
+  "unit": "",
+  "img_width": 267,
+  "img_height": 275,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

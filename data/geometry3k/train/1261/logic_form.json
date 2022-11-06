@@ -1,0 +1,38 @@
+{
+  "text_logic_form": [
+    "Right(Triangle($))",
+    "Equals(LengthOf(Line(B,C)),6)",
+    "Find(LengthOf(Line(A,B)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Right(Triangle(A, C, B))",
+    "Equals(LengthOf(Line(B,C)),6)",
+    "Find(LengthOf(Line(A,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(B, A, C)), 4x)",
+    "Equals(MeasureOf(Angle(C, B, A)), 2x)"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "CB"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      2.0
+    ],
+    "B": [
+      213.0,
+      125.0
+    ],
+    "C": [
+      2.0,
+      124.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

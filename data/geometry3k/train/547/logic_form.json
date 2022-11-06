@@ -1,0 +1,59 @@
+{
+  "text_logic_form": [
+    "Rectangle(L,M,N,P)",
+    "Parallelogram(L,K,M,J)",
+    "Equals(MeasureOf(Angle(L,M,P)),MeasureOf(Angle(P,M,N)))",
+    "Find(MeasureOf(Angle(P,J,L)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(L,M,N,P)",
+    "Parallelogram(L,K,M,J)",
+    "Equals(MeasureOf(Angle(L,M,P)),MeasureOf(Angle(P,M,N)))",
+    "Find(MeasureOf(Angle(P,J,L)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(J, Line(N, L))",
+    "PointLiesOnLine(J, Line(M, P))"
+  ],
+  "line_instances": [
+    "NL",
+    "NM",
+    "NP",
+    "NJ",
+    "LM",
+    "LP",
+    "LJ",
+    "LK",
+    "MP",
+    "MJ",
+    "MK",
+    "PJ"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "N": [
+      0.0,
+      154.0
+    ],
+    "L": [
+      121.52729015752848,
+      1.5402691564575832
+    ],
+    "M": [
+      122.45922975297927,
+      152.2923667827388
+    ],
+    "P": [
+      1.4878615811037008,
+      0.6231055033433108
+    ],
+    "J": [
+      61.5,
+      77.0
+    ],
+    "K": [
+      185.3587452848918,
+      76.69724042088545
+    ]
+  }
+}

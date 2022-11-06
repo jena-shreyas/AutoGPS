@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find the area of the shaded region. Round to the nearest tenth.",
+  "choices": [
+    "61.7",
+    "71.2",
+    "90",
+    "118.3"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Rectangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 1828,
+  "annot_id": "pan_2020-03-23_07_39_03",
+  "is_standard": false,
+  "unit": "ft^2",
+  "compact_choices": [
+    "61.7",
+    "71.2",
+    "90",
+    "118.3"
+  ],
+  "precise_value": [
+    61.7,
+    71.2,
+    90.0,
+    118.3
+  ],
+  "rough_value": [
+    61.7,
+    71.2,
+    90,
+    118.3
+  ],
+  "compact_text": "Find the area of the shaded region. Round to the nearest tenth.",
+  "annotat_text": "Find the area of the shaded region. Round to the nearest tenth.",
+  "img_width": 310,
+  "img_height": 159,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

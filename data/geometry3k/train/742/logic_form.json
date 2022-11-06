@@ -1,0 +1,49 @@
+{
+  "text_logic_form": [
+    "Similar(Shape($1),Shape($2))",
+    "Find(ScaleFactorOf(Blue(Shape($)),Green(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Pentagon(F,G,H,J,K),Pentagon(A,D,B,O,C))",
+    "Find(ScaleFactorOf(Blue(Pentagon(F,G,H,J,K)),Green(Pentagon(A,D,B,O,C))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, C)), x)",
+    "Equals(LengthOf(Line(F, K)), 15)",
+    "Equals(AreaOf(Pentagon(A, D, B, O, C)), 272)",
+    "Equals(AreaOf(Pentagon(F, G, H, J, K)), 153)",
+    ""
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "BD",
+    "BO",
+    "OC"
+  ],
+  "point_positions": {
+    "A": [
+      122.0,
+      66.0
+    ],
+    "B": [
+      1.0,
+      136.0
+    ],
+    "C": [
+      58.0,
+      1.0
+    ],
+    "D": [
+      122.0,
+      138.0
+    ],
+    "O": [
+      1.0,
+      65.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

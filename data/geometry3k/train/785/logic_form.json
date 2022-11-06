@@ -1,0 +1,78 @@
+{
+  "text_logic_form": [
+    "Find(CircumferenceOf(Circle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(CircumferenceOf(Circle(P)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, B)), 9)",
+    "PointLiesOnLine(H, Line(A, C))",
+    "PointLiesOnLine(G, Line(A, D))",
+    "PointLiesOnLine(F, Line(C, B))",
+    "PointLiesOnLine(E, Line(D, B))",
+    "PointLiesOnCircle(E, Circle(P, radius_2_0))",
+    "PointLiesOnCircle(F, Circle(P, radius_2_0))",
+    "PointLiesOnCircle(G, Circle(P, radius_2_0))",
+    "PointLiesOnCircle(H, Circle(P, radius_2_0))",
+    "Perpendicular(Line(B, C), Line(C, A))",
+    "Perpendicular(Line(A, D), Line(C, A))",
+    "Perpendicular(Line(A, D), Line(D, B))",
+    "Perpendicular(Line(B, C), Line(D, B))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AG",
+    "AH",
+    "BE",
+    "BF",
+    "CB",
+    "CF",
+    "CH",
+    "DB",
+    "DE",
+    "DG"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      178.0
+    ],
+    "B": [
+      178.0,
+      2.0
+    ],
+    "C": [
+      1.0,
+      0.0
+    ],
+    "D": [
+      180.0,
+      180.0
+    ],
+    "E": [
+      179.0,
+      90.0
+    ],
+    "F": [
+      90.0,
+      2.0
+    ],
+    "G": [
+      87.0,
+      178.0
+    ],
+    "H": [
+      1.0,
+      92.0
+    ],
+    "P": [
+      89.0,
+      92.0
+    ]
+  },
+  "circle_instances": [
+    "P"
+  ]
+}

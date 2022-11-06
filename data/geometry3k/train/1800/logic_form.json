@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Congruent(Triangle(N,D,G),Triangle(L,G,D))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Congruent(Triangle(N,D,G),Triangle(L,G,D))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, N, G)), 36)",
+    "Equals(MeasureOf(Angle(L, D, G)), x)",
+    "Perpendicular(Line(D, G), Line(G, L))"
+  ],
+  "line_instances": [
+    "DN",
+    "GD",
+    "GL",
+    "GN",
+    "LD"
+  ],
+  "point_positions": {
+    "D": [
+      347.0,
+      0.0
+    ],
+    "G": [
+      349.0,
+      251.0
+    ],
+    "L": [
+      744.0,
+      252.0
+    ],
+    "N": [
+      0.0,
+      0.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

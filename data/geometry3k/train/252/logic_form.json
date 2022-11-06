@@ -1,0 +1,60 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(F, W)), x)",
+    "Equals(LengthOf(Line(W', W)), 4)",
+    "Equals(LengthOf(Line(F, W')), 10)",
+    "PointLiesOnLine(D, Line(N, F))",
+    "PointLiesOnLine(W, Line(F, W'))"
+  ],
+  "line_instances": [
+    "BW",
+    "DB",
+    "FD",
+    "FW",
+    "FW'",
+    "ND",
+    "NF",
+    "WW'",
+    "CN",
+    "CW'"
+  ],
+  "point_positions": {
+    "B": [
+      255.0,
+      103.0
+    ],
+    "C": [
+      313.0,
+      10.0
+    ],
+    "D": [
+      47.0,
+      189.0
+    ],
+    "F": [
+      134.0,
+      294.0
+    ],
+    "N": [
+      0.0,
+      133.0
+    ],
+    "W": [
+      260.0,
+      246.0
+    ],
+    "W'": [
+      322.0,
+      220.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

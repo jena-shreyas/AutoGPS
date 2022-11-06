@@ -1,0 +1,48 @@
+{
+  "problem_text": "If P R \\parallel W X, W X = 10, X Y = 6, W Y = 8, R Y = 5, and P S = 3, find P Q.",
+  "choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "hard",
+  "id": 409,
+  "annot_id": "Shibiao_2020-03-22_13_04_17",
+  "is_standard": false,
+  "compact_choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "precise_value": [
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "rough_value": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "compact_text": "If PR \\parallel WX, WX = 10, XY = 6, WY = 8, RY = 5, and PS = 3, find PQ.",
+  "annotat_text": "If $\\overline{PR} \\| \\overline{WX}, WX=10, XY=6, WY=8, RY=5,$ and $PS=3,$ find $PQ$.",
+  "unit": "",
+  "img_width": 541,
+  "img_height": 328,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

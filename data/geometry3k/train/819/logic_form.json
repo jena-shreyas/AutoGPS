@@ -1,0 +1,34 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(R,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(R,T)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(T, R)), 2x+7)",
+    "Equals(LengthOf(Line(R, S)), 3x-5)",
+    "Equals(LengthOf(Line(T, S)), 22)",
+    "Equals(LengthOf(Line(T, R)), LengthOf(Line(R, S)))"
+  ],
+  "line_instances": [
+    "TR",
+    "TS",
+    "RS"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "T": [
+      383.14778675611115,
+      1.3458860598668565
+    ],
+    "R": [
+      146.32709677419354,
+      2.989032258064512
+    ],
+    "S": [
+      0.0,
+      220.0
+    ]
+  }
+}

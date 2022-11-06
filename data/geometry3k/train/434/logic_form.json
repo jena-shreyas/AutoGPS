@@ -1,0 +1,52 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(C, F, A)), 3x-15)",
+    "Equals(MeasureOf(Angle(A, C, F)), y^{2})",
+    "Equals(MeasureOf(Angle(F, A, C)), 68)",
+    "Equals(MeasureOf(Angle(B, E, C)), 2x)",
+    "PointLiesOnLine(B, Line(C, F))",
+    "PointLiesOnLine(E, Line(A, C))",
+    "Parallel(Line(F,A), Line(B,E))"
+  ],
+  "line_instances": [
+    "AE",
+    "AC",
+    "EC",
+    "FB",
+    "BC",
+    "FC",
+    "AF",
+    "EB"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      180.0
+    ],
+    "B": [
+      235.0,
+      76.0
+    ],
+    "C": [
+      458.0,
+      179.0
+    ],
+    "E": [
+      190.0,
+      180.0
+    ],
+    "F": [
+      73.0,
+      2.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

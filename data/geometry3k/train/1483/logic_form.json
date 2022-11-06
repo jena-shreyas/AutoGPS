@@ -1,0 +1,54 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Rhombus(R,S,T,U)),675)",
+    "Find(LengthOf(Line(S,U)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Rhombus(R,S,T,U)),675)",
+    "Find(LengthOf(Line(S,U)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(R, B)), 15)",
+    "Equals(LengthOf(Line(T, B)), 15)",
+    "PointLiesOnLine(B, Line(A, U))",
+    "PointLiesOnLine(B, Line(R, T))",
+    "Perpendicular(Line(U, B), Line(T, B))"
+  ],
+  "line_instances": [
+    "AB",
+    "AR",
+    "AT",
+    "AU",
+    "RB",
+    "RT",
+    "RU",
+    "TB",
+    "UB",
+    "UT"
+  ],
+  "point_positions": {
+    "A": [
+      245.0,
+      1.0
+    ],
+    "B": [
+      123.0,
+      87.0
+    ],
+    "R": [
+      59.0,
+      1.0
+    ],
+    "T": [
+      186.0,
+      172.0
+    ],
+    "U": [
+      1.0,
+      174.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

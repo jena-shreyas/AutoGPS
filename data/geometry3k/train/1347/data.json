@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the measure of the altitude drawn to the hypotenuse.",
+  "choices": [
+    "\\sqrt { 7 }",
+    "3",
+    "7",
+    "7 \\sqrt { 3 }"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter7.pdf page 24",
+  "comment": "",
+  "id": 1347,
+  "annot_id": "Ran_2020-03-22_05_52_38",
+  "is_standard": false,
+  "compact_choices": [
+    "\\sqrt{7}",
+    "3",
+    "7",
+    "7\\sqrt{3}"
+  ],
+  "precise_value": [
+    2.6457513110645907,
+    3.0,
+    7.0,
+    12.12435565298214
+  ],
+  "rough_value": [
+    2.65,
+    3,
+    7,
+    12.12
+  ],
+  "compact_text": "Find the measure of the altitude drawn to the hypotenuse.",
+  "annotat_text": "Find the measure of the altitude drawn to the hypotenuse.",
+  "unit": "",
+  "img_width": 362,
+  "img_height": 207,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,77 @@
+{
+  "text_logic_form": [
+    "Similar(Pentagon(A,B,C,D,E),Pentagon(P,Q,R,S,T))",
+    "Find(PerimeterOf(Pentagon(P,Q,R,S,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Pentagon(A,B,C,D,E),Pentagon(P,Q,R,S,T))",
+    "Find(PerimeterOf(Pentagon(P,Q,R,S,T)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, A)), 8)",
+    "Equals(LengthOf(Line(D, C)), 4)",
+    "Equals(LengthOf(Line(E, D)), 6)",
+    "Equals(LengthOf(Line(R, S)), 3)",
+    "Equals(LengthOf(Line(B, A)), LengthOf(Line(B, C)))",
+    "Equals(LengthOf(Line(E, A)), LengthOf(Line(D, C)))",
+    "Equals(LengthOf(Line(P, Q)), LengthOf(Line(Q, R)))",
+    "Equals(LengthOf(Line(R, S)), LengthOf(Line(P, T)))"
+  ],
+  "line_instances": [
+    "BA",
+    "CB",
+    "DC",
+    "DE",
+    "EA",
+    "PQ",
+    "QR",
+    "RS",
+    "ST",
+    "TP"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      152.0
+    ],
+    "B": [
+      207.0,
+      2.0
+    ],
+    "C": [
+      414.0,
+      150.0
+    ],
+    "D": [
+      307.0,
+      296.0
+    ],
+    "E": [
+      104.0,
+      295.0
+    ],
+    "P": [
+      414.0,
+      550.0
+    ],
+    "Q": [
+      207.0,
+      402.0
+    ],
+    "R": [
+      1.0,
+      552.0
+    ],
+    "S": [
+      104.0,
+      695.0
+    ],
+    "T": [
+      307.0,
+      696.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Rectangle(Q,R,S,T)",
+    "Equals(LengthOf(Line(Q,P)),3x+11)",
+    "Equals(LengthOf(Line(P,S)),4x+8)",
+    "Find(LengthOf(Line(Q,S)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(Q,R,S,T)",
+    "Equals(LengthOf(Line(Q,P)),3x+11)",
+    "Equals(LengthOf(Line(P,S)),4x+8)",
+    "Find(LengthOf(Line(Q,S)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(P, Line(S, Q))",
+    "PointLiesOnLine(P, Line(R, T))"
+  ],
+  "line_instances": [
+    "SP",
+    "SQ",
+    "SR",
+    "ST",
+    "QP",
+    "QR",
+    "QT",
+    "RP",
+    "RT",
+    "TP"
+  ],
+  "point_positions": {
+    "P": [
+      105.0,
+      54.0
+    ],
+    "Q": [
+      0.0,
+      0.0
+    ],
+    "R": [
+      209.0,
+      1.0
+    ],
+    "S": [
+      209.0,
+      107.0
+    ],
+    "T": [
+      2.0,
+      106.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(M,R,P)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(M,R,P)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(M, P)), LengthOf(Line(M, R)))",
+    "Equals(LengthOf(Line(M, R)), LengthOf(Line(R, P)))"
+  ],
+  "line_instances": [
+    "MR",
+    "MP",
+    "RP"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "M": [
+      66.08519866710131,
+      2.718461371291994
+    ],
+    "R": [
+      -1.4210854715202004e-14,
+      285.0
+    ],
+    "P": [
+      277.72968679384815,
+      198.41792775396357
+    ]
+  }
+}

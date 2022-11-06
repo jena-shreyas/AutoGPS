@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\angle M R Q so that a \\parallel b.",
+  "choices": [
+    "13.8",
+    "14",
+    "42",
+    "77"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_3.pdf",
+  "comment": "",
+  "id": 834,
+  "annot_id": "pan_2020-03-15_04_03_29",
+  "is_standard": false,
+  "compact_choices": [
+    "13.8",
+    "14",
+    "42",
+    "77"
+  ],
+  "precise_value": [
+    13.8,
+    14.0,
+    42.0,
+    77.0
+  ],
+  "rough_value": [
+    13.8,
+    14,
+    42,
+    77
+  ],
+  "compact_text": "Find m \\angle MRQ so that a \\parallel b.",
+  "annotat_text": "Find $m\u2220MRQ$ so that $a || b$.",
+  "unit": "",
+  "img_width": 663,
+  "img_height": 368,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

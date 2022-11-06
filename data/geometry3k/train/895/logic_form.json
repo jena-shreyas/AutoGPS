@@ -1,0 +1,44 @@
+{
+  "text_logic_form": [
+    "Find(z)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(z)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, E)), z)",
+    "Equals(LengthOf(Line(B, C)), 32)",
+    "Equals(LengthOf(Line(B, D)), 15)",
+    "Equals(LengthOf(Line(C, D)), 9)",
+    "PointLiesOnLine(E, Line(B, C))"
+  ],
+  "line_instances": [
+    "BC",
+    "BD",
+    "BE",
+    "CD",
+    "CE",
+    "DE"
+  ],
+  "point_positions": {
+    "B": [
+      174.0,
+      36.0
+    ],
+    "C": [
+      288.0,
+      323.0
+    ],
+    "D": [
+      2.0,
+      317.0
+    ],
+    "E": [
+      233.0,
+      179.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

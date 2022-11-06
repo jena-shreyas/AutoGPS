@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x so that the quadrilateral is a parallelogram.",
+  "choices": [
+    "1",
+    "2",
+    "4",
+    "5"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter8.pdf page 22",
+  "comment": "",
+  "id": 134,
+  "annot_id": "Ran_2020-03-27_03_49_26",
+  "is_standard": false,
+  "compact_choices": [
+    "1",
+    "2",
+    "4",
+    "5"
+  ],
+  "precise_value": [
+    1.0,
+    2.0,
+    4.0,
+    5.0
+  ],
+  "rough_value": [
+    1,
+    2,
+    4,
+    5
+  ],
+  "compact_text": "Find x so that the quadrilateral is a parallelogram.",
+  "annotat_text": "Find $x$ so that each quadrilateral is a parallelogram.",
+  "unit": "",
+  "img_width": 282,
+  "img_height": 150,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

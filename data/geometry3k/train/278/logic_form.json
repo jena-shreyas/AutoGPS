@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "IsAltitudeOf(Line(D,G),Shape($))",
+    "IsAltitudeOf(Line(J,M),Shape($))",
+    "Similar(Triangle(K,J,L),Triangle(E,D,C))",
+    "Find(LengthOf(Line(D,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsAltitudeOf(Line(D,G),Triangle(E,D,C))",
+    "IsAltitudeOf(Line(J,M),Triangle(K,J,L))",
+    "Similar(Triangle(K,J,L),Triangle(E,D,C))",
+    "Find(LengthOf(Line(D,C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(J, L)), 4)",
+    "Equals(LengthOf(Line(J, M)), x)",
+    "PointLiesOnLine(M, Line(L, K))",
+    "Perpendicular(Line(J, M), Line(L, M))",
+    "Equals(LengthOf(Line(D, C)), 6-x)",
+    "Equals(LengthOf(Line(D, G)), 2)",
+    "PointLiesOnLine(G, Line(E, C))",
+    "Perpendicular(Line(D, G), Line(G, C))"
+  ],
+  "line_instances": [
+    "LK",
+    "LM",
+    "JL",
+    "JK",
+    "JM",
+    "KM"
+  ],
+  "point_positions": {
+    "L": [
+      228.0,
+      82.0
+    ],
+    "J": [
+      89.0,
+      1.0
+    ],
+    "K": [
+      1.0,
+      83.0
+    ],
+    "M": [
+      86.0,
+      83.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

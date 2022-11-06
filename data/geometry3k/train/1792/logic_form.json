@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Similar(Polygon($1),Polygon($2))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Trapezoid(B,D,A,F),Trapezoid(L,M,N,O))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(L, O)), 10)",
+    "Equals(LengthOf(Line(L, M)), 8)",
+    "Equals(LengthOf(Line(M, N)), 16)",
+    "Equals(LengthOf(Line(D, B)), 12)",
+    "Equals(LengthOf(Line(A, F)), y+1)",
+    "Equals(LengthOf(Line(A, D)), x-3)",
+    "Perpendicular(Line(A, D), Line(D, B))",
+    "Perpendicular(Line(D, B), Line(B, F))",
+    "Perpendicular(Line(O, L), Line(L, M))",
+    "Perpendicular(Line(L, M), Line(M, N))",
+    "Equals(LengthOf(Line(F, B)), LengthOf(Line(A, F)))",
+    "Equals(LengthOf(Line(L, O)), LengthOf(Line(N, O)))",
+    "Equals(MeasureOf(Angle(D, A, F)), MeasureOf(Angle(M, N, O)))",
+    "Equals(MeasureOf(Angle(B, F, A)), MeasureOf(Angle(L, O, N)))"
+  ],
+  "line_instances": [
+    "AF",
+    "BD",
+    "DA",
+    "FB",
+    "LM",
+    "MN",
+    "NO",
+    "OL"
+  ],
+  "point_positions": {
+    "A": [
+      309.0,
+      201.0
+    ],
+    "B": [
+      1.0,
+      16.0
+    ],
+    "D": [
+      1.0,
+      200.0
+    ],
+    "F": [
+      210.0,
+      18.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

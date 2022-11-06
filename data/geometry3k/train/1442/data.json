@@ -1,0 +1,48 @@
+{
+  "problem_text": "\\triangle R S T \\cong \\triangle A B C. Find y.",
+  "choices": [
+    "13",
+    "21",
+    "31",
+    "40"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_4.pdf",
+  "comment": "! two subgraph",
+  "id": 1442,
+  "annot_id": "Shibiao_2020-03-21_14_33_03",
+  "is_standard": false,
+  "compact_choices": [
+    "13",
+    "21",
+    "31",
+    "40"
+  ],
+  "precise_value": [
+    13.0,
+    21.0,
+    31.0,
+    40.0
+  ],
+  "rough_value": [
+    13,
+    21,
+    31,
+    40
+  ],
+  "compact_text": "\\triangle RST \\cong \\triangle ABC. Find y.",
+  "annotat_text": "$\\triangle RST \\cong \\triangle ABC$. Find $y$.",
+  "unit": "",
+  "img_width": 905,
+  "img_height": 404,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

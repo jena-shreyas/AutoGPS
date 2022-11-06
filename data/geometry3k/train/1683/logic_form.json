@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Square(W,X,Y,Z)",
+    "Equals(LengthOf(Line(W,T)),3)",
+    "Find(MeasureOf(Angle(W,T,Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Square(W,X,Y,Z)",
+    "Equals(LengthOf(Line(W,T)),3)",
+    "Find(MeasureOf(Angle(W,T,Z)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(T, Line(Z, X))",
+    "PointLiesOnLine(T, Line(W, Y))",
+    "Perpendicular(Line(X, W), Line(X, Y))",
+    "Perpendicular(Line(X, W), Line(Z, W))",
+    "Perpendicular(Line(X, Y), Line(Z, Y))",
+    "Perpendicular(Line(Z, W), Line(Z, Y))"
+  ],
+  "line_instances": [
+    "ZX",
+    "ZT",
+    "ZW",
+    "ZY",
+    "XT",
+    "XW",
+    "XY",
+    "TW",
+    "TY",
+    "WY"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "Z": [
+      142.33333333333331,
+      143.0
+    ],
+    "X": [
+      1.4896551724137765,
+      0.4931034482758747
+    ],
+    "T": [
+      71.74560800863676,
+      72.25085876926097
+    ],
+    "W": [
+      142.6735959307499,
+      0.8218706793993817
+    ],
+    "Y": [
+      -1.4210854715202004e-14,
+      143.0
+    ]
+  }
+}

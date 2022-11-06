@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find A C if \\triangle A B C is an isosceles triangle with A B \\cong B C.",
+  "choices": [
+    "3",
+    "4",
+    "7",
+    "11"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_4.pdf",
+  "comment": "",
+  "id": 348,
+  "annot_id": "Shibiao_2020-03-21_12_15_01",
+  "is_standard": false,
+  "compact_choices": [
+    "3",
+    "4",
+    "7",
+    "11"
+  ],
+  "precise_value": [
+    3.0,
+    4.0,
+    7.0,
+    11.0
+  ],
+  "rough_value": [
+    3,
+    4,
+    7,
+    11
+  ],
+  "compact_text": "Find AC if \\triangle ABC is an isosceles triangle with AB \\cong BC.",
+  "annotat_text": "Find $AC$ if $\\triangle ABC$ is an isosceles triangle with $\\overline{AB} \\cong \\overline{BC}$. ",
+  "unit": "",
+  "img_width": 520,
+  "img_height": 470,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\triangle P Q R, R S = 3 and Q S = 14. Find P S.",
+  "choices": [
+    "\\sqrt { 14 }",
+    "\\sqrt { 42 }",
+    "\\sqrt { 47 }",
+    "\\sqrt { 205 }"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter7.pdf page 5",
+  "comment": "",
+  "id": 797,
+  "annot_id": "Ran_2020-03-22_01_10_16",
+  "is_standard": false,
+  "compact_choices": [
+    "\\sqrt{14}",
+    "\\sqrt{42}",
+    "\\sqrt{47}",
+    "\\sqrt{205}"
+  ],
+  "precise_value": [
+    3.7416573867739413,
+    6.48074069840786,
+    6.855654600401044,
+    14.317821063276353
+  ],
+  "rough_value": [
+    3.74,
+    6.48,
+    6.86,
+    14.32
+  ],
+  "compact_text": "In \\triangle PQR, RS = 3 and QS = 14. Find PS.",
+  "annotat_text": "In $\\triangle P Q R, R S=3$ and $Q S=14 .$ Find $P S$",
+  "unit": "",
+  "img_width": 384,
+  "img_height": 164,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

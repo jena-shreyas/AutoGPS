@@ -1,0 +1,48 @@
+{
+  "problem_text": "Use parallelogram W X Y Z to find m \\angle W Z Y.",
+  "choices": [
+    "65",
+    "75",
+    "105",
+    "180"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 33",
+  "comment": "",
+  "id": 24,
+  "annot_id": "Ran_2020-03-18_23_54_14",
+  "is_standard": false,
+  "compact_choices": [
+    "65",
+    "75",
+    "105",
+    "180"
+  ],
+  "precise_value": [
+    65.0,
+    75.0,
+    105.0,
+    180.0
+  ],
+  "rough_value": [
+    65,
+    75,
+    105,
+    180
+  ],
+  "compact_text": "Use parallelogram WXYZ to find m \\angle WZY.",
+  "annotat_text": "Use parallelogram WXYZ to find $m\\angle WZY$",
+  "unit": "",
+  "img_width": 452,
+  "img_height": 288,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

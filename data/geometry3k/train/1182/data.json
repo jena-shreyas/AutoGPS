@@ -1,0 +1,49 @@
+{
+  "problem_text": "\\triangle R S T is a right triangle. Find m \\angle R.",
+  "choices": [
+    "30",
+    "40",
+    "50",
+    "60"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "",
+  "id": 1182,
+  "annot_id": "pan_2020-03-22_07_29_22",
+  "is_standard": false,
+  "compact_choices": [
+    "30",
+    "40",
+    "50",
+    "60"
+  ],
+  "precise_value": [
+    30.0,
+    40.0,
+    50.0,
+    60.0
+  ],
+  "rough_value": [
+    30,
+    40,
+    50,
+    60
+  ],
+  "compact_text": "\\triangle RST is a right triangle. Find m \\angle R.",
+  "annotat_text": "$ \\triangle RST$ is a right triangle. Find $m\u2220R$.",
+  "unit": "",
+  "img_width": 504,
+  "img_height": 324,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

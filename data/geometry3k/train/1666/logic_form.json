@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(T, U)), 15\\sqrt{3})",
+    "Equals(MeasureOf(Angle(S, U, T)), 63)",
+    "Equals(LengthOf(Line(S, U)), x)",
+    "Perpendicular(Line(T, U), Line(T, S))"
+  ],
+  "line_instances": [
+    "SU",
+    "TS",
+    "TU"
+  ],
+  "point_positions": {
+    "S": [
+      1.0,
+      218.0
+    ],
+    "T": [
+      2.0,
+      0.0
+    ],
+    "U": [
+      110.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

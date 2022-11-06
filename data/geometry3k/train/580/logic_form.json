@@ -1,0 +1,64 @@
+{
+  "text_logic_form": [
+    "Similar(Quadrilateral(A,C,D,F),Quadrilateral(V,W,Y,Z))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Quadrilateral(A,C,D,F),Quadrilateral(V,W,Y,Z))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(F, A)), 12)",
+    "Equals(LengthOf(Line(D, C)), 9)",
+    "Equals(LengthOf(Line(F, D)), x)",
+    "Equals(LengthOf(Line(Y, Z)), 10)",
+    "Equals(LengthOf(Line(V, Z)), 3y-1)"
+  ],
+  "line_instances": [
+    "CA",
+    "DC",
+    "DF",
+    "FA",
+    "YZ",
+    "ZV",
+    "VW",
+    "WY"
+  ],
+  "point_positions": {
+    "A": [
+      125.0,
+      0.0
+    ],
+    "C": [
+      290.0,
+      2.0
+    ],
+    "D": [
+      373.0,
+      203.0
+    ],
+    "F": [
+      1.0,
+      203.0
+    ],
+    "Y": [
+      20.0,
+      400.0
+    ],
+    "Z": [
+      290.0,
+      400.0
+    ],
+    "W": [
+      110.0,
+      600.0
+    ],
+    "V": [
+      250.0,
+      600.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

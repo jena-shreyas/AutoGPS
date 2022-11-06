@@ -1,0 +1,45 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Arc(Z,Y)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Arc(Z,Y)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, X)), 10)",
+    "Equals(MeasureOf(Angle(Z, X, Y)), 130)",
+    "",
+    "PointLiesOnLine(X, Line(Z, B))",
+    "",
+    "PointLiesOnCircle(Z, Circle(X, radius_2_0))",
+    "PointLiesOnCircle(Y, Circle(X, radius_2_0))",
+    "PointLiesOnCircle(B, Circle(X, radius_2_0))"
+  ],
+  "line_instances": [
+    "XB",
+    "XY",
+    "ZX",
+    ""
+  ],
+  "point_positions": {
+    "X": [
+      143.0,
+      145.0
+    ],
+    "B": [
+      10.0,
+      94.0
+    ],
+    "Y": [
+      21.0,
+      217.0
+    ],
+    "Z": [
+      281.0,
+      199.0
+    ]
+  },
+  "circle_instances": [
+    "X"
+  ]
+}

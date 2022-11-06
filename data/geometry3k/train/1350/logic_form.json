@@ -1,0 +1,62 @@
+{
+  "text_logic_form": [
+    "Trapezoid(J,K,L,M)",
+    "IsMidpointOf(Point(A),LegOf(Trapezoid(J,K,L,M)))",
+    "IsMidpointOf(Point(B),LegOf(Trapezoid(J,K,L,M)))",
+    "Equals(LengthOf(Line(A,B)),57)",
+    "Equals(LengthOf(Line(K,L)),21)",
+    "Find(LengthOf(Line(J,M)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Trapezoid(J,K,L,M)",
+    "IsMidpointOf(Point(A),LegOf(Trapezoid(J,K,L,M)))",
+    "IsMidpointOf(Point(B),LegOf(Trapezoid(J,K,L,M)))",
+    "Equals(LengthOf(Line(A,B)),57)",
+    "Equals(LengthOf(Line(K,L)),21)",
+    "Find(LengthOf(Line(J,M)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(K, L)), 21)",
+    "Equals(LengthOf(Line(A, B)), 57)",
+    "PointLiesOnLine(A, Line(K, J))",
+    "PointLiesOnLine(B, Line(L, M))"
+  ],
+  "line_instances": [
+    "KJ",
+    "KA",
+    "KL",
+    "JM",
+    "JA",
+    "AB",
+    "LM",
+    "LB",
+    "MB"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "K": [
+      157.32704402515722,
+      2.0
+    ],
+    "M": [
+      399.0,
+      159.0
+    ],
+    "J": [
+      0.0,
+      159.0
+    ],
+    "A": [
+      79.24842767295598,
+      80.0
+    ],
+    "L": [
+      251.9433962264151,
+      2.0
+    ],
+    "B": [
+      325.2358490566038,
+      80.0
+    ]
+  }
+}

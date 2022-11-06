@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the area of the shaded region.",
+  "choices": [
+    "12.6",
+    "50.3",
+    "100.5",
+    "402.1"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 2087,
+  "annot_id": "pan_2020-03-23_03_09_04",
+  "is_standard": false,
+  "unit": "in^2",
+  "compact_choices": [
+    "12.6",
+    "50.3",
+    "100.5",
+    "402.1"
+  ],
+  "precise_value": [
+    12.6,
+    50.3,
+    100.5,
+    402.1
+  ],
+  "rough_value": [
+    12.6,
+    50.3,
+    100.5,
+    402.1
+  ],
+  "compact_text": "Find the area of the shaded region.",
+  "annotat_text": "Find the area of the shaded region.",
+  "img_width": 293,
+  "img_height": 249,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

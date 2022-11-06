@@ -1,0 +1,132 @@
+{
+  "text_logic_form": [
+    "Regular(Polygon($))",
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Regular(Polygon($))",
+    "Find(AreaOf(Shaded(Shape($))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, D)), 8)",
+    "PointLiesOnLine(H, Line(A, B))",
+    "PointLiesOnLine(G, Line(A, C))",
+    "PointLiesOnLine(H, Line(A, J))",
+    "PointLiesOnLine(F, Line(B, C))",
+    "PointLiesOnLine(I, Line(B, C))",
+    "PointLiesOnLine(J, Line(B, C))",
+    "PointLiesOnLine(E, Line(B, D))",
+    "PointLiesOnLine(J, Line(B, D))",
+    "PointLiesOnLine(J, Line(B, E))",
+    "PointLiesOnLine(I, Line(B, F))",
+    "PointLiesOnLine(J, Line(B, F))",
+    "PointLiesOnLine(D, Line(B, G))",
+    "PointLiesOnLine(E, Line(B, G))",
+    "PointLiesOnLine(J, Line(B, G))",
+    "PointLiesOnLine(J, Line(B, I))",
+    "PointLiesOnLine(F, Line(C, I))",
+    "PointLiesOnLine(F, Line(C, J))",
+    "PointLiesOnLine(I, Line(C, J))",
+    "PointLiesOnLine(E, Line(D, J))",
+    "PointLiesOnLine(D, Line(E, G))",
+    "PointLiesOnLine(D, Line(G, J))",
+    "PointLiesOnLine(E, Line(G, J))",
+    "PointLiesOnLine(I, Line(J, F))",
+    "PointLiesOnCircle(A, Circle(D, radius_3_0))",
+    "PointLiesOnCircle(B, Circle(D, radius_3_0))",
+    "PointLiesOnCircle(C, Circle(D, radius_3_0))",
+    "PointLiesOnCircle(J, Circle(D, radius_3_0))",
+    "PointLiesOnCircle(E, Circle(D, radius_3_1))",
+    "PointLiesOnCircle(F, Circle(D, radius_3_1))",
+    "PointLiesOnCircle(G, Circle(D, radius_3_1))",
+    "PointLiesOnCircle(H, Circle(D, radius_3_1))",
+    "PointLiesOnCircle(I, Circle(D, radius_3_1))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AG",
+    "AH",
+    "AJ",
+    "BC",
+    "BD",
+    "BE",
+    "BF",
+    "BG",
+    "BH",
+    "BI",
+    "BJ",
+    "CD",
+    "CE",
+    "CF",
+    "CG",
+    "CH",
+    "CI",
+    "CJ",
+    "DE",
+    "DF",
+    "DG",
+    "DH",
+    "DI",
+    "DJ",
+    "EF",
+    "EG",
+    "EH",
+    "EI",
+    "EJ",
+    "FI",
+    "GF",
+    "GJ",
+    "HI",
+    "HJ",
+    "JF",
+    "JI"
+  ],
+  "point_positions": {
+    "A": [
+      60.0,
+      4.0
+    ],
+    "B": [
+      161.0,
+      100.0
+    ],
+    "C": [
+      26.0,
+      141.0
+    ],
+    "D": [
+      79.0,
+      82.0
+    ],
+    "E": [
+      120.0,
+      90.0
+    ],
+    "F": [
+      77.0,
+      123.0
+    ],
+    "G": [
+      44.0,
+      76.0
+    ],
+    "H": [
+      110.0,
+      56.0
+    ],
+    "I": [
+      106.0,
+      115.0
+    ],
+    "J": [
+      156.0,
+      100.0
+    ]
+  },
+  "circle_instances": [
+    "D"
+  ]
+}

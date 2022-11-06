@@ -1,0 +1,48 @@
+{
+  "problem_text": "If Q R \\parallel X Y, X Q = 15, Q Z = 12, and Y R = 20, what is the length of R Z.",
+  "choices": [
+    "15",
+    "16",
+    "18",
+    "24"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 747,
+  "annot_id": "Shibiao_2020-03-22_14_07_22",
+  "is_standard": false,
+  "compact_choices": [
+    "15",
+    "16",
+    "18",
+    "24"
+  ],
+  "precise_value": [
+    15.0,
+    16.0,
+    18.0,
+    24.0
+  ],
+  "rough_value": [
+    15,
+    16,
+    18,
+    24
+  ],
+  "compact_text": "If QR \\parallel XY, XQ = 15, QZ = 12, and YR = 20, what is the length of RZ.",
+  "annotat_text": "If $\\overline{QR} \\| \\overline{XY}, XQ=15, QZ=12$, and $YR=20$, what is the length of $\\overline{RZ}$.",
+  "unit": "",
+  "img_width": 611,
+  "img_height": 441,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

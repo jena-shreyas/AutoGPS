@@ -1,0 +1,48 @@
+{
+  "problem_text": "J is the incenter of \\angle A B C. Find m \\angle J A C.",
+  "choices": [
+    "15",
+    "24",
+    "32",
+    "34"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_5.pdf",
+  "comment": "hard",
+  "id": 191,
+  "annot_id": "Shibiao_2020-03-22_03_31_40",
+  "is_standard": false,
+  "compact_choices": [
+    "15",
+    "24",
+    "32",
+    "34"
+  ],
+  "precise_value": [
+    15.0,
+    24.0,
+    32.0,
+    34.0
+  ],
+  "rough_value": [
+    15,
+    24,
+    32,
+    34
+  ],
+  "compact_text": "J is the incenter of \\angle ABC. Find m \\angle JAC.",
+  "annotat_text": "$J$ is the incenter of $\\angle ABC$. Find $m \\angle JAC$.",
+  "unit": "",
+  "img_width": 579,
+  "img_height": 618,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

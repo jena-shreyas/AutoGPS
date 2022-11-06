@@ -1,0 +1,48 @@
+{
+  "problem_text": "Circle O has a radius of 10, A B = 10 and m \\overrightarrow A B = 60. Find m \\widehat O X.",
+  "choices": [
+    "5",
+    "5 \\sqrt { 3 }",
+    "10",
+    "15"
+  ],
+  "answer": "B",
+  "detailed_solution": "",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter10.pdf page 20",
+  "comment": "",
+  "id": 786,
+  "annot_id": "Ran_2020-03-28_03_27_54",
+  "is_standard": false,
+  "compact_choices": [
+    "5",
+    "5\\sqrt{3}",
+    "10",
+    "15"
+  ],
+  "precise_value": [
+    5.0,
+    8.660254037844386,
+    10.0,
+    15.0
+  ],
+  "rough_value": [
+    5,
+    8.66,
+    10,
+    15
+  ],
+  "compact_text": "Circle O has a radius of 10, AB = 10 and m \\overrightarrow AB = 60. Find m \\widehat OX.",
+  "annotat_text": "Circle $O$ has a radius of $10, A B=10$ and $m \\overrightarrow{A B}=60 .$ Find $m\\widehat{O X}$",
+  "unit": "",
+  "img_width": 274,
+  "img_height": 231,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,72 @@
+{
+  "text_logic_form": [
+    "Equals(PerimeterOf(Regular(Hexagon($))),72)",
+    "Find(AreaOf(Regular(Hexagon($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(PerimeterOf(Regular(Hexagon(A,D,B,E,C,F))),72)",
+    "Find(AreaOf(Regular(Hexagon(A,D,B,E,C,F))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(G, H)), a)",
+    "Equals(LengthOf(Line(A, F)), 12)",
+    "Equals(LengthOf(Line(D, G)), 12)",
+    "Equals(LengthOf(Line(A, D)), 12)",
+    "Equals(LengthOf(Line(D, H)), 6)",
+    "Equals(MeasureOf(Angle(G, D, H)), 60)",
+    "PointLiesOnLine(H, Line(A, D))",
+    "Perpendicular(Line(G, H), Line(D, H))"
+  ],
+  "line_instances": [
+    "AD",
+    "AE",
+    "AF",
+    "AG",
+    "AH",
+    "DB",
+    "DC",
+    "DG",
+    "DH",
+    "EB",
+    "EC",
+    "FC",
+    "GH"
+  ],
+  "point_positions": {
+    "A": [
+      57.0,
+      192.0
+    ],
+    "B": [
+      221.0,
+      97.0
+    ],
+    "C": [
+      55.0,
+      2.0
+    ],
+    "D": [
+      166.0,
+      191.0
+    ],
+    "E": [
+      167.0,
+      2.0
+    ],
+    "F": [
+      2.0,
+      96.0
+    ],
+    "G": [
+      111.0,
+      104.0
+    ],
+    "H": [
+      113.0,
+      192.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

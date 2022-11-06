@@ -1,0 +1,79 @@
+{
+  "text_logic_form": [
+    "Triangle(E,D,F)",
+    "IsCentroidOf(Point(T),Triangle(E,D,F))",
+    "Equals(LengthOf(Line(F,T)),12)",
+    "Find(LengthOf(Line(T,Q)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(E,D,F)",
+    "IsCentroidOf(Point(T),Triangle(E,D,F))",
+    "Equals(LengthOf(Line(F,T)),12)",
+    "Find(LengthOf(Line(T,Q)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(F, T)), 12)",
+    "PointLiesOnLine(T, Line(D, A))",
+    "PointLiesOnLine(C, Line(D, F))",
+    "PointLiesOnLine(Q, Line(D, E))",
+    "PointLiesOnLine(T, Line(F, Q))",
+    "PointLiesOnLine(A, Line(F, E))",
+    "PointLiesOnLine(T, Line(C, E))",
+    "Equals(LengthOf(Line(A, F)), LengthOf(Line(A, E)))",
+    "Equals(LengthOf(Line(C, F)), LengthOf(Line(C, D)))",
+    "Equals(LengthOf(Line(Q, D)), LengthOf(Line(Q, E)))"
+  ],
+  "line_instances": [
+    "AE",
+    "AF",
+    "AT",
+    "CE",
+    "DA",
+    "DC",
+    "DE",
+    "DF",
+    "DQ",
+    "DT",
+    "FC",
+    "FE",
+    "FQ",
+    "FT",
+    "QE",
+    "TC",
+    "TE",
+    "TQ"
+  ],
+  "point_positions": {
+    "A": [
+      170.0,
+      155.0
+    ],
+    "C": [
+      414.0,
+      165.0
+    ],
+    "D": [
+      489.0,
+      322.0
+    ],
+    "E": [
+      0.0,
+      313.0
+    ],
+    "F": [
+      336.0,
+      1.0
+    ],
+    "Q": [
+      254.0,
+      318.0
+    ],
+    "T": [
+      281.0,
+      213.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

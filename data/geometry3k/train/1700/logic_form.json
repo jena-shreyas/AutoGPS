@@ -1,0 +1,45 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Parallelogram($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Parallelogram(C,D,A,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, C)), 13)",
+    "Equals(LengthOf(Line(B, E)), 5)",
+    "Equals(LengthOf(Line(B, C)), 15)",
+    "PointLiesOnLine(E, Line(A, B))",
+    "Perpendicular(Line(C, E), Line(E, B))"
+  ],
+  "line_instances": [
+    "CD",
+    "AD",
+    "AB",
+    "BC",
+    "BE",
+    "AE",
+    "CE"
+  ],
+  "point_positions": {
+    "A": [
+      195.0,
+      111.0
+    ],
+    "B": [
+      1.0,
+      111.0
+    ],
+    "C": [
+      66.0,
+      3.0
+    ],
+    "D": [
+      262.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

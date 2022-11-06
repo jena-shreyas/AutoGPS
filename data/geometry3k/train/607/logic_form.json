@@ -1,0 +1,78 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, E)), 5)",
+    "Equals(LengthOf(Line(C, G)), 2)",
+    "Equals(LengthOf(Line(A, G)), 5)",
+    "Equals(LengthOf(Line(C, F)), 6)",
+    "Equals(LengthOf(Line(G, F)), 6)",
+    "Equals(LengthOf(Line(D, B)), 1)",
+    "Equals(LengthOf(Line(D, B)), 8)",
+    "PointLiesOnLine(G, Line(A, C))",
+    "PointLiesOnLine(H, Line(A, C))",
+    "PointLiesOnLine(C, Line(A, E))",
+    "PointLiesOnLine(G, Line(A, E))",
+    "PointLiesOnLine(H, Line(A, E))",
+    "PointLiesOnLine(G, Line(A, H))",
+    "PointLiesOnLine(H, Line(C, G))",
+    "PointLiesOnLine(C, Line(E, G))",
+    "PointLiesOnLine(H, Line(E, G))",
+    "PointLiesOnLine(C, Line(E, H))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AE",
+    "AG",
+    "AH",
+    "CE",
+    "CF",
+    "CG",
+    "DB",
+    "EB",
+    "EG",
+    "EH",
+    "GF",
+    "GH"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      257.5,
+      1.0
+    ],
+    "B": [
+      43.65246338215712,
+      127.00372836218375
+    ],
+    "C": [
+      108.00382186773014,
+      0.018112329677634875
+    ],
+    "D": [
+      214.57515815735542,
+      127.66042947518488
+    ],
+    "E": [
+      0.23109243697477666,
+      1.3291316526610686
+    ],
+    "F": [
+      130.0,
+      109.0
+    ],
+    "G": [
+      153.90294957183636,
+      1.4367269267364406
+    ],
+    "H": [
+      139.0,
+      2.0
+    ]
+  }
+}

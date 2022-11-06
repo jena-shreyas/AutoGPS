@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the perimeter of the figure in feet. Round to the nearest tenth, if necessary.",
+  "choices": [
+    "20",
+    "28",
+    "36",
+    "44"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Trapezoid"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 1463,
+  "annot_id": "pan_2020-03-23_02_39_31",
+  "is_standard": false,
+  "unit": "in",
+  "compact_choices": [
+    "20",
+    "28",
+    "36",
+    "44"
+  ],
+  "precise_value": [
+    20.0,
+    28.0,
+    36.0,
+    44.0
+  ],
+  "rough_value": [
+    20,
+    28,
+    36,
+    44
+  ],
+  "compact_text": "Find the perimeter of the figure in feet. Round to the nearest tenth, if necessary.",
+  "annotat_text": "Find the perimeter of the figure in feet. Round to the nearest tenth, if necessary.",
+  "img_width": 316,
+  "img_height": 249,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

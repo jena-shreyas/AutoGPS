@@ -1,0 +1,48 @@
+{
+  "problem_text": "R S is the midsegment of trapezoid M N O P. What is the length of R S?",
+  "choices": [
+    "14",
+    "19",
+    "23",
+    "26"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Trapezoid"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter6.pdf page 66",
+  "comment": "",
+  "id": 2171,
+  "annot_id": "Ran_2020-03-20_03_06_49",
+  "is_standard": true,
+  "compact_choices": [
+    "14",
+    "19",
+    "23",
+    "26"
+  ],
+  "precise_value": [
+    14.0,
+    19.0,
+    23.0,
+    26.0
+  ],
+  "rough_value": [
+    14,
+    19,
+    23,
+    26
+  ],
+  "compact_text": "RS is the midsegment of trapezoid MNOP. What is the length of RS?",
+  "annotat_text": "RS is the midsegment of trapezoid MNOP. What is the length of RS ?",
+  "unit": "",
+  "img_width": 704,
+  "img_height": 425,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

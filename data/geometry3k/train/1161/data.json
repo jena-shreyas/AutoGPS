@@ -1,0 +1,48 @@
+{
+  "problem_text": "Use the Pythagorean Theorem to find the length of the hypotenuse of the right triangle.",
+  "choices": [
+    "\\sqrt { 7 }",
+    "3",
+    "4",
+    "5"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter7.pdf page 9",
+  "comment": "",
+  "id": 1161,
+  "annot_id": "Ran_2020-03-22_03_57_06",
+  "is_standard": false,
+  "compact_choices": [
+    "\\sqrt{7}",
+    "3",
+    "4",
+    "5"
+  ],
+  "precise_value": [
+    2.6457513110645907,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "rough_value": [
+    2.65,
+    3,
+    4,
+    5
+  ],
+  "compact_text": "Use the Pythagorean Theorem to find the length of the hypotenuse of the right triangle.",
+  "annotat_text": "Use the Pythagorean Theorem to find the length of the hypotenuse of each right triangle.",
+  "unit": "",
+  "img_width": 237,
+  "img_height": 165,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

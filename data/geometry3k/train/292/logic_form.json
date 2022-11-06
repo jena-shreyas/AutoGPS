@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Tangent(Line($),Circle($))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Tangent(Line(B, C),Circle(E))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, B)), 12)",
+    "Equals(LengthOf(Line(C, E)), x)",
+    "Equals(LengthOf(Line(B, E)), 15)",
+    "PointLiesOnLine(F, Line(E, B))",
+    "PointLiesOnCircle(C, Circle(E, radius_4_0))",
+    "PointLiesOnCircle(F, Circle(E, radius_4_0))"
+  ],
+  "line_instances": [
+    "BF",
+    "CB",
+    "CE",
+    "EB",
+    "EF"
+  ],
+  "point_positions": {
+    "B": [
+      1.0,
+      87.0
+    ],
+    "C": [
+      125.0,
+      13.0
+    ],
+    "E": [
+      169.0,
+      86.0
+    ],
+    "F": [
+      84.0,
+      88.0
+    ]
+  },
+  "circle_instances": [
+    "E"
+  ]
+}

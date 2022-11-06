@@ -1,0 +1,35 @@
+{
+  "text_logic_form": [
+    "Isosceles(Triangle(X,Y,Z))",
+    "Find(LengthOf(Line(X,Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Triangle(X,Y,Z))",
+    "Find(LengthOf(Line(X,Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(X, Y)), 2x+3)",
+    "Equals(LengthOf(Line(A, Y)), 4x-1)",
+    "Equals(LengthOf(Line(X, Y)), LengthOf(Line(A, Y)))"
+  ],
+  "line_instances": [
+    "AX",
+    "AY",
+    "XY"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      289.0,
+      110.0
+    ],
+    "X": [
+      0.0,
+      110.0
+    ],
+    "Y": [
+      145.99656357388315,
+      0.252004581901474
+    ]
+  }
+}

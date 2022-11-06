@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find m \\widehat P M.",
+  "choices": [
+    "36",
+    "72",
+    "136",
+    "144"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "",
+  "id": 1960,
+  "annot_id": "Shibiao_2020-03-28_12_22_45",
+  "is_standard": false,
+  "compact_choices": [
+    "36",
+    "72",
+    "136",
+    "144"
+  ],
+  "precise_value": [
+    36.0,
+    72.0,
+    136.0,
+    144.0
+  ],
+  "rough_value": [
+    36,
+    72,
+    136,
+    144
+  ],
+  "compact_text": "Find m \\widehat PM.",
+  "annotat_text": "Find $m \\widehat {PM}$.",
+  "unit": "",
+  "img_width": 563,
+  "img_height": 468,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Find(PerimeterOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(PerimeterOf(Rectangle(D,A,K,F)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(F, K)), 16)",
+    "Equals(LengthOf(Line(A, K)), 9)",
+    "Perpendicular(Line(D, F), Line(F, K))",
+    "Perpendicular(Line(F, K), Line(K, A))",
+    "Perpendicular(Line(A, D), Line(D, F))",
+    "Perpendicular(Line(A, D), Line(A, K))"
+  ],
+  "line_instances": [
+    "AD",
+    "AK",
+    "DF",
+    "KF"
+  ],
+  "point_positions": {
+    "A": [
+      277.0,
+      2.0
+    ],
+    "D": [
+      0.0,
+      0.0
+    ],
+    "F": [
+      2.0,
+      156.0
+    ],
+    "K": [
+      279.0,
+      157.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

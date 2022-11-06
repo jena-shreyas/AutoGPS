@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x so that G J \\parallel F K. G F = 12, H G = 6, H J = 8, J K = x - 4.",
+  "choices": [
+    "12",
+    "16",
+    "18",
+    "20"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 34",
+  "comment": "",
+  "id": 42,
+  "annot_id": "Ran_2020-03-21_06_51_12",
+  "is_standard": false,
+  "compact_choices": [
+    "12",
+    "16",
+    "18",
+    "20"
+  ],
+  "precise_value": [
+    12.0,
+    16.0,
+    18.0,
+    20.0
+  ],
+  "rough_value": [
+    12,
+    16,
+    18,
+    20
+  ],
+  "compact_text": "Find x so that GJ \\parallel FK. GF = 12, HG = 6, HJ = 8, JK = x-4.",
+  "annotat_text": "Find x so that $GJ \\parallel FK$. GF = 12, HG = 6, HJ = 8, JK = x - 4.\r\n",
+  "unit": "",
+  "img_width": 438,
+  "img_height": 343,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

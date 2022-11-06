@@ -1,0 +1,44 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(F)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(F)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(H, F, G)), 4x+2)",
+    "Equals(MeasureOf(Angle(F, H, G)), 9x-3)",
+    "PointLiesOnLine(J, Line(H, F))",
+    "PointLiesOnCircle(H, Circle(J, radius_1_0))",
+    "PointLiesOnCircle(F, Circle(J, radius_1_0))",
+    "PointLiesOnCircle(G, Circle(J, radius_1_0))"
+  ],
+  "line_instances": [
+    "FG",
+    "HF",
+    "HG",
+    "HJ",
+    "JF"
+  ],
+  "point_positions": {
+    "F": [
+      39.0,
+      81.0
+    ],
+    "G": [
+      305.0,
+      129.0
+    ],
+    "H": [
+      279.0,
+      285.0
+    ],
+    "J": [
+      158.0,
+      185.0
+    ]
+  },
+  "circle_instances": [
+    "J"
+  ]
+}

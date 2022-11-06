@@ -1,0 +1,48 @@
+{
+  "problem_text": "A square with side length of 9 inches is inscribed in \\odot J. Find the exact circumference of \\odot J.",
+  "choices": [
+    "8 \\sqrt 2 \\pi",
+    "9 \\sqrt 2 \\pi",
+    "12 \\sqrt 2 \\pi",
+    "15 \\sqrt 2 \\pi"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_10.pdf",
+  "comment": "standard problem test",
+  "id": 579,
+  "annot_id": "Shibiao_2020-03-27_09_30_49",
+  "is_standard": true,
+  "compact_choices": [
+    "8\\sqrt2\\pi",
+    "9\\sqrt2\\pi",
+    "12\\sqrt2\\pi",
+    "15\\sqrt2\\pi"
+  ],
+  "precise_value": [
+    35.54306350526693,
+    39.98594644342529,
+    53.31459525790039,
+    66.6432440723755
+  ],
+  "rough_value": [
+    35.54,
+    39.99,
+    53.31,
+    66.64
+  ],
+  "compact_text": "A square with side length of 9 inches is inscribed in \\odot J. Find the exact circumference of \\odot J.",
+  "annotat_text": "A square with side length of $9$ inches is inscribed in $\\odot J$. Find the exact circumference of $\\odot J$.",
+  "unit": "",
+  "img_width": 550,
+  "img_height": 484,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

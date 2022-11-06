@@ -1,0 +1,95 @@
+{
+  "text_logic_form": [
+    "Angle($)"
+  ],
+  "dissolved_text_logic_form": [
+    "Angle($)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(G, C, F)), MeasureOf(angle 10))",
+    "Equals(MeasureOf(Angle(B, C, G)), MeasureOf(angle 9))",
+    "Equals(MeasureOf(Angle(F, C, A)), MeasureOf(angle 11))",
+    "Equals(MeasureOf(Angle(A, C, B)), MeasureOf(angle 12))",
+    "Equals(MeasureOf(Angle(I, B, C)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(C, B, E)), MeasureOf(angle 4))",
+    "Equals(MeasureOf(Angle(C, E, H)), MeasureOf(angle 6))",
+    "Equals(MeasureOf(Angle(B, E, C)), MeasureOf(angle 5))",
+    "Equals(MeasureOf(Angle(D, B, I)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(E, B, D)), MeasureOf(angle 3))",
+    "Equals(MeasureOf(Angle(A, E, B)), MeasureOf(angle 8))",
+    "Equals(MeasureOf(Angle(H, E, A)), MeasureOf(angle 7))",
+    "PointLiesOnLine(E, Line(A, C))",
+    "PointLiesOnLine(C, Line(A, G))",
+    "PointLiesOnLine(E, Line(A, G))",
+    "PointLiesOnLine(B, Line(C, D))",
+    "PointLiesOnLine(C, Line(E, G))",
+    "PointLiesOnLine(B, Line(E, I))",
+    "PointLiesOnLine(C, Line(B, F))",
+    "PointLiesOnLine(E, Line(B, H))",
+    "PointLiesOnLine(B, Line(D, F))",
+    "PointLiesOnLine(C, Line(D, F))",
+    "PointLiesOnLine(B, Line(H, I))",
+    "PointLiesOnLine(E, Line(H, I))"
+  ],
+  "line_instances": [
+    "AC",
+    "AE",
+    "AG",
+    "BD",
+    "BF",
+    "BH",
+    "BI",
+    "CB",
+    "CD",
+    "CE",
+    "CF",
+    "CG",
+    "DF",
+    "EB",
+    "EG",
+    "EH",
+    "EI",
+    "HI"
+  ],
+  "point_positions": {
+    "A": [
+      459.0,
+      182.0
+    ],
+    "B": [
+      108.0,
+      122.0
+    ],
+    "C": [
+      238.0,
+      49.0
+    ],
+    "D": [
+      0.0,
+      183.0
+    ],
+    "E": [
+      359.0,
+      122.0
+    ],
+    "F": [
+      325.0,
+      0.0
+    ],
+    "G": [
+      156.0,
+      0.0
+    ],
+    "H": [
+      518.0,
+      122.0
+    ],
+    "I": [
+      0.0,
+      122.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

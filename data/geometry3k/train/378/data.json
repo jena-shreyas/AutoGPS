@@ -1,0 +1,49 @@
+{
+  "problem_text": "Find x. Assume that segments that appear to be tangent are tangent.",
+  "choices": [
+    "14",
+    "21",
+    "28",
+    "35"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line",
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "A good example, theorem matters, circle power theorem.",
+  "id": 378,
+  "annot_id": "pan_2020-03-21_21_02_26",
+  "is_standard": false,
+  "compact_choices": [
+    "14",
+    "21",
+    "28",
+    "35"
+  ],
+  "precise_value": [
+    14.0,
+    21.0,
+    28.0,
+    35.0
+  ],
+  "rough_value": [
+    14,
+    21,
+    28,
+    35
+  ],
+  "compact_text": "Find x. Assume that segments that appear to be tangent are tangent.",
+  "annotat_text": "Find $x$. Assume that segments that appear to be tangent are tangent.",
+  "unit": "",
+  "img_width": 305,
+  "img_height": 233,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

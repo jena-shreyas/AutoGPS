@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(X)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(X)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(X, W, Z)), 70)",
+    "Equals(MeasureOf(Angle(Z, Y, X)), 56)",
+    "Equals(LengthOf(Line(X, W)), LengthOf(Line(Z, W)))",
+    "Equals(LengthOf(Line(X, Y)), LengthOf(Line(Z, Y)))"
+  ],
+  "line_instances": [
+    "XW",
+    "YX",
+    "YZ",
+    "ZW"
+  ],
+  "point_positions": {
+    "W": [
+      1.0,
+      76.0
+    ],
+    "X": [
+      110.0,
+      2.0
+    ],
+    "Y": [
+      252.0,
+      75.0
+    ],
+    "Z": [
+      109.0,
+      152.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

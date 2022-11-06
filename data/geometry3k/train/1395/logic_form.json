@@ -1,0 +1,35 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(M)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(M)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(N, M)), 11)",
+    "Equals(MeasureOf(Angle(P, N, M)), 120)",
+    "Equals(MeasureOf(Angle(N, P, M)), MeasureOf(Angle(N, M, P)))"
+  ],
+  "line_instances": [
+    "MP",
+    "NM",
+    "NP"
+  ],
+  "point_positions": {
+    "M": [
+      510.0,
+      4.0
+    ],
+    "N": [
+      289.0,
+      206.0
+    ],
+    "P": [
+      5.0,
+      115.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

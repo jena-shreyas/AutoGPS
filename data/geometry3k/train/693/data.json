@@ -1,0 +1,50 @@
+{
+  "problem_text": "Find y in the figure.",
+  "choices": [
+    "42",
+    "48",
+    "80",
+    "90"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line",
+    "Triangle",
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "",
+  "id": 693,
+  "annot_id": "pan_2020-03-18_05_48_10",
+  "is_standard": false,
+  "compact_choices": [
+    "42",
+    "48",
+    "80",
+    "90"
+  ],
+  "precise_value": [
+    42.0,
+    48.0,
+    80.0,
+    90.0
+  ],
+  "rough_value": [
+    42,
+    48,
+    80,
+    90
+  ],
+  "compact_text": "Find y in the figure.",
+  "annotat_text": "Find $y$ in the figure.",
+  "unit": "",
+  "img_width": 245,
+  "img_height": 273,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

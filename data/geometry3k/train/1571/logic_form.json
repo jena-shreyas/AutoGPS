@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Equals(AreaOf(Shape(A)),78)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(AreaOf(Trapezoid(A,D,B,C)),78)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, D)), 6.4)",
+    "Equals(LengthOf(Line(C, B)), 13)",
+    "Equals(LengthOf(Line(D, E)), x)",
+    "PointLiesOnLine(E, Line(C, B))",
+    "Perpendicular(Line(D, E), Line(E, C))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "CB",
+    "DB",
+    "DE",
+    "BE",
+    "CE"
+  ],
+  "point_positions": {
+    "A": [
+      167.0,
+      2.0
+    ],
+    "B": [
+      1.0,
+      129.0
+    ],
+    "C": [
+      223.0,
+      130.0
+    ],
+    "D": [
+      60.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

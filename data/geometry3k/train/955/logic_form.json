@@ -1,0 +1,49 @@
+{
+  "text_logic_form": [
+    "Isosceles(Trapezoid(T,W,Y,Z))",
+    "Equals(Angle(Z),Angle(Y))",
+    "Equals(MeasureOf(Angle(Z)),30x)",
+    "Equals(Angle(T),Angle(W))",
+    "Equals(MeasureOf(Angle(T)),20x)",
+    "Find(Angle(Z))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Trapezoid(T,W,Y,Z))",
+    "Equals(Angle(Z),Angle(Y))",
+    "Equals(MeasureOf(Angle(Z)),30x)",
+    "Equals(Angle(T),Angle(W))",
+    "Equals(MeasureOf(Angle(T)),20x)",
+    "Find(Angle(Z))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Z, T, W)), MeasureOf(Angle(Y, W, T)))",
+    "Equals(MeasureOf(Angle(T, Z, Y)), MeasureOf(Angle(Z, Y, W)))"
+  ],
+  "line_instances": [
+    "WT",
+    "YW",
+    "YZ",
+    "ZT"
+  ],
+  "point_positions": {
+    "T": [
+      1.0,
+      2.0
+    ],
+    "W": [
+      249.0,
+      0.0
+    ],
+    "Y": [
+      212.0,
+      108.0
+    ],
+    "Z": [
+      37.0,
+      107.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

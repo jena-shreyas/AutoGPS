@@ -1,0 +1,48 @@
+{
+  "problem_text": "In \\odot P, P R = 15 and m \\angle Q P R = 120. Find the length of \\widehat Q R.",
+  "choices": [
+    "10 \\pi",
+    "30 \\pi",
+    "40 \\pi",
+    "50 \\pi"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter10.pdf page 13",
+  "comment": "",
+  "id": 2132,
+  "annot_id": "Ran_2020-03-28_01_59_33",
+  "is_standard": false,
+  "compact_choices": [
+    "10\\pi",
+    "30\\pi",
+    "40\\pi",
+    "50\\pi"
+  ],
+  "precise_value": [
+    31.41592653589793,
+    94.24777960769379,
+    125.66370614359172,
+    157.07963267948966
+  ],
+  "rough_value": [
+    31.42,
+    94.25,
+    125.66,
+    157.08
+  ],
+  "compact_text": "In \\odot P, PR = 15 and m \\angle QPR = 120. Find the length of \\widehat QR.",
+  "annotat_text": "In $\\odot P, P R=15$ and $m \\angle Q P R=120 .$ Find the length of $\\widehat{Q R}$",
+  "unit": "",
+  "img_width": 242,
+  "img_height": 255,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

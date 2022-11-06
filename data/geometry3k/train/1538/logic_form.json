@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Equals(LengthOf(Line(K,P)),4)",
+    "Equals(LengthOf(Line(P,M)),7)",
+    "Find(LengthOf(Line(J,L)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(LengthOf(Line(K,P)),4)",
+    "Equals(LengthOf(Line(P,M)),7)",
+    "Find(LengthOf(Line(J,L)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(P, Line(M, K))",
+    "PointLiesOnLine(P, Line(J, L))",
+    "Equals(LengthOf(Line(J, K)), LengthOf(Line(M, L)))",
+    "Parallel(Line(J, M), Line(K, L))"
+  ],
+  "line_instances": [
+    "JK",
+    "KL",
+    "JM",
+    "ML",
+    "PK",
+    "PM",
+    "KM",
+    "PJ",
+    "JL",
+    "PL"
+  ],
+  "point_positions": {
+    "J": [
+      1.0,
+      63.0
+    ],
+    "K": [
+      212.0,
+      1.0
+    ],
+    "L": [
+      294.0,
+      126.0
+    ],
+    "M": [
+      172.0,
+      302.0
+    ],
+    "P": [
+      199.0,
+      105.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

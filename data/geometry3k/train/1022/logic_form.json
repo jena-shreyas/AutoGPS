@@ -1,0 +1,59 @@
+{
+  "text_logic_form": [
+    "IsDiameterOf(Line(Q,S),Circle(V))",
+    "Find(MeasureOf(Arc(S,T,P)))"
+  ],
+  "dissolved_text_logic_form": [
+    "IsDiameterOf(Line(Q,S),Circle(V))",
+    "Find(MeasureOf(Arc(S,T,P)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(T, V, S)), 75)",
+    "Equals(MeasureOf(Angle(P, V, T)), 72)",
+    "PointLiesOnLine(V, Line(S, Q))",
+    "PointLiesOnCircle(S, Circle(V, radius_1_0))",
+    "PointLiesOnCircle(P, Circle(V, radius_1_0))",
+    "PointLiesOnCircle(R, Circle(V, radius_1_0))",
+    "PointLiesOnCircle(T, Circle(V, radius_1_0))",
+    "PointLiesOnCircle(Q, Circle(V, radius_1_0))",
+    "Perpendicular(Line(R, V), Line(S, V))"
+  ],
+  "line_instances": [
+    "QP",
+    "SQ",
+    "SV",
+    "VP",
+    "VQ",
+    "VR",
+    "VT"
+  ],
+  "point_positions": {
+    "P": [
+      25.0,
+      235.0
+    ],
+    "Q": [
+      1.0,
+      150.0
+    ],
+    "R": [
+      151.0,
+      -0.0
+    ],
+    "S": [
+      304.0,
+      153.0
+    ],
+    "T": [
+      191.0,
+      292.0
+    ],
+    "V": [
+      156.0,
+      149.0
+    ]
+  },
+  "circle_instances": [
+    "V"
+  ]
+}

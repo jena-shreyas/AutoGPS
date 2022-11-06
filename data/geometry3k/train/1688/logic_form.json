@@ -1,0 +1,42 @@
+{
+  "text_logic_form": [
+    "Isosceles(Trapezoid(X,Y,Z,W))",
+    "Find(MedianOf(Isosceles(Trapezoid(X,Y,Z,W))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Isosceles(Trapezoid(X,Y,Z,W))",
+    "Find(MedianOf(Isosceles(Trapezoid(X,Y,Z,W))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 8)",
+    "Equals(LengthOf(Line(X, Y)), 20)",
+    "Equals(MeasureOf(Angle(X, Y, B)), 70)"
+  ],
+  "line_instances": [
+    "AB",
+    "AX",
+    "BY",
+    "XY"
+  ],
+  "point_positions": {
+    "A": [
+      41.0,
+      1.0
+    ],
+    "B": [
+      77.0,
+      0.0
+    ],
+    "X": [
+      0.0,
+      109.0
+    ],
+    "Y": [
+      116.0,
+      110.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

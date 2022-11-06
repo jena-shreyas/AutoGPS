@@ -1,0 +1,50 @@
+{
+  "text_logic_form": [
+    "Equals(SideOf(Square($)),5)",
+    "InscribedIn(Square($),Circle($))",
+    "Find(CircumferenceOf(Circle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(SideOf(Square(A,C,B,D)),5)",
+    "InscribedIn(Square(A,C,B,D),Circle(E))",
+    "Find(CircumferenceOf(Circle(E)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(D, B)), 5)",
+    "PointLiesOnCircle(A, Circle(E, radius_4_0))",
+    "PointLiesOnCircle(B, Circle(E, radius_4_0))",
+    "PointLiesOnCircle(C, Circle(E, radius_4_0))",
+    "PointLiesOnCircle(D, Circle(E, radius_4_0))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "CB",
+    "DB"
+  ],
+  "point_positions": {
+    "A": [
+      183.0,
+      33.0
+    ],
+    "B": [
+      31.0,
+      184.0
+    ],
+    "C": [
+      186.0,
+      184.0
+    ],
+    "D": [
+      34.0,
+      32.0
+    ],
+    "E": [
+      108.0,
+      112.0
+    ]
+  },
+  "circle_instances": [
+    "E"
+  ]
+}

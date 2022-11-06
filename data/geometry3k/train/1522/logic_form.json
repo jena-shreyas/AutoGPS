@@ -1,0 +1,36 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Circle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Circle(C)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 222)",
+    "PointLiesOnLine(C, Line(A, B))",
+    "PointLiesOnCircle(A, Circle(C, radius_2_0))",
+    "PointLiesOnCircle(B, Circle(C, radius_2_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC"
+  ],
+  "point_positions": {
+    "A": [
+      160.0,
+      33.0
+    ],
+    "B": [
+      23.0,
+      150.0
+    ],
+    "C": [
+      93.0,
+      94.0
+    ]
+  },
+  "circle_instances": [
+    "C"
+  ]
+}

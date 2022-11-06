@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find z.",
+  "choices": [
+    "15",
+    "18",
+    "20",
+    "24"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "",
+  "id": 895,
+  "annot_id": "Shibiao_2020-03-22_12_26_07",
+  "is_standard": false,
+  "compact_choices": [
+    "15",
+    "18",
+    "20",
+    "24"
+  ],
+  "precise_value": [
+    15.0,
+    18.0,
+    20.0,
+    24.0
+  ],
+  "rough_value": [
+    15,
+    18,
+    20,
+    24
+  ],
+  "compact_text": "Find z.",
+  "annotat_text": "Find $z$.",
+  "unit": "",
+  "img_width": 491,
+  "img_height": 435,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

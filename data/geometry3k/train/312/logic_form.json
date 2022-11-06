@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Rectangle(J,K,M,N)",
+    "Equals(LengthOf(Line(N,Q)),2x+3)",
+    "Equals(LengthOf(Line(Q,K)),5x-9)",
+    "Find(LengthOf(Line(J,Q)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(J,K,M,N)",
+    "Equals(LengthOf(Line(N,Q)),2x+3)",
+    "Equals(LengthOf(Line(Q,K)),5x-9)",
+    "Find(LengthOf(Line(J,Q)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(Q, Line(N, K))",
+    "PointLiesOnLine(Q, Line(M, J))",
+    "Perpendicular(Line(K, J), Line(N, J))",
+    "Perpendicular(Line(K, M), Line(M, N))"
+  ],
+  "line_instances": [
+    "JQ",
+    "KJ",
+    "KM",
+    "KQ",
+    "MJ",
+    "MQ",
+    "NJ",
+    "NK",
+    "NM",
+    "NQ"
+  ],
+  "point_positions": {
+    "J": [
+      2.0,
+      0.0
+    ],
+    "K": [
+      446.0,
+      2.0
+    ],
+    "M": [
+      449.0,
+      230.0
+    ],
+    "N": [
+      2.0,
+      230.0
+    ],
+    "Q": [
+      225.0,
+      116.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

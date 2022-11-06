@@ -1,0 +1,48 @@
+{
+  "problem_text": "Given figure A B C D, with A B \\parallel D C, m \\angle B = 60, m \\angle D = 45, B C = 8 and A B = 24, find the perimeter.",
+  "choices": [
+    "26 + 2 \\sqrt { 3 } + 2 \\sqrt { 6 }",
+    "26 + 4 \\sqrt { 3 } + 4 \\sqrt { 6 }",
+    "52 + 2 \\sqrt { 3 } + 2 \\sqrt { 6 }",
+    "52 + 4 \\sqrt { 3 } + 4 \\sqrt { 6 }"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter7.pdf page 23",
+  "comment": "",
+  "id": 428,
+  "annot_id": "Ran_2020-03-22_05_40_04",
+  "is_standard": false,
+  "compact_choices": [
+    "26+2\\sqrt{3}+2\\sqrt{6}",
+    "26+4\\sqrt{3}+4\\sqrt{6}",
+    "52+2\\sqrt{3}+2\\sqrt{6}",
+    "52+4\\sqrt{3}+4\\sqrt{6}"
+  ],
+  "precise_value": [
+    34.36308110070411,
+    42.726162201408215,
+    60.363081100704115,
+    68.72616220140821
+  ],
+  "rough_value": [
+    34.36,
+    42.73,
+    60.36,
+    68.73
+  ],
+  "compact_text": "Given figure ABCD, with AB \\parallel DC, m \\angle B = 60, m \\angle D = 45, BC = 8 and AB = 24, find the perimeter.",
+  "annotat_text": "Given figure $A B C D$, with $\\overline{A B} \\| \\overline{D C}, m \\angle B=60, m \\angle D=45, B C=8$\r\nand $A B=24,$ find the perimeter.",
+  "unit": "",
+  "img_width": 581,
+  "img_height": 251,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

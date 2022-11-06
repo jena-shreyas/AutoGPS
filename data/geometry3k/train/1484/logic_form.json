@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "InscribedIn(Triangle($),Circle($))",
+    "Find(CircumferenceOf(Circle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "InscribedIn(Triangle(A,B,C),Circle(I))",
+    "Find(CircumferenceOf(Circle(I)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(I, Line(B, C))",
+    "PointLiesOnCircle(A, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(B, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(C, Circle(I, radius_8_0))",
+    "Perpendicular(Line(A, C), Line(A, B))",
+    "Equals(LengthOf(Line(A, C)), LengthOf(Line(A, B)))",
+    "Equals(LengthOf(Line(A, B)), 6\\sqrt{2})"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC",
+    "BI",
+    "CI"
+  ],
+  "point_positions": {
+    "A": [
+      170.0,
+      4.0
+    ],
+    "B": [
+      26.0,
+      196.0
+    ],
+    "C": [
+      362.0,
+      147.0
+    ],
+    "I": [
+      197.0,
+      172.0
+    ]
+  },
+  "circle_instances": [
+    "I"
+  ]
+}

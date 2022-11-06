@@ -1,0 +1,68 @@
+{
+  "text_logic_form": [
+    "InscribedIn(Quadrilateral(A,B,C,D),Circle(Z))",
+    "Equals(MeasureOf(Angle(B,Z,A)),104)",
+    "Equals(MeasureOf(Arc(C,B)),94)",
+    "Parallel(Line(A,B),Line(D,C))",
+    "Find(MeasureOf(Arc(A,D,C)))"
+  ],
+  "dissolved_text_logic_form": [
+    "InscribedIn(Quadrilateral(A,B,C,D),Circle(Z))",
+    "Equals(MeasureOf(Angle(B,Z,A)),104)",
+    "Equals(MeasureOf(Arc(C,B)),94)",
+    "Parallel(Line(A,B),Line(D,C))",
+    "Find(MeasureOf(Arc(A,D,C)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(E, Line(B, D))",
+    "PointLiesOnLine(E, Line(C, A))",
+    "PointLiesOnCircle(B, Circle(Z, radius_1_0))",
+    "PointLiesOnCircle(C, Circle(Z, radius_1_0))",
+    "PointLiesOnCircle(D, Circle(Z, radius_1_0))",
+    "PointLiesOnCircle(A, Circle(Z, radius_1_0))"
+  ],
+  "line_instances": [
+    "BZ",
+    "BC",
+    "BD",
+    "BA",
+    "BE",
+    "ZA",
+    "ZE",
+    "CD",
+    "CA",
+    "CE",
+    "DA",
+    "DE",
+    "AE"
+  ],
+  "circle_instances": [
+    "Z"
+  ],
+  "point_positions": {
+    "B": [
+      44.58493795492737,
+      31.70111822210704
+    ],
+    "Z": [
+      121.16666666666667,
+      124.83333333333333
+    ],
+    "C": [
+      223.51753040525023,
+      52.0513502069235
+    ],
+    "D": [
+      229.59104473898762,
+      187.6426408523185
+    ],
+    "A": [
+      56.57399636317476,
+      227.22763700556607
+    ],
+    "E": [
+      155.39507417542848,
+      124.00028805991647
+    ]
+  }
+}

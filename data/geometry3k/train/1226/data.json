@@ -1,0 +1,48 @@
+{
+  "problem_text": "Quadrilateral E F G H is a rectangle. Find m \\angle H E F + m \\angle E F G.",
+  "choices": [
+    "33",
+    "57",
+    "70",
+    "180"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Rectangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 62",
+  "comment": "",
+  "id": 1226,
+  "annot_id": "Ran_2020-03-20_02_35_09",
+  "is_standard": false,
+  "compact_choices": [
+    "33",
+    "57",
+    "70",
+    "180"
+  ],
+  "precise_value": [
+    33.0,
+    57.0,
+    70.0,
+    180.0
+  ],
+  "rough_value": [
+    33,
+    57,
+    70,
+    180
+  ],
+  "compact_text": "Quadrilateral EFGH is a rectangle. Find m \\angle HEF+m \\angle EFG.",
+  "annotat_text": "Quadrilateral EFGH is a rectangle. Find $m\\angle HEF + m\\angle EFG$.",
+  "unit": "",
+  "img_width": 587,
+  "img_height": 281,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

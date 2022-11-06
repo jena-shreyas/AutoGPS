@@ -1,0 +1,37 @@
+{
+  "text_logic_form": [
+    "Similar(Shape($1),Shape($2))",
+    "Find(AreaOf(Green(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(A,B,C),Triangle(D, E, F))",
+    "Find(AreaOf(Green(Triangle(A,B,C))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 18)",
+    "Equals(LengthOf(Line(D, E)), 10)",
+    "Equals(AreaOf(Triangle(D, E, F)), 25)"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC"
+  ],
+  "point_positions": {
+    "A": [
+      148.0,
+      144.0
+    ],
+    "B": [
+      0.0,
+      0.0
+    ],
+    "C": [
+      40.0,
+      162.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

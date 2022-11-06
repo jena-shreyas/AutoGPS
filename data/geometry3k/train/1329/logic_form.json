@@ -1,0 +1,45 @@
+{
+  "text_logic_form": [
+    "Similar(Shape($1),Shape($2))",
+    "Find(ScaleFactorOf(Blue(Shape($)),Green(Shape($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Quadrilateral(A,B,L,T),Quadrilateral(E,F,G,H))",
+    "Find(ScaleFactorOf(Blue(Quadrilateral(E,F,G,H)),Green(Quadrilateral(A,B,L,T))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(M, B)), 14)",
+    "Perpendicular(Line(B, M), Line(L, M))",
+    "Equals(LengthOf(Line(N, F)), x)",
+    "Perpendicular(Line(F, N), Line(G, N))",
+    "Equals(AreaOf(Quadrilateral(E,F,G,H)), 27)",
+    "Equals(AreaOf(Quadrilateral(A,B,L,T)), 147)"
+  ],
+  "line_instances": [
+    "BA",
+    "LB",
+    "LT",
+    "TA"
+  ],
+  "point_positions": {
+    "A": [
+      93.0,
+      1.0
+    ],
+    "B": [
+      1.0,
+      31.0
+    ],
+    "L": [
+      57.0,
+      151.0
+    ],
+    "T": [
+      120.0,
+      128.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Rectangle(A,B,C,D)",
+    "Equals(LengthOf(Line(A,C)),30-x)",
+    "Equals(LengthOf(Line(B,D)),4x-60)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(A,B,C,D)",
+    "Equals(LengthOf(Line(A,C)),30-x)",
+    "Equals(LengthOf(Line(B,D)),4x-60)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(E, Line(A, C))",
+    "PointLiesOnLine(E, Line(B, D))"
+  ],
+  "line_instances": [
+    "AB",
+    "AD",
+    "AC",
+    "AE",
+    "BD",
+    "BC",
+    "BE",
+    "DC",
+    "DE",
+    "CE"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      2.7551722341044638,
+      126.31887320292836
+    ],
+    "B": [
+      326.39530841120234,
+      127.56011768402897
+    ],
+    "D": [
+      0.0,
+      0.0
+    ],
+    "C": [
+      326.0869838556023,
+      1.5191631409757633
+    ],
+    "E": [
+      164.1376729906699,
+      64.44669368958819
+    ]
+  }
+}

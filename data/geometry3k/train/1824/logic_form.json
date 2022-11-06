@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Shape($)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(M, D)), 6)",
+    "Equals(LengthOf(Line(C, H)), 14)",
+    "Equals(LengthOf(Line(O, H)), 4)",
+    "PointLiesOnLine(O, Line(M, H))"
+  ],
+  "line_instances": [
+    "MD",
+    "HC",
+    "CD",
+    "OM",
+    "OH",
+    "MH"
+  ],
+  "point_positions": {
+    "C": [
+      260.0,
+      153.0
+    ],
+    "D": [
+      111.0,
+      2.0
+    ],
+    "H": [
+      2.0,
+      151.0
+    ],
+    "M": [
+      0.0,
+      1.0
+    ],
+    "O": [
+      1.0,
+      76.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

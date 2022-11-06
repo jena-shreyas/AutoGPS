@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(K,L)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(K,L)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(L, J)), 12)",
+    "Perpendicular(Line(J, K), Line(K, M))",
+    "Equals(LengthOf(Line(J, M)), LengthOf(Line(L, M)))",
+    "PointLiesOnLine(K, Line(J, L))"
+  ],
+  "line_instances": [
+    "JK",
+    "JL",
+    "KL",
+    "MJ",
+    "MK",
+    "ML"
+  ],
+  "point_positions": {
+    "J": [
+      250.0,
+      1.0
+    ],
+    "K": [
+      291.0,
+      80.0
+    ],
+    "L": [
+      332.0,
+      160.0
+    ],
+    "M": [
+      42.0,
+      210.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Similar(Triangle(R,S,T),Triangle(U,V,W))",
+    "IsMedianOf(Line(T,A),Triangle(U,V,W))",
+    "IsMedianOf(Line(W,B),Triangle(U,V,W))",
+    "Equals(LengthOf(Line(T,A)),8)",
+    "Equals(LengthOf(Line(R,A)),3)",
+    "Equals(LengthOf(Line(W,B)),3x-6)",
+    "Equals(LengthOf(Line(U,B)),x+2)",
+    "Find(LengthOf(Line(U,B)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Triangle(R,S,T),Triangle(U,V,W))",
+    "IsMedianOf(Line(T,A),Triangle(U,V,W))",
+    "IsMedianOf(Line(W,B),Triangle(U,V,W))",
+    "Equals(LengthOf(Line(T,A)),8)",
+    "Equals(LengthOf(Line(R,A)),3)",
+    "Equals(LengthOf(Line(W,B)),3x-6)",
+    "Equals(LengthOf(Line(U,B)),x+2)",
+    "Find(LengthOf(Line(U,B)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(B, Line(U, V))",
+    "PointLiesOnLine(A, Line(R, S))"
+  ],
+  "line_instances": [
+    "UV",
+    "BU",
+    "BV",
+    "BW",
+    "WU",
+    "WV"
+  ],
+  "point_positions": {
+    "U": [
+      0.0,
+      95.0
+    ],
+    "B": [
+      120.0,
+      105.0
+    ],
+    "V": [
+      235.0,
+      115.0
+    ],
+    "W": [
+      69.0,
+      1.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

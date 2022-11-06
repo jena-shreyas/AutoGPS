@@ -1,0 +1,48 @@
+{
+  "problem_text": "If N Q and V X are medians, \\triangle P N R \\sim \\triangle W V Y, N Q = 8, P R = 12, W Y = 7 x - 1, and V X = 4 x + 2, find x.",
+  "choices": [
+    "4",
+    "5",
+    "6",
+    "8"
+  ],
+  "answer": "A",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook1_chapter_7.pdf",
+  "comment": "! two subgraph",
+  "id": 2107,
+  "annot_id": "Shibiao_2020-03-22_12_32_29",
+  "is_standard": false,
+  "compact_choices": [
+    "4",
+    "5",
+    "6",
+    "8"
+  ],
+  "precise_value": [
+    4.0,
+    5.0,
+    6.0,
+    8.0
+  ],
+  "rough_value": [
+    4,
+    5,
+    6,
+    8
+  ],
+  "compact_text": "If NQ and VX are medians, \\triangle PNR \\sim \\triangle WVY, NQ = 8, PR = 12, WY = 7x-1, and VX = 4x+2, find x.",
+  "annotat_text": "If $\\overline{NQ}$ and $\\overline{VX}$ are medians, $\\triangle PNR \\sim \\triangle WVY, NQ=8, PR=12,WY=7x-1,$ and $VX=4x+2,$ find $x$.",
+  "unit": "",
+  "img_width": 935,
+  "img_height": 391,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

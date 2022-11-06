@@ -1,0 +1,51 @@
+{
+  "text_logic_form": [
+    "Quadrilateral(P,Q,R,S)",
+    "Equals(LengthOf(Line(P,Q)),721)",
+    "Equals(LengthOf(Line(Q,R)),547)",
+    "Equals(LengthOf(Line(R,S)),593)",
+    "Equals(LengthOf(Line(P,S)),756)",
+    "Equals(MeasureOf(Angle(P)),58)",
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Quadrilateral(P,Q,R,S)",
+    "Equals(LengthOf(Line(P,Q)),721)",
+    "Equals(LengthOf(Line(Q,R)),547)",
+    "Equals(LengthOf(Line(R,S)),593)",
+    "Equals(LengthOf(Line(P,S)),756)",
+    "Equals(MeasureOf(Angle(P)),58)",
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "diagram_logic_form": [
+    ""
+  ],
+  "line_instances": [
+    "AP",
+    "AQ",
+    "QP",
+    "RA",
+    "RQ"
+  ],
+  "point_positions": {
+    "A": [
+      64.0,
+      188.0
+    ],
+    "P": [
+      0.0,
+      0.0
+    ],
+    "Q": [
+      189.0,
+      9.0
+    ],
+    "R": [
+      213.0,
+      150.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

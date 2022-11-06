@@ -1,0 +1,65 @@
+{
+  "text_logic_form": [
+    "Similar(Quadrilateral(A,B,C,D),Quadrilateral(Q,S,R,P))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Quadrilateral(A,B,C,D),Quadrilateral(Q,S,R,P))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(B, A, D)), 82)",
+    "Equals(MeasureOf(Angle(R, P, Q)), 97)",
+    "Equals(MeasureOf(Angle(P, R, S)), 3y-13)",
+    "Equals(MeasureOf(Angle(A, D, C)), x+34)",
+    "Equals(MeasureOf(Angle(R, S, Q)), 98)",
+    "Equals(MeasureOf(Angle(D, C, B)), 83)"
+  ],
+  "line_instances": [
+    "BA",
+    "CB",
+    "CD",
+    "DA",
+    "PQ",
+    "QS",
+    "SR",
+    "RP"
+  ],
+  "point_positions": {
+    "A": [
+      141.0,
+      2.0
+    ],
+    "B": [
+      280.0,
+      160.0
+    ],
+    "C": [
+      141.0,
+      321.0
+    ],
+    "D": [
+      3.0,
+      160.0
+    ],
+    "P": [
+      441.0,
+      2.0
+    ],
+    "Q": [
+      580.0,
+      160.0
+    ],
+    "S": [
+      441.0,
+      321.0
+    ],
+    "R": [
+      303.0,
+      160.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

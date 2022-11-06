@@ -1,0 +1,28 @@
+{
+  "text_logic_form": [
+    "Find(CircumferenceOf(Shape($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(CircumferenceOf(Circle(B)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnCircle(A, Circle(B, radius_1_0))",
+    "Equals(LengthOf(Line(A, B)), 3)"
+  ],
+  "line_instances": [
+    "AB"
+  ],
+  "point_positions": {
+    "A": [
+      14.0,
+      41.0
+    ],
+    "B": [
+      89.0,
+      89.0
+    ]
+  },
+  "circle_instances": [
+    "B"
+  ]
+}

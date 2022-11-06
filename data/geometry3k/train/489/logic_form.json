@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Trapezoid($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Trapezoid(C,B,D,E)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, B)), 18)",
+    "Equals(LengthOf(Line(C, E)), 13)",
+    "Equals(LengthOf(Line(E, D)), 24)",
+    "Perpendicular(Line(C, E), Line(E, D))"
+  ],
+  "line_instances": [
+    "BD",
+    "CB",
+    "CE",
+    "ED"
+  ],
+  "point_positions": {
+    "B": [
+      162.0,
+      2.0
+    ],
+    "C": [
+      2.0,
+      0.0
+    ],
+    "D": [
+      214.0,
+      117.0
+    ],
+    "E": [
+      1.0,
+      116.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

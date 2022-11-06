@@ -1,0 +1,51 @@
+{
+  "text_logic_form": [
+    "Kite(W,X,Y,Z)",
+    "Find(LengthOf(Line(Y,Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Kite(W,X,Y,Z)",
+    "Find(LengthOf(Line(Y,Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, X)), 5)",
+    "Equals(LengthOf(Line(Y, W)), 8)",
+    "PointLiesOnLine(A, Line(Y, W))",
+    "PointLiesOnLine(A, Line(X, Z))"
+  ],
+  "line_instances": [
+    "AY",
+    "AX",
+    "AZ",
+    "AW",
+    "YX",
+    "YZ",
+    "YW",
+    "XZ",
+    "XW",
+    "ZW"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      85.33516483516483,
+      61.0
+    ],
+    "Y": [
+      86.0,
+      182.0
+    ],
+    "X": [
+      173.3542956891318,
+      60.70432098765432
+    ],
+    "Z": [
+      0.6394339304175247,
+      60.7001287001287
+    ],
+    "W": [
+      85.13726487252654,
+      0.9345877522131758
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "problem_text": "Find the area of the figure. Round to the nearest tenth if necessary.",
+  "choices": [
+    "88.9",
+    "128.1",
+    "165.6",
+    "206.7"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Circle",
+    "Rectangle",
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 2063,
+  "annot_id": "pan_2020-03-23_06_50_15",
+  "is_standard": false,
+  "unit": "m^2",
+  "compact_choices": [
+    "88.9",
+    "128.1",
+    "165.6",
+    "206.7"
+  ],
+  "precise_value": [
+    88.9,
+    128.1,
+    165.6,
+    206.7
+  ],
+  "rough_value": [
+    88.9,
+    128.1,
+    165.6,
+    206.7
+  ],
+  "compact_text": "Find the area of the figure. Round to the nearest tenth if necessary.",
+  "annotat_text": "Find the area of the figure. Round to the nearest tenth if necessary.",
+  "img_width": 340,
+  "img_height": 191,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

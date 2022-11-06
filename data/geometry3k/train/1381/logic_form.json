@@ -1,0 +1,37 @@
+{
+  "text_logic_form": [
+    "Triangle($)",
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(X,Y, Z)",
+    "Find(MeasureOf(Angle(Z)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Z, X, Y)), 2 * a)",
+    "Equals(MeasureOf(Angle(Y, Z, X)),  a/2)",
+    "Perpendicular(Line(X,Y), Line(Y,Z))"
+  ],
+  "line_instances": [
+    "XY",
+    "XZ",
+    "ZY"
+  ],
+  "point_positions": {
+    "X": [
+      0.0,
+      0.0
+    ],
+    "Y": [
+      3.0,
+      175.0
+    ],
+    "Z": [
+      162.0,
+      176.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

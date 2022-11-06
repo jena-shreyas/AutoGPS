@@ -1,0 +1,49 @@
+{
+  "text_logic_form": [
+    "Equals(LengthOf(Line(X,Z)),39)",
+    "Equals(LengthOf(Line(H,W)),20)",
+    "Equals(LengthOf(Line(Y,G)),21)",
+    "Find(AreaOf(Quadrilateral(X,Y,Z,W)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(LengthOf(Line(X,Z)),39)",
+    "Equals(LengthOf(Line(H,W)),20)",
+    "Equals(LengthOf(Line(Y,G)),21)",
+    "Find(AreaOf(Quadrilateral(X,Y,Z,W)))"
+  ],
+  "diagram_logic_form": [
+    "Perpendicular(Line(W,H), Line(X,Z))",
+    "Perpendicular(Line(Y,G), Line(X,Z))",
+    "PointLiesOnLine(H, Line(Z, X))",
+    "PointLiesOnLine(H, Line(G, X))",
+    "PointLiesOnLine(G, Line(Z, X))",
+    "PointLiesOnLine(G, Line(Z, H))"
+  ],
+  "line_instances": [
+    "XW",
+    "XY",
+    "WZ",
+    "YZ"
+  ],
+  "point_positions": {
+    "X": [
+      1.0,
+      109.0
+    ],
+    "W": [
+      37.0,
+      205.0
+    ],
+    "Y": [
+      77.0,
+      2.0
+    ],
+    "Z": [
+      194.0,
+      108.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

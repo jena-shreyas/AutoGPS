@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the area of \\parallelogram E F G H.",
+  "choices": [
+    "64",
+    "90",
+    "110",
+    "127"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 431,
+  "annot_id": "pan_2020-03-22_20_44_45",
+  "is_standard": false,
+  "unit": "mm^2",
+  "compact_choices": [
+    "64",
+    "90",
+    "110",
+    "127"
+  ],
+  "precise_value": [
+    64.0,
+    90.0,
+    110.0,
+    127.0
+  ],
+  "rough_value": [
+    64,
+    90,
+    110,
+    127
+  ],
+  "compact_text": "Find the area of \\parallelogram EFGH.",
+  "annotat_text": "Find the area of $\u25b1EFGH$.",
+  "img_width": 560,
+  "img_height": 248,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

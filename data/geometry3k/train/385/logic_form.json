@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Find(ScaleFactorOf(Shape(W),Shape(W')))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(ScaleFactorOf(Shape(W),Shape(W')))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(W, W')), 4)",
+    "Equals(LengthOf(Line(F, W)), x)",
+    "Equals(LengthOf(Line(F, W')), 10)",
+    "PointLiesOnLine(W, Line(F, W'))",
+    "PointLiesOnLine(B, Line(F, N))"
+  ],
+  "line_instances": [
+    "BF",
+    "BN",
+    "ED",
+    "FN",
+    "FW",
+    "ND",
+    "WW'"
+  ],
+  "point_positions": {
+    "B": [
+      47.0,
+      189.0
+    ],
+    "D": [
+      313.0,
+      10.0
+    ],
+    "F": [
+      134.0,
+      294.0
+    ],
+    "N": [
+      0.0,
+      133.0
+    ],
+    "W": [
+      260.0,
+      246.0
+    ],
+    "W'": [
+      322.0,
+      220.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

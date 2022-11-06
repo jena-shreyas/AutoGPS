@@ -1,0 +1,48 @@
+{
+  "problem_text": "Solve for x in parallelogram R S T U.",
+  "choices": [
+    "12",
+    "18",
+    "25",
+    "30"
+  ],
+  "answer": "D",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 67",
+  "comment": "",
+  "id": 188,
+  "annot_id": "Ran_2020-03-20_03_10_31",
+  "is_standard": true,
+  "compact_choices": [
+    "12",
+    "18",
+    "25",
+    "30"
+  ],
+  "precise_value": [
+    12.0,
+    18.0,
+    25.0,
+    30.0
+  ],
+  "rough_value": [
+    12,
+    18,
+    25,
+    30
+  ],
+  "compact_text": "Solve for x in parallelogram RSTU.",
+  "annotat_text": "Solve for x in parallelogram RSTU.",
+  "unit": "",
+  "img_width": 864,
+  "img_height": 362,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

@@ -1,0 +1,33 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(A)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(A)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 15)",
+    "Equals(LengthOf(Line(A, C)), 3)",
+    "Perpendicular(Line(A, C), Line(B, C))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      379.1840913565662,
+      1.3307934632801732
+    ],
+    "B": [
+      0.0,
+      1.0
+    ],
+    "C": [
+      359.4923928077455,
+      87.62551867219918
+    ]
+  }
+}

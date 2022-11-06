@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Congruent(Triangle(R,S,T),Triangle(X,Y,Z))",
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Congruent(Triangle(R,S,T),Triangle(X,Y,Z))",
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(T, R)), x+21)",
+    "Equals(MeasureOf(Angle(T, R, S)), 4y-10)",
+    "Equals(MeasureOf(Angle(Z, X, Y)), 3y+5)",
+    "Equals(LengthOf(Line(Z, X)), 2x-14)"
+  ],
+  "line_instances": [
+    "SR",
+    "ST",
+    "TR",
+    "XY",
+    "XZ",
+    "ZY"
+  ],
+  "point_positions": {
+    "R": [
+      2.0,
+      56.0
+    ],
+    "S": [
+      55.0,
+      223.0
+    ],
+    "T": [
+      321.0,
+      3.0
+    ],
+    "X": [
+      600.0,
+      120.0
+    ],
+    "Y": [
+      550.0,
+      -30.0
+    ],
+    "Z": [
+      321.0,
+      180.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

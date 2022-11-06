@@ -1,0 +1,68 @@
+{
+  "text_logic_form": [
+    "Parallelogram(M,N,P,Q)",
+    "Equals(LengthOf(Line(M,R)),Mul(Line(M,N),\\frac{1}{4}))",
+    "Find(RatioOf(Line(M,S),Line(S,P)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallelogram(M,N,P,Q)",
+    "Equals(LengthOf(Line(M,R)),Mul(Line(M,N),\\frac{1}{4}))",
+    "Find(RatioOf(Line(M,S),Line(S,P)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(S, Line(P, M))",
+    "PointLiesOnLine(T, Line(P, Q))",
+    "PointLiesOnLine(R, Line(M, N))",
+    "PointLiesOnLine(S, Line(T, R))",
+    "Equals(LengthOf(Line(Q, T)), LengthOf(Line(P, T)))"
+  ],
+  "line_instances": [
+    "SR",
+    "MN",
+    "MQ",
+    "MR",
+    "MS",
+    "NR",
+    "PM",
+    "PN",
+    "PQ",
+    "PS",
+    "PT",
+    "QT",
+    "TR",
+    "TS"
+  ],
+  "point_positions": {
+    "M": [
+      0.0,
+      0.0
+    ],
+    "N": [
+      162.0,
+      2.0
+    ],
+    "P": [
+      216.0,
+      69.0
+    ],
+    "Q": [
+      57.0,
+      67.0
+    ],
+    "R": [
+      53.0,
+      0.0
+    ],
+    "S": [
+      86.0,
+      27.0
+    ],
+    "T": [
+      137.0,
+      68.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

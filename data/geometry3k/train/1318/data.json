@@ -1,0 +1,50 @@
+{
+  "problem_text": "Find the area of the shaded region. Round to the nearest tenth if necessary.",
+  "choices": [
+    "75.0",
+    "108.5",
+    "118.1",
+    "127.7"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Square",
+    "Rectangle",
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+  "comment": "shaded area not sure how to represent",
+  "id": 1318,
+  "annot_id": "pan_2020-03-21_20_43_18",
+  "is_standard": false,
+  "unit": "ft^2",
+  "compact_choices": [
+    "75.0",
+    "108.5",
+    "118.1",
+    "127.7"
+  ],
+  "precise_value": [
+    75.0,
+    108.5,
+    118.1,
+    127.7
+  ],
+  "rough_value": [
+    75,
+    108.5,
+    118.1,
+    127.7
+  ],
+  "compact_text": "Find the area of the shaded region. Round to the nearest tenth if necessary.",
+  "annotat_text": "Find the area of the shaded region. Round to the nearest tenth if necessary.",
+  "img_width": 477,
+  "img_height": 210,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

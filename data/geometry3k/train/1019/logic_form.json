@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Triangle(A,B,C)",
+    "Similar(Triangle(A,B,C),Triangle(C,B,D))",
+    "Equals(LengthOf(Line(C,D)),4)",
+    "Equals(LengthOf(Line(D,B)),3)",
+    "Equals(LengthOf(Line(C,B)),5)",
+    "Find(PerimeterOf(Triangle($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Triangle(A,B,C)",
+    "Similar(Triangle(A,B,C),Triangle(C,B,D))",
+    "Equals(LengthOf(Line(C,D)),4)",
+    "Equals(LengthOf(Line(D,B)),3)",
+    "Equals(LengthOf(Line(C,B)),5)",
+    "Find(PerimeterOf(Triangle(A,C,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, B)), 5)",
+    "Equals(LengthOf(Line(C, D)), 4)",
+    "Equals(LengthOf(Line(B, D)), 3)",
+    "PointLiesOnLine(D, Line(A, B))",
+    "Perpendicular(Line(A, C), Line(C, B))",
+    "Perpendicular(Line(C, D), Line(A, D))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "BD",
+    "CB",
+    "CD"
+  ],
+  "point_positions": {
+    "A": [
+      0.0,
+      148.0
+    ],
+    "B": [
+      308.0,
+      148.0
+    ],
+    "C": [
+      198.0,
+      0.0
+    ],
+    "D": [
+      196.0,
+      148.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

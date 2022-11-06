@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find the value of x in the diagram.",
+  "choices": [
+    "12",
+    "52",
+    "88",
+    "120"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Other"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "textbook1_chapter6.pdf page 9",
+  "comment": "",
+  "id": 1570,
+  "annot_id": "Ran_2020-03-15_04_08_25",
+  "is_standard": false,
+  "compact_choices": [
+    "12",
+    "52",
+    "88",
+    "120"
+  ],
+  "precise_value": [
+    12.0,
+    52.0,
+    88.0,
+    120.0
+  ],
+  "rough_value": [
+    12,
+    52,
+    88,
+    120
+  ],
+  "compact_text": "Find the value of x in the diagram.",
+  "annotat_text": "Find the value of $x$ in each diagram",
+  "unit": "",
+  "img_width": 436,
+  "img_height": 385,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

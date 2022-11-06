@@ -1,0 +1,199 @@
+{
+  "text_logic_form": [
+    "Find(y)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(y)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(K, J, O)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(S, L, F)), MeasureOf(angle 1))",
+    "Equals(LengthOf(Line(L, S)), y-6)",
+    "Equals(LengthOf(Line(C, P)), x+5)",
+    "Equals(MeasureOf(Angle(J, I, P)), MeasureOf(angle 4))",
+    "Equals(MeasureOf(Angle(B, F, M)), MeasureOf(angle 3))",
+    "Equals(MeasureOf(Angle(H, D, O)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(B, N, A)), MeasureOf(angle 2))",
+    "Equals(LengthOf(Line(F, M)), 66--y)",
+    "Equals(LengthOf(Line(D, H)), x-7)",
+    "Equals(MeasureOf(Angle(Y, J, K)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(M, F, G)), MeasureOf(angle 3))",
+    "PointLiesOnLine(L, Line(B, F))",
+    "PointLiesOnLine(F, Line(B, G))",
+    "PointLiesOnLine(L, Line(B, G))",
+    "PointLiesOnLine(N, Line(B, G))",
+    "PointLiesOnLine(F, Line(B, N))",
+    "PointLiesOnLine(L, Line(B, N))",
+    "PointLiesOnLine(N, Line(F, G))",
+    "PointLiesOnLine(J, Line(F, K))",
+    "PointLiesOnLine(F, Line(G, L))",
+    "PointLiesOnLine(N, Line(G, L))",
+    "PointLiesOnLine(I, Line(L, C))",
+    "PointLiesOnLine(F, Line(L, N))",
+    "PointLiesOnLine(C, Line(L, P))",
+    "PointLiesOnLine(I, Line(L, P))",
+    "PointLiesOnLine(D, Line(N, H))",
+    "PointLiesOnLine(I, Line(C, S))",
+    "PointLiesOnLine(L, Line(C, S))",
+    "PointLiesOnLine(L, Line(S, I))",
+    "PointLiesOnLine(C, Line(S, P))",
+    "PointLiesOnLine(I, Line(S, P))",
+    "PointLiesOnLine(L, Line(S, P))",
+    "PointLiesOnLine(J, Line(I, D))",
+    "PointLiesOnLine(O, Line(I, E))",
+    "PointLiesOnLine(D, Line(I, Y))",
+    "PointLiesOnLine(J, Line(I, Y))",
+    "PointLiesOnLine(C, Line(I, P))",
+    "PointLiesOnLine(N, Line(D, A))",
+    "PointLiesOnLine(I, Line(D, E))",
+    "PointLiesOnLine(J, Line(D, E))",
+    "PointLiesOnLine(O, Line(D, E))",
+    "PointLiesOnLine(I, Line(D, O))",
+    "PointLiesOnLine(J, Line(D, O))",
+    "PointLiesOnLine(D, Line(A, H))",
+    "PointLiesOnLine(N, Line(A, H))",
+    "PointLiesOnLine(I, Line(E, J))",
+    "PointLiesOnLine(O, Line(E, J))",
+    "PointLiesOnLine(D, Line(E, Y))",
+    "PointLiesOnLine(I, Line(E, Y))",
+    "PointLiesOnLine(J, Line(E, Y))",
+    "PointLiesOnLine(O, Line(E, Y))",
+    "PointLiesOnLine(F, Line(J, M))",
+    "PointLiesOnLine(D, Line(J, Y))",
+    "PointLiesOnLine(I, Line(J, O))",
+    "PointLiesOnLine(D, Line(Y, O))",
+    "PointLiesOnLine(I, Line(Y, O))",
+    "PointLiesOnLine(J, Line(Y, O))",
+    "PointLiesOnLine(F, Line(K, M))",
+    "PointLiesOnLine(J, Line(K, M))",
+    "Perpendicular(Line(I, O), Line(L, I))",
+    "Perpendicular(Line(I, J), Line(F, J))",
+    "Perpendicular(Line(D, J), Line(N, D))"
+  ],
+  "line_instances": [
+    "AH",
+    "BF",
+    "BG",
+    "BL",
+    "BN",
+    "CI",
+    "CP",
+    "CS",
+    "DA",
+    "DE",
+    "DH",
+    "DJ",
+    "DO",
+    "DY",
+    "EJ",
+    "EO",
+    "EY",
+    "FG",
+    "FJ",
+    "FK",
+    "FL",
+    "FM",
+    "FN",
+    "GL",
+    "GN",
+    "ID",
+    "IE",
+    "IJ",
+    "IO",
+    "IP",
+    "IY",
+    "JK",
+    "JM",
+    "JO",
+    "JY",
+    "KM",
+    "LC",
+    "LI",
+    "LN",
+    "LP",
+    "LS",
+    "NA",
+    "ND",
+    "NH",
+    "SI",
+    "SP",
+    "YO"
+  ],
+  "point_positions": {
+    "A": [
+      384.0,
+      279.0
+    ],
+    "B": [
+      312.0,
+      28.0
+    ],
+    "C": [
+      24.0,
+      93.0
+    ],
+    "D": [
+      139.0,
+      278.0
+    ],
+    "E": [
+      138.0,
+      0.0
+    ],
+    "F": [
+      293.0,
+      188.0
+    ],
+    "G": [
+      275.0,
+      347.0
+    ],
+    "H": [
+      27.0,
+      278.0
+    ],
+    "I": [
+      137.0,
+      93.0
+    ],
+    "J": [
+      138.0,
+      187.0
+    ],
+    "K": [
+      27.0,
+      187.0
+    ],
+    "L": [
+      304.0,
+      93.0
+    ],
+    "M": [
+      384.0,
+      188.0
+    ],
+    "N": [
+      283.0,
+      279.0
+    ],
+    "O": [
+      136.0,
+      25.0
+    ],
+    "P": [
+      1.0,
+      94.0
+    ],
+    "S": [
+      384.0,
+      93.0
+    ],
+    "Y": [
+      140.0,
+      341.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

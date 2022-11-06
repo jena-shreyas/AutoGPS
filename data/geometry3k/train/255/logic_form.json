@@ -1,0 +1,34 @@
+{
+  "text_logic_form": [
+    "Find(TanOf(Angle(A)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(TanOf(Angle(A)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 21)",
+    "Equals(LengthOf(Line(B, C)), 15)",
+    "Equals(LengthOf(Line(A, C)), 16)",
+    "Perpendicular(Line(B, C), Line(A, C))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "BC"
+  ],
+  "circle_instances": [],
+  "point_positions": {
+    "A": [
+      1.4210854715202004e-14,
+      146.0
+    ],
+    "B": [
+      156.0,
+      1.0
+    ],
+    "C": [
+      154.02029985405335,
+      144.01884038742207
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "problem_text": "In the figure, F J \\cong F H and G F \\cong G H. If m \\angle G H J = 152 and m \\angle G = 32, find m \\angle J F H.",
+  "choices": [
+    "12",
+    "24",
+    "32",
+    "78"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 4 - Congruent Triangles.pdf",
+  "comment": "",
+  "id": 1509,
+  "annot_id": "pan_2020-03-18_19_33_04",
+  "is_standard": false,
+  "compact_choices": [
+    "12",
+    "24",
+    "32",
+    "78"
+  ],
+  "precise_value": [
+    12.0,
+    24.0,
+    32.0,
+    78.0
+  ],
+  "rough_value": [
+    12,
+    24,
+    32,
+    78
+  ],
+  "compact_text": "In the figure, FJ \\cong FH and GF \\cong GH. If m \\angle GHJ = 152 and m \\angle G = 32, find m \\angle JFH.",
+  "annotat_text": "In the figure, $\\overline{FJ} \\cong \\overline{FH}$ and $\\overline{GF} \\cong \\overline{GH}$. If $m\u2220GHJ=152$ and  $m\u2220G=32$, find $m\u2220JFH$.",
+  "unit": "",
+  "img_width": 378,
+  "img_height": 271,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

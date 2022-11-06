@@ -1,0 +1,67 @@
+{
+  "text_logic_form": [
+    "Equals(LengthOf(Line(S,T)),18)",
+    "Equals(RadiusOf(Circle(P)),5)",
+    "Find(PerimeterOf(Polygon($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(LengthOf(Line(S,T)),18)",
+    "Equals(RadiusOf(Circle(P)),5)",
+    "Find(PerimeterOf(Polygon(R, T, S)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(C, F)), 0)",
+    "Equals(LengthOf(Line(S, E)), 5)",
+    "PointLiesOnLine(C, Line(T, R))",
+    "PointLiesOnLine(E, Line(T, S))",
+    "PointLiesOnLine(F, Line(R, S))",
+    "PointLiesOnCircle(C, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(E, Circle(D, radius_5_0))",
+    "PointLiesOnCircle(F, Circle(D, radius_5_0))",
+    "Perpendicular(Line(S, F), Line(S, E))"
+  ],
+  "line_instances": [
+    "SE",
+    "SF",
+    "RS",
+    "RC",
+    "RF",
+    "TS",
+    "TC",
+    "TE",
+    "TR"
+  ],
+  "point_positions": {
+    "S": [
+      5.0,
+      97.0
+    ],
+    "C": [
+      55.0,
+      21.0
+    ],
+    "D": [
+      41.0,
+      57.0
+    ],
+    "E": [
+      41.0,
+      97.0
+    ],
+    "F": [
+      5.0,
+      60.0
+    ],
+    "R": [
+      4.0,
+      0.0
+    ],
+    "T": [
+      238.0,
+      96.0
+    ]
+  },
+  "circle_instances": [
+    "D"
+  ]
+}

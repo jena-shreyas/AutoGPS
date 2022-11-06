@@ -1,0 +1,55 @@
+{
+  "text_logic_form": [
+    "Circle(A)",
+    "Equals(MeasureOf(Angle(E,A,D)),42)",
+    "Find(MeasureOf(Arc(E,D,B)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Circle(A)",
+    "Equals(MeasureOf(Angle(E,A,D)),42)",
+    "Find(MeasureOf(Arc(E,D,B)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(E, A, D)), 42)",
+    "PointLiesOnLine(A, Line(B, D))",
+    "PointLiesOnLine(A, Line(E, C))",
+    "PointLiesOnCircle(B, Circle(A, radius_3_0))",
+    "PointLiesOnCircle(E, Circle(A, radius_3_0))",
+    "PointLiesOnCircle(D, Circle(A, radius_3_0))",
+    "PointLiesOnCircle(C, Circle(A, radius_3_0))"
+  ],
+  "line_instances": [
+    "BD",
+    "BA",
+    "DE",
+    "DA",
+    "AE",
+    "AC",
+    "EC"
+  ],
+  "circle_instances": [
+    "A"
+  ],
+  "point_positions": {
+    "B": [
+      28.656490264952964,
+      24.741438483668503
+    ],
+    "E": [
+      170.10799469013062,
+      92.01022434936148
+    ],
+    "D": [
+      144.29229174629,
+      146.30728106661257
+    ],
+    "A": [
+      86.23865979381443,
+      85.22525773195876
+    ],
+    "C": [
+      3.1088217723741565,
+      76.19965176543187
+    ]
+  }
+}

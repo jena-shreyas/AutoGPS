@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find E H if \\triangle A B C \\sim \\triangle D E F, B G is an altitude of \\triangle A B C, E H is an altitude of \\triangle D E F, B G = 3, B F = 4, F C = 2, and C E = 1.",
+  "choices": [
+    "1",
+    "\\frac { 3 } { 2 }",
+    "2",
+    "3"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Triangle"
+  ],
+  "problem_type_goal": [
+    "Length"
+  ],
+  "source": "textbook2_chapter6.pdf page 42",
+  "comment": "Good parsing result, logic solver will success while nn solver loses.",
+  "id": 1894,
+  "annot_id": "Ran_2020-03-21_07_18_31",
+  "is_standard": false,
+  "compact_choices": [
+    "1",
+    "\\frac{3}{2}",
+    "2",
+    "3"
+  ],
+  "precise_value": [
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "rough_value": [
+    1,
+    1.5,
+    2,
+    3
+  ],
+  "compact_text": "Find EH if \\triangle ABC \\sim \\triangle DEF, BG is an altitude of \\triangle ABC, EH is an altitude of \\triangle DEF, BG = 3, BF = 4, FC = 2, and CE = 1.",
+  "annotat_text": "Find $E H$ if $\\triangle A B C \\sim \\triangle D E F, \\overline{B G}$ is an altitude of $\\triangle A B C, \\overline{E H}$ is an altitude of $\\triangle D E F, B G=3$, $B F=4, F C=2,$ and $C E=1$",
+  "unit": "",
+  "img_width": 491,
+  "img_height": 262,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

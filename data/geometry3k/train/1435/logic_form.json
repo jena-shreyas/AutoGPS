@@ -1,0 +1,52 @@
+{
+  "text_logic_form": [
+    "Find(LengthOf(Line(S,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(LengthOf(Line(S,T)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(Q, S)), x)",
+    "Equals(LengthOf(Line(Q, T)), 20)",
+    "Equals(LengthOf(Line(R, S)), 12)",
+    "Equals(LengthOf(Line(P, T)), 16)",
+    "PointLiesOnLine(R, Line(Q, P))",
+    "PointLiesOnLine(S, Line(Q, T))",
+    "Parallel(Line(R, S), Line(T, P))"
+  ],
+  "line_instances": [
+    "QS",
+    "QT",
+    "ST",
+    "QR",
+    "RP",
+    "QP",
+    "RS",
+    "PT"
+  ],
+  "point_positions": {
+    "S": [
+      230.0,
+      217.0
+    ],
+    "P": [
+      1.0,
+      338.0
+    ],
+    "Q": [
+      112.0,
+      57.0
+    ],
+    "R": [
+      49.0,
+      215.0
+    ],
+    "T": [
+      317.0,
+      338.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

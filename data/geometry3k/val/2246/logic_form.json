@@ -1,0 +1,41 @@
+{
+  "text_logic_form": [
+    "Find(AreaOf(Rhombus($)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(AreaOf(Rhombus(A,B,C,D)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, C)), 10)",
+    "Equals(LengthOf(Line(B, D)), 18)"
+  ],
+  "line_instances": [
+    "AB",
+    "AD",
+    "BC",
+    "DC",
+    "AC",
+    "DB"
+  ],
+  "point_positions": {
+    "A": [
+      110.0,
+      1.0
+    ],
+    "B": [
+      1.0,
+      54.0
+    ],
+    "C": [
+      107.0,
+      116.0
+    ],
+    "D": [
+      211.0,
+      57.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

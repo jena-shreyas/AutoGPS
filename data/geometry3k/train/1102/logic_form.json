@@ -1,0 +1,53 @@
+{
+  "text_logic_form": [
+    "Parallel(Line(M,N),Line(P,Q))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Parallel(Line(M,N),Line(P,Q))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(T, M)), 15)",
+    "Equals(LengthOf(Line(T, P)), x)",
+    "Equals(LengthOf(Line(Q, T)), 8)",
+    "Equals(LengthOf(Line(Q, N)), 4)",
+    "PointLiesOnLine(P, Line(T, M))",
+    "PointLiesOnLine(Q, Line(T, N))"
+  ],
+  "line_instances": [
+    "NM",
+    "PM",
+    "QN",
+    "QP",
+    "QT",
+    "TM",
+    "TN",
+    "TP"
+  ],
+  "point_positions": {
+    "M": [
+      7.0,
+      2.0
+    ],
+    "N": [
+      1.0,
+      142.0
+    ],
+    "P": [
+      81.0,
+      44.0
+    ],
+    "Q": [
+      82.0,
+      142.0
+    ],
+    "T": [
+      249.0,
+      143.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

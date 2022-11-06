@@ -1,0 +1,65 @@
+{
+  "text_logic_form": [
+    "Shape($)"
+  ],
+  "dissolved_text_logic_form": [
+    "Shape($)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(G, D, A)), b)",
+    "Equals(MeasureOf(Angle(F, E, C)), d)",
+    "PointLiesOnLine(D, Line(A, H))",
+    "PointLiesOnLine(E, Line(D, C))",
+    "PointLiesOnLine(E, Line(H, F))",
+    "PointLiesOnLine(D, Line(C, G))",
+    "PointLiesOnLine(E, Line(C, G))",
+    "PointLiesOnLine(D, Line(E, G))"
+  ],
+  "line_instances": [
+    "AD",
+    "AH",
+    "CE",
+    "CG",
+    "DC",
+    "DE",
+    "DG",
+    "DH",
+    "EF",
+    "EG",
+    "HE",
+    "HF"
+  ],
+  "point_positions": {
+    "A": [
+      18.0,
+      0.0
+    ],
+    "C": [
+      310.0,
+      66.0
+    ],
+    "D": [
+      85.0,
+      65.0
+    ],
+    "E": [
+      231.0,
+      66.0
+    ],
+    "F": [
+      296.0,
+      1.0
+    ],
+    "G": [
+      0.0,
+      65.0
+    ],
+    "H": [
+      158.0,
+      139.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "text_logic_form": [
+    "Similar(Quadrilateral(A,B,C,D),Quadrilateral(A,E,F,G))",
+    "Equals(MeasureOf(Angle(A,G,F)),108)",
+    "Equals(LengthOf(Line(G,F)),14)",
+    "Equals(LengthOf(Line(A,D)),12)",
+    "Equals(LengthOf(Line(D,G)),4.5)",
+    "Equals(LengthOf(Line(E,F)),8)",
+    "Equals(LengthOf(Line(A,B)),26)",
+    "Find(ScaleFactorOf(Trapezoid(A,B,C,D),Trapezoid(A,E,F,G)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Similar(Quadrilateral(A,B,C,D),Quadrilateral(A,E,F,G))",
+    "Equals(MeasureOf(Angle(A,G,F)),108)",
+    "Equals(LengthOf(Line(G,F)),14)",
+    "Equals(LengthOf(Line(A,D)),12)",
+    "Equals(LengthOf(Line(D,G)),4.5)",
+    "Equals(LengthOf(Line(E,F)),8)",
+    "Equals(LengthOf(Line(A,B)),26)",
+    "Find(ScaleFactorOf(Trapezoid(A,B,C,D),Trapezoid(A,E,F,G)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(A, B)), 26)",
+    "Equals(LengthOf(Line(E, F)), 8)",
+    "Equals(LengthOf(Line(A, D)), 12)",
+    "Equals(LengthOf(Line(G, F)), 14)",
+    "Equals(LengthOf(Line(G, D)), 4.5)",
+    "Equals(MeasureOf(Angle(A, G, F)), 108)",
+    "PointLiesOnLine(E, Line(A, B))",
+    "PointLiesOnLine(G, Line(A, D))"
+  ],
+  "line_instances": [
+    "AE",
+    "EB",
+    "AB",
+    "GF",
+    "CD",
+    "AG",
+    "GD",
+    "AD",
+    "EF",
+    "BC"
+  ],
+  "point_positions": {
+    "B": [
+      250.0,
+      1.0
+    ],
+    "G": [
+      22.0,
+      89.0
+    ],
+    "C": [
+      249.0,
+      133.0
+    ],
+    "D": [
+      37.0,
+      132.0
+    ],
+    "E": [
+      156.0,
+      9.0
+    ],
+    "F": [
+      159.0,
+      87.0
+    ],
+    "A": [
+      1.0,
+      27.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

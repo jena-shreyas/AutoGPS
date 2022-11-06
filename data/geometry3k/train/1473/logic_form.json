@@ -1,0 +1,57 @@
+{
+  "text_logic_form": [
+    "Equals(MeasureOf(Angle(A,F,B)),8x-6)",
+    "Equals(MeasureOf(Angle(B,F,C)),14x+8)",
+    "RightAngle(Angle(A,F,C))",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(MeasureOf(Angle(A,F,B)),8x-6)",
+    "Equals(MeasureOf(Angle(B,F,C)),14x+8)",
+    "RightAngle(Angle(A,F,C))",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(F, Line(B, E))",
+    "PointLiesOnLine(F, Line(A, D))",
+    ""
+  ],
+  "line_instances": [
+    "AD",
+    "AF",
+    "BE",
+    "BF",
+    "CF",
+    "FD",
+    "FE"
+  ],
+  "point_positions": {
+    "A": [
+      51.0,
+      269.0
+    ],
+    "B": [
+      49.0,
+      202.0
+    ],
+    "C": [
+      144.0,
+      45.0
+    ],
+    "D": [
+      369.0,
+      128.0
+    ],
+    "E": [
+      359.0,
+      199.0
+    ],
+    "F": [
+      217.0,
+      198.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

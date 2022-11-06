@@ -1,0 +1,47 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(G, E, L)), 5x+2)",
+    "Equals(MeasureOf(Angle(A, E, I)), 62)",
+    "PointLiesOnLine(E, Line(A, G))",
+    "PointLiesOnLine(E, Line(I, L))"
+  ],
+  "line_instances": [
+    "AE",
+    "AG",
+    "EG",
+    "EI",
+    "EL",
+    "IL"
+  ],
+  "point_positions": {
+    "A": [
+      3.0,
+      233.0
+    ],
+    "E": [
+      262.0,
+      120.0
+    ],
+    "G": [
+      526.0,
+      4.0
+    ],
+    "I": [
+      28.0,
+      6.0
+    ],
+    "L": [
+      523.0,
+      246.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

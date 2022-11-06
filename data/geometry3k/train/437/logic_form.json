@@ -1,0 +1,67 @@
+{
+  "text_logic_form": [
+    "Equals(SumOf(CircumferenceOf(Circle(H)),Circle(J),Circle(K)),56\\pi)",
+    "Find(LengthOf(Line(K,J)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(SumOf(CircumferenceOf(Circle(H)),Circle(J),Circle(K)),56\\pi)",
+    "Find(LengthOf(Line(K,J)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(K, A)), 4x)",
+    "Equals(LengthOf(Line(C, G)), 2x)",
+    "Equals(LengthOf(Line(H, A)), x)",
+    "Equals(LengthOf(Line(H, C)), x)",
+    "PointLiesOnLine(C, Line(J, H))",
+    "PointLiesOnLine(B, Line(J, K))",
+    "PointLiesOnLine(A, Line(K, H))",
+    "PointLiesOnCircle(B, Circle(J, radius_0_0))",
+    "PointLiesOnCircle(C, Circle(J, radius_0_0))",
+    "PointLiesOnCircle(A, Circle(K, radius_2_0))",
+    "PointLiesOnCircle(B, Circle(K, radius_2_0))",
+    "PointLiesOnCircle(A, Circle(H, radius_3_0))",
+    "PointLiesOnCircle(C, Circle(H, radius_3_0))"
+  ],
+  "line_instances": [
+    "HA",
+    "HC",
+    "JB",
+    "JC",
+    "JH",
+    "JK",
+    "KA",
+    "KB",
+    "KH"
+  ],
+  "point_positions": {
+    "A": [
+      380.0,
+      160.0
+    ],
+    "B": [
+      359.0,
+      281.0
+    ],
+    "C": [
+      452.0,
+      213.0
+    ],
+    "H": [
+      445.0,
+      150.0
+    ],
+    "J": [
+      465.0,
+      334.0
+    ],
+    "K": [
+      196.0,
+      191.0
+    ]
+  },
+  "circle_instances": [
+    "J",
+    "K",
+    "H"
+  ]
+}

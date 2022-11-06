@@ -1,0 +1,65 @@
+{
+  "text_logic_form": [
+    "Rhombus(A,B,C,D)",
+    "Equals(MeasureOf(Angle(1)),2x+20)",
+    "Equals(MeasureOf(Angle(2)),5x-4)",
+    "Equals(LengthOf(Line(A,C)),15)",
+    "Equals(MeasureOf(Angle(3)),y^{2}+26)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Rhombus(A,B,C,D)",
+    "Equals(MeasureOf(Angle(1)),2x+20)",
+    "Equals(MeasureOf(Angle(2)),5x-4)",
+    "Equals(LengthOf(Line(A,C)),15)",
+    "Equals(MeasureOf(Angle(3)),y^{2}+26)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(B, A, F)), MeasureOf(angle 1))",
+    "Equals(MeasureOf(Angle(A, F, B)), MeasureOf(angle 3))",
+    "Equals(MeasureOf(Angle(C, A, D)), MeasureOf(angle 2))",
+    "Equals(MeasureOf(Angle(D, F, A)), MeasureOf(angle 4))",
+    "Equals(MeasureOf(Angle(C, F, D)), MeasureOf(angle 6))",
+    "Equals(MeasureOf(Angle(A, D, F)), MeasureOf(angle 5))",
+    "PointLiesOnLine(F, Line(A, C))",
+    "PointLiesOnLine(F, Line(D, B))"
+  ],
+  "line_instances": [
+    "AB",
+    "AC",
+    "AD",
+    "AF",
+    "BF",
+    "CB",
+    "CD",
+    "CF",
+    "DB",
+    "DF"
+  ],
+  "point_positions": {
+    "A": [
+      1.0,
+      43.0
+    ],
+    "B": [
+      102.0,
+      1.0
+    ],
+    "C": [
+      102.0,
+      111.0
+    ],
+    "D": [
+      0.0,
+      154.0
+    ],
+    "F": [
+      51.0,
+      76.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

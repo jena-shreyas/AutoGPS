@@ -1,0 +1,48 @@
+{
+  "problem_text": "Find x so that m \\parallel n.",
+  "choices": [
+    "7",
+    "11",
+    "15",
+    "19"
+  ],
+  "answer": "C",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Line"
+  ],
+  "problem_type_goal": [
+    "Angle"
+  ],
+  "source": "Textbook 2_Chapter 3 - Parallel and Perpendicular Lines.pdf",
+  "comment": "",
+  "id": 1334,
+  "annot_id": "pan_2020-03-17_05_48_22",
+  "is_standard": false,
+  "compact_choices": [
+    "7",
+    "11",
+    "15",
+    "19"
+  ],
+  "precise_value": [
+    7.0,
+    11.0,
+    15.0,
+    19.0
+  ],
+  "rough_value": [
+    7,
+    11,
+    15,
+    19
+  ],
+  "compact_text": "Find x so that m \\parallel n.",
+  "annotat_text": "Find $x$ so that $ m \\parallel n $.",
+  "unit": "",
+  "img_width": 527,
+  "img_height": 241,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

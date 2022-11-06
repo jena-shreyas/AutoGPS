@@ -1,0 +1,90 @@
+{
+  "text_logic_form": [
+    "Rectangle(A,B,C,D)",
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(A,B,C,D)",
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(D, A, C)), 4x+5)",
+    "Equals(MeasureOf(Angle(A, D, B)), y^2-1)",
+    "Equals(MeasureOf(Angle(B, A, C)), 9x+20)",
+    "Equals(MeasureOf(Angle(C, B, D)), 4y+4)",
+    "PointLiesOnLine(F, Line(B, D))",
+    "PointLiesOnLine(H, Line(B, Y))",
+    "PointLiesOnLine(F, Line(C, E))",
+    "PointLiesOnLine(E, Line(C, A))",
+    "PointLiesOnLine(F, Line(C, A))",
+    "PointLiesOnLine(Y, Line(C, H))",
+    "PointLiesOnLine(E, Line(F, A))"
+  ],
+  "line_instances": [
+    "AE",
+    "AG",
+    "BA",
+    "BC",
+    "BD",
+    "BF",
+    "BH",
+    "BY",
+    "CA",
+    "CE",
+    "CF",
+    "CH",
+    "CY",
+    "DA",
+    "DC",
+    "DE",
+    "DF",
+    "DG",
+    "DH",
+    "EG",
+    "FA",
+    "FE",
+    "FH",
+    "YH"
+  ],
+  "point_positions": {
+    "A": [
+      30.0,
+      5.0
+    ],
+    "B": [
+      30.0,
+      127.0
+    ],
+    "C": [
+      309.0,
+      127.0
+    ],
+    "D": [
+      308.0,
+      6.0
+    ],
+    "E": [
+      49.0,
+      15.0
+    ],
+    "F": [
+      170.0,
+      67.0
+    ],
+    "G": [
+      105.0,
+      10.0
+    ],
+    "H": [
+      58.0,
+      123.0
+    ],
+    "Y": [
+      101.0,
+      124.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

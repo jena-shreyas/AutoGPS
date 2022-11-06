@@ -1,0 +1,46 @@
+{
+  "text_logic_form": [
+    "Equals(Line($1,$3),HypotenuseOf(Triangle($1,$2,$3)))",
+    "Find(LengthOf(AltitudeOf(Triangle($1,$2,$3))))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(Line(Y, X),HypotenuseOf(Triangle(Y, Z, X)))",
+    "Find(LengthOf(AltitudeOf(Triangle(Y, Z, X))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(X, N)), 10)",
+    "Equals(LengthOf(Line(Y, N)), 25)",
+    "PointLiesOnLine(N, Line(Y, X))",
+    "Perpendicular(Line(Z, N), Line(X, N))",
+    "Perpendicular(Line(Y, Z), Line(X, Z))"
+  ],
+  "line_instances": [
+    "XN",
+    "XZ",
+    "YN",
+    "YX",
+    "YZ",
+    "ZN"
+  ],
+  "point_positions": {
+    "N": [
+      56.0,
+      117.0
+    ],
+    "X": [
+      254.0,
+      1.0
+    ],
+    "Y": [
+      7.0,
+      145.0
+    ],
+    "Z": [
+      1.0,
+      21.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

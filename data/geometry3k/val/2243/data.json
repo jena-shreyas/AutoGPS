@@ -1,0 +1,48 @@
+{
+  "problem_text": "What is the area of the parallelogram below? Round to the nearest whole number if necessary.",
+  "choices": [
+    "49.4",
+    "106.0",
+    "117",
+    "250.9"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Parallelogram"
+  ],
+  "problem_type_goal": [
+    "Area"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 2243,
+  "annot_id": "pan_2020-03-23_09_10_26",
+  "is_standard": false,
+  "unit": "ft^2",
+  "compact_choices": [
+    "49.4",
+    "106.0",
+    "117",
+    "250.9"
+  ],
+  "precise_value": [
+    49.4,
+    106.0,
+    117.0,
+    250.9
+  ],
+  "rough_value": [
+    49.4,
+    106,
+    117,
+    250.9
+  ],
+  "compact_text": "What is the area of the parallelogram below? Round to the nearest whole number if necessary.",
+  "annotat_text": "What is the area of the parallelogram below? Round to the nearest whole number if necessary.",
+  "img_width": 453,
+  "img_height": 225,
+  "data_type": "val",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

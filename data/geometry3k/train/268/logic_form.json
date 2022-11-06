@@ -1,0 +1,110 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Arc(C, D)), 130)",
+    "Equals(MeasureOf(Angle(D, F, K)), x)",
+    "Equals(MeasureOf(Arc(C, G)), 45)",
+    "PointLiesOnLine(C, Line(A, D))",
+    "PointLiesOnLine(C, Line(A, F))",
+    "PointLiesOnLine(D, Line(A, F))",
+    "PointLiesOnLine(C, Line(A, I))",
+    "PointLiesOnLine(D, Line(C, F))",
+    "PointLiesOnLine(K, Line(F, E))",
+    "PointLiesOnLine(K, Line(F, G))",
+    "PointLiesOnLine(G, Line(F, H))",
+    "PointLiesOnLine(K, Line(F, H))",
+    "PointLiesOnLine(D, Line(F, J))",
+    "PointLiesOnLine(G, Line(K, H))",
+    "PointLiesOnLine(G, Line(E, H))",
+    "PointLiesOnCircle(C, Circle(E, radius_4_0))",
+    "PointLiesOnCircle(D, Circle(E, radius_4_0))",
+    "PointLiesOnCircle(G, Circle(E, radius_4_0))",
+    "PointLiesOnCircle(K, Circle(E, radius_4_0))"
+  ],
+  "line_instances": [
+    "AC",
+    "AD",
+    "AF",
+    "AI",
+    "AJ",
+    "BK",
+    "CD",
+    "CF",
+    "CI",
+    "CJ",
+    "DE",
+    "DF",
+    "DI",
+    "DJ",
+    "DK",
+    "EG",
+    "EH",
+    "FE",
+    "FG",
+    "FH",
+    "FI",
+    "FJ",
+    "FK",
+    "GH",
+    "IB",
+    "IE",
+    "IK",
+    "KE",
+    "KG",
+    "KH"
+  ],
+  "point_positions": {
+    "A": [
+      8.0,
+      8.0
+    ],
+    "B": [
+      234.0,
+      29.0
+    ],
+    "C": [
+      76.0,
+      24.0
+    ],
+    "D": [
+      191.0,
+      51.0
+    ],
+    "E": [
+      125.0,
+      76.0
+    ],
+    "F": [
+      264.0,
+      68.0
+    ],
+    "G": [
+      54.0,
+      74.0
+    ],
+    "H": [
+      0.0,
+      75.0
+    ],
+    "I": [
+      222.0,
+      51.0
+    ],
+    "J": [
+      28.0,
+      7.0
+    ],
+    "K": [
+      195.0,
+      70.0
+    ]
+  },
+  "circle_instances": [
+    "E"
+  ]
+}

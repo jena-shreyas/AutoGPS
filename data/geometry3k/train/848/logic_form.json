@@ -1,0 +1,191 @@
+{
+  "text_logic_form": [
+    "InscribedIn(Regular(Hexagon($)),Circle($))",
+    "Equals(DiameterOf(Circle($)),14)",
+    "Find(AreaOf(Red(Line($))))"
+  ],
+  "dissolved_text_logic_form": [
+    "InscribedIn(Regular(Hexagon($)),Circle($))",
+    "Equals(DiameterOf(Circle($)),14)",
+    "Find(AreaOf(Red(Line($))))"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(B, H)), 14)",
+    "PointLiesOnLine(I, Line(A, B))",
+    "PointLiesOnLine(K, Line(A, B))",
+    "PointLiesOnLine(K, Line(A, I))",
+    "PointLiesOnLine(I, Line(A, L))",
+    "PointLiesOnLine(K, Line(A, L))",
+    "PointLiesOnLine(I, Line(B, K))",
+    "PointLiesOnLine(I, Line(D, C))",
+    "PointLiesOnLine(J, Line(D, H))",
+    "PointLiesOnLine(G, Line(D, I))",
+    "PointLiesOnLine(I, Line(E, H))",
+    "PointLiesOnLine(O, Line(E, F))",
+    "PointLiesOnLine(O, Line(E, M))",
+    "PointLiesOnLine(E, Line(F, H))",
+    "PointLiesOnLine(I, Line(F, H))",
+    "PointLiesOnLine(E, Line(F, I))",
+    "PointLiesOnLine(O, Line(F, I))",
+    "PointLiesOnLine(G, Line(I, J))",
+    "PointLiesOnLine(E, Line(I, M))",
+    "PointLiesOnLine(O, Line(I, M))",
+    "PointLiesOnLine(E, Line(I, O))",
+    "PointLiesOnLine(G, Line(J, C))",
+    "PointLiesOnLine(I, Line(J, C))",
+    "PointLiesOnLine(G, Line(J, N))",
+    "PointLiesOnLine(I, Line(J, N))",
+    "PointLiesOnLine(I, Line(K, L))",
+    "PointLiesOnLine(C, Line(L, N))",
+    "PointLiesOnLine(E, Line(M, H))",
+    "PointLiesOnLine(I, Line(M, H))",
+    "PointLiesOnLine(O, Line(M, H))",
+    "PointLiesOnLine(I, Line(C, G))",
+    "PointLiesOnLine(E, Line(H, O))",
+    "PointLiesOnLine(I, Line(H, O))",
+    "PointLiesOnLine(I, Line(N, G))",
+    "PointLiesOnCircle(A, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(B, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(C, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(D, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(H, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(F, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(J, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(L, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(M, Circle(I, radius_8_0))",
+    "PointLiesOnCircle(N, Circle(I, radius_8_0))"
+  ],
+  "line_instances": [
+    "AB",
+    "AD",
+    "AE",
+    "AF",
+    "AI",
+    "AJ",
+    "AK",
+    "AL",
+    "AM",
+    "BC",
+    "BE",
+    "BH",
+    "BI",
+    "BK",
+    "BL",
+    "BN",
+    "BO",
+    "CG",
+    "CN",
+    "CO",
+    "DC",
+    "DG",
+    "DH",
+    "DI",
+    "DJ",
+    "EC",
+    "EF",
+    "EG",
+    "EH",
+    "EI",
+    "EJ",
+    "EK",
+    "EM",
+    "EO",
+    "FC",
+    "FH",
+    "FI",
+    "FM",
+    "FN",
+    "FO",
+    "HO",
+    "IC",
+    "IG",
+    "IH",
+    "IJ",
+    "IK",
+    "IL",
+    "IM",
+    "IN",
+    "IO",
+    "JC",
+    "JG",
+    "JH",
+    "JN",
+    "KC",
+    "KL",
+    "KM",
+    "KO",
+    "LC",
+    "LH",
+    "LN",
+    "MC",
+    "MH",
+    "MO",
+    "NG",
+    "OG"
+  ],
+  "point_positions": {
+    "A": [
+      57.0,
+      18.0
+    ],
+    "B": [
+      171.0,
+      207.0
+    ],
+    "C": [
+      60.0,
+      210.0
+    ],
+    "D": [
+      162.0,
+      11.0
+    ],
+    "E": [
+      102.0,
+      114.0
+    ],
+    "F": [
+      3.0,
+      111.0
+    ],
+    "G": [
+      130.0,
+      81.0
+    ],
+    "H": [
+      224.0,
+      111.0
+    ],
+    "I": [
+      113.0,
+      112.0
+    ],
+    "J": [
+      168.0,
+      18.0
+    ],
+    "K": [
+      101.0,
+      94.0
+    ],
+    "L": [
+      164.0,
+      213.0
+    ],
+    "M": [
+      2.0,
+      119.0
+    ],
+    "N": [
+      51.0,
+      207.0
+    ],
+    "O": [
+      89.0,
+      114.0
+    ]
+  },
+  "circle_instances": [
+    "I"
+  ]
+}

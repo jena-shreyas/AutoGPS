@@ -1,0 +1,43 @@
+{
+  "text_logic_form": [
+    "Find(x)"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(x)"
+  ],
+  "diagram_logic_form": [
+    "Equals(LengthOf(Line(G, F)), 4)",
+    "",
+    "Equals(LengthOf(Line(G, H)), 4)",
+    "Equals(MeasureOf(Angle(F, O, G)), x)",
+    "",
+    "PointLiesOnCircle(H, Circle(O, radius_4_0))",
+    "PointLiesOnCircle(G, Circle(O, radius_4_0))",
+    "PointLiesOnCircle(F, Circle(O, radius_4_0))"
+  ],
+  "line_instances": [
+    "GF",
+    "GH"
+  ],
+  "point_positions": {
+    "F": [
+      96.0,
+      9.0
+    ],
+    "G": [
+      289.0,
+      145.0
+    ],
+    "H": [
+      93.0,
+      281.0
+    ],
+    "O": [
+      144.0,
+      146.0
+    ]
+  },
+  "circle_instances": [
+    "O"
+  ]
+}

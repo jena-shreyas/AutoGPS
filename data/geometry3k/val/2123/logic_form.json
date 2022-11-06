@@ -1,0 +1,44 @@
+{
+  "text_logic_form": [
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Find(MeasureOf(Angle(R)))"
+  ],
+  "diagram_logic_form": [
+    "Equals(MeasureOf(Angle(Q, P, R)), 3x+1)",
+    "Equals(MeasureOf(Angle(Q, R, P)), 7x-1)",
+    "PointLiesOnLine(A, Line(R, P))",
+    "PointLiesOnCircle(R, Circle(A, radius_0_0))",
+    "PointLiesOnCircle(P, Circle(A, radius_0_0))",
+    "PointLiesOnCircle(Q, Circle(A, radius_0_0))"
+  ],
+  "line_instances": [
+    "AP",
+    "AR",
+    "PQ",
+    "RP",
+    "RQ"
+  ],
+  "point_positions": {
+    "A": [
+      156.0,
+      166.0
+    ],
+    "P": [
+      31.0,
+      74.0
+    ],
+    "Q": [
+      286.0,
+      80.0
+    ],
+    "R": [
+      287.0,
+      262.0
+    ]
+  },
+  "circle_instances": [
+    "A"
+  ]
+}

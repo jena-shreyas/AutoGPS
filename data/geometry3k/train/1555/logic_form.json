@@ -1,0 +1,54 @@
+{
+  "text_logic_form": [
+    "Equals(LengthOf(Line(Z,X)),20)",
+    "Equals(LengthOf(Line(T,Y)),15)",
+    "Find(LengthOf(Line(W,T)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Equals(LengthOf(Line(Z,X)),20)",
+    "Equals(LengthOf(Line(T,Y)),15)",
+    "Find(LengthOf(Line(W,T)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(T, Line(X, Z))",
+    "PointLiesOnLine(T, Line(Y, W))",
+    "Equals(LengthOf(Line(X, Y)), LengthOf(Line(W, Z)))"
+  ],
+  "line_instances": [
+    "WT",
+    "XT",
+    "XW",
+    "XY",
+    "XZ",
+    "YT",
+    "YW",
+    "YZ",
+    "ZT",
+    "ZW"
+  ],
+  "point_positions": {
+    "T": [
+      38.0,
+      33.0
+    ],
+    "W": [
+      6.0,
+      23.0
+    ],
+    "X": [
+      45.0,
+      0.0
+    ],
+    "Y": [
+      189.0,
+      75.0
+    ],
+    "Z": [
+      1.0,
+      187.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}

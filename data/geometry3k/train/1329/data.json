@@ -1,0 +1,48 @@
+{
+  "problem_text": "For the pair of similar figures, use the given areas to find the scale factor of the blue to the green figure.",
+  "choices": [
+    "\\frac { 9 } { 49 }",
+    "\\frac { 3 } { 7 }",
+    "\\frac { 7 } { 3 }",
+    "\\frac { 49 } { 9 }"
+  ],
+  "answer": "B",
+  "detailed_solution": " ",
+  "problem_type_graph": [
+    "Trapezoid"
+  ],
+  "problem_type_goal": [
+    "Ratio"
+  ],
+  "source": "textbook1_chapter_11.pdf",
+  "comment": "",
+  "id": 1329,
+  "annot_id": "pan_2020-03-23_07_32_01",
+  "is_standard": false,
+  "compact_choices": [
+    "\\frac{9}{49}",
+    "\\frac{3}{7}",
+    "\\frac{7}{3}",
+    "\\frac{49}{9}"
+  ],
+  "precise_value": [
+    0.1836734693877551,
+    0.42857142857142855,
+    2.3333333333333335,
+    5.444444444444445
+  ],
+  "rough_value": [
+    0.18,
+    0.43,
+    2.33,
+    5.44
+  ],
+  "compact_text": "For the pair of similar figures, use the given areas to find the scale factor of the blue to the green figure.",
+  "annotat_text": "For the pair of similar figures, use the given areas to find the scale factor of the blue to the green figure. ",
+  "unit": "",
+  "img_width": 363,
+  "img_height": 224,
+  "data_type": "train",
+  "date": "Fri Sep 18 22:23:14 2020",
+  "system": "linux"
+}

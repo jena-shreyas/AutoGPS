@@ -1,0 +1,58 @@
+{
+  "text_logic_form": [
+    "Rectangle(W,X,Y,Z)",
+    "Equals(LengthOf(Line(X,W)),3)",
+    "Equals(LengthOf(Line(W,Z)),4)",
+    "Equals(LengthOf(Line(X,Z)),b)",
+    "Find(LengthOf(Line(Y,W)))"
+  ],
+  "dissolved_text_logic_form": [
+    "Rectangle(W,X,Y,Z)",
+    "Equals(LengthOf(Line(X,W)),3)",
+    "Equals(LengthOf(Line(W,Z)),4)",
+    "Equals(LengthOf(Line(X,Z)),b)",
+    "Find(LengthOf(Line(Y,W)))"
+  ],
+  "diagram_logic_form": [
+    "PointLiesOnLine(A, Line(X, Z))",
+    "PointLiesOnLine(A, Line(W, Y))",
+    "Perpendicular(Line(X, W), Line(W, Z))"
+  ],
+  "line_instances": [
+    "WA",
+    "WY",
+    "XA",
+    "XW",
+    "XY",
+    "XZ",
+    "YA",
+    "ZA",
+    "ZW",
+    "ZY"
+  ],
+  "point_positions": {
+    "A": [
+      140.0,
+      47.0
+    ],
+    "W": [
+      1.0,
+      93.0
+    ],
+    "X": [
+      1.0,
+      1.0
+    ],
+    "Y": [
+      276.0,
+      2.0
+    ],
+    "Z": [
+      277.0,
+      92.0
+    ]
+  },
+  "circle_instances": [
+    ""
+  ]
+}
