@@ -474,6 +474,7 @@ class LogicSolver:
                         self.equations.append(expr)
 
     def func17_sine_theorem(self):
+
         triangles = self.logic.find_all_triangles()
         for tri in triangles:
             for _ in permutations(tri):
@@ -644,7 +645,7 @@ class LogicSolver:
         self.can_search = True
         self.hasSolution = False
 
-    def Search(self, target, order_list, round_or_step, upper_bound, enable_low_first):
+    def SearchOrig(self, target, order_list, round_or_step, upper_bound, enable_low_first):
         """
         This is the main search process.
         Args:
@@ -735,14 +736,15 @@ class LogicSolver:
             # check order_lst
             func_ids = self.function_maps.keys()
 
+            # order list - a sequence of theorems to be applied which is specified by the user
             if isinstance(order_list, list) and len(order_list) > 0:
                 result = all([order in func_ids for order in order_list])
                 if not result:
-                    order_list = []
+                    order_list = []         # 
             else:
                 order_list = []
 
-            # Run the predicting series.
+            # Run the predicting series according to the order list specified by the user
             steps = 0
             for element in order_list:
 
@@ -753,7 +755,7 @@ class LogicSolver:
                 self.Solve_Equations()                      # solve the equations created in the previous steps to return FindSolution = True if a solution is found
                 now_answer = self._getAnswer(target)
                 if now_answer is not None:
-                    return now_answer, steps, step_lst      # if a solution is found, return the solution and the number of steps taken to find it
+                    return now_answer, steps, step_lst      # if at any step, a solution is found, return the solution and the number of steps taken to find it
 
             Update = True
             while Update and steps < upper_bound:
@@ -795,5 +797,43 @@ class LogicSolver:
                     now_answer = self._getAnswer(target)
                     if now_answer is not None:
                         return now_answer, steps, step_lst
-                        
-            return None, steps, step_lst
+
+            return None, steps, step_lst  
+
+depth_limit = 4
+
+def BFS_Search(queue, target, function_maps):
+
+    if target is None:
+            return None
+    assert (solver.can_search, "Execute initSearch() before search.")
+
+    # try to get the answer before using theorems
+    step_lst = []       # stores the theorem sequence applied, will be useful in path tracing from start state to goal state
+    now_answer = solver._getAnswer(target)
+
+    if now_answer is not None:
+        return now_answer, 0, step_lst
+
+    # BFS search of state space
+    # Each state is a tuple (problem_state, step_lst, depth)
+    # problem_state is a list of equations
+    # step_lst is a list of theorems applied to reach the current state
+    # depth is the depth of the current state in the search tree
+    # The search tree is a tree of depth 4
+    # The root node is the initial state
+    # The children of a node are the states that can be reached by applying one of the theorems to the current state
+    # The search is terminated when a solution is found or the depth limit is reached
+    # The search is implemented using a queue
+    # The queue is implemented using a list
+    # The queue is initialized with the initial state
+    # The queue is updated by adding the children of the current state to the queue
+    # The queue is popped to get the next state to be explored
+    # The queue is popped until it is empty or a solution is found
+    # The queue is popped in a FIFO manner
+    # 
+
+if __name__ == "__main__":
+    solver = LogicSolver()
+
+        

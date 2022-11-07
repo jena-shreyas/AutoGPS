@@ -131,6 +131,7 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
     ## Set up, initialize and run the logic solver
     solver = LogicSolver(parser.logic)
     solver.initSearch()
+
     answer, steps, step_lst = solver.Search(target=target,
                                             order_list=order_lst,
                                             round_or_step=args.enable_round,
