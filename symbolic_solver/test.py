@@ -67,7 +67,7 @@ def getParameters():
 
     args.low_first = args.strategy in ["low-first", "final"] # apply the low-first search strategy
     args.step_limit = 100 # the maximum search steps
-    args.debug_mode = False # debug mode
+    args.debug_mode = True # debug mode
     args.enable_round = False
     args.enable_predict = True
 
@@ -101,14 +101,19 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
         # Parse diagram logic forms
         logic_forms = diagram_parser['diagram_logic_forms']
         logic_forms = sorted(logic_forms, key=lambda x: x.find("Perpendicular") != -1)  # put 'Perpendicular' to the end
+        print(logic_forms)
 
         for logic_form in logic_forms:
+            print("diagram logic form: ", logic_form)
             if logic_form.strip() != "":
                 if args.debug_mode:
                     print("The diagram logic form is", logic_form)
                 try:
-                    parse_tree = parser.parse(logic_form) # ['Equals', ['LengthOf', ['Line', 'A', 'C']], '10']
-                    parser.dfsParseTree(parse_tree)
+                    print("Parsing the logic form...")
+                    parse_tree = parser.parse(logic_form)   # ['Equals', ['LengthOf', ['Line', 'A', 'C']], '10']
+                    print("The parse tree is", parse_tree)
+                    # parser.dfsParseTree(parse_tree)         # This function somehow doesn't execute!
+                    print("Parsing the logic form is done!")
                 except Exception as e:
                     if args.debug_mode:
                         print("\033[0;0;41mError:\033[0m", repr(e))
@@ -121,23 +126,27 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
             print("The text logic form is", text)
         if text.find('Find') != -1:
             target = parser.findTarget(parser.parse(text)) # ['Value', 'A', 'C']
+            print("Target is", target)
         else:
             res = parser.parse(text)
             parser.dfsParseTree(res)
 
-    if args.debug_mode:
-        print("The predicting sequence is", order_lst)
+    # if args.debug_mode:
+    #     print("The predicting sequence is", order_lst)
 
     ## Set up, initialize and run the logic solver
     solver = LogicSolver(parser.logic)
+    print("Initializing the logic solver...")
     solver.initSearch()
 
-    answer, steps, step_lst = solver.Search(target=target,
-                                            order_list=order_lst,
-                                            round_or_step=args.enable_round,
-                                            upper_bound=args.round_limit if args.enable_round else args.step_limit,
-                                            enable_low_first=args.low_first)
-
+    print("Running the logic solver...")
+    answer, steps, step_lst = solver.BFS_Search(target)
+    # answer, steps, step_lst = solver.Search(target=target,
+    #                                         order_list=order_lst,
+    #                                         round_or_step=args.enable_round,
+    #                                         upper_bound=args.round_limit if args.enable_round else args.step_limit,
+    #                                         enable_low_first=args.low_first)
+    print("The answer is", answer)
     return target, answer, steps, step_lst
 
 
@@ -149,6 +158,7 @@ def multithread_solve(parameters):
     # solve the #index problem
     solve_problem_start = time.time()
     if args.debug_mode:
+        print("Debug mode is on!")
         target, answer, steps, step_lst = solve_one_problem(args, text_logic_form, diagram_logic_form, order_lst)
     else:
         try:
@@ -177,6 +187,9 @@ def multithread_solve(parameters):
     # validate the predicted answer
     if answer is not None:
         # all choice candidates are valid, and the answer is the closest one to ground truth among choice candidates
+        #####
+        print("Final answer is :", answer)
+        #####
         try:
             if all([x is not None for x in value_list]) and \
                     abs(value_list[gt_id] - answer) == min([abs(x - answer) for x in value_list]):

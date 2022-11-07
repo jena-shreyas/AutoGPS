@@ -1,5 +1,6 @@
 import math
 import random
+import copy
 
 from utils import isNumber, hasNumber, heron_triangle_formula, angle_area_formula
 
@@ -9,6 +10,8 @@ from sympy import cos, sin, pi, solve, nonlinsolve
 from itertools import permutations, product, combinations
 
 from func_timeout import func_timeout, FunctionTimedOut
+
+depth_limit = 2
 
 class LogicSolver:
     def __init__(self, logic):
@@ -147,6 +150,7 @@ class LogicSolver:
         #     print('nonlinesolve',res[0])
 
         if len(self.equations) == 0:
+            print("No extra equations created!")
             return False
         if self.logic.debug:
             print("Try to solve: ", self.equations)
@@ -219,9 +223,11 @@ class LogicSolver:
                                     for key, value in self.logic.variables.items()}
             # We may substitute the key in the previous dict further.
             self.logic.variables.update(nowdict)
+            print("Equations solved!")
             return True
 
         self.hasSolution = len(self.equations) == 0
+        print("No solution found!")
         return False
 
 
@@ -639,11 +645,15 @@ class LogicSolver:
         self.logic.set_arc_sum()  # resolve the relation among arcs
 
         if self.logic.debug:
+            print("\n\nAll angle measures:\n\n")
             print(self.logic.find_all_angle_measures())
+            print("\n\nAll lines with length:\n\n")            
             print(self.logic.find_all_lines_with_length())
+            print("\n\nAll arc measures:\n\n")
             print(self.logic.fine_all_arc_measures())
         self.can_search = True
         self.hasSolution = False
+        print("Search Initialized")
 
     def SearchOrig(self, target, order_list, round_or_step, upper_bound, enable_low_first):
         """
@@ -674,7 +684,7 @@ class LogicSolver:
 
         if target is None:
             return None
-        assert (self.can_search, "Please execute initSearch() before search.")
+        assert self.can_search, "Please execute initSearch() before search."
 
         # try to get the answer before using theorems
         step_lst = []       # stores the theorem sequence applied, will be useful in path tracing from start state to goal state
@@ -740,7 +750,7 @@ class LogicSolver:
             if isinstance(order_list, list) and len(order_list) > 0:
                 result = all([order in func_ids for order in order_list])
                 if not result:
-                    order_list = []         # 
+                    order_list = []          
             else:
                 order_list = []
 
@@ -800,40 +810,82 @@ class LogicSolver:
 
             return None, steps, step_lst  
 
-depth_limit = 4
+    def BFS_Search(self, target):
 
-def BFS_Search(queue, target, function_maps):
+        print("Entered BFS Search")
+        if target is None:
+                return None
+        assert self.can_search, "Execute initSearch() before search."
 
-    if target is None:
-            return None
-    assert (solver.can_search, "Execute initSearch() before search.")
+        # try to get the answer before using theorems
+        print("Trying to get answer from the given data itself")
+        step_lst = []       # stores the theorem sequence applied, will be useful in path tracing from start state to goal state
+        now_answer = self._getAnswer(target)
 
-    # try to get the answer before using theorems
-    step_lst = []       # stores the theorem sequence applied, will be useful in path tracing from start state to goal state
-    now_answer = solver._getAnswer(target)
+        print("Applying theorems in BFS order")
+        if now_answer is not None:
+            return now_answer, 0, step_lst
 
-    if now_answer is not None:
-        return now_answer, 0, step_lst
+        # BFS search of state space
+        # Each state is a tuple (problem_state, step_lst, depth)
+        # problem_state is a list of equations
+        # step_lst is a list of theorems applied to reach the current state
+        # depth is the depth of the current state in the search tree
+        # The search tree is a tree of depth 4
+        # The root node is the initial state
+        # The children of a node are the states that can be reached by applying one of the theorems to the current state
+        # The search is terminated when a solution is found or the depth limit is reached
+        # The search is implemented using a queue
+        # The queue is implemented using a list
+        # The queue is initialized with the initial state
+        # The queue is updated by adding the children of the current state to the queue
+        # The queue is popped to get the next state to be explored
+        # The queue is popped until it is empty or a solution is found
+        # The queue is popped in a FIFO manner
+        # 
 
-    # BFS search of state space
-    # Each state is a tuple (problem_state, step_lst, depth)
-    # problem_state is a list of equations
-    # step_lst is a list of theorems applied to reach the current state
-    # depth is the depth of the current state in the search tree
-    # The search tree is a tree of depth 4
-    # The root node is the initial state
-    # The children of a node are the states that can be reached by applying one of the theorems to the current state
-    # The search is terminated when a solution is found or the depth limit is reached
-    # The search is implemented using a queue
-    # The queue is implemented using a list
-    # The queue is initialized with the initial state
-    # The queue is updated by adding the children of the current state to the queue
-    # The queue is popped to get the next state to be explored
-    # The queue is popped until it is empty or a solution is found
-    # The queue is popped in a FIFO manner
-    # 
+        BFS_queue = []
+        self.thm_seq = []
+        BFS_queue.append((self, 0))
+        print("Added initial state to the queue")
+        clones = []
+        state_count = 1
 
-if __name__ == "__main__":
-    solver = LogicSolver()
+        while len(BFS_queue) > 0:
+            current_state, depth = BFS_queue.pop(0)
+            print("\n\nPopped a state from the queue")
+            print("Depth of the popped state is {}\n\n".format(depth))
 
-        
+            if depth >= depth_limit: 
+                print("Depth limit reached")
+                break
+
+            # make copies of an object
+            clones = [copy.deepcopy(current_state) for _ in range(len(self.function_maps))]
+            for i in range(1, len(current_state.function_maps)+1):
+
+                state_count += 1
+                print("\n\nSTATE NO : {}\n\n".format(state_count))
+
+                print("Applying theorem {}".format(i))
+                clones[i-1].thm_seq.append(i)             # Add i'th theorem to i'th clone's theorem sequence
+                clones[i-1].equations = []
+                
+                print("Changing the problem state after applying theorem {} ...".format(i))
+                clones[i-1].function_maps[i]()            # Apply i'th theorem to i'th clone
+
+                print("Solving the equations created ...")
+                clones[i-1].Solve_Equations()             # Solve the equations created in the previous step
+
+                print("End of Solve_Equations call")
+                now_answer = clones[i-1]._getAnswer(target)
+
+                if now_answer is not None:
+                    print("Answer : ", now_answer)
+                    return now_answer, len(clones[i-1].thm_seq), clones[i-1].thm_seq
+                BFS_queue.append((clones[i-1], depth+1))  # Add i'th clone to the queue
+            
+        return None, 0, []
+
+
+            

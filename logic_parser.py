@@ -245,6 +245,7 @@ class LogicParser:
         self.logic.defineAngle(line[0], point, line[1], 180)
 
     def dfsParseTree(self, tree):
+        print("entered dfsParseTree")
         identifier = tree[0]
 
         ''' 1. Geometric Shapes '''
@@ -397,11 +398,14 @@ class LogicParser:
                         return sum([_totlength(x) for x in data])
                     return 1
 
+                print("Just after _totlength")
                 if _totlength(tree[1]) < _totlength(tree[2]):
                     # Put more complex expression to the left.
                     tree[1], tree[2] = tree[2], tree[1]
+                print("Getting val ...")
                 val = self.getValue(tree[2])
                 # print (tree[1], tree[2], val)
+                print("Getting value for tree[1] ...")
                 self.getValue(tree[1], val)
 
     def _find_angle(self, phrase):

@@ -1,0 +1,1 @@
+python test.py --label predict --strategy predict --use_annotated --start_index {ques_no} --end_index {ques_no}
