@@ -88,6 +88,7 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
         if args.debug_mode:
             print(parser.logic.point_positions)
 
+        # Checks whether it is a valid line or not
         lines = diagram_parser['line_instances']  # ['AB', 'AC', 'AD', 'BC', 'BD', 'CD']
         for line in lines:
             line = line.strip()
@@ -95,6 +96,7 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
                 parser.logic.define_line(line[0], line[1])
 
         circles = diagram_parser['circle_instances']  # ['O']
+        # Defines the circle if there is a valid center present
         for point in circles:
             parser.logic.define_circle(point)
 
@@ -109,6 +111,7 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
                 try:
                     parse_tree = parser.parse(logic_form) # ['Equals', ['LengthOf', ['Line', 'A', 'C']], '10']
                     parser.dfsParseTree(parse_tree)
+                    # Parsing the Logic Forms as a tree
                 except Exception as e:
                     if args.debug_mode:
                         print("\033[0;0;41mError:\033[0m", repr(e))
@@ -131,7 +134,6 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
     ## Set up, initialize and run the logic solver
     solver = LogicSolver(parser.logic)
     solver.initSearch()
-
     answer, steps, step_lst = solver.Search(target=target,
                                             order_list=order_lst,
                                             round_or_step=args.enable_round,
@@ -166,6 +168,7 @@ def multithread_solve(parameters):
 
     # solved result
     answer = float(answer) if answer is not None else answer
+    # steps denote # of steps required to go to the target
     entry = {'pid': index, 'target': target, 'guess': answer, 'correctness': 'no',
              'steps': steps, 'step_lst': step_lst, 'time': round(time_interval, 2)}
 
@@ -211,9 +214,10 @@ if __name__ == '__main__':
     if args.predict_path is not None:
         predict_table = json.load(open(args.predict_path, "r"))
 
+    
     lst = list(range(args.start_index, args.end_index + 1)) # range(2401, 3002)
 
-    ## Read logic forms and predicated theorem orders
+    ## Read logic forms and predict theorem orders
     para_lst = []
     for index in lst:
         str_index = str(index)

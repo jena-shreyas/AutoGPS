@@ -1,0 +1,32 @@
+{
+  "result": [
+    {
+      "pid": 2401,
+      "target": "['Area', 'A', 'B', 'C']",
+      "guess": 60.0,
+      "correctness": "yes",
+      "steps": 0,
+      "step_lst": [],
+      "time": 0.47
+    }
+  ],
+  "test_list": [
+    2401
+  ],
+  "solved_list": [
+    2401
+  ],
+  "solved_correct_list": [
+    2401
+  ],
+  "solved_wrong_list": [],
+  "unsolved_list": [],
+  "avg_solve_time": 0.47,
+  "avg_solved_time": 0.47,
+  "avg_solve_step": 0.0,
+  "avg_solved_step": 0.0,
+  "real_time": 3,
+  "problem_data_version": "../data/geometry3k",
+  "text_logic_version": "../data/geometry3k/logic_forms/text_logic_forms_annot_dissolved.json",
+  "diagram_logic_version": "../data/geometry3k/logic_forms/diagram_logic_forms_annot.json"
+}
