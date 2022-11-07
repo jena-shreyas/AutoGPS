@@ -76,7 +76,7 @@ def getParameters():
     return args
 
 
-def solve_one_problem(args, text_parser, diagram_parser, order_lst):
+def solve_one_problem(args, text_parser, diagram_parser, order_lst, algo):
 
     ## Set up the logic parser
     parser = LogicParser(ExtendedDefinition(debug=args.debug_mode))
@@ -164,14 +164,14 @@ def multithread_solve(parameters):
     solve_problem_start = time.time()
     if args.debug_mode:
         print("Debug mode is on!")
-        target, answer, steps, step_lst = solve_one_problem(args, text_logic_form, diagram_logic_form, order_lst)
+        target, answer, steps, step_lst = solve_one_problem(args, text_logic_form, diagram_logic_form, order_lst, algo)
     else:
         try:
             target, answer, steps, step_lst = func_timeout(args.time_limit, solve_one_problem,
                                                            kwargs=dict(args=args,
                                                                  text_parser=text_logic_form,
                                                                  diagram_parser=diagram_logic_form,
-                                                                 order_lst=order_lst))
+                                                                 order_lst=order_lst, algo = algo))
         except FunctionTimedOut:
             pass
         except Exception as e:

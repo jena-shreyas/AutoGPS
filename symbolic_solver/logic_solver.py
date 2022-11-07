@@ -887,5 +887,27 @@ class LogicSolver:
             
         return None, 0, []
 
+    def DFS_Search(self, target):
 
-            
+        print("Entered BFS Search")
+        if target is None:
+                return None
+        assert self.can_search, "Execute initSearch() before search."
+
+        # try to get the answer before using theorems
+        print("Trying to get answer from the given data itself")
+        step_lst = []       # stores the theorem sequence applied, will be useful in path tracing from start state to goal state
+        now_answer = self._getAnswer(target)
+
+        print("Applying theorems in DFS order")
+        if now_answer is not None:
+            return now_answer, 0, step_lst
+
+        # DFS - is the Depth First Search Algorithm
+        # It applies the transition on a particular state
+        # It moves to the next state (child)
+        # It traverses the states (children) in the depth wise traversal
+        # If at some state, target is achieved then return the solution
+
+        visited = []
+        
