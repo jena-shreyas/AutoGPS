@@ -146,11 +146,12 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst, algo):
     if algo == 2:
         answer, steps, step_lst = solver.BFS_Search(target)
     elif algo == 1:
-        answer, steps, step_lst = solver.Search(target=target,
-                                                order_list=order_lst,
-                                                round_or_step=args.enable_round,
-                                                upper_bound=args.round_limit if args.enable_round else args.step_limit,
-                                                enable_low_first=args.low_first)
+        # answer, steps, step_lst = solver.Search(target=target,
+        #                                         order_list=order_lst,
+        #                                         round_or_step=args.enable_round,
+        #                                         upper_bound=args.round_limit if args.enable_round else args.step_limit,
+        #                                         enable_low_first=args.low_first)
+        answer, steps, step_lst = solver.DFS_Search(target)
     print("The answer is", answer)
     return target, answer, steps, step_lst
 

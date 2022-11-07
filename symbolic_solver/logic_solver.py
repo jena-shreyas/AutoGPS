@@ -887,6 +887,8 @@ class LogicSolver:
             
         return None, 0, []
 
+    
+
     def DFS_Search(self, target):
 
         print("Entered BFS Search")
@@ -909,5 +911,34 @@ class LogicSolver:
         # It traverses the states (children) in the depth wise traversal
         # If at some state, target is achieved then return the solution
 
-        visited = []
-        
+        visited =  {}
+
+        self.thm_seq = []
+        dist = {}
+        dist[self] = 0
+
+        return dfs(self, visited, dist, target)
+
+def dfs(parent, visited, dist, target):
+        clones = [copy.deepcopy(parent) for _ in range(len(parent.function_maps))]
+
+        for i in range(len(parent.function_maps)):
+            # Apply i+1 th theorem to clones[i] state
+            dist[clones[i]] = dist[parent] + 1
+            clones[i].thm_seq.append(i+1)
+            clones[i].function_maps[i+1]()
+            clones[i].Solve_Equations()
+            now_answer = clones[i]._getAnswer(target)
+            if now_answer is not None:
+                print("Answer : ", now_answer)
+                return now_answer, dist[clones[i]], clones[i].thm_seq
+            if visited.get(clones[i]) == None:
+                visited[clones[i]] = 1
+                ans, leng, seq = dfs(clones[i], visited, dist, target)
+                if ans is not None:
+                    return ans, leng, seq
+                visited[clones[i]] = 0
+
+
+        return None, 0, []
+    
