@@ -1,3 +1,4 @@
+from ast import parse
 import os
 import json
 import time
@@ -39,6 +40,7 @@ def getParameters():
     parser.add_argument("--end_index", type=int, default=2403, help="the end point of testing data")
     parser.add_argument("--time_limit", type=int, default=150, help="the seconds of time limit")
     parser.add_argument("--num_threads", type=int, default=20, help="the number of running threads, recommendation: # of CPU threads")
+    parser.add_argument("--algo_no", type=int, default=1, help="Which algorithm to apply: DFS-1, BFS-2")
 
     args = parser.parse_args()
 
@@ -140,19 +142,22 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst):
     solver.initSearch()
 
     print("Running the logic solver...")
-    answer, steps, step_lst = solver.BFS_Search(target)
-    # answer, steps, step_lst = solver.Search(target=target,
-    #                                         order_list=order_lst,
-    #                                         round_or_step=args.enable_round,
-    #                                         upper_bound=args.round_limit if args.enable_round else args.step_limit,
-    #                                         enable_low_first=args.low_first)
+    print("Algo is", algo)
+    if algo == 2:
+        answer, steps, step_lst = solver.BFS_Search(target)
+    elif algo == 1:
+        answer, steps, step_lst = solver.Search(target=target,
+                                                order_list=order_lst,
+                                                round_or_step=args.enable_round,
+                                                upper_bound=args.round_limit if args.enable_round else args.step_limit,
+                                                enable_low_first=args.low_first)
     print("The answer is", answer)
     return target, answer, steps, step_lst
 
 
 def multithread_solve(parameters):
 
-    index, args, text_logic_form, diagram_logic_form, order_lst = parameters
+    index, args, text_logic_form, diagram_logic_form, order_lst, algo = parameters
     target, answer, steps, step_lst = None, None, 0, []
 
     # solve the #index problem
@@ -225,7 +230,8 @@ if __name__ == '__main__':
         predict_table = json.load(open(args.predict_path, "r"))
 
     lst = list(range(args.start_index, args.end_index + 1)) # range(2401, 3002)
-
+    algo = args.algo_no
+    print("Algo is :", algo)
     ## Read logic forms and predicated theorem orders
     para_lst = []
     for index in lst:
@@ -244,7 +250,7 @@ if __name__ == '__main__':
                 if isinstance(order_lst[0], list):
                     order_lst = order_lst[0]
 
-        para_lst.append((index, args, text_logic_form, diagram_logic_form, order_lst))
+        para_lst.append((index, args, text_logic_form, diagram_logic_form, order_lst, algo))
 
     ## Run the solver and save results
     if args.debug_mode:

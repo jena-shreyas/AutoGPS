@@ -655,7 +655,7 @@ class LogicSolver:
         self.hasSolution = False
         print("Search Initialized")
 
-    def SearchOrig(self, target, order_list, round_or_step, upper_bound, enable_low_first):
+    def Search(self, target, order_list, round_or_step, upper_bound, enable_low_first):
         """
         This is the main search process.
         Args:
