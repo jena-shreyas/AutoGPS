@@ -891,7 +891,7 @@ class LogicSolver:
 
     def DFS_Search(self, target):
 
-        print("Entered BFS Search")
+        print("Entered DFS Search")
         if target is None:
                 return None
         assert self.can_search, "Execute initSearch() before search."
@@ -921,10 +921,14 @@ class LogicSolver:
 
 def dfs(parent, visited, dist, target):
         clones = [copy.deepcopy(parent) for _ in range(len(parent.function_maps))]
-
+        if dist[parent] >= depth_limit:
+            print("Depth - Limit reached")
+            visited[parent] = 0
+            return None, 0, []
+        
         for i in range(len(parent.function_maps)):
             # Apply i+1 th theorem to clones[i] state
-            dist[clones[i]] = dist[parent] + 1
+            
             clones[i].thm_seq.append(i+1)
             clones[i].function_maps[i+1]()
             clones[i].Solve_Equations()
@@ -934,10 +938,11 @@ def dfs(parent, visited, dist, target):
                 return now_answer, dist[clones[i]], clones[i].thm_seq
             if visited.get(clones[i]) == None:
                 visited[clones[i]] = 1
+                dist[clones[i]] = dist[parent] + 1
                 ans, leng, seq = dfs(clones[i], visited, dist, target)
                 if ans is not None:
                     return ans, leng, seq
-                visited[clones[i]] = 0
+                # visited[clones[i]] = 0
 
 
         return None, 0, []
