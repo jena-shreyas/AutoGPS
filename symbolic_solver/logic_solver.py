@@ -210,6 +210,12 @@ class LogicSolver:
             nowdict = {}
             if self.logic.debug:
                 print("Solve out: ", solution)
+            print()
+            print()
+            print("The logic is :::::")
+            print(self.logic.variables)
+            # if solution is None:
+            print("Equals", solution.items() == self.logic.variables)
             for key, value in solution.items():
                 # if str(value)[0] == '-' and not '+' in str(value):
                 #     # the expression may be negative by solve the square equations.d
@@ -217,6 +223,19 @@ class LogicSolver:
                 #     #print ("Warning! Change sign(", key, ", ", value, ')')
                 #     value = -value
                 assert self.logic.variables.get(key, value) == value
+
+                print()
+                print()
+                print("The get key value is :::::")
+                print(self.logic.variables.get(key, value))
+                print(" THe value is ")
+                print(value)
+
+                if self.logic.variables.get(key, value) != value:
+                    continue
+                # assert self.logic.variables.get(key, value) == value
+
+
                 nowdict[key] = value
             self.hasSolution = True
             self.logic.variables = {key: value if type(value) in [int, float] else value.subs(nowdict)
@@ -887,7 +906,9 @@ class LogicSolver:
             
         return None, 0, []
 
-    
+    def IDS_Search(self, target):
+
+        return None, 0, []
 
     def DFS_Search(self, target):
 
@@ -920,30 +941,51 @@ class LogicSolver:
         return dfs(self, visited, dist, target)
 
 def dfs(parent, visited, dist, target):
-        clones = [copy.deepcopy(parent) for _ in range(len(parent.function_maps))]
+        visited[parent] = 1
+        print()
+        print("Parent object is:")
+        print([parent])
+        print()
+        
+        # clones = [copy.deepcopy(parent) for _ in range(len(parent.function_maps))]
         if dist[parent] >= depth_limit:
-            print("Depth - Limit reached")
-            visited[parent] = 0
-            return None, 0, []
+                print("Depth - Limit reached")
+                visited[parent]=1
+                return None, 0, []
+
         
         for i in range(len(parent.function_maps)):
-            # Apply i+1 th theorem to clones[i] state
-            
-            clones[i].thm_seq.append(i+1)
-            clones[i].function_maps[i+1]()
-            clones[i].Solve_Equations()
-            now_answer = clones[i]._getAnswer(target)
+            # Apply i+1 th theorem to clones state
+            clones = [copy.deepcopy(parent) for _ in range(1)]
+            print(type(clones))
+            # if visited.get(parent) != None:
+            visited[clones[0]] = 1
+            clones[0].thm_seq.append(i+1)
+            clones[0].function_maps[i+1]()
+            abc = clones[0].Solve_Equations()
+            # if clones != parent:
+            #     print ("NOT EQUAL")
+            print("HERE ", abc)
+            print(clones[0])
+            # if abc:
+            #     return clones._getAnswer(target), dist[clones], clones.thm_seq
+            now_answer = clones[0]._getAnswer(target)
+
+            #BASE CASE
             if now_answer is not None:
                 print("Answer : ", now_answer)
-                return now_answer, dist[clones[i]], clones[i].thm_seq
-            if visited.get(clones[i]) == None:
-                visited[clones[i]] = 1
-                dist[clones[i]] = dist[parent] + 1
-                ans, leng, seq = dfs(clones[i], visited, dist, target)
+                return now_answer, dist[clones[0]], clones[0].thm_seq
+            
+            if visited.get(clones[0]) == None:
+                #visited[clones] = 1
+                print()
+                print("INSIDE IT ")
+                dist[clones[0]] = dist[parent] + 1
+                ans, leng, seq = dfs(clones[0], visited, dist, target)
                 if ans is not None:
                     return ans, leng, seq
-                # visited[clones[i]] = 0
-
+                # visited[clones] = 0
+        
 
         return None, 0, []
     

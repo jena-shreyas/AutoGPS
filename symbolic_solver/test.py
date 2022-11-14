@@ -151,6 +151,8 @@ def solve_one_problem(args, text_parser, diagram_parser, order_lst, algo):
         #                                         round_or_step=args.enable_round,
         #                                         upper_bound=args.round_limit if args.enable_round else args.step_limit,
         #                                         enable_low_first=args.low_first)
+        print("Target is ::: ")
+        print(target)
         answer, steps, step_lst = solver.DFS_Search(target)
     print("The answer is", answer)
     return target, answer, steps, step_lst
