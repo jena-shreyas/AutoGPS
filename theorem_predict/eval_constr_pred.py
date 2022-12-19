@@ -76,8 +76,8 @@ if __name__ == '__main__':
     device = torch.device('cpu')
 
     result = evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point)
-    print("Type of result : ", type(result))
+    # print("Type of result : ", type(result))
 
-    with open(output_file, 'w') as f:
-        json.dump(result, f)
+    # with open(output_file, 'w') as f:
+    #     json.dump(result, f)
 
