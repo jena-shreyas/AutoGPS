@@ -1,0 +1,437 @@
+{
+    "0": {
+
+        "text_logic_forms": [
+
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C)))",
+            "Equals(MeasureOf(Angle(A)), 48)",
+            "Equals(MeasureOf(Angle(A, C, D)), 18)",
+            "Find(MeasureOf(Angle(D, B, C)))"
+        ]
+    },
+    "1": {
+
+        "text_logic_forms": [
+
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C)))",
+            "Equals(LengthOf(Line(B, C)), LengthOf(Line(C, D)))",
+            "Parallel(Line(D, E), Line(B, C))",
+            "Find(MeasureOf(Angle(C, D, E)))"
+        ]
+    },
+    "2": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Triangle(A, B, D)",
+            "Triangle(A, D, C)",
+            "Equals(LengthOf(Line(A, D)), LengthOf(Line(B, D)))",
+            "Equals(LengthOf(Line(A, C)), LengthOf(Line(D, C)))",
+            "Equals(MeasureOf(Angle(A, B, D)), 37)",
+            "Equals(MeasureOf(Angle(A, C, D)), x)",
+            "Find(x)"
+        ]
+    },
+    "3": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Triangle(A, B, D)",
+            "Triangle(A, D, C)",
+            "Equals(LengthOf(Line(A, D)), LengthOf(Line(B, D)))",
+            "Equals(LengthOf(Line(A, D)), LengthOf(Line(D, C)))",
+            "Equals(MeasureOf(Angle(A, B, D)), 50)",
+            "Equals(MeasureOf(Angle(A, C, D)), x)",
+            "Find(x)"
+        ]
+    },
+    "4": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Triangle(A, B, D)",
+            "Triangle(A, D, C)",
+            "Equals(LengthOf(Line(A, D)), LengthOf(Line(B, D)))",
+            "Equals(LengthOf(Line(A, D)), LengthOf(Line(A, C)))",
+            "Equals(MeasureOf(Angle(A, C, D)), 42)",
+            "Equals(MeasureOf(Angle(B, A, E)), x)",
+            "Find(x)"
+        ]
+    },
+    "5": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, C, B)",
+            "Triangle(A, C, D)",
+            "Triangle(A, D, B)",
+            "Equals(LengthOf(Line(A, C)), LengthOf(Line(C, D)))",
+            "Equals(LengthOf(Line(A, D)), LengthOf(Line(D, B)))",
+            "Equals(MeasureOf(Angle(A, C, D)), 58)",
+            "Find(MeasureOf(Angle(C, A, B)))"
+        ]
+    },
+    "6": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C)))",
+            "PointLiesOnLine(Point(A), Line(B, E))",
+            "BisectsAngle(Line(A, D), Angle(C, A, E)",
+            "Find(Parallel(Line(A, D), Line(B, C)))"
+        ]
+    },
+    "7": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C))))",
+            "PointLiesOnLine(Point(A), Line(B, D))",
+            "Equals(LengthOf(Line(B, A)), LengthOf(Line(A, D)))",
+            "Find(MeasureOf(Angle(B, C, D)))"
+        ]
+    },
+    "8": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C)))",
+            "PointLiesOnLine(Point(F), Line(A, B))",
+            "PointLiesOnLine(Point(E), Line(A, C))",
+            "BisectsAngle(Line(B, E), Angle(A, B, C)",
+            "BisectsAngle(Line(C, F), Angle(A, C, B)",
+            "Find(Equals(LengthOf(Line(A, D)), LengthOf(Line(B, C))))"
+        ]
+    },
+    "9": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C)))",
+            "PointLiesOnLine(Point(F), Line(A, B))",
+            "PointLiesOnLine(Point(E), Line(A, C))",
+            "Line(C, F)",
+            "Line(B, E)",
+            "IsMidPointOf(Point(F), Line(A, B))",
+            "IsMidPointOf(Point(E), Line(A, C))",
+            "Find(Equals(LengthOf(Line(A, D)), LengthOf(Line(B, C))))"
+        ]
+    },        
+    "10": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "PointLiesOnLine(Point(F), Line(A, B))",
+            "PointLiesOnLine(Point(E), Line(A, C))",
+            "IsAltitudeOf(Line(C, F), Triangle(A, B, C))",
+            "IsAltitudeOf(Line(B, E), Triangle(A, B, C))",
+            "Equals(LengthOf(Line(B, E)), LengthOf(Line(C, F)))",
+            "Find(Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C))))"
+        ]
+    },
+    "11": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C)))",
+            "PointLiesOnLine(Point(B), Line(A, E))",
+            "PointLiesOnLine(Point(C), Line(A, F))",
+            "BisectsAngle(Line(B, D), Angle(E, B, C)",
+            "BisectsAngle(Line(C, D), Angle(B, C, F)",
+            "Find(BisectsAngle(Line(A, D), Angle(A)))"
+        ]
+    },
+    "12": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "BisectsAngle(Line(C, X), Angle(B, C, A)",
+            "PointLiesOnLine(Point(X), Line(A, B))",
+            "PointLiesOnLine(Point(Y), Line(C, X))",
+            "Equals(LengthOf(Line(A, X)), LengthOf(Line(A, Y)))",
+            "Find(Equals(MeasureOf(Angle(A, B, C)), MeasureOf(Angle(C, A, Y))))"
+        ]
+    },
+    "13": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "BisectsAngle(Line(A, D), Angle(B, A, C)",
+            "PointLiesOnLine(Point(D), Line(B, C))",
+            "PointLiesOnLine(Point(E), Line(A, B))",
+            "PointLiesOnLine(Point(F), Line(A, C))",
+            "Perpendicular(Line(D, E), Line(A,  B))",
+            "Perpendicular(Line(D, F), Line(A,  C))",
+            "Line(E, F)",
+            "Find(Equals(LengthOf(Line(A, E)), LengthOf(Line(A, F))))"
+        ]
+    },
+    "14": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C)))",
+            "PointLiesOnLine(Point(C), Line(B, D))",
+            "Equals(LengthOf(Line(A, C)), LengthOf(Line(C, D)))",
+            "PointLiesOnLine(Point(A), Line(D, E))",
+            "Equals(MeasureOf(Angle(B, A, E)), 108)",
+            "Find(MeasureOf(Angle(A, D, B)))"
+        ]
+    },
+    "15": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "BisectsAngle(Line(A, D), Angle(B, A, C)",
+            "PointLiesOnLine(Point(D), Line(B, C))",
+            "PointLiesOnLine(Point(A), Line(B, E))",
+            "Parallel(Line(D, A), Line(C, E))",
+            "Find(Equals(LengthOf(Line(A, C)), LengthOf(Line(A, E))))"
+        ]
+    },
+    "16": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "BisectsAngle(Line(A, D), Angle(B, A, C)",
+            "PointLiesOnLine(Point(D), Line(B, C))",
+            "Equals(LengthOf(Line(B, D)), LengthOf(Line(D, C)))",
+            "Find(Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C))))"
+        ]
+    },
+    "17": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Equals(MeasureOf(Angle(B)), 90)",
+            "PointLiesOnLine(Point(D), Line(A, C))",
+            "Line(B, D)",
+            "IsMidPointOf(Point(D), Line(A, C))",
+            "Find(Equals(LengthOf(Line(B, D)), HalfOf(LengthOf(Line(A, C)))))"
+        ]
+    },
+    "18": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "IsMidPointOf(Point(R), Line(A, C))",
+            "IsMidPointOf(Point(Q), Line(B, C))",
+            "IsMidPointOf(Point(P), Line(A, B))",
+            "Equals(LengthOf(Line(A, B)), 8.4)",
+            "Equals(LengthOf(Line(P, R)), 5)",
+            "Equals(LengthOf(Line(P, Q)), 4.8)",
+            "Find(LengthOf(Line(B, C)))"
+
+        ]
+    },
+    "19": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "IsMidPointOf(Point(D), Line(A, B))",
+            "IsMidPointOf(Point(E), Line(B, C))",
+            "Equals(LengthOf(Line(A, C)), 6.4)",
+            "Find(LengthOf(Line(D, E)))"
+        ]
+    },
+    "20": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "IsMidPointOf(Point(M), Line(A, B))",
+            "PointLiesOnLine(Point(N), Line(A, C))",
+            "Parallel(Line(M, N), Line(B, C))",
+            "Equals(LengthOf(Line(B, C)), 7)",
+            "Equals(LengthOf(Line(A, C)), 5)",
+            "Find(LengthOf(Line(M, N)))"
+        ]
+    },
+    "21": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "IsMidPointOf(Point(D), Line(A, B))",
+            "IsMidPointOf(Point(E), Line(B, C))",
+            "IsMidPointOf(Point(F), Line(A, C))",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(B, C)))",
+            "Find(Equals(LengthOf(Line(D, F)), LengthOf(Line(E, F))))"
+        ]
+    },
+    "22": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "IsMidPointOf(Point(P), Line(B, C))",
+            "PointLiesOnLine(Point(Q), Line(A, B))",
+            "Parallel(Line(P, Q), Line(C, A))",
+            "PointLiesOnLine(Point(R), Line(A, P))",
+            "Parallel(Line(Q, R), Line(B, C))",
+            "Find(Equals(LengthOf(Line(A, R)), HalfOf(LengthOf(Line(A, P)))))"
+        ]
+    },       
+    "23": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, D, E)",
+            "Triangle(A, D, B)",
+            "Triangle(A, B, C)",
+            "Triangle(A, C, E)",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(B, D)))",
+            "Equals(LengthOf(Line(A, C)), LengthOf(Line(C, E)))",
+            "Equals(MeasureOf(Angle(A, B, C)), 70)",
+            "Equals(MeasureOf(Angle(A, C, B)), 50)",
+            "Find(MeasureOf(Angle(D, A, E)))"
+        ]
+    },
+    "24": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Triangle(A, B, D)",
+            "Triangle(A, C, D)",
+            "Equals(MeasureOf(Angle(A, D, B)), 20)",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C)))",
+            "Equals(LengthOf(Line(C, D)), LengthOf(Line(C, A)))",
+            "Find(MeasureOf(Angle(A, B, D)))"
+        ]
+    },
+    "25": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Triangle(A, B, D)",
+            "Triangle(A, D, E)",
+            "Triangle(A, E, C)",
+            "Equals(LengthOf(Line(A, B)), LengthOf(Line(A, C)))",
+            "Equals(LengthOf(Line(B, D)), LengthOf(Line(E, C)))",
+            "Find(Equals(LengthOf(Line(A, D)), LengthOf(Line(A, E))))"
+        ]
+    },
+    "26": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Parallel(Line(A, D), Line(B, C))",
+            "Equals(MeasureOf(Angle(A, B, C)), 67)",
+            "Equals(MeasureOf(Angle(D, A, C)), 31)",
+            "Find(MeasureOf(Angle(B, A, C)))"
+        ]
+    },
+    "27": {
+
+        "text_logic_forms": [
+            "Triangle(X, Y, Z)",
+            "BisectsAngle(Line(X, D), Angle(Y, X, Z)",
+            "IsAltitudeOf(Line(X, E), Triangle(X, Y, Z))",
+            "PointLiesOnLine(Point(E), Line(Y, Z))",
+            "PointLiesOnLine(Point(D), Line(Y, Z))",
+            "Equals(MeasureOf(Angle(X, Y, Z)), 41)",
+            "Equals(MeasureOf(Angle(X, Y, Z)), 63)",
+            "Find(MeasureOf(Angle(D, X, E)))"
+        ]
+    },
+    "28": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "PointLiesOnLine(Point(Q), Line(A, B))",
+            "PointLiesOnLine(Point(P), Line(A, C))",
+            "Perpendicular(Line(B, P), Line(A, C))",
+            "Perpendicular(Line(C, Q), Line(A, B))",
+            "Find(Equals(MeasureOf(Angle(A, B, P)), MeasureOf(Angle(A, C, Q))))"
+        ]
+    },
+    "29": {
+
+        "text_logic_forms": [
+
+            "Triangle(A, B, C)",
+            "Triangle(A, O, B)",
+            "Triangle(A, O, B)",
+            "Triangle(B, O, C)",
+            "Triangle(C, O, A)",
+            "Equals(LengthOf(Line(O, A)), LengthOf(Line(O, B)))",
+            "Equals(LengthOf(Line(O, B)), LengthOf(Line(O, C)))",
+            "Find(Equals(MeasureOf(Angle(B, A, C)), HalfOf(MeasureOf(Angle(B, O, C)))))"
+        ]
+    },
+    "30": {
+
+        "text_logic_forms": [
+
+        ]
+    },
+    "31": {
+
+        "text_logic_forms": [
+
+        ]
+    },
+    "32": {
+
+        "text_logic_forms": [
+
+        ]
+    },
+    "33": {
+
+        "text_logic_forms": [
+
+        ]
+    },
+    "34": {
+
+        "text_logic_forms": [
+
+        ]
+    },
+    "35": {
+
+        "text_logic_forms": [
+
+        ]
+    },
+    "36": {
+
+        "text_logic_forms": [
+
+        ]
+    },
+    "37": {
+
+        "text_logic_forms": [
+
+        ]
+    },
+    "38": {
+
+        "text_logic_forms": [
+
+        ]
+    }
+}
