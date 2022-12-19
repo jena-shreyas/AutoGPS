@@ -11,7 +11,7 @@ from transformers import BartForConditionalGeneration, BartTokenizerFast
 
 def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point):
 
-    test_lst = range(3, 5)
+    test_lst = range(24, 29)
 
     ## read logic form files
     with open(diagram_logic_file) as f:
@@ -38,11 +38,9 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
         input = torch.LongTensor(tmp).unsqueeze(0).to(device)
 
         output = model.generate(input, bos_token_id=0, eos_token_id=2,
-                             max_length=20, num_beams=10, num_return_sequences=1)
+                             max_length=1, num_beams=10, num_return_sequences=1)
 
-        print("Output : ")
-        print(output)
-        print("Type of output : ", type(output))
+        print("Output : ", output)
         # print(out.size())
 
         # ## refine output sequence
@@ -78,7 +76,8 @@ if __name__ == '__main__':
     device = torch.device('cpu')
 
     result = evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point)
-
+    print("Type of result : ", type(result))
+    
     with open(output_file, 'w') as f:
         json.dump(result, f)
 
