@@ -67,7 +67,7 @@ if __name__ == '__main__':
     diagram_logic_file = '../data/new/logic_forms/diagram_logic_forms_annot.json'
     text_logic_file = '../data/new/logic_forms/text_logic_forms_annot_dissolved.json'
 
-    check_point = 'models/tp_model_init.pt'
+    check_point = 'models/tp_model_best.pt'
     output_file = 'results/test/constr_pred_outputs.json'
 
     tokenizer_name = 'facebook/bart-base'

@@ -66,21 +66,16 @@ if __name__ == '__main__':
         model.train()
         for idx, (input, output) in enumerate(train_loader):
             optimizer.zero_grad()
-
-            # print(input)
-            print(type(input))
-            # print(output)
-            print(type(output))
-
-            print("Running the model now ...")
             res = model(input.to(device), labels = output.to(device))
-            print("Computing the loss ...")
             loss = res.loss
             loss.backward()
             optimizer.step()
             scheduler.step()
             total_loss += loss.item()
-            print("Total loss : ", total_loss)
         print('\nepoch: ', epoch, " train_loss ", total_loss)
         torch.save(model.state_dict(), output_path+"/tp_model_" + str(epoch) + ".pt")
+
+        if total_loss < best_loss:
+            best_loss = total_loss
+            torch.save(model.state_dict(), output_path+"/tp_model_best.pt")
 
