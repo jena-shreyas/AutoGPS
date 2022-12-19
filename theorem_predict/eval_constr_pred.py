@@ -38,7 +38,7 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
         input = torch.LongTensor(tmp).unsqueeze(0).to(device)
 
         output = model.generate(input, bos_token_id=0, eos_token_id=2,
-                             max_length=1, num_beams=10, num_return_sequences=1)
+                             max_length=2, num_beams=10, num_return_sequences=1)
 
         print("Output : ", output)
         # print(out.size())
@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
     result = evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point)
     print("Type of result : ", type(result))
-    
+
     with open(output_file, 'w') as f:
         json.dump(result, f)
 
