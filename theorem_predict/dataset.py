@@ -124,7 +124,7 @@ class ConstrDataset(Dataset):
         
         ## target prediction
         target = self.predictions[pid]
-        # target = torch.tensor(target)
+        target = torch.tensor(target)
 
         return tokenized_inp, target
 
