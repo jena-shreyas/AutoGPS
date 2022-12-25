@@ -65,7 +65,7 @@ if __name__ == '__main__':
         for idx, (input, output) in enumerate(train_loader):
             optimizer.zero_grad()
             res = model(input.to(device), labels = output.to(device))
-            loss = res.loss
+            loss = res.CrossEntropyLoss()
             loss.backward()
             optimizer.step()
             scheduler.step()
