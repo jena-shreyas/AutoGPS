@@ -27,7 +27,7 @@ setup_seed(0)
 def collate_fn(batch):
     input, output = zip(*batch)
 
-    # input = [torch.LongTensor(i) for i in input]
+    input = [torch.LongTensor(i) for i in input]
     input = pad_sequence(input, batch_first=True, padding_value=1)
     output = torch.tensor(output, dtype=torch.int64)
     return input, output
