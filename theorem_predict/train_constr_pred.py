@@ -27,12 +27,10 @@ setup_seed(0)
 def collate_fn(batch):
     input, output = zip(*batch)
 
-    input = [torch.LongTensor(i) for i in input]
-    output = [torch.LongTensor(i) for i in output]
+    # input = [torch.LongTensor(i) for i in input]
     input = pad_sequence(input, batch_first=True, padding_value=1)
-    output = pad_sequence(output, batch_first=True, padding_value=1)
+    output = torch.tensor(output, dtype=torch.int64)
     return input, output
-
 
 if __name__ == '__main__':
 
@@ -45,7 +43,7 @@ if __name__ == '__main__':
     output_path = "models/"
     os.makedirs(output_path, exist_ok=True)
 
-    device = torch.device('cuda')
+    device = torch.device('cpu')
 
     tokenizer = BartTokenizerFast.from_pretrained('facebook/bart-base')
 
