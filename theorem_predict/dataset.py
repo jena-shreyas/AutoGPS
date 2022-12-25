@@ -120,7 +120,7 @@ class ConstrDataset(Dataset):
         if len(tokenized_inp) > 500:
             tokenized_inp = tokenized_inp[:500]
 
-        torch.LongTensor(tokenized_inp)
+        tokenized_inp = torch.LongTensor(tokenized_inp)
         
         ## target prediction
         target = self.predictions[pid]
