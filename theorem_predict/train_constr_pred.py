@@ -45,7 +45,7 @@ if __name__ == '__main__':
     output_path = "models/"
     os.makedirs(output_path, exist_ok=True)
 
-    device = torch.device('cpu')
+    device = torch.device('cuda')
 
     tokenizer = BartTokenizerFast.from_pretrained('facebook/bart-base')
 

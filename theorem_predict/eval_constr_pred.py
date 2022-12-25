@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     # SEQ_NUM = 5
 
-    device = torch.device('cpu')
+    device = torch.device('cuda')
 
     result = evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point)
     # print("Type of result : ", type(result))
