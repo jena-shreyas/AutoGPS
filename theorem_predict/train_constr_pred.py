@@ -25,16 +25,16 @@ setup_seed(0)
 
 def collate_fn(batch):
     input, output = zip(*batch)
-    print(output)
-    print("Output after zip : ", type(output))
+    # print(output)
+    # print("Output after zip : ", type(output))
 
     input = [torch.LongTensor(i) for i in input]        # tuple to list
     output = [[torch.LongTensor(i)] for i in output]    # tuple to list (bcoz not giving [] around each tensor was giving tensor([0, 0, 1]) instead of tensor([[0, 0, 1]]), as output tensor has only one dimension)
 
     input = pad_sequence(input, batch_first=True, padding_value=1)
     output = torch.tensor(output, dtype=torch.int64)
-    print(output)
-    print("Output after pad sequence : ", type(output))
+    # print(output)
+    # print("Output after pad sequence : ", type(output))
 
     return input, output
 
