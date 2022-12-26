@@ -11,7 +11,7 @@ import torch
 from torch.utils.data import DataLoader
 from torch.nn.utils.rnn import pad_sequence
 
-from transformers import BartTokenizerFast, BartForSequenceClassification, get_linear_schedule_with_warmup
+from transformers import BartTokenizerFast,BartForConditionalGeneration, BartForSequenceClassification, get_linear_schedule_with_warmup
 
 
 def setup_seed(seed):

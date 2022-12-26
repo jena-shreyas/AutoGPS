@@ -6,7 +6,7 @@ import ast
 from tqdm import tqdm
 
 import torch
-from transformers import BartForSequenceClassification, BartTokenizerFast
+from transformers import BartForConditionalGeneration, BartForSequenceClassification, BartTokenizerFast
 
 
 def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point):
@@ -42,10 +42,11 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
         #                      max_length=2, num_beams=10, num_return_sequences=1)
 
         res = model(input)
-        output = tokenizer.decode(res)
-        print(output)
+        for j in range(len(res)):
+            output = tokenizer.decode(res[j])
+            print(output)
 
-        print("Output data type : ", type(output))
+            print("Output data type : ", type(output))
         # print(out.size())
 
         # ## refine output sequence
