@@ -49,7 +49,8 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
             print(res[j][0])
             print(type(res[j][0]))
             tmp = (res[j][0]).long()
-            print(tmp)
+            print("Long tensor : ", tmp)
+            print("Long tensor type : ", type(tmp))
             output = tokenizer.decode(tmp)
             print(output)
 
