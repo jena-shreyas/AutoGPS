@@ -48,7 +48,7 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
         for j in range(len(res)):
             print(res[j][0])
             print(type(res[j][0]))
-            tmp = torch.round(res[j][0])
+            tmp = (res[j][0]).long()
             print(tmp)
             output = tokenizer.decode(tmp)
             print(output)
