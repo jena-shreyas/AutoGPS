@@ -46,9 +46,11 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
         print(f"Length of res : {len(res)}")
 
         for j in range(len(res)):
-            print(res[j])
-            print(type(res[j]))
+            print(f"\n\nINDEX NO : {j}\n\n")
+            print(f"Shape of res[j] : {res[j].size()}")
+            print("Type of res[j] : ", type(res[j]))
 
+        print("\n\nDECODING ...\n\n")
         output = tokenizer.decode(res)
         print(output)
         print(type(output))
