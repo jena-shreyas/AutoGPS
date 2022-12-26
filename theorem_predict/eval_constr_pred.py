@@ -6,7 +6,7 @@ import ast
 from tqdm import tqdm
 
 import torch
-from transformers import BartForConditionalGeneration, BartTokenizerFast
+from transformers import BartForSequenceClassification, BartTokenizerFast
 
 
 def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point):
@@ -26,21 +26,25 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
 
     ## build tokenizer and model
     tokenizer = BartTokenizerFast.from_pretrained(tokenizer_name) # 'facebook/bart-base'
-    model = BartForConditionalGeneration.from_pretrained(model_name).to(device) # 'facebook/bart-base'
+    model = BartForSequenceClassification.from_pretrained(model_name).to(device) # 'facebook/bart-base'
     model.load_state_dict(torch.load(check_point))
 
     final = dict()
     for pid in tqdm(test_lst):
+        print(f"\n\nPID : {pid}\n\n")
         input = str(combined_logic_forms[pid])
         tmp = tokenizer.encode(input)
         if len(tmp) > 1024:
             tmp = tmp[:1024]
         input = torch.LongTensor(tmp).unsqueeze(0).to(device)
 
-        output = model.generate(input, bos_token_id=0, eos_token_id=2,
-                             max_length=2, num_beams=10, num_return_sequences=1)
+        # output = model.generate(input, bos_token_id=0, eos_token_id=2,
+        #                      max_length=2, num_beams=10, num_return_sequences=1)
 
-        print("Output : ", output)
+        output = model(input)
+        print(output.data)
+
+        print("Output data type : ", type(output.data))
         # print(out.size())
 
         # ## refine output sequence
@@ -73,8 +77,7 @@ if __name__ == '__main__':
 
     # SEQ_NUM = 5
 
-    device = torch.device('cuda')
-
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     result = evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point)
     # print("Type of result : ", type(result))
 
