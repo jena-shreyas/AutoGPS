@@ -27,7 +27,7 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
     ## build tokenizer and model
     tokenizer = BartTokenizerFast.from_pretrained(tokenizer_name) # 'facebook/bart-base'
     model = BartForSequenceClassification.from_pretrained(model_name).to(device) # 'facebook/bart-base'
-    model.load_state_dict(torch.load(check_point))
+    # model.load_state_dict(torch.load(check_point))
 
     final = dict()
     for pid in tqdm(test_lst):
@@ -41,19 +41,9 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
         # output = model.generate(input, bos_token_id=0, eos_token_id=2,
         #                      max_length=2, num_beams=10, num_return_sequences=1)
 
-        res = model(input)
-        print("res type :  ", type(res))
-        print(f"Length of res : {len(res)}")
-
-        for j in range(len(res)):
-            print(f"\n\nINDEX NO : {j}\n\n")
-            print(f"Shape of res[j] : {res[j].size()}")
-            print("Type of res[j] : ", type(res[j]))
-
-        print("\n\nDECODING ...\n\n")
-        output = tokenizer.decode(res)
-        print(output)
-        print(type(output))
+        logits = model(input).logits
+        print(f"Shape of logits : {logits.size()}")
+        print(logits)
 
         # for j in range(len(res)):
         #     print(res[j][0])
