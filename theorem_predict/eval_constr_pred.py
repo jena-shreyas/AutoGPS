@@ -49,7 +49,7 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
             print(res[j][0])
             print(type(res[j][0]))
             tmp = (res[j][0]).tolist()
-            tmp1 = torch.tensor([int(x) for x in tmp], dtype=torch.int64)
+            tmp1 = [int(x) for x in tmp]
             print("Long tensor : ", tmp1)
             print("Long tensor type : ", type(tmp1))
             output = tokenizer.decode(tmp1)
