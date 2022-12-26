@@ -44,6 +44,7 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
         res = model(input)
         print("res type :  ", type(res))
         for j in range(len(res)):
+            print(res[j])
             print(type(res[j]))
             output = tokenizer.decode(res[j])
             print(output)
