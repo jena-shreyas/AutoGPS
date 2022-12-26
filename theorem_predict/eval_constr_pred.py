@@ -6,7 +6,7 @@ import ast
 from tqdm import tqdm
 
 import torch
-from transformers import BartForSequenceClassification, BartTokenizerFast
+from transformers import BartConfig, BartForSequenceClassification, BartTokenizerFast
 
 def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point):
 
@@ -25,12 +25,14 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
 
     ## build tokenizer and model
     tokenizer = BartTokenizerFast.from_pretrained(tokenizer_name) # 'facebook/bart-base'
-    model = BartForSequenceClassification.from_pretrained(model_name).to(device) # 'facebook/bart-base'
-    # model.load_state_dict(torch.load(check_point))
+    config = BartConfig.from_pretrained('facebook/bart-base')
+    config.num_labels = 2
+    model = BartForSequenceClassification(config).to(device)    
+    model.load_state_dict(torch.load(check_point))
 
     final = dict()
     for pid in tqdm(test_lst):
-        print(f"\n\nPID : {pid}\n\n")
+        print(f"\n\PID : {pid}\n")
         input = str(combined_logic_forms[pid])
         tmp = tokenizer.encode(input)
         if len(tmp) > 1024:

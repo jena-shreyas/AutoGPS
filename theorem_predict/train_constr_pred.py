@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     config = BartConfig.from_pretrained('facebook/bart-base')
     config.num_labels = 2
-    model = BartForSequenceClassification(config)
+    model = BartForSequenceClassification(config).to(device)
 
     # PATH = 'models/tp_model_init.pt'
     # model.load_state_dict(torch.load(PATH))
