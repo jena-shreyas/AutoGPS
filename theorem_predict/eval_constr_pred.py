@@ -45,6 +45,9 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
         print(f"Shape of logits : {logits.size()}")
         print(logits)
 
+        output = torch.argmax(logits)
+        print(f"Output : {output}")
+
         # for j in range(len(res)):
         #     print(res[j][0])
         #     print(type(res[j][0]))
