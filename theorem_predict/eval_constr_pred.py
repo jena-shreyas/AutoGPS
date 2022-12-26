@@ -10,7 +10,7 @@ from transformers import BartConfig, BartForSequenceClassification, BartTokenize
 
 def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point):
 
-    test_lst = range(24, 29)
+    test_lst = range(9, 23)
 
     ## read logic form files
     with open(diagram_logic_file) as f:
@@ -32,7 +32,7 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
 
     final = dict()
     for pid in tqdm(test_lst):
-        print(f"\n\PID : {pid}\n")
+        print(f"\n\nPID : {pid}\n")
         input = str(combined_logic_forms[pid])
         tmp = tokenizer.encode(input)
         if len(tmp) > 1024:
