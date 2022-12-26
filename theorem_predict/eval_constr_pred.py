@@ -6,8 +6,7 @@ import ast
 from tqdm import tqdm
 
 import torch
-from transformers import BartForConditionalGeneration, BartForSequenceClassification, BartTokenizerFast
-
+from transformers import BartForSequenceClassification, BartTokenizerFast
 
 def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, check_point):
 

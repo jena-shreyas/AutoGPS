@@ -11,7 +11,7 @@ import torch
 from torch.utils.data import DataLoader
 from torch.nn.utils.rnn import pad_sequence
 
-from transformers import BartTokenizerFast,BartForConditionalGeneration, BartForSequenceClassification, get_linear_schedule_with_warmup
+from transformers import BartConfig, BartTokenizerFast, BartForSequenceClassification, get_linear_schedule_with_warmup
 
 
 def setup_seed(seed):
@@ -58,7 +58,10 @@ if __name__ == '__main__':
     train_loader = DataLoader(train_set, batch_size=4, shuffle=True, collate_fn=collate_fn)
     # val_loader = DataLoader(val_set, batch_size=16, shuffle=True, collate_fn=collate_fn)
 
-    model = BartForSequenceClassification.from_pretrained('facebook/bart-base').to(device)
+    config = BartConfig.from_pretrained('facebook/bart-base')
+    config.num_labels = 2
+    model = BartForSequenceClassification(config)
+
     # PATH = 'models/tp_model_init.pt'
     # model.load_state_dict(torch.load(PATH))
 
