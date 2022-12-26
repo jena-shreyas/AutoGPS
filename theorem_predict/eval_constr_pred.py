@@ -41,7 +41,8 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
         # output = model.generate(input, bos_token_id=0, eos_token_id=2,
         #                      max_length=2, num_beams=10, num_return_sequences=1)
 
-        output = model(input)
+        res = model(input)
+        output = tokenizer.decode(res)
         print(output)
 
         print("Output data type : ", type(output))
