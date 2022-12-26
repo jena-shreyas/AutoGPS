@@ -43,10 +43,13 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
 
         res = model(input)
         print("res type :  ", type(res))
+        print(f"Length of res : {len(res)}")
+
         for j in range(len(res)):
             print(res[j][0])
             print(type(res[j][0]))
-            output = tokenizer.decode(res[j][0])
+            tmp = torch.round(res[j][0])
+            output = tokenizer.decode(tmp)
             print(output)
 
             print("Output data type : ", type(output))
